@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AcceptQuote" targetNamespace="http://AgreementServices/AcceptQuoteArtifacts" xmlns:plnk="http://schemas.xmlsoap.org/ws/2004/03/partner-link/" xmlns:tns="http://AgreementServices/AcceptQuoteArtifacts" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdl0="http://AgreementServices/AcceptQuoteInterface" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <plnk:partnerLinkType name="AcceptQuotePLT">
+    <plnk:role name="Interface">
+      <plnk:portType name="wsdl0:AcceptQuote"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <wsdl:import location="AcceptQuote.wsdl" namespace="http://AgreementServices/AcceptQuoteInterface"/>
+</wsdl:definitions>

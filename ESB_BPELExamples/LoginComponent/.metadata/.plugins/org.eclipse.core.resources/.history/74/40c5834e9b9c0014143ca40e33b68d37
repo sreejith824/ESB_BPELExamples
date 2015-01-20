@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="SalesManagementReference" targetNamespace="http://SalesManagementService/SalesManagementReference" xmlns:tns="http://SalesManagementService/SalesManagementReference" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://SalesManagementService/SalesManagementReference">
+      <xsd:element name="acceptQuote">
+        <xsd:complexType>
+          <xsd:sequence>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="acceptQuoteResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="acceptQuoteRequestMsg">
+    <wsdl:part element="tns:acceptQuote" name="acceptQuoteParameters"/>
+  </wsdl:message>
+    <wsdl:message name="acceptQuoteResponseMsg">
+    <wsdl:part element="tns:acceptQuoteResponse" name="acceptQuoteResult"/>
+  </wsdl:message>
+    <wsdl:portType name="SalesManagementReference">
+    <wsdl:operation name="acceptQuote">
+      <wsdl:input message="tns:acceptQuoteRequestMsg" name="acceptQuoteRequest"/>
+      <wsdl:output message="tns:acceptQuoteResponseMsg" name="acceptQuoteResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

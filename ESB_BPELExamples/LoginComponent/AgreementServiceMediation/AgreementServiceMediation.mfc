@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://AgreementServcie/AgreementServiceInterface" xmlns:ns1_1="http://AgreementServiceMediation/AgreementServiceMediationInterface" name="AgreementServiceMediation" targetNamespace="http://AgreementServiceMediation/AgreementServiceMediation">
+  <import location="AgreementServiceMediationInterface.wsdl" namespace="http://AgreementServiceMediation/AgreementServiceMediationInterface"/>
+  <import location="localhost/agreementservcieweb/sca/agreementservicewsexport/web_inf/wsdl/AgreementServiceInterface.wsdl" namespace="http://AgreementServcie/AgreementServiceInterface"/>
+  <promotedProperty name="Callout1.retryOn" group="AgreementServiceMediation.AgreementServiceMediation" value="0"/>
+  <promotedProperty name="Callout1.retryCount" group="AgreementServiceMediation.AgreementServiceMediation" value="0"/>
+  <promotedProperty name="Callout1.retryDelay" group="AgreementServiceMediation.AgreementServiceMediation" value="0"/>
+  <reference name="AgreementServiceInterfacePartner" portType="ns1:AgreementServiceInterface"/>
+  <interface portType="ns1_1:AgreementServiceMediationInterface">
+    <operation name="acceptQuote">
+      <requestFlow>
+        <node displayName="acceptQuote : AgreementServiceMediationInterface" name="AgreementServiceMediationInterface_acceptQuote_Input" type="Input">
+          <outputTerminal type="ns1_1:acceptQuoteRequestMsg">
+            <wire targetNode="CustomMediationMapReq"/>
+          </outputTerminal>
+        </node>
+        <node displayName="acceptQuote : AgreementServiceMediationInterface" name="AgreementServiceMediationInterface_acceptQuote_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1_1:acceptQuoteResponseMsg"/>
+        </node>
+        <node displayName="acceptQuote : AgreementServiceInterfacePartner" name="AgreementServiceInterfacePartner_acceptQuote_Callout" type="Callout">
+          <property name="referenceName" value="AgreementServiceInterfacePartner"/>
+          <property name="operationName" value="acceptQuote"/>
+          <property name="invocationStyle" value="6"/>
+          <property name="retryOn" promotedPropertyGroup="AgreementServiceMediation.AgreementServiceMediation" promotedPropertyName="Callout1.retryOn"/>
+          <property name="retryCount" promotedPropertyGroup="AgreementServiceMediation.AgreementServiceMediation" promotedPropertyName="Callout1.retryCount"/>
+          <property name="retryDelay" promotedPropertyGroup="AgreementServiceMediation.AgreementServiceMediation" promotedPropertyName="Callout1.retryDelay"/>
+          <inputTerminal type="ns1:acceptQuoteRequestMsg"/>
+        </node>
+        <node name="CustomMediationMapReq" type="CustomMediation">
+          <property name="javaCode"><![CDATA[
+out.fire(smo); // propagate the service message object to the primitive that is wired to the 'out' terminal]]></property>
+          <property name="javaClass" value="sca.component.mediation.java.Custom1421652565631"/>
+          <property name="version" value="6.1.0"/>
+          <inputTerminal/>
+          <outputTerminal explicitType="false" type="ns1:acceptQuoteRequestMsg">
+            <wire targetNode="AgreementServiceInterfacePartner_acceptQuote_Callout"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+      </requestFlow>
+      <responseFlow>
+        <node displayName="acceptQuote : AgreementServiceInterfacePartner" name="AgreementServiceInterfacePartner_acceptQuote_CalloutResponse" type="CalloutResponse">
+          <property name="referenceName" value="AgreementServiceInterfacePartner"/>
+          <property name="operationName" value="acceptQuote"/>
+          <outputTerminal type="ns1:acceptQuoteResponseMsg">
+            <wire targetNode="CustomMediationMapRes"/>
+          </outputTerminal>
+          <failTerminal type="ns1:acceptQuoteRequestMsg"/>
+        </node>
+        <node displayName="acceptQuote : AgreementServiceMediationInterface" name="AgreementServiceMediationInterface_acceptQuote_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1_1:acceptQuoteResponseMsg"/>
+        </node>
+        <node name="CustomMediationMapRes" type="CustomMediation">
+          <property name="javaCode"><![CDATA[
+out.fire(smo); // propagate the service message object to the primitive that is wired to the 'out' terminal]]></property>
+          <property name="javaClass" value="sca.component.mediation.java.Custom1421652584004"/>
+          <property name="version" value="6.1.0"/>
+          <inputTerminal/>
+          <outputTerminal explicitType="false" type="ns1_1:acceptQuoteResponseMsg">
+            <wire targetNode="AgreementServiceMediationInterface_acceptQuote_InputResponse"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+      </responseFlow>
+      <errorFlow>
+        <node displayName="acceptQuote : AgreementServiceMediationInterface" name="AgreementServiceMediationInterface_acceptQuote_ErrorInput" type="ErrorInput">
+          <outputTerminal name="catchAll" type="XMLSchema:anyType"/>
+        </node>
+        <node displayName="acceptQuote : AgreementServiceMediationInterface" name="AgreementServiceMediationInterface_acceptQuote_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1_1:acceptQuoteResponseMsg"/>
+        </node>
+      </errorFlow>
+    </operation>
+  </interface>
+</mediationFlow>

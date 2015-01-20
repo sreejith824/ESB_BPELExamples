@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sibxscaresources:SCAModule xmlns:sibxscaresources="http://www.ibm.com/websphere/appserver/schemas/6.0/sibxscaresources.xmi" identifier="LoginMediation">
+  <sCAModuleProperty identifier="Callout1.retryOn" value="0" type="STRING" group="LoginMediation.LoginMediation"/>
+  <sCAModuleProperty identifier="Callout1.retryCount" value="0" type="INTEGER" group="LoginMediation.LoginMediation"/>
+  <sCAModuleProperty identifier="Callout1.retryDelay" value="0" type="INTEGER" group="LoginMediation.LoginMediation"/>
+</sibxscaresources:SCAModule>

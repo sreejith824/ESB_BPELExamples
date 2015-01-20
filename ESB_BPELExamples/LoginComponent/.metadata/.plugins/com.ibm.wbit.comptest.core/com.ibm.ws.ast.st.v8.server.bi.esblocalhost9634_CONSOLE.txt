@@ -1,0 +1,345 @@
+[1/15/15 14:57:22:753 CAT] 0000045b UninstallSche I   ADMA5017I: Uninstallation of LoginModuleApp started.
+[1/15/15 14:57:22:915 CAT] 0000045b Core          I   CWSCA3039I: The LoginModule Service Component Architecture (SCA) module and its associated destinations that are used for asynchronous communications are being removed from the server.  Messages that are stored in the destinations will be deleted. The following destinations which are connected to LoginModule are being removed :
+[1/15/15 14:57:22:915 CAT] 0000045b Core          I   sca/LoginModule
+[1/15/15 14:57:23:064 CAT] 0000045b UninstallSche I   ADMA5106I: Application LoginModuleApp uninstalled successfully.
+[1/15/15 14:57:26:067 CAT] 0000045d InstallSchedu I   ADMA5016I: Installation of LoginModuleApp started.
+[1/15/15 14:57:26:924 CAT] 0000045d WBIAAbstractT I com.ibm.ws.wbia.deployment.WBIAAbstractTask performTask CWLRD0101I: No WebSphere Business Integration Adapter files are found in the application LoginModuleApp.
+[1/15/15 14:57:26:963 CAT] 0000045d InstallSchedu I   ADMA5013I: Application LoginModuleApp installed successfully.
+[1/15/15 14:57:27:433 CAT] 0000045f UpdateSchedul I   ADMA5078I: Update of SalesManagementServiceApp has started.
+[1/15/15 14:57:27:823 CAT] 0000045f WBIAAbstractT I com.ibm.ws.wbia.deployment.WBIAAbstractTask performTask CWLRD0101I: No WebSphere Business Integration Adapter files are found in the application SalesManagementServiceApp.
+[1/15/15 14:57:27:858 CAT] 0000045f UpdateSchedul I   ADMA5079I: Update of SalesManagementServiceApp has ended. The application or its web modules may require a restart when a save is performed.
+[1/15/15 14:57:28:421 CAT] 0000032a AdminHelper   A   ADMN1010I: An attempt is made to stop the SalesManagementServiceApp application. (User ID = DevRealm/server:devNode02Cell_devNode02_server2)
+[1/15/15 14:57:28:422 CAT] 0000032a CompositionUn A   WSVR0192I: Stopping composition unit WebSphere:cuname=SalesManagementServiceApp in BLA WebSphere:blaname=SalesManagementServiceApp.
+[1/15/15 14:57:28:422 CAT] 0000032a ApplicationMg A   WSVR0217I: Stopping application: SalesManagementServiceApp
+[1/15/15 14:57:28:432 CAT] 0000032a Core          I   CWSCA3011I: The SCA module "SalesManagementServiceApp" is stopping.
+[1/15/15 14:57:28:433 CAT] 0000032a ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/SalesManagementService/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application SalesManagementServiceApp#SalesManagementService#SalesManagementService is deactivated.
+[1/15/15 14:57:28:437 CAT] 0000032a Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 14:57:28:438 CAT] 0000032a ApplicationMg A   WSVR0220I: Application stopped: SalesManagementServiceApp
+[1/15/15 14:57:28:729 CAT] 0000032a CompositionUn A   WSVR0193I: Composition unit WebSphere:cuname=SalesManagementServiceApp in BLA WebSphere:blaname=SalesManagementServiceApp stopped.
+[1/15/15 14:57:28:851 CAT] 0000032a AdminHelper   A   ADMN1008I: An attempt is made to start the SalesManagementServiceApp application. (User ID = DevRealm/server:devNode02Cell_devNode02_server2)
+[1/15/15 14:57:28:861 CAT] 0000032a CompositionUn A   WSVR0190I: Starting composition unit WebSphere:cuname=SalesManagementServiceApp in BLA WebSphere:blaname=SalesManagementServiceApp.
+[1/15/15 14:57:28:883 CAT] 0000032a ResourceMgrIm I   WSVR0049I: Binding QueueConnectionFactory as jms/QCF
+[1/15/15 14:57:28:885 CAT] 0000032a ResourceMgrIm I   WSVR0049I: Binding SendQueue as jms/sendQueue
+[1/15/15 14:57:28:886 CAT] 0000032a ResourceMgrIm I   WSVR0049I: Binding ReceiveQueue as jms/receiveQueue
+[1/15/15 14:57:28:897 CAT] 0000032a ResourceMgrIm I   WSVR0049I: Binding KhulaResourceReference as eis/KhulaResourceReference
+[1/15/15 14:57:28:898 CAT] 0000032a ApplicationMg A   WSVR0200I: Starting application: SalesManagementServiceApp
+[1/15/15 14:57:28:898 CAT] 0000032a ApplicationMg A   WSVR0204I: Application: SalesManagementServiceApp  Application build level: Unknown
+[1/15/15 14:57:28:919 CAT] 0000032a SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus CEI.devNode02Cell.BUS.
+[1/15/15 14:57:28:924 CAT] 0000032a SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus CEI.devNode02Cell.BUS.
+[1/15/15 14:57:28:925 CAT] 0000032a SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:28:933 CAT] 0000032a SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:28:934 CAT] 0000032a SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.APPLICATION.devNode02Cell.Bus.
+[1/15/15 14:57:28:939 CAT] 0000032a SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.APPLICATION.devNode02Cell.Bus.
+[1/15/15 14:57:28:941 CAT] 0000032a SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:28:942 CAT] 0000032a SibMessage    I   [:] CWSIP0063I: The local destination sca/contextStore/LoginModule with UUID CB5F54C0C3F44B0700676FCD has been marked for deletion.
+[1/15/15 14:57:28:946 CAT] 0000032a SibMessage    I   [:] CWSIP0063I: The local destination sca/LoginModule with UUID 7F1D2CE8507D7706CB7263A4 has been marked for deletion.
+[1/15/15 14:57:28:947 CAT] 00000459 SibMessage    W   [:] CWSIV0770W: A consumer for remote destination sca/LoginModule on bus SCA.SYSTEM.devNode02Cell.Bus for endpoint activation [com.ibm.ws.sib.ra.inbound.impl.SibRaScalableEndpointActivation@ef413785 <active=true> <connections={E0652C45C9F8D6CE=com.ibm.ws.sib.ra.inbound.impl.SibRaMessagingEngineConnection@5441614b}> <messageEndpointFactory=LoginModuleApp#LoginModule#LoginModule($Proxy@7b5e828)> <endpointConfiguration=[com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl$SibRaEndpointConfigurationImpl@90f71314 <SibRaActivationSpecImpl.this=[com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl@ba52622b <resourceAdapter=com.ibm.ws.sib.ra.inbound.impl.SibRaResourceAdapterImpl@19ef1e3d> <busName=SCA.SYSTEM.devNode02Cell.Bus> <userName=SCA> <password=*****> <destinationType=Queue> <destinationName=sca/LoginModule> <messageSelector=(SI_CorrelationID IS NULL) AND (SI_ExceptionReason IS NULL) AND (user.scaStoredMsgId IS NULL)> <discriminators=null> <subscriptionName=null> <durableSubscriptionHome=null> <shareDurableSubscriptions=InCluster> <maxBatchSize=1> <messageDeletionMode=Single> <maxConcurrency=10> <xaRecoveryAlias=SCA_Auth_Alias> <target=null> <targetType=BusMember> <targetSignificance=Required> <useServerSubject=true> <providerEndpoints=null> <alwaysActivateAllMDBs=true> <retryInterval=30> <useServerSubject=true> <failingMessageDelay=0> <useDestinationWildcard=false>]>]> <endpointInvoker=com.ibm.ws.sib.ra.inbound.impl.SibRaEndpointInvokerImpl@717482fd> <workManager=com.ibm.ejs.j2c.work.WorkManagerImpl@1e33cf6a> <endpointMethodTransactional=true>] failed with exception com.ibm.wsspi.sib.core.exception.SISessionDroppedException: CWSIP0221E: The destination with name sca/LoginModule on messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus has been deleted..
+[1/15/15 14:57:28:966 CAT] 0000032a SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:28:966 CAT] 0000032a SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode02.server2-SCA.APPLICATION.devNode02Cell.Bus.
+[1/15/15 14:57:28:969 CAT] 0000032a SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode02.server2-SCA.APPLICATION.devNode02Cell.Bus.
+[1/15/15 14:57:28:970 CAT] 0000032a SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode02.server2-CEI.devNode02Cell.BUS.
+[1/15/15 14:57:28:972 CAT] 0000032a SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode02.server2-CEI.devNode02Cell.BUS.
+[1/15/15 14:57:28:975 CAT] 00000459 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ESB01\logs\ffdc\server2_bdd157e_15.01.15_14.57.28.9493280580192526364292.txt com.ibm.ws.sib.ra.inbound.impl.SibRaListener.stop 1:879:1.69
+[1/15/15 14:57:28:976 CAT] 0000032a SibMessage    I   [:] CWSIV0777I: A connection to messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus for destination sca/LoginModule on bus SCA.SYSTEM.devNode02Cell.Bus has been successfully created.
+[1/15/15 14:57:28:979 CAT] 0000032a Core          I   CWSCA3009I: The SCA module "SalesManagementServiceApp" is starting.
+[1/15/15 14:57:29:001 CAT] 0000032a Core          I   CWSCA3010I: The SCA module "SalesManagementServiceApp" started successfully using the SCA "Native" and Business Object "Eager" runtimes.
+[1/15/15 14:57:29:032 CAT] 0000032a webapp        I com.ibm.ws.webcontainer.webapp.WebGroupImpl WebGroup SRVE0169I: Loading Web Module: SalesManagementServiceWeb.
+[1/15/15 14:57:29:042 CAT] 0000032a WASSessionCor I SessionContextRegistry getSessionContext SESN0176I: Will create a new session context for application key default_hostSalesManagementServiceWeb
+[1/15/15 14:57:29:052 CAT] 0000032a webcontainer  I com.ibm.ws.webcontainer.VirtualHostImpl addWebApplication SRVE0250I: Web Module SalesManagementServiceWeb has been bound to default_host[*:9081,*:80,*:9444,*:5063,*:5062,*:443].
+[1/15/15 14:57:29:058 CAT] 0000032a SibMessage    I   [:] CWSIV0777I: A connection to messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus for destination sca/SalesManagementService on bus SCA.SYSTEM.devNode02Cell.Bus has been successfully created.
+[1/15/15 14:57:29:058 CAT] 0000032a ActivationSpe I   J2CA0523I: The Message Endpoint for ActivationSpec sca/SalesManagementService/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application SalesManagementServiceApp#SalesManagementService#SalesManagementService is activated.
+[1/15/15 14:57:29:063 CAT] 0000032a ApplicationMg A   WSVR0221I: Application started: SalesManagementServiceApp
+[1/15/15 14:57:29:063 CAT] 0000032a CompositionUn A   WSVR0191I: Composition unit WebSphere:cuname=SalesManagementServiceApp in BLA WebSphere:blaname=SalesManagementServiceApp started.
+[1/15/15 14:57:29:064 CAT] 0000032a AppBinaryProc I   ADMA7021I: Distribution of application SalesManagementServiceApp completed successfully.
+[1/15/15 14:57:29:078 CAT] 0000032a AdminHelper   A   ADMN1010I: An attempt is made to stop the LoginModuleApp application. (User ID = DevRealm/server:devNode02Cell_devNode02_server2)
+[1/15/15 14:57:29:078 CAT] 0000032a CompositionUn A   WSVR0192I: Stopping composition unit WebSphere:cuname=LoginModuleApp in BLA WebSphere:blaname=LoginModuleApp.
+[1/15/15 14:57:29:078 CAT] 0000032a ApplicationMg A   WSVR0217I: Stopping application: LoginModuleApp
+[1/15/15 14:57:29:081 CAT] 0000032a ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [LoginModuleApp] [/LoginModuleWeb] [export.http.LoginMediationHTTPExport]: Destroy successful.
+[1/15/15 14:57:29:086 CAT] 0000032a Core          I   CWSCA3011I: The SCA module "LoginModuleApp" is stopping.
+[1/15/15 14:57:29:087 CAT] 0000032a ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/LoginModule/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application LoginModuleApp#LoginModule#LoginModule is deactivated.
+[1/15/15 14:57:29:091 CAT] 0000032a Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 14:57:29:093 CAT] 0000032a ApplicationMg A   WSVR0220I: Application stopped: LoginModuleApp
+[1/15/15 14:57:29:534 CAT] 0000032a CompositionUn A   WSVR0193I: Composition unit WebSphere:cuname=LoginModuleApp in BLA WebSphere:blaname=LoginModuleApp stopped.
+[1/15/15 14:57:29:581 CAT] 0000032a AdminHelper   A   ADMN1008I: An attempt is made to start the LoginModuleApp application. (User ID = DevRealm/server:devNode02Cell_devNode02_server2)
+[1/15/15 14:57:29:591 CAT] 0000032a CompositionUn A   WSVR0190I: Starting composition unit WebSphere:cuname=LoginModuleApp in BLA WebSphere:blaname=LoginModuleApp.
+[1/15/15 14:57:29:603 CAT] 0000032a ApplicationMg A   WSVR0200I: Starting application: LoginModuleApp
+[1/15/15 14:57:29:603 CAT] 0000032a ApplicationMg A   WSVR0204I: Application: LoginModuleApp  Application build level: Unknown
+[1/15/15 14:57:29:624 CAT] 0000032a SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus CEI.devNode02Cell.BUS.
+[1/15/15 14:57:29:631 CAT] 0000032a SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus CEI.devNode02Cell.BUS.
+[1/15/15 14:57:29:631 CAT] 0000032a SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:29:641 CAT] 0000032a SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:29:642 CAT] 0000032a SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.APPLICATION.devNode02Cell.Bus.
+[1/15/15 14:57:29:648 CAT] 0000032a SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.APPLICATION.devNode02Cell.Bus.
+[1/15/15 14:57:29:650 CAT] 0000032a SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:29:651 CAT] 0000032a SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:29:651 CAT] 0000032a SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode02.server2-SCA.APPLICATION.devNode02Cell.Bus.
+[1/15/15 14:57:29:654 CAT] 0000032a SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode02.server2-SCA.APPLICATION.devNode02Cell.Bus.
+[1/15/15 14:57:29:655 CAT] 0000032a SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode02.server2-CEI.devNode02Cell.BUS.
+[1/15/15 14:57:29:657 CAT] 0000032a SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode02.server2-CEI.devNode02Cell.BUS.
+[1/15/15 14:57:29:663 CAT] 0000032a Core          I   CWSCA3009I: The SCA module "LoginModuleApp" is starting.
+[1/15/15 14:57:29:689 CAT] 0000032a Core          I   CWSCA3010I: The SCA module "LoginModuleApp" started successfully using the SCA "Native" and Business Object "Eager" runtimes.
+[1/15/15 14:57:29:843 CAT] 0000032a webapp        I com.ibm.ws.webcontainer.webapp.WebGroupImpl WebGroup SRVE0169I: Loading Web Module: LoginModuleWeb.
+[1/15/15 14:57:29:858 CAT] 0000032a WASSessionCor I SessionContextRegistry getSessionContext SESN0176I: Will create a new session context for application key default_hostLoginModuleWeb
+[1/15/15 14:57:29:874 CAT] 0000032a webcontainer  I com.ibm.ws.webcontainer.VirtualHostImpl addWebApplication SRVE0250I: Web Module LoginModuleWeb has been bound to default_host[*:9081,*:80,*:9444,*:5063,*:5062,*:443].
+[1/15/15 14:57:29:889 CAT] 0000032a SibMessage    I   [:] CWSIV0777I: A connection to messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus for destination sca/LoginModule on bus SCA.SYSTEM.devNode02Cell.Bus has been successfully created.
+[1/15/15 14:57:29:889 CAT] 0000032a ActivationSpe I   J2CA0523I: The Message Endpoint for ActivationSpec sca/LoginModule/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application LoginModuleApp#LoginModule#LoginModule is activated.
+[1/15/15 14:57:29:889 CAT] 0000032a ApplicationMg A   WSVR0221I: Application started: LoginModuleApp
+[1/15/15 14:57:29:889 CAT] 0000032a CompositionUn A   WSVR0191I: Composition unit WebSphere:cuname=LoginModuleApp in BLA WebSphere:blaname=LoginModuleApp started.
+[1/15/15 14:57:29:905 CAT] 0000032a AppBinaryProc I   ADMA7021I: Distribution of application LoginModuleApp completed successfully.
+[1/15/15 14:57:29:921 CAT] 00000041 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0015I: User DevRealm/wasadmin created document cells/devNode02Cell/applications/SalesManagementServiceApp.ear/deltas/SalesManagementServiceApp/delta-1421326647858.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0015I: User DevRealm/wasadmin created document cells/devNode02Cell/applications/LoginModuleApp.ear/deltas/LoginModuleApp/delta-1421326646708.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/META-INF/ibm-application-ext-pme.xmi.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/cus/LoginModuleApp/cver/BASE/cu.xml.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/blas/LoginModuleApp/bver/BASE/bla.xml.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/LoginModuleApp.ear.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/SalesManagementServiceApp.ear/deployments/SalesManagementServiceApp/META-INF/MANIFEST.MF.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/sca-module-properties.xml.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/META-INF/MANIFEST.MF.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/LoginModuleWeb.war/META-INF/MANIFEST.MF.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/nodes/devNode02/servers/server2/sib-engines.xml.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/SalesManagementServiceApp.ear/deployments/SalesManagementServiceApp/deployment.xml.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/deployment.xml.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/LoginModuleWeb.war/WEB-INF/web.xml.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/nodes/devNode02/resources.xml.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/SalesManagementServiceApp.ear/deployments/SalesManagementServiceApp/META-INF/ibm-application-runtime.props.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/LoginModuleWeb.war/WEB-INF/ibm-web-bnd.xmi.
+[1/15/15 14:57:29:921 CAT] 00000041 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/SalesManagementServiceApp.ear/SalesManagementServiceApp.ear.
+[1/15/15 14:57:29:921 CAT] 00000041 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:29:921 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/META-INF/ibm-application-runtime.props.
+[1/15/15 14:57:29:936 CAT] 00000041 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus.
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/cus/LoginModuleApp/cver/BASE/controlOpDefs.xml.
+[1/15/15 14:57:29:936 CAT] 00000041 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode02.server2-SCA.APPLICATION.devNode02Cell.Bus.
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/LoginModuleWeb.war/WEB-INF/ibm-web-ext.xmi.
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/cus/LoginModuleApp/cver/BASE/cu-ref.xml.
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/buses/SCA.SYSTEM.devNode02Cell.Bus/sib-destinations.xml.
+[1/15/15 14:57:29:936 CAT] 00000041 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode02.server2-SCA.APPLICATION.devNode02Cell.Bus.
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/META-INF/ibm-application-ext.xmi.
+[1/15/15 14:57:29:936 CAT] 00000041 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode02.server2-CEI.devNode02Cell.BUS.
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/cell-core.xml.
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/GovernanceData/governance.xml.
+[1/15/15 14:57:29:936 CAT] 00000041 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode02.server2-CEI.devNode02Cell.BUS.
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/nodes/devNode02/serverindex.xml.
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/META-INF/application.xml.
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0017I: User DevRealm/wasadmin deleted document cells/devNode02Cell/applications/LoginModuleApp.ear/deltas/LoginModuleApp/delta-1421305402964. 
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0017I: User DevRealm/wasadmin deleted document cells/devNode02Cell/applications/LoginModuleApp.ear/deltas/LoginModuleApp/delta-1421304920396. 
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0017I: User DevRealm/wasadmin deleted document cells/devNode02Cell/applications/LoginModuleApp.ear/deltas/LoginModuleApp/delta-1421305416574. 
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0017I: User DevRealm/wasadmin deleted document cells/devNode02Cell/applications/LoginModuleApp.ear/deltas/LoginModuleApp/delta-1421310311578. 
+[1/15/15 14:57:29:936 CAT] 0000032a FileRepositor A   ADMR0017I: User DevRealm/wasadmin deleted document cells/devNode02Cell/applications/LoginModuleApp.ear/deployments/LoginModuleApp/META-INF/ibm-application-bnd.xmi. 
+[1/15/15 14:57:30:076 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:115 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:115 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:115 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:115 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:116 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:116 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:116 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:116 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:117 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:117 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:117 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:117 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:118 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:118 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:118 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:118 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:156 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:156 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:157 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:157 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:157 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:157 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:157 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:158 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:158 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:158 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:159 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:159 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:159 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 14:57:30:167 CAT] 00000041 GenericConfig I   The configuration has been changed, refreshing config values
+[1/15/15 14:57:30:167 CAT] 00000041 GenericConfig I   Broadcasting configuration change
+[1/15/15 15:03:50:383 CAT] 00000005 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ESB01\logs\ffdc\server2_7c9cb72f_15.01.15_15.03.50.35245560906242573506.txt com.ibm.ws.management.event.PullRemoteSender.alarm 96
+[1/15/15 15:19:06:854 CAT] 00000425 AdminHelper   A   ADMN1020I: An attempt is made to stop the server2 server. (User ID = DevRealm/wasadmin)
+[1/15/15 15:19:06:910 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec jms/cei/QueueActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application EventService#EventServerMdb.jar#EventBusMdbBean is deactivated.
+[1/15/15 15:19:06:910 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/SampelSec/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application SampelSecApp#SampelSec#SampelSec is deactivated.
+[1/15/15 15:19:06:911 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/LoginModule/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application LoginModuleApp#LoginModule#LoginModule is deactivated.
+[1/15/15 15:19:06:911 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/SecurityService/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application SecurityServiceApp#SecurityService#SecurityService is deactivated.
+[1/15/15 15:19:06:911 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/SalesManagementService/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application SalesManagementServiceApp#SalesManagementService#SalesManagementService is deactivated.
+[1/15/15 15:19:06:911 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/RoleSecurityService/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application RoleSecurityServiceApp#RoleSecurityService#RoleSecurityService is deactivated.
+[1/15/15 15:19:06:911 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec manualrecovery (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application wpsFEMgr_8.0.1#wpsFEMgrEJB.jar#RecoveryMessageDrivenBean is deactivated.
+[1/15/15 15:19:06:912 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/KhulaUtility/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application KhulaUtilityApp#KhulaUtility#KhulaUtility is deactivated.
+[1/15/15 15:19:06:912 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/XEcho/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application XEchoApp#XEcho#XEcho is deactivated.
+[1/15/15 15:19:06:912 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/XSec/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application XSecApp#XSec#XSec is deactivated.
+[1/15/15 15:19:06:912 CAT] 0000002f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/LoginManagementService_Proxy/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application LoginManagementService_ProxyApp#LoginManagementService_Proxy#LoginManagementService_Proxy is deactivated.
+[1/15/15 15:19:06:919 CAT] 0000002f TCPChannel    I   TCPC0002I: TCP Channel TCP_1 has stopped listening on host *  (IPv6) port 9061.
+[1/15/15 15:19:06:920 CAT] 0000002f TCPChannel    I   TCPC0002I: TCP Channel TCP_4 has stopped listening on host *  (IPv6) port 9444.
+[1/15/15 15:19:06:920 CAT] 0000002f TCPChannel    I   TCPC0002I: TCP Channel TCP_2 has stopped listening on host *  (IPv6) port 9081.
+[1/15/15 15:19:06:921 CAT] 0000002f TCPChannel    I   TCPC0002I: TCP Channel TCP_3 has stopped listening on host *  (IPv6) port 9044.
+[1/15/15 15:19:11:970 CAT] 0000002f wle_config    I com.ibm.bpm.config.procsvr.tasks.BPMSecurityUnlockComponent stop() Stopping BPM Security Unlock Component
+[1/15/15 15:19:11:970 CAT] 0000002f wle_config    I com.ibm.bpm.config.procsvr.tasks.BPMVMMSecurityWsComponent stop() Stopping BPM VMM Security WS component
+[1/15/15 15:19:11:970 CAT] 0000002f RepoComponent I   BPM Repository stopped
+[1/15/15 15:19:11:970 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: LoginModuleApp
+[1/15/15 15:19:11:986 CAT] 0000002f Core          I   CWSCA3011I: The SCA module "LoginModuleApp" is stopping.
+[1/15/15 15:19:11:986 CAT] 0000002f Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 15:19:11:986 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: LoginModuleApp
+[1/15/15 15:19:11:986 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: SalesManagementServiceApp
+[1/15/15 15:19:11:986 CAT] 0000002f Core          I   CWSCA3011I: The SCA module "SalesManagementServiceApp" is stopping.
+[1/15/15 15:19:11:986 CAT] 0000002f Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 15:19:11:987 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: SalesManagementServiceApp
+[1/15/15 15:19:11:987 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: sca.sib.mediation
+[1/15/15 15:19:11:987 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: sca.sib.mediationEJB.jar
+[1/15/15 15:19:11:987 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: sca.sib.mediationEJB.jar
+[1/15/15 15:19:11:989 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: sca.sib.mediation
+[1/15/15 15:19:11:989 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: BSpaceEAR_devNode02_server2
+[1/15/15 15:19:11:996 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [BSpaceEAR_devNode02_server2] [/BusinessSpace] [ServicesStartup]: Destroy successful.
+[1/15/15 15:19:12:007 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: BSpaceEAR_devNode02_server2
+[1/15/15 15:19:12:008 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: ibmasyncrsp
+[1/15/15 15:19:12:010 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [ibmasyncrsp] [/IBM_WS_SYS_RESPONSESERVLET] [rspservlet]: Destroy successful.
+[1/15/15 15:19:12:017 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: ibmasyncrsp
+[1/15/15 15:19:12:017 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: TestController70
+[1/15/15 15:19:12:020 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [TestController70] [/TestControllerWEB] [TestControllerServlet]: Destroy successful.
+[1/15/15 15:19:12:025 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: TestControllerEJB.jar
+[1/15/15 15:19:12:028 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: TestControllerEJB.jar
+[1/15/15 15:19:12:035 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: TestController70
+[1/15/15 15:19:12:035 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: SampelSecApp
+[1/15/15 15:19:12:048 CAT] 0000002f Core          I   CWSCA3011I: The SCA module "SampelSecApp" is stopping.
+[1/15/15 15:19:12:049 CAT] 0000002f Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 15:19:12:052 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: SampelSecApp
+[1/15/15 15:19:12:052 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: LoginManagementService_ProxyApp
+[1/15/15 15:19:12:058 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [LoginManagementService_ProxyApp] [/LoginManagementService_ProxyWeb] [BPMSCAModules/LoginManagementService_Proxy/LoginManagementServiceWSExport]: Destroy successful.
+[1/15/15 15:19:12:059 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [LoginManagementService_ProxyApp] [/LoginManagementService_ProxyWeb] [BPMSCAModules/LoginManagementService_Proxy/LoginManagementServiceWSSecuredExport]: Destroy successful.
+[1/15/15 15:19:12:066 CAT] 0000002f Core          I   CWSCA3011I: The SCA module "LoginManagementService_ProxyApp" is stopping.
+[1/15/15 15:19:12:068 CAT] 0000002f Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 15:19:12:071 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: LoginManagementService_ProxyApp
+[1/15/15 15:19:12:071 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: wesbWidget_devNode02_server2
+[1/15/15 15:19:12:084 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: wesbWidget_devNode02_server2
+[1/15/15 15:19:12:084 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: SecurityServiceApp
+[1/15/15 15:19:12:088 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [SecurityServiceApp] [/SecurityServiceWeb] [BPMSCAModules/SecurityService/SecurityService]: Destroy successful.
+[1/15/15 15:19:12:098 CAT] 0000002f Core          I   CWSCA3011I: The SCA module "SecurityServiceApp" is stopping.
+[1/15/15 15:19:12:099 CAT] 0000002f Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 15:19:12:102 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: SecurityServiceApp
+[1/15/15 15:19:12:102 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: BSpaceHelp_devNode02_server2
+[1/15/15 15:19:12:150 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [BSpaceHelp_devNode02_server2] [/BusinessSpaceHelp] [equinoxbridgeservlet]: Destroy successful.
+[1/15/15 15:19:12:157 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: BSpaceHelp_devNode02_server2
+[1/15/15 15:19:12:157 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: IBMUTC
+[1/15/15 15:19:12:166 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: IBMUTC
+[1/15/15 15:19:12:166 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: ivtApp
+[1/15/15 15:19:12:172 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: ivtEJB.jar
+[1/15/15 15:19:12:174 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: ivtEJB.jar
+[1/15/15 15:19:12:181 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: ivtApp
+[1/15/15 15:19:12:181 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: EventService
+[1/15/15 15:19:12:186 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: EventServerMdb.jar
+[1/15/15 15:19:12:193 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: EventServerMdb.jar
+[1/15/15 15:19:12:195 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: EventCatalogEjb.jar
+[1/15/15 15:19:12:197 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: EventCatalogEjb.jar
+[1/15/15 15:19:12:198 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: EventServerEjb.jar
+[1/15/15 15:19:12:200 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: EventServerEjb.jar
+[1/15/15 15:19:12:202 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: DataStoreEjb.jar
+[1/15/15 15:19:12:204 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: DataStoreEjb.jar
+[1/15/15 15:19:12:208 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: EventService
+[1/15/15 15:19:12:209 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: BPMAdministrationWidgets_devNode02_server2
+[1/15/15 15:19:12:263 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: BPMAdministrationWidgets_devNode02_server2
+[1/15/15 15:19:12:264 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: wpsFEMgr_8.0.1
+[1/15/15 15:19:12:268 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: wpsFEMgrEJB.jar
+[1/15/15 15:19:12:273 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: wpsFEMgrEJB.jar
+[1/15/15 15:19:12:277 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: wpsFEMgr_8.0.1
+[1/15/15 15:19:12:277 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: RoleSecurityServiceApp
+[1/15/15 15:19:12:280 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [RoleSecurityServiceApp] [/RoleSecurityServiceWeb] [BPMSCAModules/RoleSecurityService/RoleSecurityService]: Destroy successful.
+[1/15/15 15:19:12:286 CAT] 0000002f Core          I   CWSCA3011I: The SCA module "RoleSecurityServiceApp" is stopping.
+[1/15/15 15:19:12:288 CAT] 0000002f Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 15:19:12:290 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: RoleSecurityServiceApp
+[1/15/15 15:19:12:290 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: persistentLkMgr
+[1/15/15 15:19:12:295 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: persistentLkMgrEJB.jar
+[1/15/15 15:19:12:297 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: persistentLkMgrEJB.jar
+[1/15/15 15:19:12:302 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: persistentLkMgr
+[1/15/15 15:19:12:303 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: cbebrowser
+[1/15/15 15:19:12:328 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: cbebrowser
+[1/15/15 15:19:12:328 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: KhulaUtilityApp
+[1/15/15 15:19:12:332 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [KhulaUtilityApp] [/KhulaUtilityWeb] [BPMSCAModules/KhulaUtility/KhulaUtilityWSExport]: Destroy successful.
+[1/15/15 15:19:12:333 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [KhulaUtilityApp] [/KhulaUtilityWeb] [BPMSCAModules/KhulaUtility/GetUserPrincipalWSExport]: Destroy successful.
+[1/15/15 15:19:12:333 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [KhulaUtilityApp] [/KhulaUtilityWeb] [BPMSCAModules/KhulaUtility/KhulaUtilityWSSecuredExport]: Destroy successful.
+[1/15/15 15:19:12:333 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [KhulaUtilityApp] [/KhulaUtilityWeb] [BPMSCAModules/KhulaUtility/KhulaAuditComponentWSExport]: Destroy successful.
+[1/15/15 15:19:12:334 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [KhulaUtilityApp] [/KhulaUtilityWeb] [BPMSCAModules/KhulaUtility/RetrieveAuthenticationAliasWSExport]: Destroy successful.
+[1/15/15 15:19:12:339 CAT] 0000002f Core          I   CWSCA3011I: The SCA module "KhulaUtilityApp" is stopping.
+[1/15/15 15:19:12:342 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: SPI_ClassicSCA_KhulaUtility_EJB.jar
+[1/15/15 15:19:12:343 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: SPI_ClassicSCA_KhulaUtility_EJB.jar
+[1/15/15 15:19:12:345 CAT] 0000002f Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 15:19:12:347 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: KhulaUtilityApp
+[1/15/15 15:19:12:348 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: XEchoApp
+[1/15/15 15:19:12:350 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [XEchoApp] [/XEchoWeb] [BPMSCAModules/XEcho/XechoWS]: Destroy successful.
+[1/15/15 15:19:12:355 CAT] 0000002f Core          I   CWSCA3011I: The SCA module "XEchoApp" is stopping.
+[1/15/15 15:19:12:356 CAT] 0000002f Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 15:19:12:357 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: XEchoApp
+[1/15/15 15:19:12:358 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: mm.was_devNode02_server2
+[1/15/15 15:19:12:376 CAT] 0000002f webapp        I com.ibm.ws.webcontainer.webapp.WebApp log SRVE0292I: Servlet Message - [mm.was_devNode02_server2#mm.runtime.was.war]:.BMWRW0004I: Stopping Lotus Mashups OSGI Bundles
+[1/15/15 15:19:12:379 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [mm.was_devNode02_server2] [/mum] [mmOSGI]: Destroy successful.
+[1/15/15 15:19:12:379 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [mm.was_devNode02_server2] [/mum] [mmConfig]: Destroy successful.
+[1/15/15 15:19:12:393 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: mm.was_devNode02_server2
+[1/15/15 15:19:12:393 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: isclite
+[1/15/15 15:19:12:493 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [isclite] [/ibm/console] [EventInitializer]: Destroy successful.
+[1/15/15 15:19:12:528 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: isclite
+[1/15/15 15:19:12:529 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: XSecApp
+[1/15/15 15:19:12:534 CAT] 0000002f Core          I   CWSCA3011I: The SCA module "XSecApp" is stopping.
+[1/15/15 15:19:12:535 CAT] 0000002f Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/15/15 15:19:12:537 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: XSecApp
+[1/15/15 15:19:12:537 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: query
+[1/15/15 15:19:12:540 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: querybean.jar
+[1/15/15 15:19:12:542 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: querybean.jar
+[1/15/15 15:19:12:545 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: query
+[1/15/15 15:19:12:545 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: RemoteAL61
+[1/15/15 15:19:12:554 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: RemoteAL61
+[1/15/15 15:19:12:554 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: REST Services Gateway
+[1/15/15 15:19:12:556 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [REST Services Gateway] [/rest] [RestServicesGateway]: Destroy successful.
+[1/15/15 15:19:12:568 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: REST Services Gateway
+[1/15/15 15:19:12:568 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: PageBuilder2_devNode02_server2
+[1/15/15 15:19:12:576 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: PageBuilder2_devNode02_server2
+[1/15/15 15:19:12:576 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: DefaultApplication
+[1/15/15 15:19:12:579 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [DefaultApplication] [/] [Snoop Servlet]: Destroy successful.
+[1/15/15 15:19:12:580 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [DefaultApplication] [/] [Hello Pervasive Servlet]: Destroy successful.
+[1/15/15 15:19:12:580 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [DefaultApplication] [/] [Hit Count Servlet]: Destroy successful.
+[1/15/15 15:19:12:583 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: Increment.jar
+[1/15/15 15:19:12:585 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: Increment.jar
+[1/15/15 15:19:12:589 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: DefaultApplication
+[1/15/15 15:19:12:589 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: SchedulerCalendars
+[1/15/15 15:19:12:593 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: Calendars.jar
+[1/15/15 15:19:12:594 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: Calendars.jar
+[1/15/15 15:19:12:598 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: SchedulerCalendars
+[1/15/15 15:19:12:599 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: filetransferSecured
+[1/15/15 15:19:12:601 CAT] 0000002f ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [filetransferSecured] [/FileTransfer] [transfer]: Destroy successful.
+[1/15/15 15:19:12:606 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: filetransferSecured
+[1/15/15 15:19:12:606 CAT] 0000002f ApplicationMg A   WSVR0217I: Stopping application: ManagementEJB
+[1/15/15 15:19:12:610 CAT] 0000002f AbstractEJBRu I   WSVR0041I: Stopping EJB jar: mejb.jar
+[1/15/15 15:19:12:612 CAT] 0000002f AbstractEJBRu I   WSVR0059I: EJB jar stopped: mejb.jar
+[1/15/15 15:19:12:620 CAT] 0000002f ApplicationMg A   WSVR0220I: Application stopped: ManagementEJB
+[1/15/15 15:19:12:625 CAT] 0000002f SchedulerServ I   SCHD0040I: The Scheduler Service is stopping.
+[1/15/15 15:19:12:626 CAT] 0000002f SchedulerServ I   SCHD0002I: The Scheduler Service has stopped.
+[1/15/15 15:19:12:629 CAT] 0000002f MBeanRegistra I com.ibm.wbimonitor.util.MBeanRegistrationStartup deactivateMBean( ObjectName ) CWMU2502I: [MonitorAdminTaskForwarder] MBean deactivated.
+[1/15/15 15:19:12:630 CAT] 0000002f MBeanRegistra I com.ibm.wbimonitor.util.MBeanRegistrationStartup deactivateMBean( ObjectName ) CWMU2502I: [RoutingLibraryDetection] MBean deactivated.
+[1/15/15 15:19:12:630 CAT] 0000002f Core          I   CWSCA3007I: The SCA runtime is stopping.
+[1/15/15 15:19:12:630 CAT] 0000002f Core          I   CWSCA3008I: The SCA runtime has been stopped.
+[1/15/15 15:19:12:631 CAT] 0000002f AppProfileCom I   ACIN0009I: The application profiling service is stopping.
+[1/15/15 15:19:12:632 CAT] 0000002f ActivitySessi I   WACS0049I: The ActivitySession service is stopping.
+[1/15/15 15:19:12:645 CAT] 0000002f SibMessage    I   [SCA.APPLICATION.devNode02Cell.Bus:devNode02.server2-SCA.APPLICATION.devNode02Cell.Bus] CWSID0016I: Messaging engine devNode02.server2-SCA.APPLICATION.devNode02Cell.Bus is in state Stopping.
+[1/15/15 15:19:12:682 CAT] 0000002f SibMessage    I   [SCA.APPLICATION.devNode02Cell.Bus:devNode02.server2-SCA.APPLICATION.devNode02Cell.Bus] CWSID0016I: Messaging engine devNode02.server2-SCA.APPLICATION.devNode02Cell.Bus is in state Stopped.
+[1/15/15 15:19:12:683 CAT] 0000002f SibMessage    I   [CEI.devNode02Cell.BUS:devNode02.server2-CEI.devNode02Cell.BUS] CWSID0016I: Messaging engine devNode02.server2-CEI.devNode02Cell.BUS is in state Stopping.
+[1/15/15 15:19:12:696 CAT] 0000002f SibMessage    I   [CEI.devNode02Cell.BUS:devNode02.server2-CEI.devNode02Cell.BUS] CWSID0016I: Messaging engine devNode02.server2-CEI.devNode02Cell.BUS is in state Stopped.
+[1/15/15 15:19:12:696 CAT] 0000002f SibMessage    I   [SCA.SYSTEM.devNode02Cell.Bus:devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus] CWSID0016I: Messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus is in state Stopping.
+[1/15/15 15:19:12:707 CAT] 0000002f SibMessage    I   [SCA.SYSTEM.devNode02Cell.Bus:devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus] CWSID0016I: Messaging engine devNode02.server2-SCA.SYSTEM.devNode02Cell.Bus is in state Stopped.
+[1/15/15 15:19:12:718 CAT] 0000002f ObjectPoolSer I   OBPL0011I: The Object Pool service is stopping.
+[1/15/15 15:19:12:720 CAT] 0000002f AuditServiceI A   SECJ6004I: Security Auditing is disabled. 
+[1/15/15 15:19:12:721 CAT] 0000002f distSecurityC I   securityServiceStarted is false
+[1/15/15 15:19:12:724 CAT] 0000002f CGBridgeSubsc I   CWRCB0104I: The core group bridge service has stopped the subscription router.
+[1/15/15 15:19:12:726 CAT] 0000002f CGBridgeServi I   CWRCB0103I: The core group bridge service has stopped.
+[1/15/15 15:19:12:726 CAT] 0000002f DragDropDeplo I   CWLDD0004I: Stopping monitored directory application deployment service... 
+[1/15/15 15:19:12:727 CAT] 0000002f DragDropDeplo I   CWLDD0005I: Monitored directory application deployment service is stopped. 
+[1/15/15 15:19:12:732 CAT] 0000002f TCPChannel    I   TCPC0002I: TCP Channel TCPInboundChannel_ipcc.Default_IPC_Connector_Name has stopped listening on host 127.0.0.1  (IPv4: 127.0.0.1) port 9634.
+[1/15/15 15:19:12:739 CAT] 0000002f wle_config    I com.ibm.bpm.config.procsvr.tasks.BPMSecurityUnlockComponent destroy() Destroying BPM Security Unlock Component
+[1/15/15 15:19:12:739 CAT] 0000002f wle_config    I com.ibm.bpm.config.procsvr.tasks.BPMVMMSecurityWsComponent destroy() Destroying BPM VMM Security WS component
+[1/15/15 15:19:12:739 CAT] 0000002f RepoComponent I   BPM Repository destroyed
+[1/15/15 15:19:12:757 CAT] 0000002f FailureScopeC A   WTRN0105I: The transaction service has shutdown successfully with no transactions requiring recovery.
+[1/15/15 15:19:12:761 CAT] 0000002f TCPChannel    I   TCPC0002I: TCP Channel SIB_TCP_JFAP has stopped listening on host *  (IPv6) port 7277.
+[1/15/15 15:19:12:761 CAT] 0000002f TCPChannel    I   TCPC0002I: TCP Channel SIB_TCP_JFAP_SSL has stopped listening on host *  (IPv6) port 7287.
+[1/15/15 15:19:12:763 CAT] 0000002f ServerCollabo A   WSVR0024I: Server server2 stopped
+[1/15/15 15:19:12:809 CAT] 0000046e               I com.ibm.ws.monitoring.bootstrap.EncoderTracker removedServiceService() CWLBS0043I: The FIELDS event data encoder was removed.
+[1/15/15 15:19:12:823 CAT] 0000046e Activator     I   Repository Common bundle stop.

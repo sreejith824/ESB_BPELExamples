@@ -1,0 +1,2162 @@
+[1/20/15 15:04:49:314 CAT] 0000005e SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PERFDW.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
+[1/20/15 15:04:49:314 CAT] 0000005e SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PERFDW.devNode04Cell.Bus has been updated as a result of an administrative update.
+[1/20/15 15:04:49:315 CAT] 0000005e SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus BPC.devNode04Cell.Bus.
+[1/20/15 15:04:49:318 CAT] 0000005e SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus BPC.devNode04Cell.Bus.
+[1/20/15 15:04:49:319 CAT] 0000005e SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PROCSVR.devNode04Cell.Bus.
+[1/20/15 15:04:49:326 CAT] 0000005e SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PROCSVR.devNode04Cell.Bus.
+[1/20/15 15:04:49:326 CAT] 0000005e SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.APPLICATION.devNode04Cell.Bus.
+[1/20/15 15:04:49:334 CAT] 0000005e SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.APPLICATION.devNode04Cell.Bus.
+[1/20/15 15:04:49:334 CAT] 0000005e SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus CEI.devNode04Cell.BUS.
+[1/20/15 15:04:49:342 CAT] 0000005e SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus CEI.devNode04Cell.BUS.
+[1/20/15 15:04:49:342 CAT] 0000005e SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PERFDW.devNode04Cell.Bus.
+[1/20/15 15:04:49:351 CAT] 0000005e SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PERFDW.devNode04Cell.Bus.
+[1/20/15 15:04:49:351 CAT] 0000005e SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.SYSTEM.devNode04Cell.Bus.
+[1/20/15 15:04:49:361 CAT] 0000005e SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.SYSTEM.devNode04Cell.Bus.
+[1/20/15 15:04:49:363 CAT] 0000005e SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
+[1/20/15 15:04:49:364 CAT] 0000005e SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
+[1/20/15 15:04:49:364 CAT] 0000005e SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
+[1/20/15 15:04:49:367 CAT] 0000005e SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
+[1/20/15 15:04:49:367 CAT] 0000005e SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
+[1/20/15 15:04:49:370 CAT] 0000005e SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
+[1/20/15 15:04:49:370 CAT] 0000005e SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
+[1/20/15 15:04:49:373 CAT] 0000005e SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
+[1/20/15 15:04:49:373 CAT] 0000005e SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
+[1/20/15 15:04:49:378 CAT] 0000005e SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
+[1/20/15 15:04:49:378 CAT] 0000005e SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
+[1/20/15 15:04:49:382 CAT] 0000005e SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
+[1/20/15 15:04:49:385 CAT] 0000005e Core          I   CWSCA3009I: The SCA module "AgreementServcieApp" is starting.
+[1/20/15 15:04:49:416 CAT] 0000005e Core          I   CWSCA3010I: The SCA module "AgreementServcieApp" started successfully using the SCA "Native" and Business Object "Eager" runtimes.
+[1/20/15 15:04:49:514 CAT] 0000005e webapp        I com.ibm.ws.webcontainer.webapp.WebGroupImpl WebGroup SRVE0169I: Loading Web Module: AgreementServcieWeb.
+[1/20/15 15:04:49:526 CAT] 0000005e WASSessionCor I SessionContextRegistry getSessionContext SESN0176I: Will create a new session context for application key default_hostAgreementServcieWeb
+[1/20/15 15:04:49:534 CAT] 0000005e WASAxis2Exten I   WSWS7037I: The /sca/AgreementServiceWSExport URL pattern was configured for the BPMSCAModules/AgreementServcie/AgreementServiceWSExport servlet located in the AgreementServcieWeb.war web module.
+[1/20/15 15:04:49:544 CAT] 0000005e ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [AgreementServcieApp] [/AgreementServcieWeb] [BPMSCAModules/AgreementServcie/AgreementServiceWSExport]: Initialization successful.
+[1/20/15 15:04:49:544 CAT] 0000005e webcontainer  I com.ibm.ws.webcontainer.VirtualHostImpl addWebApplication SRVE0250I: Web Module AgreementServcieWeb has been bound to default_host[*:9083,*:80,*:9446,*:5067,*:5066,*:443].
+[1/20/15 15:04:49:564 CAT] 0000005e SibMessage    I   [:] CWSIV0777I: A connection to messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus for destination sca/AgreementServcie on bus SCA.SYSTEM.devNode04Cell.Bus has been successfully created.
+[1/20/15 15:04:49:564 CAT] 0000005e ActivationSpe I   J2CA0523I: The Message Endpoint for ActivationSpec sca/AgreementServcie/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServcieApp#AgreementServcie#AgreementServcie is activated.
+[1/20/15 15:04:49:570 CAT] 0000005e ApplicationMg A   WSVR0221I: Application started: AgreementServcieApp
+[1/20/15 15:04:49:570 CAT] 0000005e CompositionUn A   WSVR0191I: Composition unit WebSphere:cuname=AgreementServcieApp in BLA WebSphere:blaname=AgreementServcieApp started.
+[1/20/15 15:04:49:573 CAT] 0000005e AppBinaryProc I   ADMA7021I: Distribution of application AgreementServcieApp completed successfully.
+[1/20/15 15:04:49:579 CAT] 0000005e FileRepositor A   ADMR0015I: User DevRealm/wasadmin created document cells/devNode04Cell/applications/AgreementServcieApp.ear/deltas/AgreementServcieApp/delta-1421759085610.
+[1/20/15 15:04:49:580 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/CustomizationData/customization-timestamp.xml.
+[1/20/15 15:04:49:580 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/AgreementServcieWeb.war/WEB-INF/wsdl/ObjectRefrence.xsd.
+[1/20/15 15:04:49:581 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/cell-core.xml.
+[1/20/15 15:04:49:581 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/AgreementServcieWeb.war/WEB-INF/servicesIndex.xml.
+[1/20/15 15:04:49:582 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/deployment.xml.
+[1/20/15 15:04:49:582 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/AgreementServcieWeb.war/WEB-INF/wsdl/AgreementServiceInterface.wsdl.
+[1/20/15 15:04:49:582 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/AgreementServcieWeb.war/WEB-INF/wsdl/AgreementDetails.xsd.
+[1/20/15 15:04:49:583 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/deployment-bpc.xml.
+[1/20/15 15:04:49:583 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/nodes/devNode04/serverindex.xml.
+[1/20/15 15:04:49:583 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/META-INF/MANIFEST.MF.
+[1/20/15 15:04:49:583 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/META-INF/ibm-application-runtime.props.
+[1/20/15 15:04:49:583 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/AgreementServcieApp.ear.
+[1/20/15 15:04:49:583 CAT] 0000005e FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/AgreementServcieWeb.war/WEB-INF/wsdl/AgreementServcie_WSExport1.wsdl.
+[1/20/15 15:04:53:902 CAT] 00000351 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [AgreementServcieApp] [/AgreementServcieWeb] [export.http.AgreementServiceHTTPExport]: Initialization successful.
+[1/20/15 15:04:53:938 CAT] 00000351 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_lvp9nukv0</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>661125</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:04:53:940 CAT] 00000351 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_lvp9nukv0</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>661125</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:05:07:578 CAT] 00000351 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_lvp9nukv0</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:05:07:580 CAT] 00000351 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_lvp9nukv0</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:05:21:856 CAT] 00000351 LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4529E  The password verification for the 'ahofstee' principal name failed. Root cause: 'javax.naming.AuthenticationException: [LDAP: error code 49 - Invalid Credentials]; Resolved object: 'com.sun.jndi.ldap.LdapCtx@fa1be309''..
+[1/20/15 15:05:33:569 CAT] 00000351 TraceMediatio I   CWSXM3010I: 1/20/15 3:05 PM, 0772B77F-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>0772B77F-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>0</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg"/>
+</Se:smo>, 7
+
+[1/20/15 15:05:33:571 CAT] 00000351 SystemOut     O null : null
+[1/20/15 15:05:33:572 CAT] 00000351 TraceMediatio I   CWSXM3010I: 1/20/15 3:05 PM, 0772B783-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>0772B783-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 15:06:11:094 CAT] 00000351 SystemOut     O Exception occured in snippet 'PrintRequest': java.lang.NullPointerException
+       ...
+3:     		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+4: --> 		commonj.sdo.Type type = acceptQuote.getType();
+5:     		srv.writeDataObject(acceptQuote, type.getURI(), type.getName(), java.lang.System.out);
+       ...
+[1/20/15 15:06:11:096 CAT] 00000351 ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
+        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'PrintRequest'.
+        java.lang.NullPointerException: null
+[1/20/15 15:07:04:407 CAT] 00000351 SystemOut     O Exception occured in snippet 'PrintRequest': java.lang.NullPointerException
+       ...
+3:     		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+4: --> 		commonj.sdo.Type type = acceptQuote.getType();
+5:     		srv.writeDataObject(acceptQuote, type.getURI(), type.getName(), java.lang.System.out);
+       ...
+[1/20/15 15:07:04:408 CAT] 00000351 ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
+        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'PrintRequest'.
+        java.lang.NullPointerException: null
+[1/20/15 15:07:45:238 CAT] 00000351 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_by77itugb</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:07:45:239 CAT] 00000351 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_by77itugb</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:09:18:368 CAT] 00000351 SystemOut     O Exception occured in snippet 'PrintRequest': java.lang.NullPointerException
+       ...
+3:     		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+4: --> 		commonj.sdo.Type type = acceptQuote.getType();
+5:     		srv.writeDataObject(acceptQuote, type.getURI(), type.getName(), java.lang.System.out);
+       ...
+[1/20/15 15:09:18:368 CAT] 00000351 ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
+        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'PrintRequest'.
+        java.lang.NullPointerException: null
+[1/20/15 15:10:19:303 CAT] 00000351 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_wzwfztsi4</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:10:19:305 CAT] 00000351 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_wzwfztsi4</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:10:56:214 CAT] 00000351 SystemOut     O Exception occured in snippet 'PrintRequest': java.lang.NullPointerException
+       ...
+3:     		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+4: --> 		commonj.sdo.Type type = acceptQuote.getType();
+5:     		srv.writeDataObject(acceptQuote, type.getURI(), type.getName(), java.lang.System.out);
+       ...
+[1/20/15 15:10:56:214 CAT] 00000351 ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
+        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'PrintRequest'.
+        java.lang.NullPointerException: null
+[1/20/15 15:36:42:446 CAT] 00000351 SystemOut     O Exception occured in snippet 'PrintRequest': java.lang.NullPointerException
+       ...
+3:     		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+4: --> 		commonj.sdo.Type type = acceptQuote.getType();
+5:     		srv.writeDataObject(acceptQuote, type.getURI(), type.getName(), java.lang.System.out);
+       ...
+[1/20/15 15:36:42:448 CAT] 00000351 ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
+        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'PrintRequest'.
+        java.lang.NullPointerException: null
+[1/20/15 15:37:14:597 CAT] 00000351 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_wzwfztsi4</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:37:14:599 CAT] 00000351 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_wzwfztsi4</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:38:34:859 CAT] 0000032c SystemOut     O Exception occured in snippet 'PrintRequest': java.lang.NullPointerException
+       ...
+3:     		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+4: --> 		commonj.sdo.Type type = acceptQuote.getType();
+5:     		srv.writeDataObject(acceptQuote, type.getURI(), type.getName(), java.lang.System.out);
+       ...
+[1/20/15 15:38:34:859 CAT] 0000032c ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
+        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'PrintRequest'.
+        java.lang.NullPointerException: null
+[1/20/15 15:39:49:636 CAT] 0000032c TraceMediatio I   CWSXM3010I: 1/20/15 3:39 PM, 07921703-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07921703-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>0</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg"/>
+</Se:smo>, 7
+
+[1/20/15 15:39:49:638 CAT] 0000032c SystemOut     O null : null
+[1/20/15 15:39:49:640 CAT] 0000032c TraceMediatio I   CWSXM3010I: 1/20/15 3:39 PM, 07921706-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07921706-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 15:42:10:502 CAT] 0000032c TraceMediatio I   CWSXM3010I: 1/20/15 3:42 PM, 07943D45-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07943D45-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>0</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-US,en;q=0.5</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Pragma</ht:name>
+        <ht:value>no-cache</ht:value>
+      </header>
+      <header>
+        <ht:name>Cache-Control</ht:name>
+        <ht:value>no-cache</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg"/>
+</Se:smo>, 7
+
+[1/20/15 15:42:10:505 CAT] 0000032c SystemOut     O null : null
+[1/20/15 15:42:10:507 CAT] 0000032c TraceMediatio I   CWSXM3010I: 1/20/15 3:42 PM, 07943D49-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07943D49-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 15:42:43:427 CAT] 0000032c SystemOut     O Exception occured in snippet 'PrintRequest': java.lang.NullPointerException
+       ...
+3:     		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+4: --> 		commonj.sdo.Type type = acceptQuote.getType();
+5:     		srv.writeDataObject(acceptQuote, type.getURI(), type.getName(), java.lang.System.out);
+       ...
+[1/20/15 15:42:43:430 CAT] 0000032c ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
+        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'PrintRequest'.
+        java.lang.NullPointerException: null
+[1/20/15 15:43:02:481 CAT] 0000032c SystemOut     O Exception occured in snippet 'PrintRequest': java.lang.NullPointerException
+       ...
+3:     		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+4: --> 		commonj.sdo.Type type = acceptQuote.getType();
+5:     		srv.writeDataObject(acceptQuote, type.getURI(), type.getName(), java.lang.System.out);
+       ...
+[1/20/15 15:43:02:482 CAT] 0000032c ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
+        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'PrintRequest'.
+        java.lang.NullPointerException: null
+[1/20/15 15:44:52:448 CAT] 0000032c SystemOut     O Exception occured in snippet 'PrintRequest': java.lang.NullPointerException
+       ...
+3:     		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+4: --> 		commonj.sdo.Type type = acceptQuote.getType();
+5:     		srv.writeDataObject(acceptQuote, type.getURI(), type.getName(), java.lang.System.out);
+       ...
+[1/20/15 15:44:52:448 CAT] 0000032c ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
+        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'PrintRequest'.
+        java.lang.NullPointerException: null
+[1/20/15 15:49:31:173 CAT] 0000032c SystemOut     O Exception occured in snippet 'PrintRequest': java.lang.NullPointerException
+       ...
+3:     		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+4: --> 		commonj.sdo.Type type = acceptQuote.getType();
+5:     		srv.writeDataObject(acceptQuote, type.getURI(), type.getName(), java.lang.System.out);
+       ...
+[1/20/15 15:49:31:173 CAT] 0000032c ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
+        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'PrintRequest'.
+        java.lang.NullPointerException: null
+[1/20/15 15:50:14:144 CAT] 0000032c SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_wzwfztsi4</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 15:50:14:145 CAT] 0000032c SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_wzwfztsi4</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 16:05:50:181 CAT] 00000343 TraceMediatio I   CWSXM3010I: 1/20/15 4:05 PM, 07A9E6E3-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07A9E6E3-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:05:50:183 CAT] 00000343 SystemOut     O ahofstee : password
+[1/20/15 16:05:50:185 CAT] 00000343 TraceMediatio I   CWSXM3010I: 1/20/15 4:05 PM, 07A9E6E7-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07A9E6E7-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:06:29:054 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_39n2hi6ky</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 16:06:29:055 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_39n2hi6ky</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 16:07:27:979 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 4:07 PM, 07AB64E9-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07AB64E9-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:07:27:981 CAT] 0000029b SystemOut     O ahofstee : password
+[1/20/15 16:07:27:983 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 4:07 PM, 07AB64ED-014B-4000-E001-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07AB64ED-014B-4000-E001-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:08:04:975 CAT] 0000029b SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_lxwh9v6p6</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 16:08:04:976 CAT] 0000029b SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_lxwh9v6p6</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 16:08:43:255 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 4:08 PM, 07AC8AF5-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07AC8AF5-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:08:43:257 CAT] 0000029b SystemOut     O ahofstee : password
+[1/20/15 16:08:43:259 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 4:08 PM, 07AC8AF9-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07AC8AF9-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:11:28:542 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 4:11 PM, 07AF109D-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07AF109D-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:11:28:544 CAT] 0000029b SystemOut     O ahofstee : password
+[1/20/15 16:11:28:546 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 4:11 PM, 07AF10A1-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07AF10A1-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:11:39:955 CAT] 0000029b SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_22dnec7jn</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 16:11:39:955 CAT] 0000029b SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_22dnec7jn</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 16:12:24:476 CAT] 0000041f SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_69w1bqj3q</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 16:12:24:477 CAT] 0000041f SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_69w1bqj3q</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 16:14:24:016 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:15:05:156 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:15:57:426 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'we' principal name..
+[1/20/15 16:19:01:866 CAT] 0000041f TraceMediatio I   CWSXM3010I: 1/20/15 4:19 PM, 07B5FB68-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07B5FB68-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:19:01:868 CAT] 0000041f SystemOut     O ahofstee : password
+[1/20/15 16:19:01:869 CAT] 0000041f TraceMediatio I   CWSXM3010I: 1/20/15 4:19 PM, 07B5FB6C-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07B5FB6C-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:21:24:633 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:21:46:389 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'qw' principal name..
+[1/20/15 16:26:45:529 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:30:07:399 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'A' principal name..
+[1/20/15 16:30:44:000 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'qw' principal name..
+[1/20/15 16:37:50:258 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:42:30:073 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:42:57:502 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'A' principal name..
+[1/20/15 16:43:22:886 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:44:44:613 CAT] 0000041f LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'qw' principal name..
+[1/20/15 16:45:05:087 CAT] 00000351 TraceMediatio I   CWSXM3010I: 1/20/15 4:45 PM, 07CDD5BE-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07CDD5BE-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:45:05:089 CAT] 00000351 SystemOut     O ahofstee : password
+[1/20/15 16:45:05:091 CAT] 00000351 TraceMediatio I   CWSXM3010I: 1/20/15 4:45 PM, 07CDD5C2-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07CDD5C2-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 16:49:20:358 CAT] 00000351 LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:49:35:289 CAT] 00000351 LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:51:01:321 CAT] 00000351 LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:51:42:085 CAT] 00000351 LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:53:18:870 CAT] 00000351 LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 16:54:29:592 CAT] 00000351 LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 17:05:42:198 CAT] 00000351 LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 17:06:05:238 CAT] 00000351 LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'as' principal name..
+[1/20/15 17:07:10:782 CAT] 00000343 LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'we' principal name..
+[1/20/15 17:07:47:286 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 5:07 PM, 07E29ED5-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07E29ED5-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 17:07:47:289 CAT] 0000029b SystemOut     O ahofstee : password
+[1/20/15 17:07:47:290 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 5:07 PM, 07E29ED9-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07E29ED9-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 17:08:30:927 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 5:08 PM, 07E3494D-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07E3494D-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 17:08:30:929 CAT] 0000029b SystemOut     O ahofstee : password
+[1/20/15 17:08:30:931 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 5:08 PM, 07E34951-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07E34951-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 17:08:45:514 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 5:08 PM, 07E38249-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07E38249-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 17:08:45:516 CAT] 0000029b SystemOut     O ahofstee : password
+[1/20/15 17:08:45:518 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 5:08 PM, 07E3824C-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07E3824C-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 17:09:39:979 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 5:09 PM, 07E45709-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07E45709-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 17:09:39:981 CAT] 0000029b SystemOut     O ahofstee : password
+[1/20/15 17:09:39:982 CAT] 0000029b TraceMediatio I   CWSXM3010I: 1/20/15 5:09 PM, 07E4570D-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07E4570D-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 17:09:49:567 CAT] 0000029b LTPAServerObj E   SECJ0369E: Authentication failed when using LTPA. The exception is com.ibm.websphere.wim.exception.PasswordCheckFailedException: CWWIM4537E  No principal is found from the 'a' principal name..
+[1/20/15 17:11:26:167 CAT] 00000343 TraceMediatio I   CWSXM3010I: 1/20/15 5:11 PM, 07E5F5D4-014B-4000-E000-148CC0A85884, ReqTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07E5F5D4-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Request</MessageType>
+      <Operation>loginUser</Operation>
+      <SourceNode>LoginMediationHTTPExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://LoginModule/LoginModuleInterface</Interface>
+    </SMOHeader>
+    <properties>
+      <name>origin</name>
+      <value>http://localhost:9000</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-for</name>
+      <value>127.0.0.1</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-port</name>
+      <value>9083</value>
+    </properties>
+    <properties>
+      <name>x-forwarded-proto</name>
+      <value>http</value>
+    </properties>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/LoginModuleWeb/LoginMediationHTTPExport/loginUser</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>POST</ht:Method>
+        <ht:MediaType>application/json</ht:MediaType>
+        <ht:Charset>UTF-8</ht:Charset>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ContentLength>55</ht:ContentLength>
+        <ht:ExportContextPath>/LoginMediationHTTPExport/loginUser</ht:ExportContextPath>
+        <ht:Authentication>
+          <ht:credentials>
+            <ht:userId>ahofstee</ht:userId>
+            <ht:password>password</ht:password>
+          </ht:credentials>
+          <ht:authenticationType>Basic</ht:authenticationType>
+        </ht:Authentication>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>application/json, text/plain, */*</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Referer</ht:name>
+        <ht:value>http://localhost:9000/</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:loginUserRequestMsg">
+    <in_1:loginUser>
+      <loginUserName>ahofstee</loginUserName>
+      <loginPassword>password</loginPassword>
+    </in_1:loginUser>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 17:11:26:169 CAT] 00000343 SystemOut     O ahofstee : password
+[1/20/15 17:11:26:171 CAT] 00000343 TraceMediatio I   CWSXM3010I: 1/20/15 5:11 PM, 07E5F5D9-014B-4000-E000-148CC0A85884, ResTrace, LoginModule, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:in="wsdl.http://LoginModule/LoginModuleInterface" xmlns:in_1="http://LoginModule/LoginModuleInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>07E5F5D9-014B-4000-E000-148CC0A85884</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+    </SMOHeader>
+  </headers>
+  <body xsi:type="in:loginUserResponseMsg">
+    <in_1:loginUserResponse>
+      <loginMessage>Success</loginMessage>
+    </in_1:loginUserResponse>
+  </body>
+</Se:smo>, 7
+
+[1/20/15 17:12:17:705 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_ji55bpf4e</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:12:17:706 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_ji55bpf4e</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+    <objectId>6611255183087</objectId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:27:54:076 CAT] 00000d41 UpdateSchedul I   ADMA5078I: Update of AgreementServcieApp has started.
+[1/20/15 17:27:54:652 CAT] 00000d41 BPELValidatio I   CWWBV0001I: Validated process model 'AcceptQuote' successfully: 0 warnings, 0 information.
+[1/20/15 17:27:54:792 CAT] 00000d41 WBIAAbstractT I com.ibm.ws.wbia.deployment.WBIAAbstractTask performTask CWLRD0101I: No WebSphere Business Integration Adapter files are found in the application AgreementServcieApp.
+[1/20/15 17:27:54:850 CAT] 00000d41 UpdateSchedul I   ADMA5079I: Update of AgreementServcieApp has ended. The application or its web modules may require a restart when a save is performed.
+[1/20/15 17:27:57:408 CAT] 00000061 AdminHelper   A   ADMN1010I: An attempt is made to stop the AgreementServcieApp application. (User ID = DevRealm/server:devNode04Cell_devNode04_server4)
+[1/20/15 17:27:57:408 CAT] 00000061 CompositionUn A   WSVR0192I: Stopping composition unit WebSphere:cuname=AgreementServcieApp in BLA WebSphere:blaname=AgreementServcieApp.
+[1/20/15 17:27:57:409 CAT] 00000061 ApplicationMg A   WSVR0217I: Stopping application: AgreementServcieApp
+[1/20/15 17:27:57:413 CAT] 00000061 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [AgreementServcieApp] [/AgreementServcieWeb] [BPMSCAModules/AgreementServcie/AgreementServiceWSExport]: Destroy successful.
+[1/20/15 17:27:57:413 CAT] 00000061 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [AgreementServcieApp] [/AgreementServcieWeb] [export.http.AgreementServiceHTTPExport]: Destroy successful.
+[1/20/15 17:27:57:420 CAT] 00000061 Core          I   CWSCA3011I: The SCA module "AgreementServcieApp" is stopping.
+[1/20/15 17:27:57:422 CAT] 00000061 ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/AgreementServcie/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServcieApp#AgreementServcie#AgreementServcie is deactivated.
+[1/20/15 17:27:57:426 CAT] 00000061 Core          I   CWSCA3012I: The SCA module has been stopped.
+[1/20/15 17:27:57:429 CAT] 00000061 ApplicationMg A   WSVR0220I: Application stopped: AgreementServcieApp
+[1/20/15 17:27:58:064 CAT] 00000061 CompositionUn A   WSVR0193I: Composition unit WebSphere:cuname=AgreementServcieApp in BLA WebSphere:blaname=AgreementServcieApp stopped.
+[1/20/15 17:27:58:204 CAT] 00000061 AdminHelper   A   ADMN1008I: An attempt is made to start the AgreementServcieApp application. (User ID = DevRealm/server:devNode04Cell_devNode04_server4)
+[1/20/15 17:27:58:221 CAT] 00000061 CompositionUn A   WSVR0190I: Starting composition unit WebSphere:cuname=AgreementServcieApp in BLA WebSphere:blaname=AgreementServcieApp.
+[1/20/15 17:27:58:241 CAT] 00000061 ApplicationMg A   WSVR0200I: Starting application: AgreementServcieApp
+[1/20/15 17:27:58:241 CAT] 00000061 ApplicationMg A   WSVR0204I: Application: AgreementServcieApp  Application build level: Unknown
+[1/20/15 17:27:58:301 CAT] 00000061 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PROCSVR.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
+[1/20/15 17:27:58:302 CAT] 00000061 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PROCSVR.devNode04Cell.Bus has been updated as a result of an administrative update.
+[1/20/15 17:27:58:350 CAT] 00000061 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus CEI.devNode04Cell.BUS to populate missing unique name data when loading the authorization model for the bus.
+[1/20/15 17:27:58:350 CAT] 00000061 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus CEI.devNode04Cell.BUS has been updated as a result of an administrative update.
+[1/20/15 17:27:58:390 CAT] 00000061 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.SYSTEM.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
+[1/20/15 17:27:58:391 CAT] 00000061 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.SYSTEM.devNode04Cell.Bus has been updated as a result of an administrative update.
+[1/20/15 17:27:58:433 CAT] 00000061 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.APPLICATION.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
+[1/20/15 17:27:58:433 CAT] 00000061 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.APPLICATION.devNode04Cell.Bus has been updated as a result of an administrative update.
+[1/20/15 17:27:58:473 CAT] 00000061 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus BPC.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
+[1/20/15 17:27:58:473 CAT] 00000061 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus BPC.devNode04Cell.Bus has been updated as a result of an administrative update.
+[1/20/15 17:27:58:512 CAT] 00000061 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PERFDW.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
+[1/20/15 17:27:58:513 CAT] 00000061 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PERFDW.devNode04Cell.Bus has been updated as a result of an administrative update.
+[1/20/15 17:27:58:513 CAT] 00000061 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus BPC.devNode04Cell.Bus.
+[1/20/15 17:27:58:517 CAT] 00000061 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus BPC.devNode04Cell.Bus.
+[1/20/15 17:27:58:517 CAT] 00000061 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PROCSVR.devNode04Cell.Bus.
+[1/20/15 17:27:58:524 CAT] 00000061 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PROCSVR.devNode04Cell.Bus.
+[1/20/15 17:27:58:524 CAT] 00000061 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.APPLICATION.devNode04Cell.Bus.
+[1/20/15 17:27:58:532 CAT] 00000061 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.APPLICATION.devNode04Cell.Bus.
+[1/20/15 17:27:58:532 CAT] 00000061 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus CEI.devNode04Cell.BUS.
+[1/20/15 17:27:58:540 CAT] 00000061 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus CEI.devNode04Cell.BUS.
+[1/20/15 17:27:58:540 CAT] 00000061 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PERFDW.devNode04Cell.Bus.
+[1/20/15 17:27:58:548 CAT] 00000061 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PERFDW.devNode04Cell.Bus.
+[1/20/15 17:27:58:548 CAT] 00000061 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.SYSTEM.devNode04Cell.Bus.
+[1/20/15 17:27:58:556 CAT] 00000061 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.SYSTEM.devNode04Cell.Bus.
+[1/20/15 17:27:58:557 CAT] 00000061 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
+[1/20/15 17:27:58:557 CAT] 00000061 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
+[1/20/15 17:27:58:557 CAT] 00000061 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
+[1/20/15 17:27:58:560 CAT] 00000061 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
+[1/20/15 17:27:58:560 CAT] 00000061 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
+[1/20/15 17:27:58:564 CAT] 00000061 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
+[1/20/15 17:27:58:564 CAT] 00000061 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
+[1/20/15 17:27:58:566 CAT] 00000061 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
+[1/20/15 17:27:58:566 CAT] 00000061 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
+[1/20/15 17:27:58:569 CAT] 00000061 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
+[1/20/15 17:27:58:569 CAT] 00000061 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
+[1/20/15 17:27:58:571 CAT] 00000061 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
+[1/20/15 17:27:58:574 CAT] 00000061 Core          I   CWSCA3009I: The SCA module "AgreementServcieApp" is starting.
+[1/20/15 17:27:58:604 CAT] 00000061 Core          I   CWSCA3010I: The SCA module "AgreementServcieApp" started successfully using the SCA "Native" and Business Object "Eager" runtimes.
+[1/20/15 17:27:58:703 CAT] 00000061 webapp        I com.ibm.ws.webcontainer.webapp.WebGroupImpl WebGroup SRVE0169I: Loading Web Module: AgreementServcieWeb.
+[1/20/15 17:27:58:715 CAT] 00000061 WASSessionCor I SessionContextRegistry getSessionContext SESN0176I: Will create a new session context for application key default_hostAgreementServcieWeb
+[1/20/15 17:27:58:722 CAT] 00000061 WASAxis2Exten I   WSWS7037I: The /sca/AgreementServiceWSExport URL pattern was configured for the BPMSCAModules/AgreementServcie/AgreementServiceWSExport servlet located in the AgreementServcieWeb.war web module.
+[1/20/15 17:27:58:732 CAT] 00000061 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [AgreementServcieApp] [/AgreementServcieWeb] [BPMSCAModules/AgreementServcie/AgreementServiceWSExport]: Initialization successful.
+[1/20/15 17:27:58:732 CAT] 00000061 webcontainer  I com.ibm.ws.webcontainer.VirtualHostImpl addWebApplication SRVE0250I: Web Module AgreementServcieWeb has been bound to default_host[*:9083,*:80,*:9446,*:5067,*:5066,*:443].
+[1/20/15 17:27:58:752 CAT] 00000061 SibMessage    I   [:] CWSIV0777I: A connection to messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus for destination sca/AgreementServcie on bus SCA.SYSTEM.devNode04Cell.Bus has been successfully created.
+[1/20/15 17:27:58:752 CAT] 00000061 ActivationSpe I   J2CA0523I: The Message Endpoint for ActivationSpec sca/AgreementServcie/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServcieApp#AgreementServcie#AgreementServcie is activated.
+[1/20/15 17:27:58:757 CAT] 00000061 ApplicationMg A   WSVR0221I: Application started: AgreementServcieApp
+[1/20/15 17:27:58:758 CAT] 00000061 CompositionUn A   WSVR0191I: Composition unit WebSphere:cuname=AgreementServcieApp in BLA WebSphere:blaname=AgreementServcieApp started.
+[1/20/15 17:27:58:951 CAT] 00000061 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServcieApp.bfm14b07f51b4c\ext\AgreementServcieApp_ear\AgreementServcie.jar cannot be deleted.
+[1/20/15 17:27:58:960 CAT] 00000061 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServcieApp.bfm14b07f51b4c\ext\AgreementServcieApp_ear cannot be deleted.
+[1/20/15 17:27:58:960 CAT] 00000061 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServcieApp.bfm14b07f51b4c\ext cannot be deleted.
+[1/20/15 17:27:58:961 CAT] 00000061 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServcieApp.bfm14b07f51b4c cannot be deleted.
+[1/20/15 17:27:58:962 CAT] 00000061 AppBinaryProc I   ADMA7021I: Distribution of application AgreementServcieApp completed successfully.
+[1/20/15 17:27:58:967 CAT] 00000061 FileRepositor A   ADMR0015I: User DevRealm/wasadmin created document cells/devNode04Cell/applications/AgreementServcieApp.ear/deltas/AgreementServcieApp/delta-1421767674827.
+[1/20/15 17:27:58:967 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/AgreementServcieApp.ear.
+[1/20/15 17:27:58:967 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/AgreementServcieWeb.war/WEB-INF/wsdl/AgreementServcie_WSExport1.wsdl.
+[1/20/15 17:27:58:967 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/META-INF/MANIFEST.MF.
+[1/20/15 17:27:58:967 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/AgreementServcieWeb.war/WEB-INF/wsdl/AgreementDetails.xsd.
+[1/20/15 17:27:58:967 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/deployment.xml.
+[1/20/15 17:27:58:968 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/CustomizationData/customization-timestamp.xml.
+[1/20/15 17:27:58:968 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/deployment-bpc.xml.
+[1/20/15 17:27:58:968 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/nodes/devNode04/serverindex.xml.
+[1/20/15 17:27:58:968 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/AgreementServcieWeb.war/WEB-INF/wsdl/ObjectRefrence.xsd.
+[1/20/15 17:27:58:968 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/AgreementServcieWeb.war/WEB-INF/servicesIndex.xml.
+[1/20/15 17:27:58:968 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/META-INF/ibm-application-runtime.props.
+[1/20/15 17:27:58:969 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/cell-core.xml.
+[1/20/15 17:27:58:969 CAT] 00000061 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServcieApp.ear/deployments/AgreementServcieApp/AgreementServcieWeb.war/WEB-INF/wsdl/AgreementServiceInterface.wsdl.
+[1/20/15 17:28:08:977 CAT] 0000029b ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [AgreementServcieApp] [/AgreementServcieWeb] [export.http.AgreementServiceHTTPExport]: Initialization successful.
+[1/20/15 17:28:09:096 CAT] 0000029b SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_1xh1ieqzc</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Hello Doctor</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:28:09:103 CAT] 0000029b SystemOut     O Invalid Product
+[1/20/15 17:32:06:827 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_3fa28h8mz</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Hello Doctor</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:32:06:827 CAT] 00000343 SystemOut     O Invalid Product
+[1/20/15 17:33:12:284 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_69qk3nplb</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:33:12:287 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_69qk3nplb</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:34:05:088 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_p7ynao517</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:34:05:089 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_p7ynao517</quoteReferenceNumber>
+  <state>QuoteAccepted</state>
+  <productName>Metropolitan Funeral Plan</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:42:53:128 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_r1smihyvn</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Hello Doctor</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:42:53:129 CAT] 00000343 SystemOut     O Invalid Product
+[1/20/15 17:43:50:257 CAT] 00000343 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_4scj7676i</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Hello Doctor</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:43:50:257 CAT] 00000343 SystemOut     O Invalid Product
+[1/20/15 17:44:29:703 CAT] 0000032c SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie"/>
+[1/20/15 17:44:29:704 CAT] 0000032c SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <state>QuoteAccepted</state>
+</p:AgreementDetails>
+[1/20/15 17:44:41:163 CAT] 0000032c SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
+<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementServcie">
+  <quoteReferenceNumber>_idu8tl82v</quoteReferenceNumber>
+  <state>Initial</state>
+  <productName>Hello Doctor</productName>
+  <policyHolder>
+    <typeId>1</typeId>
+    <componentId>1</componentId>
+  </policyHolder>
+</p:AgreementDetails>
+[1/20/15 17:44:41:163 CAT] 0000032c SystemOut     O Invalid Product
+[1/20/15 18:20:37:599 CAT] 00000061 AdminHelper   A   ADMN1020I: An attempt is made to stop the server4 server. (User ID = DevRealm/wasadmin)
+[1/20/15 18:20:37:653 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/AgreementServcie/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServcieApp#AgreementServcie#AgreementServcie is deactivated.
+[1/20/15 18:20:37:654 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/HTMIF_devNode04_server4/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application TaskContainer_devNode04_server4#h.jar#ServiceSIBusMessageBean is deactivated.
+[1/20/15 18:20:37:654 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/LoginModule/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application LoginModuleApp#LoginModule#LoginModule is deactivated.
+[1/20/15 18:20:37:654 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/BFMIF_devNode04_server4/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application BPEContainer_devNode04_server4#b.jar#ServiceSIBusMessageBean is deactivated.
+[1/20/15 18:20:37:654 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/HTM_PredefinedTasks_V8000_devNode04_server4/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application HTM_PredefinedTasks_V8000_devNode04_server4App#HTM_PredefinedTasks_V8000_devNode04_server4#HTM_PredefinedTasks_V8000_devNode04_server4 is deactivated.
+[1/20/15 18:20:37:654 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/BankAccountValidationProcess/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application BankAccountValidationProcessApp#BankAccountValidationProcess#BankAccountValidationProcess is deactivated.
+[1/20/15 18:20:37:655 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/WLE_devNode04_server4/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application IBM_BPM_Teamworks_devNode04_server4#IBM_BPM_Teamworks_devNode04_server4#IBM_BPM_Teamworks_devNode04_server4 is deactivated.
+[1/20/15 18:20:37:655 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/HTM_PredefinedTaskMsg_V8000_devNode04_server4/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application HTM_PredefinedTaskMsg_V8000_devNode04_server4App#HTM_PredefinedTaskMsg_V8000_devNode04_server4#HTM_PredefinedTaskMsg_V8000_devNode04_server4 is deactivated.
+[1/20/15 18:20:37:655 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec manualrecovery (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application wpsFEMgr_8.0.1#wpsFEMgrEJB.jar#RecoveryMessageDrivenBean is deactivated.
+[1/20/15 18:20:37:655 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec eis/HTMInternalActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application TaskContainer_devNode04_server4#taskejb.jar#HTMScheduler is deactivated.
+[1/20/15 18:20:37:655 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec jms/BFMJMSAS (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application BPEContainer_devNode04_server4#bpejaxwsjmsrouter.jar#BFMSOAPJMSServiceRouter is deactivated.
+[1/20/15 18:20:37:655 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec jms/BFMJMSAS (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application BPEContainer_devNode04_server4#b.jar#_export.com.ibm.bpe.api.sca.BFMJMSJMS is deactivated.
+[1/20/15 18:20:37:656 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec eis/BPEInternalActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application BPEContainer_devNode04_server4#bpecontainer.jar#ProcessContainerMDB is deactivated.
+[1/20/15 18:20:37:656 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec eis/RepresentationManagerActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application IBM_BPM_PerformanceDW_devNode04_server4#twperfsvr-ejb.jar#RepresentationManagerQueueBean is deactivated.
+[1/20/15 18:20:37:656 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec jms/PortalWebMessagingActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application IBM_BPM_Process_Portal_Notification_devNode04_server4#social-bus-ejb.jar#JMSBayeuxBridge is deactivated.
+[1/20/15 18:20:37:656 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec jms/cei/QueueActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application EventService#EventServerMdb.jar#EventBusMdbBean is deactivated.
+[1/20/15 18:20:37:656 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec bpm/pal/service/deployActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application IBM_BPM_Teamworks_devNode04_server4#PALStartupBean.jar#FDSServiceMDB is deactivated.
+[1/20/15 18:20:37:657 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec eis/cacheMessageActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application IBM_BPM_Teamworks_devNode04_server4#twprocess-ejb.jar#CacheRequestListener is deactivated.
+[1/20/15 18:20:37:657 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec eis/InterServerActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application IBM_BPM_Teamworks_devNode04_server4#twcore-ejb.jar#InterServerMessageListener is deactivated.
+[1/20/15 18:20:37:657 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec eis/EventMgrControlActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application IBM_BPM_Teamworks_devNode04_server4#twcore-ejb.jar#SchedulerMessageListener is deactivated.
+[1/20/15 18:20:37:657 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec eis/DataDefLoaderActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application IBM_BPM_PerformanceDW_devNode04_server4#twperfsvr-ejb.jar#DataDefLoaderOne is deactivated.
+[1/20/15 18:20:37:658 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec eis/EventMgrMessageActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application IBM_BPM_Teamworks_devNode04_server4#twcore-ejb.jar#EventMgrMessageListener is deactivated.
+[1/20/15 18:20:37:658 CAT] 0000004b ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec eis/PostLoadCalculationActivationSpec (com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl) and MDB Application IBM_BPM_PerformanceDW_devNode04_server4#twperfsvr-ejb.jar#PostLoadCalculationQueueBean is deactivated.
+[1/20/15 18:20:37:695 CAT] 0000004b DataTransferS I   CWLLG1264I: IBM Business Process Manager V8.0.1.1 - 20130306_1611 - BPM8011-20130306-1304 Performance Server is attempting to stop.
+[1/20/15 18:20:37:695 CAT] 0000004b DataTransferS I   CWLLG1265I: IBM Business Process Manager V8.0.1.1 - 20130306_1611 - BPM8011-20130306-1304 Performance Server stopped successfully.
+[1/20/15 18:20:37:715 CAT] 00000054 wle           I   CWLLG0577I: Task loader shut down gracefully.
+[1/20/15 18:20:37:715 CAT] 0000004c wle           I   CWLLG0562I: Heartbeat thread exiting...
+[1/20/15 18:20:37:725 CAT] 0000004b TCPChannel    I   TCPC0002I: TCP Channel TCP_1 has stopped listening on host *  (IPv6) port 9063.
+[1/20/15 18:20:37:726 CAT] 0000004b TCPChannel    I   TCPC0002I: TCP Channel TCP_4 has stopped listening on host *  (IPv6) port 9446.
+[1/20/15 18:20:37:726 CAT] 0000004b TCPChannel    I   TCPC0002I: TCP Channel TCP_2 has stopped listening on host *  (IPv6) port 9083.
+[1/20/15 18:20:37:726 CAT] 0000004b TCPChannel    I   TCPC0002I: TCP Channel TCP_3 has stopped listening on host *  (IPv6) port 9046.

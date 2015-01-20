@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:LoginComponentReference="http://LoginMediation/LoginComponentReference" xmlns:LoginMediationInterface="http://LoginMediation/LoginMediationInterface" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" name="LoginMediation" targetNamespace="http://LoginMediation/LoginMediation">
+  <import location="LoginMediationInterface.wsdl" namespace="http://LoginMediation/LoginMediationInterface"/>
+  <import location="LoginComponentReference.wsdl" namespace="http://LoginMediation/LoginComponentReference"/>
+  <promotedProperty name="Callout1.retryOn" group="LoginMediation.LoginMediation" value="0"/>
+  <promotedProperty name="Callout1.retryCount" group="LoginMediation.LoginMediation" value="0"/>
+  <promotedProperty name="Callout1.retryDelay" group="LoginMediation.LoginMediation" value="0"/>
+  <reference name="LoginComponentReferencePartner" portType="LoginComponentReference:LoginComponentReference"/>
+  <interface portType="LoginMediationInterface:LoginMediationInterface">
+    <operation name="loginUser">
+      <requestFlow>
+        <node displayName="loginUser : LoginMediationInterface" name="LoginMediationInterface_loginUser_Input" type="Input">
+          <outputTerminal type="LoginMediationInterface:loginUserRequestMsg">
+            <wire targetNode="Mapping"/>
+          </outputTerminal>
+        </node>
+        <node displayName="loginUser : LoginMediationInterface" name="LoginMediationInterface_loginUser_InputResponse" type="InputResponse">
+          <inputTerminal type="LoginMediationInterface:loginUserResponseMsg"/>
+        </node>
+        <node displayName="login : LoginComponentReferencePartner" name="LoginComponentReferencePartner_login_Callout" type="Callout">
+          <property name="referenceName" value="LoginComponentReferencePartner"/>
+          <property name="operationName" value="login"/>
+          <property name="invocationStyle" value="6"/>
+          <property name="retryOn" promotedPropertyGroup="LoginMediation.LoginMediation" promotedPropertyName="Callout1.retryOn"/>
+          <property name="retryCount" promotedPropertyGroup="LoginMediation.LoginMediation" promotedPropertyName="Callout1.retryCount"/>
+          <property name="retryDelay" promotedPropertyGroup="LoginMediation.LoginMediation" promotedPropertyName="Callout1.retryDelay"/>
+          <inputTerminal type="LoginComponentReference:loginRequestMsg"/>
+        </node>
+        <node name="Mapping" type="XSLTransformation">
+          <property name="root" value="/"/>
+          <property name="XSLTransform" value="xslt/loginMapper.xsl"/>
+          <property name="XMXMap" value="xslt/loginMapper.map"/>
+          <property name="SMOVersion" value="SMO61"/>
+          <inputTerminal type="LoginMediationInterface:loginUserRequestMsg"/>
+          <outputTerminal type="LoginComponentReference:loginRequestMsg">
+            <wire targetNode="LoginComponentReferencePartner_login_Callout"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+      </requestFlow>
+      <responseFlow>
+        <node displayName="login : LoginComponentReferencePartner" name="LoginComponentReferencePartner_login_CalloutResponse" type="CalloutResponse">
+          <property name="referenceName" value="LoginComponentReferencePartner"/>
+          <property name="operationName" value="login"/>
+          <outputTerminal type="LoginComponentReference:loginResponseMsg"/>
+          <failTerminal type="LoginComponentReference:loginRequestMsg"/>
+        </node>
+        <node displayName="loginUser : LoginMediationInterface" name="LoginMediationInterface_loginUser_InputResponse" type="InputResponse">
+          <inputTerminal type="LoginMediationInterface:loginUserResponseMsg"/>
+        </node>
+      </responseFlow>
+      <errorFlow>
+        <node displayName="loginUser : LoginMediationInterface" name="LoginMediationInterface_loginUser_ErrorInput" type="ErrorInput">
+          <outputTerminal name="catchAll" type="XMLSchema:anyType"/>
+        </node>
+        <node displayName="loginUser : LoginMediationInterface" name="LoginMediationInterface_loginUser_InputResponse" type="InputResponse">
+          <inputTerminal type="LoginMediationInterface:loginUserResponseMsg"/>
+        </node>
+      </errorFlow>
+    </operation>
+  </interface>
+</mediationFlow>

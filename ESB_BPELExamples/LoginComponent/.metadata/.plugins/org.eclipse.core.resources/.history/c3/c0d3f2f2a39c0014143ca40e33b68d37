@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns1="http://SalesManagementService/SalesManagementReference" xmlns:ns2="http://SalesManagementService/SalesManagementRef" xmlns:ns3="http://SalesManagementService/SalesManagementInterface" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="SalesManagementService" name="SalesManagementService">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" portType="ns3:SalesManagementInterface">
+      <scdl:interfaceQualifier xsi:type="scdl:JoinTransaction" value="true"/>
+    </interface>
+  </interfaces>
+  <references>
+    <reference name="SalesManagementRefPartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="ns2:SalesManagementRef"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="SalesManagementImpl"/>
+    </reference>
+  </references>
+</scdl:component>

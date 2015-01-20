@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><bpws:process xmlns:bpws="http://schemas.xmlsoap.org/ws/2004/03/business-process/" xmlns:ns="http://AgreementServcie/AgreementProcessArtifacts" xmlns:ns0="http://SalesManagementService" xmlns:ns1="http://AgreementServcie/AgreementServcieInterface" xmlns:wpc="http://www.ibm.com/xmlns/prod/websphere/business-process/6.0.0/" expressionLanguage="http://www.ibm.com/xmlns/prod/websphere/business-process/expression-lang/java/6.0.0/" name="AgreementProcess" suppressJoinFailure="yes" targetNamespace="http://AgreementServcie" wpc:continueOnError="no" wpc:displayName="AgreementProcess" wpc:executionMode="microflow" wpc:id="1" wpc:validFrom="2015-01-15T12:54:43" wpc:version="IBM_8.0.100">
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AgreementServcieInterface.wsdl" namespace="http://AgreementServcie/AgreementServcieInterface"/>
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AgreementProcessArtifacts.wsdl" namespace="http://AgreementServcie/AgreementProcessArtifacts"/>
+  <bpws:import importType="http://www.w3.org/2001/XMLSchema" location="Agreement.xsd" namespace="http://SalesManagementService"/>
+  <bpws:partnerLinks>
+    <bpws:partnerLink myRole="Interface" name="AgreementServcieInterface" partnerLinkType="ns:AgreementServcieInterfacePLT" wpc:id="2"/>
+  </bpws:partnerLinks>
+  <bpws:variables>
+    <bpws:variable element="ns1:acceptQuote" name="agreement" wpc:id="11"/>
+  </bpws:variables>
+  <bpws:sequence name="HiddenSequence" wpc:id="1073741827">
+    <bpws:receive createInstance="yes" name="Receive" operation="acceptQuote" partnerLink="AgreementServcieInterface" portType="ns1:AgreementServcieInterface" wpc:displayName="Receive" wpc:id="4" wpc:transactionalBehavior="commitAfter">
+      <wpc:output>
+        <wpc:parameter name="agreement" variable="agreement"/>
+      </wpc:output>
+    </bpws:receive>
+    <bpws:invoke name="Snippet" operation="null" partnerLink="null" portType="wpc:null" wpc:continueOnError="inherit" wpc:displayName="PrintAgreement" wpc:id="8">
+      <wpc:script>
+        <wpc:javaCode><![CDATA[try {
+	{// print BO to log
+		com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOXMLSerializer");
+		commonj.sdo.Type type = agreement.getType();
+		srv.writeDataObject(agreement, type.getURI(), type.getName(), java.lang.System.out);
+	}
+}
+catch(java.io.IOException ex){
+}
+
+//@generated:com.ibm.wbit.activity.ui
+//<?xml version="1.0" encoding="UTF-8"?>
+//<com.ibm.wbit.activity:CompositeActivity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.wbit.activity="http:///com/ibm/wbit/activity.ecore" name="ActivityMethod">
+//  <exceptions>
+//    <type xsi:type="com.ibm.wbit.activity:JavaElementType" name="com.ibm.bpe.api.ProcessException"/>
+//  </exceptions>
+//  <executableElements xsi:type="com.ibm.wbit.activity:Expression" value="agreement" variable="true">
+//    <dataOutputs target="//@executableElements.1/@parameters.0"/>
+//    <type xsi:type="com.ibm.wbit.activity:XSDElementType" name="Agreement" namespace="http://SalesManagementService"/>
+//  </executableElements>
+//  <executableElements xsi:type="com.ibm.wbit.activity:LibraryActivity" name="print BO to log" description="Print a text representation of the input BO to System.out" category="utility" template="com.ibm.websphere.bo.BOXMLSerializer srv = (com.ibm.websphere.bo.BOXMLSerializer) new com.ibm.websphere.sca.ServiceManager().locateService(&quot;com/ibm/websphere/bo/BOXMLSerializer&quot;);&#xA;commonj.sdo.Type type = &lt;%businessObject%>.getType();&#xA;srv.writeDataObject(&lt;%businessObject%>, type.getURI(), type.getName(), java.lang.System.out);">
+//    <parameters name="businessObject" dataInputs="//@executableElements.0/@dataOutputs.0" displayName="business object">
+//      <type xsi:type="com.ibm.wbit.activity:JavaElementType" name="commonj.sdo.DataObject"/>
+//    </parameters>
+//    <exceptions>
+//      <dataOutputs target="//@executableElements.2/@parameters.0"/>
+//      <type xsi:type="com.ibm.wbit.activity:JavaElementType" name="java.io.IOException"/>
+//    </exceptions>
+//  </executableElements>
+//  <executableElements xsi:type="com.ibm.wbit.activity:ExceptionHandler" name="Exception Handler">
+//    <parameters name="ex" dataInputs="//@executableElements.1/@exceptions.0/@dataOutputs.0">
+//      <type xsi:type="com.ibm.wbit.activity:JavaElementType" name="java.io.IOException"/>
+//    </parameters>
+//    <executableElements xsi:type="com.ibm.wbit.activity:Expression" value="ex" variable="true">
+//      <type xsi:type="com.ibm.wbit.activity:JavaElementType" name="java.io.IOException"/>
+//    </executableElements>
+//    <executableGroups executableElements="//@executableElements.2/@executableElements.0"/>
+//  </executableElements>
+//  <executableGroups executableElements="//@executableElements.0 //@executableElements.1 //@executableElements.2"/>
+//</com.ibm.wbit.activity:CompositeActivity>
+//@generated:end
+//!SMAP!*S WBIACTDBG
+//!SMAP!*L
+//!SMAP!2:2,5
+//!SMAP!1000000:46,1]]></wpc:javaCode>
+      </wpc:script>
+    </bpws:invoke>
+    <bpws:assign name="AssignAcceptedAgreement" wpc:displayName="AssignAcceptedAgreement" wpc:id="10">
+      <bpws:copy>
+        <bpws:from variable="agreement"/>
+        <bpws:to variable="acceptedAgreement"/>
+      </bpws:copy>
+    </bpws:assign>
+    <bpws:reply name="Reply" operation="acceptQuote" partnerLink="AgreementServcieInterface" portType="ns1:AgreementServcieInterface" wpc:displayName="Reply" wpc:id="5">
+      <wpc:input>
+        <wpc:parameter name="acceptedAgreement" variable="acceptedAgreement"/>
+      </wpc:input>
+    </bpws:reply>
+  </bpws:sequence>
+</bpws:process>

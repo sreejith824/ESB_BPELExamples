@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sibxscaresources:SCAModule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sibxscaresources="http://www.ibm.com/websphere/appserver/schemas/6.0/sibxscaresources.xmi" identifier="SalesManagementService">
+  <sCAModuleProperty identifier="Callout1.retryOn" value="0" type="STRING" group="SalesManagementService.SalesManagementService"/>
+  <sCAModuleProperty identifier="Callout1.retryCount" value="0" type="INTEGER" group="SalesManagementService.SalesManagementService"/>
+  <sCAModuleProperty identifier="Callout1.retryDelay" value="0" type="INTEGER" group="SalesManagementService.SalesManagementService"/>
+</sibxscaresources:SCAModule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:ns1="http://AgreementServcie/AgreementServiceInterface" xmlns:ns1_1="http://AgreementServiceMediation/AgreementServiceMediationInterface" name="AgreementServiceMediation" targetNamespace="http://AgreementServiceMediation/AgreementServiceMediation">
+  <import location="AgreementServiceMediationInterface.wsdl" namespace="http://AgreementServiceMediation/AgreementServiceMediationInterface"/>
+  <import location="localhost/agreementservcieweb/sca/agreementservicewsexport/web_inf/wsdl/AgreementServiceInterface.wsdl" namespace="http://AgreementServcie/AgreementServiceInterface"/>
+  <reference name="AgreementServiceInterfacePartner" portType="ns1:AgreementServiceInterface"/>
+  <interface portType="ns1_1:AgreementServiceMediationInterface"/>
+</mediationFlow>

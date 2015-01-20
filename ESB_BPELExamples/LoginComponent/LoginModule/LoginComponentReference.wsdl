@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="LoginComponentReference" targetNamespace="http://LoginModule/LoginComponentReference" xmlns:tns="http://LoginModule/LoginComponentReference" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://LoginModule/LoginComponentReference">
+      <xsd:element name="login">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="userName" nillable="true" type="xsd:string"/>
+            <xsd:element name="password" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="loginResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="loginMesssage" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="loginRequestMsg">
+    <wsdl:part element="tns:login" name="loginParameters"/>
+  </wsdl:message>
+    <wsdl:message name="loginResponseMsg">
+    <wsdl:part element="tns:loginResponse" name="loginResult"/>
+  </wsdl:message>
+    <wsdl:portType name="LoginComponentReference">
+    <wsdl:operation name="login">
+      <wsdl:input message="tns:loginRequestMsg" name="loginRequest"/>
+      <wsdl:output message="tns:loginResponseMsg" name="loginResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

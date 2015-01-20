@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:SalesManagementRef="http://SalesManagementService/SalesManagementRef" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://SalesManagementService/SalesManagementInterface" name="SalesManagementService" targetNamespace="http://SalesManagementService/SalesManagementService">
+  <import location="SalesManagementInterface.wsdl" namespace="http://SalesManagementService/SalesManagementInterface"/>
+  <interface portType="ns1:SalesManagementInterface">
+    <operation name="acceptQuote">
+      <requestFlow>
+        <node displayName="acceptQuote : SalesManagementInterface" name="SalesManagementInterface_acceptQuote_Input" type="Input">
+          <outputTerminal type="ns1:acceptQuoteRequestMsg">
+            <wire targetNode="Mapping"/>
+          </outputTerminal>
+        </node>
+        <node displayName="acceptQuote : SalesManagementInterface" name="SalesManagementInterface_acceptQuote_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:acceptQuoteResponseMsg"/>
+        </node>
+        <node name="Mapping" type="XSLTransformation">
+          <property name="root" value="/body"/>
+          <property name="XSLTransform" value="xslt/Mapping_req_1.xsl"/>
+          <property name="XMXMap" value="xslt/Mapping_req_1.map"/>
+          <property name="SMOVersion" value="SMO61"/>
+          <inputTerminal type="ns1:acceptQuoteRequestMsg"/>
+          <outputTerminal type="SalesManagementRef:acceptQuoteRequestMsg"/>
+          <failTerminal/>
+        </node>
+      </requestFlow>
+      <errorFlow>
+        <node displayName="acceptQuote : SalesManagementInterface" name="SalesManagementInterface_acceptQuote_ErrorInput" type="ErrorInput">
+          <outputTerminal name="catchAll" type="XMLSchema:anyType"/>
+        </node>
+        <node displayName="acceptQuote : SalesManagementInterface" name="SalesManagementInterface_acceptQuote_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:acceptQuoteResponseMsg"/>
+        </node>
+      </errorFlow>
+    </operation>
+  </interface>
+</mediationFlow>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:LoginComponentReference="http://LoginMediation/LoginComponentReference" name="LoginMediation" targetNamespace="http://LoginMediation/LoginMediation">
+  <import location="LoginComponentReference.wsdl" namespace="http://LoginMediation/LoginComponentReference"/>
+  <reference name="LoginComponentReferencePartner" portType="LoginComponentReference:LoginComponentReference"/>
+</mediationFlow>

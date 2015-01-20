@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" targetNamespace="http://LoginModule/xslt/ReqMap" version="8.0.2.0" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://LoginModule/xslt/ReqMap">
+    <input correlationContext="" message="{http://LoginModule/LoginModuleInterface}loginUserRequestMsg" sharedContext="" smoName="wsdl-primary" transientContext="" type="smo" types="" xpath="/"/>
+    <output correlationContext="" message="{http://LoginModule/LoginComponentReference}loginRequestMsg" sharedContext="" smoName="wsdl-primary" transientContext="" type="smo" types="" xpath="/"/>
+    <mappingDeclaration name="ReqMap">
+        <input namespace="http://www.ibm.com/websphere/sibx/smo/v6.0.1" path="smo"/>
+        <output namespace="http://www.ibm.com/websphere/sibx/smo/v6.0.1" path="smo"/>
+        <move>
+            <input path="body/loginUser/loginUserName"/>
+            <output path="body/login/userName"/>
+        </move>
+        <move>
+            <input path="body/loginUser/loginPassword"/>
+            <output path="body/login/password"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

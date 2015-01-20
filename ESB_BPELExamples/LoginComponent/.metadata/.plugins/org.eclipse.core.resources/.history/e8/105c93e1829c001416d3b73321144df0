@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sibxscaresources:SCAModule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sibxscaresources="http://www.ibm.com/websphere/appserver/schemas/6.0/sibxscaresources.xmi" identifier="LoginModule">
+  <sCAModuleProperty identifier="Callout1.retryOn" value="0" type="STRING" group="LoginModule.LoginModule"/>
+  <sCAModuleProperty identifier="Callout1.retryCount" value="0" type="INTEGER" group="LoginModule.LoginModule"/>
+  <sCAModuleProperty identifier="Callout1.retryDelay" value="0" type="INTEGER" group="LoginModule.LoginModule"/>
+</sibxscaresources:SCAModule>

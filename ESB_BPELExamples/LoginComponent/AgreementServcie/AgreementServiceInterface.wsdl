@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AgreementServiceInterface" targetNamespace="http://AgreementServcie/AgreementServiceInterface" xmlns:bons1="http://AgreementServcie" xmlns:tns="http://AgreementServcie/AgreementServiceInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://AgreementServcie/AgreementServiceInterface">
+      <xsd:import namespace="http://AgreementServcie" schemaLocation="AgreementDetails.xsd"/>
+      <xsd:element name="acceptQuote">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="inputAgreement" nillable="true" type="bons1:AgreementDetails"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="acceptQuoteResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="outputAgreement" nillable="true" type="bons1:AgreementDetails"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="acceptQuoteRequestMsg">
+    <wsdl:part element="tns:acceptQuote" name="acceptQuoteParameters"/>
+  </wsdl:message>
+    <wsdl:message name="acceptQuoteResponseMsg">
+    <wsdl:part element="tns:acceptQuoteResponse" name="acceptQuoteResult"/>
+  </wsdl:message>
+    <wsdl:portType name="AgreementServiceInterface">
+    <wsdl:operation name="acceptQuote">
+      <wsdl:input message="tns:acceptQuoteRequestMsg" name="acceptQuoteRequest"/>
+      <wsdl:output message="tns:acceptQuoteResponseMsg" name="acceptQuoteResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

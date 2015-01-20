@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AgreementProcess" targetNamespace="http://AgreementServcie/AgreementProcessArtifacts" xmlns:plnk="http://schemas.xmlsoap.org/ws/2004/03/partner-link/" xmlns:tns="http://AgreementServcie/AgreementProcessArtifacts" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdl0="http://AgreementServcie/AgreementServcieInterface" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <plnk:partnerLinkType name="AgreementServcieInterfacePLT">
+    <plnk:role name="Interface">
+      <plnk:portType name="wsdl0:AgreementServcieInterface"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <wsdl:import location="AgreementServcieInterface.wsdl" namespace="http://AgreementServcie/AgreementServcieInterface"/>
+</wsdl:definitions>

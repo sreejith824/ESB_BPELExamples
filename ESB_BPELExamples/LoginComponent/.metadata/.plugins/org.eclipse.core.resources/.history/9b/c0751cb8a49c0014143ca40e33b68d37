@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://SalesManagementService/SalesManagementInterface" xmlns:ns2="http://SalesManagementService/SalesManagementRef" name="SalesManagementService" targetNamespace="http://SalesManagementService/SalesManagementService">
+  <import location="SalesManagementInterface.wsdl" namespace="http://SalesManagementService/SalesManagementInterface"/>
+  <import location="SalesManagementRef.wsdl" namespace="http://SalesManagementService/SalesManagementRef"/>
+  <promotedProperty name="Callout1.retryOn" group="SalesManagementService.SalesManagementService" value="0"/>
+  <promotedProperty name="Callout1.retryCount" group="SalesManagementService.SalesManagementService" value="0"/>
+  <promotedProperty name="Callout1.retryDelay" group="SalesManagementService.SalesManagementService" value="0"/>
+  <reference name="SalesManagementRefPartner" portType="ns2:SalesManagementRef"/>
+  <interface portType="ns1:SalesManagementInterface">
+    <operation name="acceptQuote">
+      <requestFlow>
+        <node displayName="acceptQuote : SalesManagementInterface" name="SalesManagementInterface_acceptQuote_Input" type="Input">
+          <outputTerminal type="ns1:acceptQuoteRequestMsg"/>
+        </node>
+        <node displayName="acceptQuote : SalesManagementInterface" name="SalesManagementInterface_acceptQuote_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:acceptQuoteResponseMsg"/>
+        </node>
+        <node displayName="acceptQuote : SalesManagementRefPartner" name="SalesManagementRefPartner_acceptQuote_Callout" type="Callout">
+          <property name="referenceName" value="SalesManagementRefPartner"/>
+          <property name="operationName" value="acceptQuote"/>
+          <property name="invocationStyle" value="6"/>
+          <property name="retryOn" promotedPropertyGroup="SalesManagementService.SalesManagementService" promotedPropertyName="Callout1.retryOn"/>
+          <property name="retryCount" promotedPropertyGroup="SalesManagementService.SalesManagementService" promotedPropertyName="Callout1.retryCount"/>
+          <property name="retryDelay" promotedPropertyGroup="SalesManagementService.SalesManagementService" promotedPropertyName="Callout1.retryDelay"/>
+          <inputTerminal type="ns2:acceptQuoteRequestMsg"/>
+        </node>
+      </requestFlow>
+      <responseFlow>
+        <node displayName="acceptQuote : SalesManagementRefPartner" name="SalesManagementRefPartner_acceptQuote_CalloutResponse" type="CalloutResponse">
+          <property name="referenceName" value="SalesManagementRefPartner"/>
+          <property name="operationName" value="acceptQuote"/>
+          <outputTerminal type="ns2:acceptQuoteResponseMsg"/>
+          <failTerminal type="ns2:acceptQuoteRequestMsg"/>
+        </node>
+        <node displayName="acceptQuote : SalesManagementInterface" name="SalesManagementInterface_acceptQuote_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:acceptQuoteResponseMsg"/>
+        </node>
+      </responseFlow>
+      <errorFlow>
+        <node displayName="acceptQuote : SalesManagementInterface" name="SalesManagementInterface_acceptQuote_ErrorInput" type="ErrorInput">
+          <outputTerminal name="catchAll" type="XMLSchema:anyType"/>
+        </node>
+        <node displayName="acceptQuote : SalesManagementInterface" name="SalesManagementInterface_acceptQuote_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:acceptQuoteResponseMsg"/>
+        </node>
+      </errorFlow>
+    </operation>
+  </interface>
+</mediationFlow>

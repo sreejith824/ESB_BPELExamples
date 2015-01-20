@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema attributeFormDefault="unqualified"
+	elementFormDefault="unqualified"
+	targetNamespace="http://AgreementServcie"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:complexType name="ObjectRefrence">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="typeId" type="xsd:int" />
+			<xsd:element minOccurs="0" name="componentId"
+				type="xsd:int">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="objectId" type="xsd:int" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:LoginModuleInterface="http://LoginModule/LoginModuleInterface" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://LoginModule/LoginComponentReference" name="LoginModule" targetNamespace="http://LoginModule/LoginModule">
+  <import location="LoginModuleInterface.wsdl" namespace="http://LoginModule/LoginModuleInterface"/>
+  <import location="LoginComponentReference.wsdl" namespace="http://LoginModule/LoginComponentReference"/>
+  <promotedProperty name="Callout1.retryOn" group="LoginModule.LoginModule" value="0"/>
+  <promotedProperty name="Callout1.retryCount" group="LoginModule.LoginModule" value="0"/>
+  <promotedProperty name="Callout1.retryDelay" group="LoginModule.LoginModule" value="0"/>
+  <reference name="LoginComponentReferencePartner" portType="ns1:LoginComponentReference"/>
+  <interface portType="LoginModuleInterface:LoginModuleInterface">
+    <operation name="loginUser">
+      <requestFlow>
+        <node displayName="loginUser : LoginModuleInterface" name="LoginModuleInterface_loginUser_Input" type="Input">
+          <outputTerminal type="LoginModuleInterface:loginUserRequestMsg">
+            <wire targetNode="ReqTrace"/>
+          </outputTerminal>
+        </node>
+        <node displayName="loginUser : LoginModuleInterface" name="LoginModuleInterface_loginUser_InputResponse" type="InputResponse">
+          <inputTerminal type="LoginModuleInterface:loginUserResponseMsg"/>
+        </node>
+        <node displayName="login : LoginComponentReferencePartner" name="LoginComponentReferencePartner_login_Callout" type="Callout">
+          <property name="referenceName" value="LoginComponentReferencePartner"/>
+          <property name="operationName" value="login"/>
+          <property name="invocationStyle" value="6"/>
+          <property name="retryOn" promotedPropertyGroup="LoginModule.LoginModule" promotedPropertyName="Callout1.retryOn"/>
+          <property name="retryCount" promotedPropertyGroup="LoginModule.LoginModule" promotedPropertyName="Callout1.retryCount"/>
+          <property name="retryDelay" promotedPropertyGroup="LoginModule.LoginModule" promotedPropertyName="Callout1.retryDelay"/>
+          <inputTerminal type="ns1:loginRequestMsg"/>
+        </node>
+        <node name="ReqTrace" type="Trace">
+          <property name="destination" value="1"/>
+          <inputTerminal/>
+          <outputTerminal>
+            <wire targetNode="Mapping"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+        <node name="Mapping" type="XSLTransformation">
+          <property name="root" value="/"/>
+          <property name="XSLTransform" value="xslt/ReqMap.xsl"/>
+          <property name="XMXMap" value="xslt/ReqMap.map"/>
+          <property name="SMOVersion" value="SMO61"/>
+          <inputTerminal type="LoginModuleInterface:loginUserRequestMsg"/>
+          <outputTerminal type="ns1:loginRequestMsg">
+            <wire targetNode="LoginComponentReferencePartner_login_Callout"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+      </requestFlow>
+      <responseFlow>
+        <node displayName="login : LoginComponentReferencePartner" name="LoginComponentReferencePartner_login_CalloutResponse" type="CalloutResponse">
+          <property name="referenceName" value="LoginComponentReferencePartner"/>
+          <property name="operationName" value="login"/>
+          <outputTerminal type="ns1:loginResponseMsg">
+            <wire targetNode="Mapping"/>
+          </outputTerminal>
+          <failTerminal type="ns1:loginRequestMsg"/>
+        </node>
+        <node displayName="loginUser : LoginModuleInterface" name="LoginModuleInterface_loginUser_InputResponse" type="InputResponse">
+          <inputTerminal type="LoginModuleInterface:loginUserResponseMsg"/>
+        </node>
+        <node name="Mapping" type="XSLTransformation">
+          <property name="root" value="/body"/>
+          <property name="XSLTransform" value="xslt/Res_Map.xsl"/>
+          <property name="XMXMap" value="xslt/Res_Map.map"/>
+          <property name="SMOVersion" value="SMO61"/>
+          <inputTerminal type="ns1:loginResponseMsg"/>
+          <outputTerminal type="LoginModuleInterface:loginUserResponseMsg">
+            <wire targetNode="ResTrace"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+        <node name="ResTrace" type="Trace">
+          <inputTerminal/>
+          <outputTerminal>
+            <wire targetNode="LoginModuleInterface_loginUser_InputResponse"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+      </responseFlow>
+      <errorFlow>
+        <node displayName="loginUser : LoginModuleInterface" name="LoginModuleInterface_loginUser_ErrorInput" type="ErrorInput">
+          <outputTerminal name="catchAll" type="XMLSchema:anyType"/>
+        </node>
+        <node displayName="loginUser : LoginModuleInterface" name="LoginModuleInterface_loginUser_InputResponse" type="InputResponse">
+          <inputTerminal type="LoginModuleInterface:loginUserResponseMsg"/>
+        </node>
+      </errorFlow>
+    </operation>
+  </interface>
+</mediationFlow>

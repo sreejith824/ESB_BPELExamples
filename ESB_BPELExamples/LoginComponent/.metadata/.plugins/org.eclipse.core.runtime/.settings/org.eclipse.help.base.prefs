@@ -1,0 +1,8 @@
+#Tue Jan 06 14:22:50 CAT 2015
+remoteHelpPath=/infocenter/dmndhelp/v8r0m1,/infocenter/radhelp/v8,/infocenter/radhelp/v9,/help
+remoteHelpPreferred=true
+eclipse.preferences.version=1
+remoteHelpPort=80,80,80,63650
+remoteHelpName=BPM information center,RAD information center,Rational Application Developer,Local
+remoteHelpICEnabled=true,true,true,false
+remoteHelpHost=pic.dhe.ibm.com,publib.boulder.ibm.com,pic.dhe.ibm.com,127.0.0.1

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="AddLibraryActivityDialog">
+		<item value="utility.print to log" key="AddLibraryActivityDialog.STORE_LAST_SELECTION_ID"/>
+		<list key="AddLibraryActivityDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="utility"/>
+		</list>
+	</section>
+</section>

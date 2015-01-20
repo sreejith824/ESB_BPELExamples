@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="WSExport1_AgreementServiceInterfaceHttp_Service" targetNamespace="http://AgreementServcie/AgreementServiceInterface" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:this="http://AgreementServcie/AgreementServiceInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import location="AgreementServiceInterface.wsdl" namespace="http://AgreementServcie/AgreementServiceInterface">
+    </wsdl:import>
+  <wsdl:binding name="WSExport1_AgreementServiceInterfaceHttpBinding" type="this:AgreementServiceInterface">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="acceptQuote">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="acceptQuoteRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="acceptQuoteResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSExport1_AgreementServiceInterfaceHttpService">
+    <wsdl:port binding="this:WSExport1_AgreementServiceInterfaceHttpBinding" name="WSExport1_AgreementServiceInterfaceHttpPort">
+      <soap:address location="http://localhost:9083/AgreementServcieWeb/sca/AgreementServiceWSExport"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

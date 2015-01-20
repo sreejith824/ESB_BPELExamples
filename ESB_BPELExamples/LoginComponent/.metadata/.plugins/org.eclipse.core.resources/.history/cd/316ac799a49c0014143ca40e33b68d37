@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:java="http://www.ibm.com/xmlns/prod/websphere/scdl/java/6.0.0" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" displayName="SalesManagementJavaImpl" name="SalesManagementJavaImpl">
+  <implementation xsi:type="java:JavaImplementation" class="za.co.metrpolitan.khula.salesmanagement.SalesManagementJavaImplImpl">
+    <scdl:implementationQualifier xsi:type="scdl:Transaction" value="global"/>
+  </implementation>
+</scdl:component>

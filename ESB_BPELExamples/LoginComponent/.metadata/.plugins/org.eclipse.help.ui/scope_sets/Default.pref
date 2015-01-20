@@ -1,0 +1,10 @@
+#Tue Jan 06 14:22:50 CAT 2015
+com.ibm.websphere.infocenter.master=false
+org.eclipse.sdk.Eclipse.master=false
+org.eclipse.help.ui.localSearch.master=true
+org.hibernate.eclipse.help.HibernateWiki.master=true
+com.ibm.developerWorks.master=true
+com.ibm.etools.ui.support.search.engine.WPSForum.master=true
+com.ibm.etools.ui.support.search.engine.WIDTechNotes.master=true
+com.ibm.etools.ui.support.search.engine.WIDForum.master=true
+__DEFAULT__=true

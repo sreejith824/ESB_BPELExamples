@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://SalesManagementService/xslt/Mapping_res_1" domainID="com.ibm.msl.mapping.xml" targetNamespace="http://SalesManagementService/xslt/Mapping_res_1">
+   <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSalesManagementService%252FSalesManagementRef%257DacceptQuoteResponseMsg/xpath%3D%252Fbody/smo.xsd"/>
+   <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSalesManagementService%252FSalesManagementInterface%257DacceptQuoteResponseMsg/xpath%3D%252Fbody/smo.xsd"/>
+   <mappingDeclaration name="Mapping_res_1">
+       <input path="body"/>
+       <output path="body"/>
+   </mappingDeclaration>
+</mappingRoot>

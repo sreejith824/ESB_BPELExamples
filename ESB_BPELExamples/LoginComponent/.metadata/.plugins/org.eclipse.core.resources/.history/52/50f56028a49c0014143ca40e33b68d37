@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:ns1="http://SalesManagementService/SalesManagementInterface" xmlns:ns2="http://SalesManagementService/SalesManagementRef" name="SalesManagementService" targetNamespace="http://SalesManagementService/SalesManagementService">
+  <import location="SalesManagementInterface.wsdl" namespace="http://SalesManagementService/SalesManagementInterface"/>
+  <import location="SalesManagementRef.wsdl" namespace="http://SalesManagementService/SalesManagementRef"/>
+  <reference name="SalesManagementRefPartner" portType="ns2:SalesManagementRef"/>
+  <interface portType="ns1:SalesManagementInterface"/>
+</mediationFlow>

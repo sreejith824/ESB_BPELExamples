@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commonConfigurations="http://LoginModule/commonConfigurations" xmlns:http="http://www.ibm.com/xmlns/prod/websphere/scdl/http/6.1.0" xmlns:ns1="http://LoginModule/LoginModuleInterface" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="LoginMediationHTTPExport" name="LoginMediationHTTPExport" target="LoginModule">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="ns1:LoginModuleInterface"/>
+  </interfaces>
+  <esbBinding xsi:type="http:HTTPExportBinding">
+    <exportInteraction contextPath="/LoginMediationHTTPExport">
+      <httpMethod pingable="false">
+        <httpMethod>POST</httpMethod>
+      </httpMethod>
+    </exportInteraction>
+    <functionSelector>com.ibm.websphere.http.selectors.UrlMethodFunctionSelector</functionSelector>
+    <methodBinding method="loginUser">
+      <exportInteraction contextPath="/loginUser">
+        <httpMethod pingable="false">
+          <httpMethod>POST</httpMethod>
+        </httpMethod>
+      </exportInteraction>
+      <nativeMethod>/LoginMediationHTTPExport/loginUser@POST</nativeMethod>
+      <inputDataBinding>commonConfigurations:JSONDataHandler</inputDataBinding>
+      <outputDataBinding>commonConfigurations:JSONDataHandler2</outputDataBinding>
+    </methodBinding>
+  </esbBinding>
+</scdl:export>

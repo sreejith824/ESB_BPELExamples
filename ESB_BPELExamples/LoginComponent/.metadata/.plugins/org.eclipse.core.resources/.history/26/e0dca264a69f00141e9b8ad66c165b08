@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><bpws:process xmlns:bpws="http://schemas.xmlsoap.org/ws/2004/03/business-process/" xmlns:ns="http://AgreementServcie/AcceptQuoteArtifacts" xmlns:ns0="http://AgreementServcie" xmlns:ns1="http://AgreementServcie/AgreementServiceInterface" xmlns:wpc="http://www.ibm.com/xmlns/prod/websphere/business-process/6.0.0/" expressionLanguage="http://www.ibm.com/xmlns/prod/websphere/business-process/expression-lang/java/6.0.0/" name="AcceptQuote" suppressJoinFailure="yes" targetNamespace="http://AgreementServcie" wpc:continueOnError="no" wpc:displayName="AcceptQuote" wpc:executionMode="microflow" wpc:id="1" wpc:validFrom="2015-01-18T20:05:54" wpc:version="IBM_8.0.100">
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AgreementServiceInterface.wsdl" namespace="http://AgreementServcie/AgreementServiceInterface"/>
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AcceptQuoteArtifacts.wsdl" namespace="http://AgreementServcie/AcceptQuoteArtifacts"/>
+  <bpws:import importType="http://www.w3.org/2001/XMLSchema" location="AgreementDetails.xsd" namespace="http://AgreementServcie"/>
+  <bpws:partnerLinks>
+    <bpws:partnerLink myRole="Interface" name="AgreementServiceInterface" partnerLinkType="ns:AgreementServiceInterfacePLT" wpc:id="2"/>
+  </bpws:partnerLinks>
+  <bpws:variables>
+    <bpws:variable name="inputAgreement" type="ns0:AgreementDetails" wpc:id="6"/>
+    <bpws:variable name="outputAgreement" type="ns0:AgreementDetails" wpc:id="7"/>
+    <bpws:variable name="acceptQuote" type="ns0:AgreementDetails" wpc:id="14"/>
+    <bpws:variable name="acceptQuoteResponse" type="ns0:AgreementDetails" wpc:id="15"/>
+  </bpws:variables>
+  <bpws:sequence name="HiddenSequence" wpc:id="1073741827">
+    <bpws:receive createInstance="yes" name="Receive" operation="acceptQuote" partnerLink="AgreementServiceInterface" portType="ns1:AgreementServiceInterface" wpc:displayName="Receive" wpc:id="4" wpc:transactionalBehavior="commitAfter">
+      <wpc:output>
+        <wpc:parameter name="inputAgreement" variable="acceptQuote"/>
+      </wpc:output>
+    </bpws:receive>
+    <bpws:reply name="Reply" operation="acceptQuote" partnerLink="AgreementServiceInterface" portType="ns1:AgreementServiceInterface" wpc:displayName="Reply" wpc:id="5">
+      <wpc:input>
+        <wpc:parameter name="outputAgreement" variable="acceptQuoteResponse"/>
+      </wpc:input>
+    </bpws:reply>
+  </bpws:sequence>
+</bpws:process>

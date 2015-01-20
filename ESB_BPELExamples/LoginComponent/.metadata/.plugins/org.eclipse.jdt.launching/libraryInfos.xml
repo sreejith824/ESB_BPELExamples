@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><libraryInfos>
+<libraryInfo home="C:\IBM\IntegrationDesigner\v8.0\jdk" version="1.6.0">
+<bootpath>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\vm.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\annotation.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\beans.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\java.util.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\jndi.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\logging.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\security.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\sql.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmorb.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmcfw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\rt.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\charsets.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\resources.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\management-agent.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\xml.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\jlm.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\jdk\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\IBM\AppServer\java\jre" version="1.6.0">
+<bootpath>
+<entry path="C:\IBM\AppServer\java\jre\bin\default\jclSC160\vm.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\annotation.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\beans.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\java.util.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\jndi.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\logging.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\security.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\sql.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmorb.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmcfw.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\rt.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\charsets.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\resources.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\management-agent.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\xml.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\jlm.jar"/>
+<entry path="C:\IBM\AppServer\java\jre\lib\javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\IBM\AppServer\java\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\IBM\AppServer\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre" version="1.6.0">
+<bootpath>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\bin\default\jclSC160\vm.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\annotation.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\beans.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\java.util.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\jndi.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\logging.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\security.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\sql.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmorb.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmcfw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\rt.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\charsets.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\resources.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\management-agent.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\xml.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\jlm.jar"/>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\IBM\IntegrationDesigner\v8.0\runtimes\bi_v8_stub\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://SalesManagementService"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:complexType name="Agreement">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="startDate"
+				type="xsd:date">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="endDate" type="xsd:date"></xsd:element>
+			<xsd:element minOccurs="0" name="state" type="xsd:string"></xsd:element>
+			<xsd:element minOccurs="0" name="benefitPremium"
+				type="xsd:double">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="aimMonth" type="xsd:int"></xsd:element>
+			<xsd:element minOccurs="0" name="aimPercentage"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="term" type="xsd:int"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

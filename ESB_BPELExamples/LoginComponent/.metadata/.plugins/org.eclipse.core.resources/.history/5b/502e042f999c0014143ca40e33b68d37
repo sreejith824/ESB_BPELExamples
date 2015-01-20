@@ -1,0 +1,5 @@
+package za.co.metropolitan.dto;
+
+public class ObjectReferenceDTO {
+
+}

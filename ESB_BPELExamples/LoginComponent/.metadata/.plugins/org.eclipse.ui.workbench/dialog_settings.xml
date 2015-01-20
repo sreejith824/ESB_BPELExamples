@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jpt.jaxb"/>
+			<item value="org.eclipse.gmf.runtime.emf.ui.modeling"/>
+			<item value="org.eclipse.wst.web.ui"/>
+			<item value="org.eclipse.wst.web.ui/com.ibm.etools.struts.wizards"/>
+			<item value="org.eclipse.jst.ws.ui.new"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="57" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="ImportResourcesAction">
+		<item value="com.ibm.wbit.ie.internal.ui.wizards.WIDInterfaceImportWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="com.ibm.wbit.ui.importer"/>
+			<item value="org.eclipse.ui.Other"/>
+		</list>
+	</section>
+	<section name="WIDInterfaceImportWizard">
+		<list key="WIDImportRemotePage.STORE_REMOTE_SOURCE_NAMES_ID">
+			<item value="http://localhost:9083/AgreementServcieWeb/sca/AgreementServiceWSExport/WEB-INF/wsdl/AgreementServcie_WSExport1.wsdl"/>
+		</list>
+	</section>
+	<section name="ShowViewDialog">
+		<item value="208" key="DIALOG_Y_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="813" key="DIALOG_X_ORIGIN"/>
+		<item value="438" key="DIALOG_HEIGHT"/>
+		<item value="311" key="DIALOG_WIDTH"/>
+	</section>
+</section>

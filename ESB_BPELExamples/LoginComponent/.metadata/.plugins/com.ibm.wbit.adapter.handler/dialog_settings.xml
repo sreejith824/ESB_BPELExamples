@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="HTTPExportBindingDialog">
+		<list key="HTTP Export Binding Properties:HTTP_FUNCTION_SELECTOR_SVP__NAME">
+			<item value="com.ibm.websphere.http.selectors.UrlMethodFunctionSelector"/>
+			<item value="com.ibm.wbiserver.functionselector.ConstantFunctionSelector"/>
+		</list>
+		<list key="HTTP Export Binding Properties:HTTP_BINDING_SVP__USER_SUPPLIED_DATA_BINDING_TYPE__NAME">
+			<item value="UTF8XMLDataHandler"/>
+			<item value="JSONDataHandler"/>
+			<item value="UTF8JsonDataHandler"/>
+		</list>
+		<list key="HTTP Export Binding Properties:HTTP_INTERACTION_PG__NAME:URL_SVP__NAME">
+			<item value="/LoginMediation"/>
+			<item value="/LoginMediationExport"/>
+			<item value="/LoginModuleExport"/>
+			<item value="/SalesManagementHttpExport"/>
+			<item value="/AgreementServcieHttpExport"/>
+			<item value="/AgreementServiceHttpExport"/>
+		</list>
+		<section name="">
+			<item value="com.ibm.websphere.http.selectors.UrlMethodFunctionSelector" key="HTTP Export Binding Properties:HTTP_FUNCTION_SELECTOR_SVP__NAME"/>
+			<item value="UTF8JsonDataHandler" key="HTTP Export Binding Properties:HTTP_BINDING_SVP__USER_SUPPLIED_DATA_BINDING_TYPE__NAME"/>
+			<item value="/AgreementServiceHttpExport" key="HTTP Export Binding Properties:HTTP_INTERACTION_PG__NAME:URL_SVP__NAME"/>
+		</section>
+	</section>
+</section>

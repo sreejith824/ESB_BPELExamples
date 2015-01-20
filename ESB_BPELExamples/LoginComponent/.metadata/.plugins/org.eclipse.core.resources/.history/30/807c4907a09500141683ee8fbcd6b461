@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://LoginMediation/xslt/loginResMap" domainID="com.ibm.msl.mapping.xml" targetNamespace="http://LoginMediation/xslt/loginResMap">
+   <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FLoginMediation%252FLoginComponentReference%257DloginResponseMsg/xpath%3D%252F/smo.xsd"/>
+   <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FLoginMediation%252FLoginMediationInterface%257DloginUserResponseMsg/xpath%3D%252F/smo.xsd"/>
+   <mappingDeclaration name="loginResMap">
+       <input path="smo"/>
+       <output path="smo"/>
+   </mappingDeclaration>
+</mappingRoot>

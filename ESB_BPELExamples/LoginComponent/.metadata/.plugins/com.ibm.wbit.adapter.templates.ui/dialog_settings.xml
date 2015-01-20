@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewFromTemplatePage">
+		<item value="!!com.ibm.wbit.adapter.external.category.adapters!!Flat File" key="NewFromTemplatePage.STORE_LAST_SELECTION_ID"/>
+		<list key="NewFromTemplatePage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="!!com.ibm.wbit.adapter.external.category.adapters"/>
+		</list>
+	</section>
+</section>
