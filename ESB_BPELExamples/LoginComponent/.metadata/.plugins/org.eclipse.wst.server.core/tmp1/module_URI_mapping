@@ -1,7 +1,5 @@
-#Tue Jan 20 17:27:59 CAT 2015
-AgreementServiceMediationApp/AgreementServiceMediationWeb=AgreementServiceMediationWeb.war
-AgreementServcieApp/AgreementServcie=AgreementServcie.jar
-LoginModuleApp/LoginModule=LoginModule.jar
+#Fri Jan 23 17:35:26 CAT 2015
 LoginModuleApp/LoginModuleWeb=LoginModuleWeb.war
+AgreementServiceMediationApp/AgreementServiceMediationWeb=AgreementServiceMediationWeb.war
 AgreementServcieApp/AgreementServcieWeb=AgreementServcieWeb.war
 AgreementServiceMediationApp/AgreementServiceMediation=AgreementServiceMediation.jar
