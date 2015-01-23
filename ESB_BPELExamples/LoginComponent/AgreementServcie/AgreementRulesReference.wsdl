@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AgreementRulesReference" targetNamespace="http://AgreementServcie/AgreementRulesReference" xmlns:tns="http://AgreementServcie/AgreementRulesReference" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://AgreementServcie/AgreementRulesReference">
+      <xsd:element name="checkProductValididty">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="productName" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="checkProductValididtyResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="isValid" nillable="true" type="xsd:boolean"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="checkProductValididtyRequestMsg">
+    <wsdl:part element="tns:checkProductValididty" name="checkProductValididtyParameters"/>
+  </wsdl:message>
+    <wsdl:message name="checkProductValididtyResponseMsg">
+    <wsdl:part element="tns:checkProductValididtyResponse" name="checkProductValididtyResult"/>
+  </wsdl:message>
+    <wsdl:portType name="AgreementRulesReference">
+    <wsdl:operation name="checkProductValididty">
+      <wsdl:input message="tns:checkProductValididtyRequestMsg" name="checkProductValididtyRequest"/>
+      <wsdl:output message="tns:checkProductValididtyResponseMsg" name="checkProductValididtyResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

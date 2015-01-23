@@ -1,4 +1,0 @@
-#Tue Jan 06 15:11:29 CAT 2015
-classpath.helper/org.eclipse.jdt.launching.JRE_CONTAINER\:\:org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType\:\:ESB\ JRE/owners=jst.java\:6.0
-classpath.helper/org.eclipse.jst.server.core.container\:\:com.ibm.ws.ast.st.runtime.runtimeTarget.bi.esb\:\:ESB/owners=jst.utility\:1.0
-eclipse.preferences.version=1

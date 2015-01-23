@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema targetNamespace="http://AgreementServcie"
-	xmlns:bons0="http://AgreementServcie"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<xsd:include
-		schemaLocation="../../../../../../AgreementServcie/AgreementDetails.xsd" />
-	<xsd:include schemaLocation="ObjectRefrence.xsd" />
-</xsd:schema>

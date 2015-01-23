@@ -2,7 +2,8 @@
 <projectDescription>
 	<name>AgreementServcie</name>
 	<comment></comment>
-    <projects>
+	<projects>
+		<project>AgreementLibrary</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
