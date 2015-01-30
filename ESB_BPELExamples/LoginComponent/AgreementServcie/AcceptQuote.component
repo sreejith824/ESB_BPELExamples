@@ -6,13 +6,6 @@
     </interface>
   </interfaces>
   <references>
-    <reference name="AgreementRulesReferencePartner">
-      <interface xsi:type="wsdl:WSDLPortType" portType="ns3:AgreementRulesReference"/>
-      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
-      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
-      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
-      <wire target="ProductValidationTable"/>
-    </reference>
     <reference name="AgreeementRulesSCAInterfacePartner">
       <interface xsi:type="wsdl:WSDLPortType" portType="ns4:AgreeementRulesInterface"/>
       <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>

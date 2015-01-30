@@ -4,17 +4,11 @@
       <plnk:portType name="wsdl0:AgreementServiceInterface"/>
     </plnk:role>
   </plnk:partnerLinkType>
-    <plnk:partnerLinkType name="AgreementRulesReferencePartnerPLT">
-    <plnk:role name="Reference">
-      <plnk:portType name="ns2:AgreementRulesReference"/>
-    </plnk:role>
-  </plnk:partnerLinkType>
     <plnk:partnerLinkType name="AgreeementRulesSCAInterfacePartnerPLT">
     <plnk:role name="Reference">
       <plnk:portType name="ns3:AgreeementRulesInterface"/>
     </plnk:role>
   </plnk:partnerLinkType>
     <wsdl:import location="AgreementServiceInterface.wsdl" namespace="http://AgreementServcie/AgreementServiceInterface"/>
-    <wsdl:import location="AgreementRulesReference.wsdl" namespace="http://AgreementServcie/AgreementRulesReference"/>
     <wsdl:import location="AgreeementRulesInterface.wsdl" namespace="http://AgreementRules/AgreeementRulesInterface"/>
 </wsdl:definitions>

@@ -112,3 +112,1140 @@ Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=
 [Jan 23, 2015 17:37:05.344 CAT] 00000036 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:377)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/LoginModule" with build type "full validation and code gen" Details...
 Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=true, wbit.build.kind=6, wbit.build.level=3}
 [Jan 23, 2015 17:37:05.391 CAT] 00000036 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/LoginModule"
+[Jan 23, 2015 17:45:13.323 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:23.338 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 23, 2015 17:45:23.354 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Properties, ID: org.eclipse.ui.views.PropertySheet, Type: org.eclipse.ui.internal.ViewReference
+[Jan 23, 2015 17:45:23.354 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:24.961 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Business Integration, ID: com.ibm.wbit.ui.logicalview.WBILogicalView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 23, 2015 17:45:25.866 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:25.866 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:26.007 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 23, 2015 17:45:28.784 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:28.831 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:28.940 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 23, 2015 17:45:32.201 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 23, 2015 17:45:32.217 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:32.217 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:33.808 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:33.855 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:33.949 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 23, 2015 17:45:39.909 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 23, 2015 17:45:39.909 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 23, 2015 17:45:39.925 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:39.925 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 23, 2015 17:45:39.941 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective closed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 23, 2015 17:45:39.941 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 23, 2015 17:45:39.941 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Business Integration, ID: com.ibm.wbit.ui.logicalview.WBILogicalView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 23, 2015 17:45:39.941 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective closed.  Name: Java EE, ID: org.eclipse.jst.j2ee.J2EEPerspective
+[Jan 23, 2015 17:45:39.941 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Properties, ID: org.eclipse.ui.views.PropertySheet, Type: org.eclipse.ui.internal.ViewReference
+[Jan 23, 2015 17:45:39.956 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 23, 2015 17:45:39.956 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 23, 2015 17:45:39.956 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Enterprise Explorer, ID: com.ibm.etools.ui.navigator.SDExplorer, Type: org.eclipse.ui.internal.ViewReference
+[Jan 23, 2015 17:45:39.956 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Window closed.  Name: IBM Integration Designer 8.0.1.1 - C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent
+[Jan 23, 2015 17:45:45.074 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Workbench session ended
+[Jan 23, 2015 17:45:48.132 CAT] 00000001 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 23, 2015 17:45:48.132 CAT] 00000001 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 23, 2015 17:45:53.204 CAT] 00000001 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 23, 2015 17:45:53.204 CAT] 00000001 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:02:47.601 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Workbench session started
+[Jan 26, 2015 14:02:47.601 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Product name: IBM Integration Designer 8.0.1.1, Product ID: com.ibm.wbit.feature.ide, Product version: 8.0.1.1
+[Jan 26, 2015 14:02:47.824 CAT] 00000031 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler$1:run(SCAServerTraceHandler.java:51)] SERVER Tooling intialized for server "IBM Process Server v8.0 at localhost" Details...
+ID=com.ibm.ws.ast.st.v8.server.bi
+Host=localhost
+Mode=run
+Type=IBM Process Server v8.0
+Modules=LoginModuleApp,AgreementServcieApp
+
+[Jan 26, 2015 14:02:48.065 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:02:49.970 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:02:51.043 CAT] 0000003b bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:02:51.088 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:02:51.751 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:02:51.752 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 26, 2015 14:02:51.771 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:03:00.888 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 26, 2015 14:03:00.919 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:03:06.922 CAT] 00000033 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups for type com.ibm.wbit.runtime.AppClientLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 26, 2015 14:03:06.922 CAT] 00000033 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.launchConfigurationTabGroup for type com.ibm.wbit.runtime.launchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.launchConfigurationTabGroup <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 26, 2015 14:03:06.922 CAT] 00000033 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup for type com.ibm.wbit.runtime.batchProcessLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 26, 2015 14:03:06.981 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Starting" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:03:11.030 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:03:30.837 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:03:33.270 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:04:43.450 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:04:44.447 CAT] 0000003b bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:152)] SERVER State changed to "Started" for server "IBM Process Server v8.0 at localhost" Details...
+Port[1]=ServerPort [, wasServerPort, 9083, HTTP]
+Port[2]=ServerPort [, wasServerPort, 80, HTTP]
+Port[3]=ServerPort [, wasServerPort, 9446, HTTP]
+Port[4]=ServerPort [, wasServerPort, 5067, HTTP]
+Port[5]=ServerPort [, wasServerPort, 5066, HTTP]
+Port[6]=ServerPort [, wasServerPort, 443, HTTP]
+Connection Properties ={javax.net.ssl.trustStore=C:/IBM/IntegrationDesigner/v8.0/runtimes/base_stub/etc/trust.p12, port=2812, securityEnabled=true, java.protocol.handler.pkgs=com.ibm.net.ssl.www.protocol, username=wasadmin, javax.net.ssl.keyStoreType=PKCS12, javax.net.ssl.trustStoreType=PKCS12, javax.net.ssl.keyStore=C:/IBM/IntegrationDesigner/v8.0/runtimes/base_stub/etc/key.p12, type=JSR160RMI, javax.net.ssl.trustStorePassword=*****, javax.net.ssl.keyStorePassword=*****, password=********, host=localhost}
+
+[Jan 26, 2015 14:04:44.483 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:637)] PUBLISH START (PUBLISH_INCREMENTAL) Server = IBM Process Server v8.0 at localhost
+[Jan 26, 2015 14:04:44.483 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:669)] PUBLISH Default - publish all
+[Jan 26, 2015 14:04:44.613 CAT] 0000003b bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:44.645 CAT] 0000003b bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:44.702 CAT] 00000033 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Exception loading pre-publish extensions:  CoreException(Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.) Details...
+org.eclipse.core.runtime.CoreException: Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPublishers(ExtensionPointHelper.java:71)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPrePublishers(ExtensionPointHelper.java:37)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publishModules(SCAServerBehaviour.java:848)
+	at com.ibm.wbit.runtime.v61.WBIServerBehaviour.publishModules(WBIServerBehaviour.java:47)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publish(SCAServerBehaviour.java:671)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 13 more
+
+[Jan 26, 2015 14:04:44.702 CAT] 00000033 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Var_1=com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+[Jan 26, 2015 14:04:44.715 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:44.717 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:44.757 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:44.758 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:44.944 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:52.291 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:52.332 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:57.555 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:58.805 CAT] 00000080 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:04:59.052 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:05:00.834 CAT] 00000080 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:05:00.859 CAT] 00000080 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:05:00.862 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:05:02.406 CAT] 00000080 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:05:03.075 CAT] 00000033 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Exception loading pre-publish extensions:  CoreException(Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.) Details...
+org.eclipse.core.runtime.CoreException: Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPublishers(ExtensionPointHelper.java:71)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPostPublishers(ExtensionPointHelper.java:47)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publishModules(SCAServerBehaviour.java:866)
+	at com.ibm.wbit.runtime.v61.WBIServerBehaviour.publishModules(WBIServerBehaviour.java:47)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publish(SCAServerBehaviour.java:671)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 13 more
+
+[Jan 26, 2015 14:05:03.075 CAT] 00000033 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Var_1=com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+[Jan 26, 2015 14:05:03.076 CAT] 00000033 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:719)] PUBLISH END
+[Jan 26, 2015 14:05:09.640 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:05:09.686 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Admin Console, ID: org.eclipse.ui.browser.editor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:05:09.707 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Admin Console, ID: org.eclipse.ui.browser.editor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:05:09.708 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 26, 2015 14:06:06.383 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:06:08.656 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Admin Console, ID: org.eclipse.ui.browser.editor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:06:10.458 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 26, 2015 14:06:10.497 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:07:31.991 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Business Integration, ID: com.ibm.wbit.ui.logicalview.WBILogicalView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:07:32.303 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:07:34.605 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Enterprise Explorer, ID: com.ibm.etools.ui.navigator.SDExplorer, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:07:34.620 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective activated.  Name: Java EE, ID: org.eclipse.jst.j2ee.J2EEPerspective
+[Jan 26, 2015 14:07:36.973 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Enterprise Explorer, ID: com.ibm.etools.ui.navigator.SDExplorer, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:07:44.983 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Security Editor [AgreementServcieWeb], ID: com.ibm.etools.webtools.security.editor.internal.editorpart.SecurityEditorPart, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:07:44.998 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Security Editor [AgreementServcieWeb], ID: com.ibm.etools.webtools.security.editor.internal.editorpart.SecurityEditorPart, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:07:44.998 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Java EE, ID: org.eclipse.jst.j2ee.J2EEPerspective
+[Jan 26, 2015 14:07:46.112 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Enterprise Explorer, ID: com.ibm.etools.ui.navigator.SDExplorer, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:08:03.472 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Security Editor [AgreementServcieWeb], ID: com.ibm.etools.webtools.security.editor.internal.editorpart.SecurityEditorPart, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:08:10.799 CAT] 00000034 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/LoginModule" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=10, wbit.build.level=3}
+Delta = [{F/LoginModule/za,4}[{F/LoginModule/za/co,4}[{F/LoginModule/za/co/metropolitan,4}[{F/LoginModule/za/co/metropolitan/khula,4}[{F/LoginModule/za/co/metropolitan/khula/login,4}[{L/LoginModule/za/co/metropolitan/khula/login/LoginComponentImpl.class,1}]]]]]]
+[Jan 26, 2015 14:08:10.810 CAT] 00000034 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/LoginModule"
+[Jan 26, 2015 14:08:14.290 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 14:08:15.542 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:637)] PUBLISH START (PUBLISH_INCREMENTAL) Server = IBM Process Server v8.0 at localhost
+[Jan 26, 2015 14:08:15.542 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:669)] PUBLISH Default - publish all
+[Jan 26, 2015 14:08:15.609 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:15.610 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:15.636 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:15.637 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:15.726 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:15.727 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:15.738 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:17.707 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:19.017 CAT] 00000080 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:20.132 CAT] 00000080 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:20.178 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:719)] PUBLISH END
+[Jan 26, 2015 14:08:21.926 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Security Editor [AgreementServcieWeb], ID: com.ibm.etools.webtools.security.editor.internal.editorpart.SecurityEditorPart, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:08:21.927 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Java EE, ID: org.eclipse.jst.j2ee.J2EEPerspective
+[Jan 26, 2015 14:08:21.963 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:08:21.967 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Security Editor [AgreementServcieWeb], ID: com.ibm.etools.webtools.security.editor.internal.editorpart.SecurityEditorPart, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:08:22.908 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Admin Console, ID: org.eclipse.ui.browser.editor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:08:23.032 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:08:25.117 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Admin Console, ID: org.eclipse.ui.browser.editor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 14:08:46.676 CAT] 00000080 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:47.711 CAT] 00000080 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 14:08:49.740 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 15:16:33.657 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Workbench session started
+[Jan 26, 2015 15:16:33.672 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Product name: IBM Integration Designer 8.0.1.1, Product ID: com.ibm.wbit.feature.ide, Product version: 8.0.1.1
+[Jan 26, 2015 15:16:34.960 CAT] 00000034 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler$1:run(SCAServerTraceHandler.java:51)] SERVER Tooling intialized for server "IBM Process Server v8.0 at localhost" Details...
+ID=com.ibm.ws.ast.st.v8.server.bi
+Host=localhost
+Mode=run
+Type=IBM Process Server v8.0
+Modules=LoginModuleApp,AgreementServcieApp
+
+[Jan 26, 2015 15:16:35.283 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 15:16:37.565 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 15:16:38.284 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/LoginModule" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{F/LoginModule/za,4}[{F/LoginModule/za/co,4}[{F/LoginModule/za/co/metropolitan,4}[{F/LoginModule/za/co/metropolitan/khula,4}[{F/LoginModule/za/co/metropolitan/khula/login,4}[{L/LoginModule/za/co/metropolitan/khula/login/LoginComponentImpl.class,1}]]]]]]
+[Jan 26, 2015 15:16:38.284 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/LoginModule"
+[Jan 26, 2015 15:16:40.060 CAT] 0000003a bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 15:16:40.148 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 15:39:30.957 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 17:14:29.693 CAT] 00000016 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups for type com.ibm.wbit.runtime.AppClientLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 26, 2015 17:14:29.693 CAT] 00000016 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.launchConfigurationTabGroup for type com.ibm.wbit.runtime.launchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.launchConfigurationTabGroup <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 26, 2015 17:14:29.693 CAT] 00000016 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup for type com.ibm.wbit.runtime.batchProcessLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 26, 2015 17:14:34.902 CAT] 00000016 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Starting" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:14:34.933 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 17:14:57.860 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 17:15:56.461 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Business Integration, ID: com.ibm.wbit.ui.logicalview.WBILogicalView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 17:15:59.715 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 17:16:16.812 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 17:16:17.971 CAT] 0000003a bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:152)] SERVER State changed to "Started" for server "IBM Process Server v8.0 at localhost" Details...
+Port[1]=ServerPort [, wasServerPort, 9083, HTTP]
+Port[2]=ServerPort [, wasServerPort, 80, HTTP]
+Port[3]=ServerPort [, wasServerPort, 9446, HTTP]
+Port[4]=ServerPort [, wasServerPort, 5067, HTTP]
+Port[5]=ServerPort [, wasServerPort, 5066, HTTP]
+Port[6]=ServerPort [, wasServerPort, 443, HTTP]
+Connection Properties ={javax.net.ssl.trustStore=C:/IBM/IntegrationDesigner/v8.0/runtimes/base_stub/etc/trust.p12, port=2812, securityEnabled=true, java.protocol.handler.pkgs=com.ibm.net.ssl.www.protocol, username=wasadmin, javax.net.ssl.keyStoreType=PKCS12, javax.net.ssl.trustStoreType=PKCS12, javax.net.ssl.keyStore=C:/IBM/IntegrationDesigner/v8.0/runtimes/base_stub/etc/key.p12, type=JSR160RMI, javax.net.ssl.trustStorePassword=*****, javax.net.ssl.keyStorePassword=*****, password=********, host=localhost}
+
+[Jan 26, 2015 17:16:17.990 CAT] 00000016 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:637)] PUBLISH START (PUBLISH_INCREMENTAL) Server = IBM Process Server v8.0 at localhost
+[Jan 26, 2015 17:16:17.991 CAT] 00000016 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:669)] PUBLISH Default - publish all
+[Jan 26, 2015 17:16:18.157 CAT] 0000003a bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:16:18.183 CAT] 00000016 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Exception loading pre-publish extensions:  CoreException(Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.) Details...
+org.eclipse.core.runtime.CoreException: Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPublishers(ExtensionPointHelper.java:71)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPrePublishers(ExtensionPointHelper.java:37)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publishModules(SCAServerBehaviour.java:848)
+	at com.ibm.wbit.runtime.v61.WBIServerBehaviour.publishModules(WBIServerBehaviour.java:47)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publish(SCAServerBehaviour.java:671)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 13 more
+
+[Jan 26, 2015 17:16:18.183 CAT] 00000016 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Var_1=com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+[Jan 26, 2015 17:16:18.191 CAT] 0000003a bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:16:18.198 CAT] 00000016 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:16:18.237 CAT] 00000016 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:16:18.237 CAT] 00000016 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:16:18.263 CAT] 00000016 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:16:18.449 CAT] 00000016 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Exception loading pre-publish extensions:  CoreException(Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.) Details...
+org.eclipse.core.runtime.CoreException: Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPublishers(ExtensionPointHelper.java:71)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPostPublishers(ExtensionPointHelper.java:47)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publishModules(SCAServerBehaviour.java:866)
+	at com.ibm.wbit.runtime.v61.WBIServerBehaviour.publishModules(WBIServerBehaviour.java:47)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publish(SCAServerBehaviour.java:671)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 13 more
+
+[Jan 26, 2015 17:16:18.449 CAT] 00000016 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Var_1=com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+[Jan 26, 2015 17:16:18.450 CAT] 00000016 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:719)] PUBLISH END
+[Jan 26, 2015 17:17:31.327 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 17:17:39.190 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 17:18:05.819 CAT] 00000096 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{F/AgreementServcie/Rules,4}[{L/AgreementServcie/Rules/Component1.brg,2},{L/AgreementServcie/Rules/Component1.brgt,2},{L/AgreementServcie/Rules/Component1_brg.mon,2},{L/AgreementServcie/Rules/checkProductValididty.dtable,2}]]
+[Jan 26, 2015 17:18:06.419 CAT] 00000096 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 26, 2015 17:18:06.646 CAT] 00000016 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AcceptQuote.component,4},{L/AgreementServcie/ProductValidationTable.component,2},{L/AgreementServcie/sca.modulex,4}]
+[Jan 26, 2015 17:18:07.055 CAT] 00000016 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 26, 2015 17:18:07.063 CAT] 00000016 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AcceptQuote.component,4},{L/AgreementServcie/ProductValidationTable.component,2},{F/AgreementServcie/Rules,4}[{L/AgreementServcie/Rules/Component1.brg,2},{L/AgreementServcie/Rules/Component1.brgt,2},{L/AgreementServcie/Rules/Component1_brg.mon,2},{L/AgreementServcie/Rules/checkProductValididty.dtable,2}],{L/AgreementServcie/sca.modulex,4}]
+[Jan 26, 2015 17:18:07.163 CAT] 00000016 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie"
+[Jan 26, 2015 17:18:08.228 CAT] 00000096 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/ProductValidationTable_component.mon,2}]
+[Jan 26, 2015 17:18:08.228 CAT] 00000096 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 26, 2015 17:18:08.228 CAT] 00000096 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/ProductValidationTable_component.mon,2}]
+[Jan 26, 2015 17:18:08.243 CAT] 00000096 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie"
+[Jan 26, 2015 17:18:17.783 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 17:18:25.911 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 17:18:31.575 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Properties, ID: org.eclipse.ui.views.PropertySheet, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 17:18:38.517 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 26, 2015 17:18:47.396 CAT] 00000096 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AcceptQuote.bpel,4},{L/AgreementServcie/AcceptQuote.bpelex,4},{L/AgreementServcie/AcceptQuote.component,4},{L/AgreementServcie/AcceptQuoteArtifacts.wsdl,4},{L/AgreementServcie/sca.modulex,4}]
+[Jan 26, 2015 17:18:47.974 CAT] 00000096 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 26, 2015 17:18:47.977 CAT] 00000096 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AcceptQuote.bpel,4},{L/AgreementServcie/AcceptQuote.bpelex,4},{L/AgreementServcie/AcceptQuote.component,4},{L/AgreementServcie/AcceptQuoteArtifacts.wsdl,4},{L/AgreementServcie/sca.modulex,4}]
+[Jan 26, 2015 17:18:48.753 CAT] 00000096 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie"
+[Jan 26, 2015 17:18:59.668 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 26, 2015 17:19:02.648 CAT] 00000096 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:637)] PUBLISH START (PUBLISH_INCREMENTAL) Server = IBM Process Server v8.0 at localhost
+[Jan 26, 2015 17:19:02.648 CAT] 00000096 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:669)] PUBLISH Default - publish all
+[Jan 26, 2015 17:19:02.726 CAT] 00000096 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:19:02.742 CAT] 00000096 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:19:02.742 CAT] 00000096 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:19:02.742 CAT] 00000096 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:19:02.898 CAT] 00000096 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:19:06.888 CAT] 00000096 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:19:08.017 CAT] 00000134 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:19:09.428 CAT] 00000134 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 17:19:09.739 CAT] 00000096 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:719)] PUBLISH END
+[Jan 26, 2015 19:10:10.711 CAT] 00000016 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopping" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 19:10:13.988 CAT] 0000003a bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 19:10:13.988 CAT] 0000003a bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 26, 2015 19:10:18.997 CAT] 0000003a bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 27, 2015 08:10:36.730 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 27, 2015 08:10:38.662 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 27, 2015 08:10:40.191 CAT] 0000008d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Starting" for server "IBM Process Server v8.0 at localhost"
+[Jan 27, 2015 08:10:40.207 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 27, 2015 08:11:59.621 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 27, 2015 08:12:00.520 CAT] 0000003a bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:152)] SERVER State changed to "Started" for server "IBM Process Server v8.0 at localhost" Details...
+Port[1]=ServerPort [, wasServerPort, 9083, HTTP]
+Port[2]=ServerPort [, wasServerPort, 80, HTTP]
+Port[3]=ServerPort [, wasServerPort, 9446, HTTP]
+Port[4]=ServerPort [, wasServerPort, 5067, HTTP]
+Port[5]=ServerPort [, wasServerPort, 5066, HTTP]
+Port[6]=ServerPort [, wasServerPort, 443, HTTP]
+Connection Properties ={javax.net.ssl.trustStore=C:/IBM/IntegrationDesigner/v8.0/runtimes/base_stub/etc/trust.p12, port=2812, securityEnabled=true, java.protocol.handler.pkgs=com.ibm.net.ssl.www.protocol, username=wasadmin, javax.net.ssl.keyStoreType=PKCS12, javax.net.ssl.trustStoreType=PKCS12, javax.net.ssl.keyStore=C:/IBM/IntegrationDesigner/v8.0/runtimes/base_stub/etc/key.p12, type=JSR160RMI, javax.net.ssl.trustStorePassword=*****, javax.net.ssl.keyStorePassword=*****, password=********, host=localhost}
+
+[Jan 27, 2015 08:12:00.642 CAT] 0000003a bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 27, 2015 08:12:00.657 CAT] 0000003a bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 27, 2015 09:26:47.461 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 27, 2015 17:26:20.864 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 27, 2015 17:26:20.864 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 27, 2015 17:26:20.881 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 27, 2015 17:26:20.889 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 27, 2015 17:26:20.913 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective closed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 27, 2015 17:26:20.916 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 27, 2015 17:26:20.925 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Business Integration, ID: com.ibm.wbit.ui.logicalview.WBILogicalView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 27, 2015 17:26:20.933 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective closed.  Name: Java EE, ID: org.eclipse.jst.j2ee.J2EEPerspective
+[Jan 27, 2015 17:26:20.933 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Properties, ID: org.eclipse.ui.views.PropertySheet, Type: org.eclipse.ui.internal.ViewReference
+[Jan 27, 2015 17:26:20.935 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 27, 2015 17:26:20.938 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 27, 2015 17:26:20.943 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Window closed.  Name: IBM Integration Designer 8.0.1.1 - C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent
+[Jan 27, 2015 17:26:26.128 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Workbench session ended
+[Jan 27, 2015 17:26:29.695 CAT] 00000001 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 27, 2015 17:26:29.695 CAT] 00000001 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 27, 2015 17:26:34.728 CAT] 00000001 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 28, 2015 10:00:54.391 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Workbench session started
+[Jan 28, 2015 10:00:54.396 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Product name: IBM Integration Designer 8.0.1.1, Product ID: com.ibm.wbit.feature.ide, Product version: 8.0.1.1
+[Jan 28, 2015 10:00:55.692 CAT] 00000029 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler$1:run(SCAServerTraceHandler.java:51)] SERVER Tooling intialized for server "IBM Process Server v8.0 at localhost" Details...
+ID=com.ibm.ws.ast.st.v8.server.bi
+Host=localhost
+Mode=run
+Type=IBM Process Server v8.0
+Modules=LoginModuleApp,AgreementServcieApp
+
+[Jan 28, 2015 10:00:56.754 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 28, 2015 10:00:57.639 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementLibrary" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.639 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementLibrary"
+[Jan 28, 2015 10:00:57.842 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementLibrary" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.843 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementLibrary"
+[Jan 28, 2015 10:00:57.844 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementRules" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.845 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:460)] BUILD Processing file(s) from dependant project "P/AgreementLibrary" for project "P/AgreementRules" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.847 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementRules"
+[Jan 28, 2015 10:00:57.852 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementRules" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.853 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:460)] BUILD Processing file(s) from dependant project "P/AgreementLibrary" for project "P/AgreementRules" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.854 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementRules"
+[Jan 28, 2015 10:00:57.882 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.883 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:460)] BUILD Processing file(s) from dependant project "P/AgreementLibrary" for project "P/AgreementServcie" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.884 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 28, 2015 10:00:57.889 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.890 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:460)] BUILD Processing file(s) from dependant project "P/AgreementLibrary" for project "P/AgreementServcie" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.891 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie"
+[Jan 28, 2015 10:00:57.905 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/LoginModule" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.907 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/LoginModule"
+[Jan 28, 2015 10:00:57.946 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/LoginModule" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = 
+[Jan 28, 2015 10:00:57.948 CAT] 0000002d bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/LoginModule"
+[Jan 28, 2015 10:00:58.028 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 28, 2015 10:00:59.124 CAT] 00000039 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 28, 2015 10:00:59.171 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 28, 2015 10:01:19.630 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 28, 2015 10:01:24.344 CAT] 00000029 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups for type com.ibm.wbit.runtime.AppClientLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 28, 2015 10:01:24.344 CAT] 00000029 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.launchConfigurationTabGroup for type com.ibm.wbit.runtime.launchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.launchConfigurationTabGroup <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 28, 2015 10:01:24.344 CAT] 00000029 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup for type com.ibm.wbit.runtime.batchProcessLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 28, 2015 10:01:24.406 CAT] 00000029 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Starting" for server "IBM Process Server v8.0 at localhost"
+[Jan 28, 2015 10:01:26.695 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 28, 2015 10:02:02.113 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 28, 2015 10:02:03.716 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 28, 2015 10:03:00.424 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 28, 2015 10:03:05.584 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 28, 2015 10:03:06.344 CAT] 00000039 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:152)] SERVER State changed to "Started" for server "IBM Process Server v8.0 at localhost" Details...
+Port[1]=ServerPort [, wasServerPort, 9083, HTTP]
+Port[2]=ServerPort [, wasServerPort, 80, HTTP]
+Port[3]=ServerPort [, wasServerPort, 9446, HTTP]
+Port[4]=ServerPort [, wasServerPort, 5067, HTTP]
+Port[5]=ServerPort [, wasServerPort, 5066, HTTP]
+Port[6]=ServerPort [, wasServerPort, 443, HTTP]
+Connection Properties ={javax.net.ssl.trustStore=C:/IBM/IntegrationDesigner/v8.0/runtimes/base_stub/etc/trust.p12, port=2812, securityEnabled=true, java.protocol.handler.pkgs=com.ibm.net.ssl.www.protocol, username=wasadmin, javax.net.ssl.keyStoreType=PKCS12, javax.net.ssl.trustStoreType=PKCS12, javax.net.ssl.keyStore=C:/IBM/IntegrationDesigner/v8.0/runtimes/base_stub/etc/key.p12, type=JSR160RMI, javax.net.ssl.trustStorePassword=*****, javax.net.ssl.keyStorePassword=*****, password=********, host=localhost}
+
+[Jan 28, 2015 10:03:06.384 CAT] 0000002c bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:637)] PUBLISH START (PUBLISH_INCREMENTAL) Server = IBM Process Server v8.0 at localhost
+[Jan 28, 2015 10:03:06.384 CAT] 0000002c bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:669)] PUBLISH Default - publish all
+[Jan 28, 2015 10:03:06.495 CAT] 00000039 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 28, 2015 10:03:06.510 CAT] 0000002c bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Exception loading pre-publish extensions:  CoreException(Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.) Details...
+org.eclipse.core.runtime.CoreException: Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPublishers(ExtensionPointHelper.java:71)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPrePublishers(ExtensionPointHelper.java:37)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publishModules(SCAServerBehaviour.java:848)
+	at com.ibm.wbit.runtime.v61.WBIServerBehaviour.publishModules(WBIServerBehaviour.java:47)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publish(SCAServerBehaviour.java:671)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 13 more
+
+[Jan 28, 2015 10:03:06.510 CAT] 0000002c bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Var_1=com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+[Jan 28, 2015 10:03:06.526 CAT] 00000039 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 28, 2015 10:03:06.526 CAT] 0000002c bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 28, 2015 10:03:06.526 CAT] 0000002c bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 28, 2015 10:03:06.541 CAT] 0000002c bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 28, 2015 10:03:06.541 CAT] 0000002c bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 28, 2015 10:03:06.695 CAT] 0000002c bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Exception loading pre-publish extensions:  CoreException(Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.) Details...
+org.eclipse.core.runtime.CoreException: Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPublishers(ExtensionPointHelper.java:71)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPostPublishers(ExtensionPointHelper.java:47)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publishModules(SCAServerBehaviour.java:866)
+	at com.ibm.wbit.runtime.v61.WBIServerBehaviour.publishModules(WBIServerBehaviour.java:47)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publish(SCAServerBehaviour.java:671)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 13 more
+
+[Jan 28, 2015 10:03:06.695 CAT] 0000002c bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Var_1=com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+[Jan 28, 2015 10:03:06.696 CAT] 0000002c bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:719)] PUBLISH END
+[Jan 29, 2015 10:07:03.425 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Workbench session started
+[Jan 29, 2015 10:07:03.438 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Product name: IBM Integration Designer 8.0.1.1, Product ID: com.ibm.wbit.feature.ide, Product version: 8.0.1.1
+[Jan 29, 2015 10:07:04.894 CAT] 00000016 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler$1:run(SCAServerTraceHandler.java:51)] SERVER Tooling intialized for server "IBM Process Server v8.0 at localhost" Details...
+ID=com.ibm.ws.ast.st.v8.server.bi
+Host=localhost
+Mode=run
+Type=IBM Process Server v8.0
+Modules=LoginModuleApp,AgreementServcieApp
+
+[Jan 29, 2015 10:07:06.754 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 29, 2015 10:07:07.552 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:377)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementLibrary" with build type "full validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=6, wbit.build.level=3}
+[Jan 29, 2015 10:07:08.313 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 29, 2015 10:07:09.516 CAT] 0000003d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:07:09.641 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 29, 2015 10:07:10.879 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementLibrary"
+[Jan 29, 2015 10:07:11.129 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:377)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementLibrary" with build type "full validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=6, wbit.build.level=3}
+[Jan 29, 2015 10:07:11.301 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementLibrary"
+[Jan 29, 2015 10:07:11.301 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:377)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementRules" with build type "full validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=6, wbit.build.level=3}
+[Jan 29, 2015 10:07:11.458 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementRules"
+[Jan 29, 2015 10:07:11.458 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:377)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementRules" with build type "full validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=6, wbit.build.level=3}
+[Jan 29, 2015 10:07:11.520 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementRules"
+[Jan 29, 2015 10:07:11.552 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:377)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "full validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=6, wbit.build.level=3}
+[Jan 29, 2015 10:07:11.786 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 29, 2015 10:07:11.786 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:377)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie" with build type "full validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=6, wbit.build.level=3}
+[Jan 29, 2015 10:07:11.833 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie"
+[Jan 29, 2015 10:07:11.880 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:377)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/LoginModule" with build type "full validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=6, wbit.build.level=3}
+[Jan 29, 2015 10:07:12.615 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/LoginModule"
+[Jan 29, 2015 10:07:13.063 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:377)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/LoginModule" with build type "full validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=6, wbit.build.level=3}
+[Jan 29, 2015 10:07:13.209 CAT] 00000037 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/LoginModule"
+[Jan 29, 2015 10:07:23.386 CAT] 00000036 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/LoginModule" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{F/LoginModule/za,4}[{F/LoginModule/za/co,4}[{F/LoginModule/za/co/metropolitan,4}[{F/LoginModule/za/co/metropolitan/khula,4}[{F/LoginModule/za/co/metropolitan/khula/login,4}[{L/LoginModule/za/co/metropolitan/khula/login/LoginComponentImpl.class,4}]]]]]]
+[Jan 29, 2015 10:07:23.387 CAT] 00000036 bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/LoginModule"
+[Jan 29, 2015 10:10:25.550 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 29, 2015 10:10:27.848 CAT] 0000002d bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups for type com.ibm.wbit.runtime.AppClientLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 29, 2015 10:10:27.848 CAT] 0000002d bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.launchConfigurationTabGroup for type com.ibm.wbit.runtime.launchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.launchConfigurationTabGroup <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 29, 2015 10:10:27.849 CAT] 0000002d bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup for type com.ibm.wbit.runtime.batchProcessLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Jan 29, 2015 10:10:27.997 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Starting" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:10:31.371 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 29, 2015 10:12:18.812 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 29, 2015 10:12:19.757 CAT] 0000003d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:152)] SERVER State changed to "Started" for server "IBM Process Server v8.0 at localhost" Details...
+Port[1]=ServerPort [, wasServerPort, 9083, HTTP]
+Port[2]=ServerPort [, wasServerPort, 80, HTTP]
+Port[3]=ServerPort [, wasServerPort, 9446, HTTP]
+Port[4]=ServerPort [, wasServerPort, 5067, HTTP]
+Port[5]=ServerPort [, wasServerPort, 5066, HTTP]
+Port[6]=ServerPort [, wasServerPort, 443, HTTP]
+Connection Properties ={javax.net.ssl.trustStoreType=PKCS12, javax.net.ssl.keyStorePassword=*****, password=********, authTarget=BasicAuth, type=IPC, krb5Ccache=, javax.net.ssl.keyStore=C:/IBM/IntegrationDesigner/v8.0/runtimes/base_stub/etc/key.p12, username=wasadmin, javax.net.ssl.keyStoreType=PKCS12, javax.net.ssl.trustStorePassword=*****, port=9636, securityEnabled=true, krb5Config=, host=localhost, loginsource=prompt, com.ibm.IPC.requestTimeout=180, javax.net.ssl.trustStore=C:/IBM/IntegrationDesigner/v8.0/runtimes/base_stub/etc/trust.p12, krb5Service=, timeToExpiration=360, java.protocol.handler.pkgs=com.ibm.net.ssl.www.protocol}
+
+[Jan 29, 2015 10:12:19.788 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:637)] PUBLISH START (PUBLISH_INCREMENTAL) Server = IBM Process Server v8.0 at localhost
+[Jan 29, 2015 10:12:19.788 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:669)] PUBLISH Default - publish all
+[Jan 29, 2015 10:12:19.878 CAT] 0000003d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:12:19.907 CAT] 0000003d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:12:19.950 CAT] 0000002d bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Exception loading pre-publish extensions:  CoreException(Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.) Details...
+org.eclipse.core.runtime.CoreException: Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPublishers(ExtensionPointHelper.java:71)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPrePublishers(ExtensionPointHelper.java:37)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publishModules(SCAServerBehaviour.java:848)
+	at com.ibm.wbit.runtime.v61.WBIServerBehaviour.publishModules(WBIServerBehaviour.java:47)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publish(SCAServerBehaviour.java:671)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 13 more
+
+[Jan 29, 2015 10:12:19.950 CAT] 0000002d bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Var_1=com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+[Jan 29, 2015 10:12:19.959 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:12:19.961 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:12:19.988 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:12:19.989 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:12:20.129 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:12:27.654 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:12:28.803 CAT] 00000083 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:12:30.657 CAT] 00000083 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 29, 2015 10:12:30.719 CAT] 0000002d bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Exception loading pre-publish extensions:  CoreException(Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.) Details...
+org.eclipse.core.runtime.CoreException: Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPublishers(ExtensionPointHelper.java:71)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPostPublishers(ExtensionPointHelper.java:47)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publishModules(SCAServerBehaviour.java:866)
+	at com.ibm.wbit.runtime.v61.WBIServerBehaviour.publishModules(WBIServerBehaviour.java:47)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:956)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publish(SCAServerBehaviour.java:671)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:626)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 13 more
+
+[Jan 29, 2015 10:12:30.720 CAT] 0000002d bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Var_1=com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+[Jan 29, 2015 10:12:30.720 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:719)] PUBLISH END
+[Jan 29, 2015 11:25:07.367 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 29, 2015 11:25:08.755 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 29, 2015 11:25:11.404 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Admin Console, ID: org.eclipse.ui.browser.editor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 29, 2015 11:25:11.423 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Admin Console, ID: org.eclipse.ui.browser.editor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 29, 2015 11:25:11.424 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 29, 2015 11:26:19.766 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 30, 2015 13:53:26.134 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 30, 2015 13:53:26.149 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 30, 2015 13:53:51.565 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 30, 2015 13:53:51.565 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 30, 2015 13:53:55.541 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Business Integration, ID: com.ibm.wbit.ui.logicalview.WBILogicalView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 30, 2015 13:53:55.713 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementServcie - Assembly Diagram, ID: com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 30, 2015 13:53:57.254 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AcceptQuote, ID: com.ibm.wbit.bpel.ui.bpeleditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 30, 2015 13:54:01.508 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Business Integration, ID: com.ibm.wbit.ui.logicalview.WBILogicalView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 30, 2015 13:54:03.448 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Properties, ID: org.eclipse.ui.views.PropertySheet, Type: org.eclipse.ui.internal.ViewReference
+[Jan 30, 2015 13:54:03.463 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: AgreementDetails, ID: com.ibm.wbit.bo.ui.boeditor.BOEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 30, 2015 13:54:03.495 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementDetails, ID: com.ibm.wbit.bo.ui.boeditor.BOEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 30, 2015 13:54:03.666 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Jan 30, 2015 14:15:55.808 CAT] 00000001 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench". NullPointerException(null) Details...
+java.lang.NullPointerException
+	at com.ibm.wbit.bo.ui.internal.boeditor.BOEditor.labelProviderChanged(BOEditor.java:1935)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:430)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:428)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:530)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.dialogs.AbstractElementListSelectionDialog.open(AbstractElementListSelectionDialog.java:422)
+	at com.ibm.wbit.ui.SelectionDialog.open(SelectionDialog.java:534)
+	at com.ibm.wbit.ui.internal.commonselection.DialogSelectionField.handleLightWeightBrowseSelection(DialogSelectionField.java:664)
+	at com.ibm.wbit.ui.internal.commonselection.DialogSelectionField.getSelection(DialogSelectionField.java:595)
+	at com.ibm.wbit.ui.ArtifactSelectionCellEditor.doGetValue(ArtifactSelectionCellEditor.java:436)
+	at org.eclipse.jface.viewers.CellEditor.getValue(CellEditor.java:480)
+	at com.ibm.wbit.bo.ui.internal.boeditor.editparts.InternalBOAttributeEditPart.getCommand(InternalBOAttributeEditPart.java:329)
+	at org.eclipse.gef.tools.DirectEditManager.commit(DirectEditManager.java:144)
+	at org.eclipse.gef.tools.DirectEditManager$4.applyEditorValue(DirectEditManager.java:298)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at com.ibm.wbit.ui.ArtifactSelectionCellEditor.applyEditor(ArtifactSelectionCellEditor.java:340)
+	at com.ibm.wbit.ui.ArtifactSelectionCellEditor$3.handleEvent(ArtifactSelectionCellEditor.java:182)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+[Jan 30, 2015 14:16:03.014 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AgreementDetails.xsd,4}]
+[Jan 30, 2015 14:16:03.197 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 30, 2015 14:16:03.203 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AgreementDetails.xsd,4}]
+[Jan 30, 2015 14:16:03.205 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie"
+[Jan 30, 2015 14:16:20.991 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AgreementDetails.xsd,4}]
+[Jan 30, 2015 14:16:21.105 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 30, 2015 14:16:21.109 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AgreementDetails.xsd,4}]
+[Jan 30, 2015 14:16:21.111 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie"
+[Jan 30, 2015 14:16:23.574 CAT] 0000024a bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AgreementDetails.xsd,4}]
+[Jan 30, 2015 14:16:23.716 CAT] 0000024a bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 30, 2015 14:16:23.732 CAT] 0000024a bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AgreementDetails.xsd,4}]
+[Jan 30, 2015 14:16:23.732 CAT] 0000024a bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie"
+[Jan 30, 2015 14:17:00.819 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AgreementDetails.xsd,4}]
+[Jan 30, 2015 14:17:00.949 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 30, 2015 14:17:00.953 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AgreementDetails.xsd,4}]
+[Jan 30, 2015 14:17:00.955 CAT] 000000ad bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie"
+[Jan 30, 2015 14:17:04.849 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 30, 2015 14:17:08.675 CAT] 00000262 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:637)] PUBLISH START (PUBLISH_INCREMENTAL) Server = IBM Process Server v8.0 at localhost
+[Jan 30, 2015 14:17:08.675 CAT] 00000262 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:669)] PUBLISH Default - publish all
+[Jan 30, 2015 14:17:08.753 CAT] 00000262 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:17:08.753 CAT] 00000262 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:17:08.753 CAT] 00000262 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:17:08.753 CAT] 00000262 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:17:08.816 CAT] 00000262 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:17:12.484 CAT] 00000262 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:17:13.203 CAT] 00000083 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:17:14.458 CAT] 00000083 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:17:14.692 CAT] 00000262 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:719)] PUBLISH END
+[Jan 30, 2015 14:17:23.887 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 30, 2015 14:17:55.896 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementDetails, ID: com.ibm.wbit.bo.ui.boeditor.BOEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 30, 2015 14:18:11.559 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Properties, ID: org.eclipse.ui.views.PropertySheet, Type: org.eclipse.ui.internal.ViewReference
+[Jan 30, 2015 14:18:20.864 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: AgreementDetails, ID: com.ibm.wbit.bo.ui.boeditor.BOEditor, Type: org.eclipse.ui.internal.EditorReference
+[Jan 30, 2015 14:18:22.660 CAT] 0000026f bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AgreementDetails.xsd,4}]
+[Jan 30, 2015 14:18:22.800 CAT] 0000026f bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandprejdt" for project "P/AgreementServcie"
+[Jan 30, 2015 14:18:22.804 CAT] 0000026f bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:431)] BUILD Starting command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie" with build type "incremental validation and code gen" Details...
+Properties = {wbit.builder.globaldeltaprocessed=false, wbit.index.reindex.files=[], wbit.build.isClean=false, wbit.build.kind=9, wbit.build.level=3}
+Delta = [{L/AgreementServcie/AgreementDetails.xsd,4}]
+[Jan 30, 2015 14:18:22.806 CAT] 0000026f bpmHist       I [com.ibm.wbit.command.builder.CommandBuilder:doBuild(CommandBuilder.java:609)] BUILD Ending command "com.ibm.wbit.project.wbimodulecommandpostjdt" for project "P/AgreementServcie"
+[Jan 30, 2015 14:18:28.643 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Jan 30, 2015 14:18:30.232 CAT] 0000026f bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:637)] PUBLISH START (PUBLISH_INCREMENTAL) Server = IBM Process Server v8.0 at localhost
+[Jan 30, 2015 14:18:30.233 CAT] 0000026f bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:669)] PUBLISH Default - publish all
+[Jan 30, 2015 14:18:30.270 CAT] 0000026f bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:18:30.270 CAT] 0000026f bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "LoginModuleApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:18:30.280 CAT] 0000026f bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:18:30.281 CAT] 0000026f bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:18:30.328 CAT] 0000026f bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Unknown" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:18:31.689 CAT] 0000026f bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:18:32.276 CAT] 00000083 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:18:33.638 CAT] 00000083 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:171)] SERVER Module "AgreementServcieApp" changed state to "Started" for server "IBM Process Server v8.0 at localhost"
+[Jan 30, 2015 14:18:33.900 CAT] 0000026f bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:719)] PUBLISH END
+[Jan 30, 2015 14:18:35.688 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference

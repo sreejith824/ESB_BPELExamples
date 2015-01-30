@@ -15,7 +15,7 @@
     </extensions>
     <extensions>
       <extendedObject href="AcceptQuote.component#//@Component"/>
-      <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:NodeExtension" unknown="false" visible="true" x="275" y="87"/>
+      <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:NodeExtension" unknown="false" visible="true" x="275" y="96"/>
     </extensions>
     <extensions>
       <extendedObject href="AgreementServiceWSExport.export#//@export"/>
@@ -26,12 +26,8 @@
       <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:ModuleExtension" autoLayout="true"/>
     </extensions>
     <extensions>
-      <extendedObject href="ProductValidationTable.component#//@Component"/>
-      <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:NodeExtension" type="{http://www.ibm.com/xmlns/prod/websphere/wbiserver/scdl/BusinessRuleGroupImplementation/6.0.0}BusinessRuleGroupImplementation" unknown="false" visible="true" x="434" y="64"/>
-    </extensions>
-    <extensions>
       <extendedObject href="AgreeementRulesSCAInterfacePartner.import#//@import"/>
-      <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:NodeExtension" type="{http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0}ImportBinding" unknown="false" visible="true" x="642" y="99"/>
+      <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:NodeExtension" type="{http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0}ImportBinding" unknown="false" visible="true" x="429" y="97"/>
     </extensions>
   </extensionmodel:ExtensionMap>
 </xmi:XMI>

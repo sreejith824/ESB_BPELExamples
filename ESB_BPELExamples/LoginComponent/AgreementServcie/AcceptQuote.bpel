@@ -6,7 +6,6 @@
   <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AgreeementRulesInterface.wsdl" namespace="http://AgreementRules/AgreeementRulesInterface"/>
   <bpws:partnerLinks>
     <bpws:partnerLink myRole="Interface" name="AgreementServiceInterface" partnerLinkType="ns:AgreementServiceInterfacePLT" wpc:id="2"/>
-    <bpws:partnerLink name="AgreementRulesReferencePartner" partnerLinkType="ns:AgreementRulesReferencePartnerPLT" partnerRole="Reference" wpc:id="63"/>
     <bpws:partnerLink name="AgreeementRulesSCAInterfacePartner" partnerLinkType="ns:AgreeementRulesSCAInterfacePartnerPLT" partnerRole="Reference" wpc:id="65"/>
   </bpws:partnerLinks>
   <bpws:variables>

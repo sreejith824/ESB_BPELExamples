@@ -3,7 +3,7 @@
   <extensionmodel:ExtensionMap namespace="http://com.ibm.wbit.bpel.ui/">
     <extensions>
       <extendedObject href="AcceptQuote.bpel#/"/>
-      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ProcessExtension" modificationStamp="1422025930654" autoLayout="true" maxWpcId="65" minWpcId="0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ProcessExtension" modificationStamp="1422285526888" autoLayout="true" maxWpcId="65" minWpcId="0"/>
     </extensions>
     <extensions>
       <extendedObject href="AcceptQuote.bpel#//@activity"/>

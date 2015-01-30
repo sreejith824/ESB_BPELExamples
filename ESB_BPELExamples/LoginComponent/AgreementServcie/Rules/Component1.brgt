@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<brgt:BusinessRuleGroupTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:brgt="http://www.ibm.com/xmlns/prod/websphere/wbi/BusinessRuleGroupTables/6.0.0" xmlns:selt="http://AgreementServcie/Rules" targetNamespace="http://AgreementServcie/Rules" name="ProductValidationTable">
-  <OperationSelectionTable name="checkProductValididty">
-    <DefaultSelectionData xsi:type="brgt:DecisionTreeSelectionData" businessRuleName="selt:checkProductValididty"/>
-    <AvailableTarget xsi:type="brgt:DecisionTreeSelectionData" businessRuleName="selt:checkProductValididty"/>
-  </OperationSelectionTable>
-</brgt:BusinessRuleGroupTable>

@@ -34,4 +34,11 @@
 		<item value="438" key="DIALOG_HEIGHT"/>
 		<item value="311" key="DIALOG_WIDTH"/>
 	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="com.ibm.wbit.ui.importer"/>
+		</list>
+	</section>
 </section>

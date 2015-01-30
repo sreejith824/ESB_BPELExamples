@@ -15,6 +15,21 @@
 			<xsd:element minOccurs="0" name="policyHolder"
 				type="bons0:ObjectRefrence">
 			</xsd:element>
+			<xsd:element minOccurs="0" name="benefitAgreements"
+				type="bons0:AgreementDetails" maxOccurs="5">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="startDate"
+				type="xsd:dateTime">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="benefitName"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="benefitTerm"
+				type="xsd:int">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="benefitPremium"
+				type="xsd:int">
+			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
 </xsd:schema>
