@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="103" version="2.0">
+<workbench progressCount="102" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="76" y="74">
 <fastViewData fastViewLocation="1024">
@@ -28,25 +28,27 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" itemType="typePlaceholder" x="104" y="22"/>
+<coolItem id="com.ibm.wbit.br.ui.decisiontable.DecisionTableEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.ibm.wbit.br.selector.ui.editor.RuleGroupEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="com.ibm.etools.patterns.editor.PatternGenerate" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.etools.patterns.editor.PatternBrowse" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.ibm.wbit.bpel.ui.bpeleditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.ibm.wbit.bpel.ui.bpeleditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.etools.siteedit.site.editor.WebSiteDesigner" itemType="typePlaceholder" x="497" y="22"/>
 <coolItem id="com.ibm.etools.webtools.security.editor.internal.editorpart.SecurityEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.etools.application.presentation.ApplicationEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.ibm.wbit.bo.ui.boeditor.BOEditor" itemType="typeToolBarContribution" x="107" y="22"/>
-<coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.ibm.wbit.bo.ui.boeditor.BOEditor" itemType="typePlaceholder" x="107" y="22"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.wbit.adapter.ui.editor.DataBindingEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.wbit.comptest.ui.editor.ExecutionEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.xtt.xsl.ui.editor.XSLSourceEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.msl.mapping.internal.ui.editor.MappingEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.ibm.wbit.ie.ui.graphicaleditor.InterfaceEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.ibm.wbit.ie.ui.graphicaleditor.InterfaceEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.wbit.sib.mediation.ui.editor.MediationFlowEditor" itemType="typePlaceholder" x="107" y="22"/>
-<coolItem id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" itemType="typePlaceholder" x="84" y="22"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="com.ibm.support.feedback.errorreports.ui.crashReportToolbar" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="com.ibm.cic.licensing.common.ui.controlContribution" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -57,19 +59,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" name="sca.module" partName="AgreementServcie - Assembly Diagram" path="C:/workspaces/GitRepoBackEnd/ESB_BPELExamples/LoginComponent/AgreementServcie/sca.module" title="AgreementServcie - Assembly Diagram" tooltip="AgreementServcie/sca.module" workbook="DefaultEditorWorkbook">
-<input MEMENTO_ARTIFACT_QNAME_LN="AgreementServcie" MEMENTO_TYPE_QNAME_LN="Module" MEMENTO_TYPE_QNAME_NS="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" path="/AgreementServcie/sca.module"/>
-</editor>
-<editor activePart="true" focus="true" id="com.ibm.wbit.bpel.ui.bpeleditor" name="AcceptQuote.bpel" partName="AcceptQuote" path="C:/workspaces/GitRepoBackEnd/ESB_BPELExamples/LoginComponent/AgreementServcie/AcceptQuote.bpel" title="AcceptQuote" tooltip="AgreementServcie/AcceptQuote.bpel" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AgreementServcie/AcceptQuote.bpel"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
@@ -103,30 +96,7 @@
 </viewState>
 </view>
 <view id="com.ibm.wbit.ui.logicalview.WBILogicalView" partName="Business Integration">
-<viewState activeFocus="" linkWithEditor="true" modeForModules="Type" sectionExpansion="" sectionExpansionFirstWeight="-1" sectionExpansionSecondWeight="-1" showFocusDropdown="true" showFoldersInTree="1" showNamespacesInTree="0" showSections="false">
-<treeExpansion>
-<expandedTypeModule projectPath="/AgreementServcie"/>
-<expandedTypeArtifact primaryResourcePath="/AgreementServcie/sca.module">
-<parentElement>
-<expandedTypeModule projectPath="/AgreementServcie"/>
-</parentElement>
-</expandedTypeArtifact>
-<expandedTypeCategory className="com.ibm.wbit.ui.logicalview.model.BusinessLogicCategory">
-<parentElement>
-<expandedTypeModule projectPath="/AgreementServcie"/>
-</parentElement>
-</expandedTypeCategory>
-<expandedTypeCategory className="com.ibm.wbit.ui.logicalview.model.ProcessesCategory">
-<parentElement>
-<expandedTypeCategory className="com.ibm.wbit.ui.logicalview.model.BusinessLogicCategory">
-<parentElement>
-<expandedTypeModule projectPath="/AgreementServcie"/>
-</parentElement>
-</expandedTypeCategory>
-</parentElement>
-</expandedTypeCategory>
-</treeExpansion>
-</viewState>
+<viewState activeFocus="" linkWithEditor="true" modeForModules="Type" sectionExpansion="" sectionExpansionFirstWeight="-1" sectionExpansionSecondWeight="-1" showFocusDropdown="true" showFoldersInTree="1" showNamespacesInTree="0" showSections="false"/>
 </view>
 <view id="com.ibm.etools.patterns.views.PatternExplorerView" partName="Patterns Explorer">
 <viewState/>
@@ -273,7 +243,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.18753274" ratioLeft="358" ratioRight="1551" relationship="2" relative="left"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@2aca2aca" ratio="0.63242006" ratioLeft="554" ratioRight="322" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2aca2aca" ratio="0.5810502" ratioLeft="509" ratioRight="367" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="com.ibm.wbit.taskflow.ui.views.TaskFlowView" label="Task Flows"/>
 <page content="com.ibm.wbit.ui.build.activities.view.BuildActivitiesView" label="Build Activities"/>
@@ -398,7 +368,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2357255" ratioLeft="450" ratioRight="1459" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.44138756" ratioLeft="369" ratioRight="467" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.wst.server.ui.ServersView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<info folder="true" part="bottomRight" ratio="0.7859712" ratioLeft="437" ratioRight="119" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.wst.server.ui.ServersView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
@@ -430,78 +400,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor MEMENTO_ARTIFACT_QNAME_LN="AgreementServcie" MEMENTO_TYPE_QNAME_LN="Module" MEMENTO_TYPE_QNAME_NS="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" path="/AgreementServcie/sca.module"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.bpel.ui.bpeleditor" path="/AgreementServcie/AcceptQuote.bpel"/>
-<editor MEMENTO_ARTIFACT_QNAME_LN="AgreementServiceInterface" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementServcie/AgreementServiceInterface" MEMENTO_TYPE_QNAME_LN="portType" MEMENTO_TYPE_QNAME_NS="http://schemas.xmlsoap.org/wsdl" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.ie.ui.graphicaleditor.InterfaceEditor" path="/AgreementServcie/AgreementServiceInterface.wsdl"/>
-<editor MEMENTO_ARTIFACT_QNAME_LN="LoginModule" MEMENTO_TYPE_QNAME_LN="Module" MEMENTO_TYPE_QNAME_NS="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" path="/LoginModule/sca.module"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.sib.mediation.ui.editor.MediationFlowEditor" path="/LoginModule/LoginModule.mfc"/>
-<editor MEMENTO_ARTIFACT_QNAME_LN="AgreementServcie" MEMENTO_TYPE_QNAME_LN="Module" MEMENTO_TYPE_QNAME_NS="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" path="/AgreementServcie/sca.module"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.bpel.ui.bpeleditor" path="/AgreementServcie/AcceptQuote.bpel"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" path="/AgreementServiceMediation/sca.module"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.ie.ui.graphicaleditor.InterfaceEditor" path="/AgreementServiceMediation/AgreementServiceMediation.wsdl"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.ie.ui.graphicaleditor.InterfaceEditor" path="/AgreementServiceMediation/AgreementServiceMediationInterface.wsdl"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.sib.mediation.ui.editor.MediationFlowEditor" path="/AgreementServiceMediation/AgreementServiceMediation.mfc"/>
-<editor MEMENTO_ARTIFACT_QNAME_LN="AgreementServcie" MEMENTO_TYPE_QNAME_LN="Module" MEMENTO_TYPE_QNAME_NS="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" path="/AgreementServcie/sca.module"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.bpel.ui.bpeleditor" path="/AgreementServcie/AcceptQuote.bpel"/>
-<editor MEMENTO_ARTIFACT_QNAME_LN="AgreementServiceInterface" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementServcie/AgreementServiceInterface" MEMENTO_TYPE_QNAME_LN="portType" MEMENTO_TYPE_QNAME_NS="http://schemas.xmlsoap.org/wsdl" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.ie.ui.graphicaleditor.InterfaceEditor" path="/AgreementServcie/AgreementServiceInterface.wsdl"/>
-<editor MEMENTO_ARTIFACT_QNAME_LN="AgreementDetails" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementServcie" MEMENTO_TYPE_QNAME_LN="DataType" MEMENTO_TYPE_QNAME_NS="com.ibm.wbit.bo.ui" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.bo.ui.boeditor.BOEditor" path="/AgreementServcie/AgreementDetails.xsd"/>
-<editor MEMENTO_ARTIFACT_QNAME_LN="ObjectRefrence" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementServcie" MEMENTO_TYPE_QNAME_LN="DataType" MEMENTO_TYPE_QNAME_NS="com.ibm.wbit.bo.ui" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.bo.ui.boeditor.BOEditor" path="/AgreementServcie/ObjectRefrence.xsd"/>
-<editor MEMENTO_ARTIFACT_QNAME_LN="AgreementServcie" MEMENTO_TYPE_QNAME_LN="Module" MEMENTO_TYPE_QNAME_NS="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" path="/AgreementServcie/sca.module"/>
-<editor MEMENTO_ARTIFACT_QNAME_LN="AgreementServcie" MEMENTO_TYPE_QNAME_LN="Module" MEMENTO_TYPE_QNAME_NS="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" path="/AgreementServcie/sca.module"/>
-</editors>
-<item historyLabel="AgreementServiceInterface" index="2"/>
-<item historyLabel="AcceptQuote" index="1"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="0"/>
-<item historyLabel="AcceptQuote" index="1"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="0"/>
-<item historyLabel="AgreementServiceInterface" index="2"/>
-<item historyLabel="AcceptQuote" index="1"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="0"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="0"/>
-<item historyLabel="LoginModule - Assembly Diagram" index="3"/>
-<item historyLabel="LoginModule" index="4"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="5"/>
-<item historyLabel="AcceptQuote" index="6"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="5"/>
-<item historyLabel="AgreementServiceMediation - Assembly Diagram" index="7"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="5"/>
-<item historyLabel="AgreementServiceMediation - Assembly Diagram" index="7"/>
-<item historyLabel="AgreementServiceMediation" index="8"/>
-<item historyLabel="AgreementServiceMediation - Assembly Diagram" index="7"/>
-<item historyLabel="AgreementServiceMediation" index="8"/>
-<item historyLabel="AgreementServiceMediation - Assembly Diagram" index="7"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="5"/>
-<item historyLabel="AgreementServiceMediation - Assembly Diagram" index="7"/>
-<item historyLabel="AgreementServiceMediationInterface" index="9"/>
-<item historyLabel="AgreementServiceMediation - Assembly Diagram" index="7"/>
-<item historyLabel="AgreementServiceMediation" index="10"/>
-<item historyLabel="AgreementServiceMediation - Assembly Diagram" index="7"/>
-<item historyLabel="AgreementServiceMediation" index="10"/>
-<item historyLabel="AgreementServiceMediation - Assembly Diagram" index="7"/>
-<item historyLabel="AgreementServiceMediation - Assembly Diagram" index="7"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="5"/>
-<item historyLabel="AgreementServiceMediation - Assembly Diagram" index="7"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="11"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="11"/>
-<item historyLabel="AcceptQuote" index="12"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="11"/>
-<item historyLabel="AgreementServiceInterface" index="13"/>
-<item historyLabel="AgreementDetails" index="14"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="11"/>
-<item historyLabel="ObjectRefrence" index="15"/>
-<item historyLabel="AcceptQuote" index="12"/>
-<item historyLabel="AcceptQuote" index="12"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="16"/>
-<item historyLabel="AcceptQuote" index="12"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="16"/>
-<item historyLabel="AcceptQuote" index="12"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="17"/>
-<item historyLabel="AcceptQuote" index="12"/>
-<item historyLabel="AgreementServcie - Assembly Diagram" index="17"/>
-<item active="true" historyLabel="AcceptQuote" index="12"/>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -518,29 +417,29 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.br.ui.decisiontable.DecisionTableEditor" name="checkProductValidity.dtable" tooltip="AgreementRules/checkProductValidity.dtable">
+<persistable MEMENTO_ARTIFACT_QNAME_LN="checkProductValidity" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementRules" MEMENTO_TYPE_QNAME_LN="Rules" MEMENTO_TYPE_QNAME_NS="com.ibm.wbit.br.ui" path="/AgreementRules/checkProductValidity.dtable"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.br.selector.ui.editor.RuleGroupEditor" name="AgreementRulesGroup.brg" tooltip="AgreementRules/AgreementRulesGroup.brg">
+<persistable path="/AgreementRules/AgreementRulesGroup.brg"/>
+</file>
+<file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" name="sca.module" tooltip="AgreementRules/sca.module">
+<persistable MEMENTO_ARTIFACT_QNAME_LN="AgreementRules" MEMENTO_TYPE_QNAME_LN="Module" MEMENTO_TYPE_QNAME_NS="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" path="/AgreementRules/sca.module"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.bpel.ui.bpeleditor" name="AcceptQuote.bpel" tooltip="AgreementServcie/AcceptQuote.bpel">
 <persistable path="/AgreementServcie/AcceptQuote.bpel"/>
 </file>
 <file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" name="sca.module" tooltip="AgreementServcie/sca.module">
 <persistable MEMENTO_ARTIFACT_QNAME_LN="AgreementServcie" MEMENTO_TYPE_QNAME_LN="Module" MEMENTO_TYPE_QNAME_NS="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" path="/AgreementServcie/sca.module"/>
 </file>
-<file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.bo.ui.boeditor.BOEditor" name="ObjectRefrence.xsd" tooltip="AgreementServcie/ObjectRefrence.xsd">
-<persistable MEMENTO_ARTIFACT_QNAME_LN="ObjectRefrence" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementServcie" MEMENTO_TYPE_QNAME_LN="DataType" MEMENTO_TYPE_QNAME_NS="com.ibm.wbit.bo.ui" path="/AgreementServcie/ObjectRefrence.xsd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ReqMap.map" tooltip="LoginModule/xslt/ReqMap.map">
+<persistable path="/LoginModule/xslt/ReqMap.map"/>
 </file>
-<file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.bo.ui.boeditor.BOEditor" name="AgreementDetails.xsd" tooltip="AgreementServcie/AgreementDetails.xsd">
-<persistable MEMENTO_ARTIFACT_QNAME_LN="AgreementDetails" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementServcie" MEMENTO_TYPE_QNAME_LN="DataType" MEMENTO_TYPE_QNAME_NS="com.ibm.wbit.bo.ui" path="/AgreementServcie/AgreementDetails.xsd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginComponentImpl.java" tooltip="LoginModule/za/co/metropolitan/khula/login/LoginComponentImpl.java">
+<persistable path="/LoginModule/za/co/metropolitan/khula/login/LoginComponentImpl.java"/>
 </file>
-<file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.ie.ui.graphicaleditor.InterfaceEditor" name="AgreementServiceInterface.wsdl" tooltip="AgreementServcie/AgreementServiceInterface.wsdl">
-<persistable MEMENTO_ARTIFACT_QNAME_LN="AgreementServiceInterface" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementServcie/AgreementServiceInterface" MEMENTO_TYPE_QNAME_LN="portType" MEMENTO_TYPE_QNAME_NS="http://schemas.xmlsoap.org/wsdl" path="/AgreementServcie/AgreementServiceInterface.wsdl"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.sib.mediation.ui.editor.MediationFlowEditor" name="AgreementServiceMediation.mfc" tooltip="AgreementServiceMediation/AgreementServiceMediation.mfc">
-<persistable path="/AgreementServiceMediation/AgreementServiceMediation.mfc"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.ie.ui.graphicaleditor.InterfaceEditor" name="AgreementServiceMediationInterface.wsdl" tooltip="AgreementServiceMediation/AgreementServiceMediationInterface.wsdl">
-<persistable path="/AgreementServiceMediation/AgreementServiceMediationInterface.wsdl"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" name="sca.module" tooltip="AgreementServiceMediation/sca.module">
-<persistable path="/AgreementServiceMediation/sca.module"/>
+<file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" name="LoginModuleInterface.wsdl" tooltip="LoginModule/LoginModuleInterface.wsdl">
+<persistable MEMENTO_ARTIFACT_QNAME_LN="LoginModuleInterface" MEMENTO_ARTIFACT_QNAME_NS="http://LoginModule/LoginModuleInterface" MEMENTO_TYPE_QNAME_LN="portType" MEMENTO_TYPE_QNAME_NS="http://schemas.xmlsoap.org/wsdl" path="/LoginModule/LoginModuleInterface.wsdl"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.wbit.sib.mediation.ui.editor.MediationFlowEditor" name="LoginModule.mfc" tooltip="LoginModule/LoginModule.mfc">
 <persistable path="/LoginModule/LoginModule.mfc"/>
@@ -548,8 +447,14 @@
 <file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.wiring.ui.editor.SCDLGraphicalEditor" name="sca.module" tooltip="LoginModule/sca.module">
 <persistable MEMENTO_ARTIFACT_QNAME_LN="LoginModule" MEMENTO_TYPE_QNAME_LN="Module" MEMENTO_TYPE_QNAME_NS="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" path="/LoginModule/sca.module"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" name="AgreementServcie_WSExport1.wsdl" tooltip="AgreementServcie/AgreementServcie_WSExport1.wsdl">
-<persistable path="/AgreementServcie/AgreementServcie_WSExport1.wsdl"/>
+<file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.bo.ui.boeditor.BOEditor" name="AgreementDetails.xsd" tooltip="AgreementServcie/AgreementDetails.xsd">
+<persistable MEMENTO_ARTIFACT_QNAME_LN="AgreementDetails" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementServcie" MEMENTO_TYPE_QNAME_LN="DataType" MEMENTO_TYPE_QNAME_NS="com.ibm.wbit.bo.ui" path="/AgreementServcie/AgreementDetails.xsd"/>
+</file>
+<file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.bo.ui.boeditor.BOEditor" name="ObjectRefrence.xsd" tooltip="AgreementServcie/ObjectRefrence.xsd">
+<persistable MEMENTO_ARTIFACT_QNAME_LN="ObjectRefrence" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementServcie" MEMENTO_TYPE_QNAME_LN="DataType" MEMENTO_TYPE_QNAME_NS="com.ibm.wbit.bo.ui" path="/AgreementServcie/ObjectRefrence.xsd"/>
+</file>
+<file factoryID="com.ibm.wbit.ui.FileEditorInputWithSourceFactory" id="com.ibm.wbit.ie.ui.graphicaleditor.InterfaceEditor" name="AgreementServiceInterface.wsdl" tooltip="AgreementServcie/AgreementServiceInterface.wsdl">
+<persistable MEMENTO_ARTIFACT_QNAME_LN="AgreementServiceInterface" MEMENTO_ARTIFACT_QNAME_NS="http://AgreementServcie/AgreementServiceInterface" MEMENTO_TYPE_QNAME_LN="portType" MEMENTO_TYPE_QNAME_NS="http://schemas.xmlsoap.org/wsdl" path="/AgreementServcie/AgreementServiceInterface.wsdl"/>
 </file>
 </mruList>
 </workbench>

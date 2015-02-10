@@ -3,12 +3,12 @@
   <model:fileProperties>
     <model:fileFullPath>/LoginModule/xslt/ReqMap.map</model:fileFullPath>
     <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:ReqMap_map.mon:/LoginModule/xslt/ReqMap_map.mon&amp;1</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>http://LoginModule/xslt/ReqMap</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:ReqMap_map.mon:/LoginModule/xslt/ReqMap_map.mon&amp;1</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -63,12 +63,12 @@
   <model:fileProperties>
     <model:fileFullPath>/LoginModule/xslt/LoginReqMap.map</model:fileFullPath>
     <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://LoginModule/xslt/LoginReqMap=com.ibm.wbit.index.moduleRelativeRef:xslt/LoginReqMap.xsl.smap:*xslt/LoginReqMap.xsl.smap&amp;1</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>http://LoginModule/xslt/LoginReqMap</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://LoginModule/xslt/LoginReqMap=com.ibm.wbit.index.moduleRelativeRef:xslt/LoginReqMap.xsl.smap:*xslt/LoginReqMap.xsl.smap&amp;1</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -81,6 +81,21 @@
     <model:properties>
       <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
       <model:value>3</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/LoginModule/LoginModule_WSExport1.wsdl</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://LoginModule/LoginModuleInterface</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://LoginModule/LoginModuleInterface=com.ibm.wbit.index.fileRelativeWithBuildPathRef:LoginModuleInterface.wsdl:*/LoginModuleInterface.wsdl&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>1</model:value>
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
@@ -142,12 +157,12 @@
       <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/AgreementServices/Component1Artifacts.wsdl:/AgreementServices/Component1Artifacts.wsdl&amp;1</model:value>
     </model:properties>
     <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/AgreementServices/Component1.bpelex:/AgreementServices/Component1.bpelex&amp;1</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>http://AgreementServices</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/AgreementServices/Component1.bpelex:/AgreementServices/Component1.bpelex&amp;1</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -210,12 +225,12 @@
   <model:fileProperties>
     <model:fileFullPath>/LoginModule/xslt/ResMap.map</model:fileFullPath>
     <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://LoginModule/xslt/ResMap</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
       <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:ResMap_map.mon:/LoginModule/xslt/ResMap_map.mon&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://LoginModule/xslt/ResMap</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -267,12 +282,12 @@
   <model:fileProperties>
     <model:fileFullPath>/LoginModule/xslt/LoginResMap.map</model:fileFullPath>
     <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://LoginModule/xslt/LoginResMap=com.ibm.wbit.index.moduleRelativeRef:xslt/LoginResMap.xsl.smap:*xslt/LoginResMap.xsl.smap&amp;1</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>http://LoginModule/xslt/LoginResMap</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://LoginModule/xslt/LoginResMap=com.ibm.wbit.index.moduleRelativeRef:xslt/LoginResMap.xsl.smap:*xslt/LoginResMap.xsl.smap&amp;1</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -359,6 +374,21 @@
     <model:properties>
       <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
       <model:value>3</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/LoginModule/WSExport1.export</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/.project:/LoginModule/.project&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.soacore.internal.handler.componentOrImportRef:LoginModule:/LoginModule/LoginModule.component|/LoginModule/LoginModule.import&amp;12</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>2</model:value>
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
@@ -450,12 +480,12 @@
       <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:AgreementServiceWSExport_export_objDef.cmt:/AgreementServcie/AgreementServiceWSExport_export_objDef.cmt&amp;1</model:value>
     </model:properties>
     <model:properties>
-      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>19</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
       <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:AgreementServiceHTTPExport_export_objDef.cmt:/AgreementServcie/AgreementServiceHTTPExport_export_objDef.cmt&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>19</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -574,12 +604,12 @@
   <model:fileProperties>
     <model:fileFullPath>/LoginModule/xslt/Res_Map.map</model:fileFullPath>
     <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://LoginModule/xslt/Res_Map</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
       <model:value>http://LoginModule/xslt/Res_Map=com.ibm.wbit.index.moduleRelativeRef:xslt/Res_Map.xsl.smap:*xslt/Res_Map.xsl.smap&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://LoginModule/xslt/Res_Map</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -604,12 +634,12 @@
   <model:fileProperties>
     <model:fileFullPath>/LoginModule/LoginComponent.component</model:fileFullPath>
     <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>za.co.metropolitan.khula.login=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/za/co/metropolitan/khula/login/LoginComponentImpl.java:/LoginModule/za/co/metropolitan/khula/login/LoginComponentImpl.java&amp;1</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>za.co.metropolitan.khula.login</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>za.co.metropolitan.khula.login=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/za/co/metropolitan/khula/login/LoginComponentImpl.java:/LoginModule/za/co/metropolitan/khula/login/LoginComponentImpl.java&amp;1</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -632,10 +662,18 @@
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
-    <model:fileFullPath>/AgreementServiceMediation/AgreementServiceMediation.wsdl</model:fileFullPath>
+    <model:fileFullPath>/AgreementServcie/AgreementDetails.xsd</model:fileFullPath>
     <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://AgreementServiceMediation/AgreementServiceMediation</model:value>
+      <model:value>http://AgreementServcie</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://AgreementServcie=com.ibm.wbit.index.fileRelativeWithBuildPathRef:ObjectRefrence.xsd:*/ObjectRefrence.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>1</model:value>
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
@@ -650,18 +688,10 @@
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
-    <model:fileFullPath>/AgreementServcie/AgreementDetails.xsd</model:fileFullPath>
+    <model:fileFullPath>/AgreementServiceMediation/AgreementServiceMediation.wsdl</model:fileFullPath>
     <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://AgreementServcie</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://AgreementServcie=com.ibm.wbit.index.fileRelativeWithBuildPathRef:ObjectRefrence.xsd:*/ObjectRefrence.xsd&amp;</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>1</model:value>
+      <model:value>http://AgreementServiceMediation/AgreementServiceMediation</model:value>
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
@@ -749,6 +779,17 @@
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
+    <model:fileFullPath>/LoginModule/LoginMediationHTTPExport.export</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.soacore.internal.handler.componentOrImportRef:LoginModule:/LoginModule/LoginModule.component|/LoginModule/LoginModule.import&amp;12</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>1</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
     <model:fileFullPath>/AgreementRules/sca.module</model:fileFullPath>
     <model:properties>
       <model:qname localName="fileReference9" qualifier="com.ibm.wbit.index.property"/>
@@ -779,12 +820,12 @@
       <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/AgreementRules/.project:/AgreementRules/.project&amp;</model:value>
     </model:properties>
     <model:properties>
-      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>10</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
       <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:AgreementRulesGroupExport_export_objDef.cmt2:/AgreementRules/AgreementRulesGroupExport_export_objDef.cmt2&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>10</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -796,29 +837,18 @@
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
-    <model:fileFullPath>/LoginModule/LoginMediationHTTPExport.export</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.soacore.internal.handler.componentOrImportRef:LoginModule:/LoginModule/LoginModule.component|/LoginModule/LoginModule.import&amp;12</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>1</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
     <model:fileFullPath>/AgreementServcie/AgreementProcess.bpel</model:fileFullPath>
     <model:properties>
       <model:qname localName="fileReference3" qualifier="com.ibm.wbit.index.property"/>
       <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/AgreementServcie/AgreementProcess.bpelex:/AgreementServcie/AgreementProcess.bpelex&amp;1</model:value>
     </model:properties>
     <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Agreement.xsd:*/Agreement.xsd&amp;</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>http://AgreementServcie</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Agreement.xsd:*/Agreement.xsd&amp;</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -902,6 +932,85 @@
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
+    <model:fileFullPath>/LoginModule/sca.module</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference17" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/WSExport1.export:/LoginModule/WSExport1.export&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference16" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginModule.component:/LoginModule/LoginModule.component&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference15" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginComponent.component:/LoginModule/LoginComponent.component&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference14" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginComponent_component_objDef.cmt2:/LoginModule/LoginComponent_component_objDef.cmt2&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference13" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/sca.modulex:/LoginModule/sca.modulex&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference12" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/WSExport1.exportex:/LoginModule/WSExport1.exportex&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference11" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginMediationHTTPExport.exportex:/LoginModule/LoginMediationHTTPExport.exportex&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference10" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginModule_component.mon:/LoginModule/LoginModule_component.mon&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference9" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginComponent_component.mon:/LoginModule/LoginComponent_component.mon&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference8" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginMediationHTTPExport.export:/LoginModule/LoginMediationHTTPExport.export&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference7" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginMediationHTTPExport_export_objDef.cmt2:/LoginModule/LoginMediationHTTPExport_export_objDef.cmt2&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference6" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/.project:/LoginModule/.project&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference5" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginMediationHTTPExport_export_objDef.cmt:/LoginModule/LoginMediationHTTPExport_export_objDef.cmt&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference4" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginModule_component_objDef.cmt2:/LoginModule/LoginModule_component_objDef.cmt2&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference3" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:WSExport1_export_objDef.cmt2:/LoginModule/WSExport1_export_objDef.cmt2&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>18</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:WSExport1_export_objDef.cmt:/LoginModule/WSExport1_export_objDef.cmt&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginModule_component_objDef.cmt:/LoginModule/LoginModule_component_objDef.cmt&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginComponent_component_objDef.cmt:/LoginModule/LoginComponent_component_objDef.cmt&amp;1</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
     <model:fileFullPath>/AgreementRules/.classpath</model:fileFullPath>
     <model:properties>
       <model:qname localName="fileReference3" qualifier="com.ibm.wbit.index.property"/>
@@ -922,69 +1031,6 @@
     <model:properties>
       <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
       <model:value>4</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
-    <model:fileFullPath>/LoginModule/sca.module</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="fileReference9" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/sca.modulex:/LoginModule/sca.modulex&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference8" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginModule.component:/LoginModule/LoginModule.component&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference13" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginMediationHTTPExport.exportex:/LoginModule/LoginMediationHTTPExport.exportex&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference7" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginComponent.component:/LoginModule/LoginComponent.component&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference12" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginModule_component.mon:/LoginModule/LoginModule_component.mon&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference6" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginMediationHTTPExport.export:/LoginModule/LoginMediationHTTPExport.export&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference5" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginMediationHTTPExport_export_objDef.cmt2:/LoginModule/LoginMediationHTTPExport_export_objDef.cmt2&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference11" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/LoginComponent_component.mon:/LoginModule/LoginComponent_component.mon&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference4" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/LoginModule/.project:/LoginModule/.project&amp;</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference10" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginComponent_component_objDef.cmt2:/LoginModule/LoginComponent_component_objDef.cmt2&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference3" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginMediationHTTPExport_export_objDef.cmt:/LoginModule/LoginMediationHTTPExport_export_objDef.cmt&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>14</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginModule_component_objDef.cmt2:/LoginModule/LoginModule_component_objDef.cmt2&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginModule_component_objDef.cmt:/LoginModule/LoginModule_component_objDef.cmt&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:LoginComponent_component_objDef.cmt:/LoginModule/LoginComponent_component_objDef.cmt&amp;1</model:value>
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
@@ -1013,12 +1059,12 @@
   <model:fileProperties>
     <model:fileFullPath>/SalesManagementService/xslt/Mapping_req_1.map</model:fileFullPath>
     <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://SalesManagementService/xslt/Mapping_req_1=com.ibm.wbit.index.moduleRelativeRef:xslt/Mapping_req_1.xsl.smap:*xslt/Mapping_req_1.xsl.smap&amp;1</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>http://SalesManagementService/xslt/Mapping_req_1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://SalesManagementService/xslt/Mapping_req_1=com.ibm.wbit.index.moduleRelativeRef:xslt/Mapping_req_1.xsl.smap:*xslt/Mapping_req_1.xsl.smap&amp;1</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -1034,37 +1080,14 @@
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
-    <model:fileFullPath>/SalesManagementService/SalesManagementProvider.component</model:fileFullPath>
+    <model:fileFullPath>/SalesManagementService/SalesManagementJavaImpl.component</model:fileFullPath>
     <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>za.co.metrpolitan.khula.salesmanagement</model:value>
     </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>za.co.metrpolitan.khula.salesmanagement=com.ibm.wbit.index.workspaceOrFileRelativeRef:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementProviderImpl.java:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementProviderImpl.java&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementProviderImpl.java:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementProviderImpl.java&amp;3</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:SalesManagementProvider_component.mon:/SalesManagementService/SalesManagementProvider_component.mon&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>3</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
-    <model:fileFullPath>/SalesManagementService/SalesManagementJavaImpl.component</model:fileFullPath>
     <model:properties>
       <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
       <model:value>za.co.metrpolitan.khula.salesmanagement=com.ibm.wbit.index.workspaceOrFileRelativeRef:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementJavaImplImpl.java:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementJavaImplImpl.java&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>za.co.metrpolitan.khula.salesmanagement</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -1073,6 +1096,29 @@
     <model:properties>
       <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
       <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:SalesManagementJavaImpl_component.mon:/SalesManagementService/SalesManagementJavaImpl_component.mon&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>3</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/SalesManagementService/SalesManagementProvider.component</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>za.co.metrpolitan.khula.salesmanagement=com.ibm.wbit.index.workspaceOrFileRelativeRef:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementProviderImpl.java:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementProviderImpl.java&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>za.co.metrpolitan.khula.salesmanagement</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementProviderImpl.java:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementProviderImpl.java&amp;3</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:SalesManagementProvider_component.mon:/SalesManagementService/SalesManagementProvider_component.mon&amp;1</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
@@ -1089,12 +1135,12 @@
   <model:fileProperties>
     <model:fileFullPath>/SalesManagementService/xslt/Mapping_res_1.map</model:fileFullPath>
     <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://SalesManagementService/xslt/Mapping_res_1=com.ibm.wbit.index.moduleRelativeRef:xslt/Mapping_res_1.xsl.smap:*xslt/Mapping_res_1.xsl.smap&amp;1</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>http://SalesManagementService/xslt/Mapping_res_1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://SalesManagementService/xslt/Mapping_res_1=com.ibm.wbit.index.moduleRelativeRef:xslt/Mapping_res_1.xsl.smap:*xslt/Mapping_res_1.xsl.smap&amp;1</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -1146,12 +1192,12 @@
   <model:fileProperties>
     <model:fileFullPath>/SalesManagementService/SalesManagementImpl.component</model:fileFullPath>
     <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>za.co.metrpolitan.khula.salesmanagement=com.ibm.wbit.index.workspaceOrFileRelativeRef:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementImplImpl2.java:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementImplImpl2.java&amp;1</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>za.co.metrpolitan.khula.salesmanagement</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>za.co.metrpolitan.khula.salesmanagement=com.ibm.wbit.index.workspaceOrFileRelativeRef:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementImplImpl2.java:/SalesManagementService/za/co/metrpolitan/khula/salesmanagement/SalesManagementImplImpl2.java&amp;1</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>

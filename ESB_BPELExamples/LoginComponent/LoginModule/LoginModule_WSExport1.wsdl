@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="WSExport1_LoginModuleInterfaceHttp_Service" targetNamespace="http://LoginModule/LoginModuleInterface" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:this="http://LoginModule/LoginModuleInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import location="LoginModuleInterface.wsdl" namespace="http://LoginModule/LoginModuleInterface"/>
+  <wsdl:binding name="WSExport1_LoginModuleInterfaceHttpBinding" type="this:LoginModuleInterface">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="loginUser">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="loginUserRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="loginUserResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSExport1_LoginModuleInterfaceHttpService">
+    <wsdl:port binding="this:WSExport1_LoginModuleInterfaceHttpBinding" name="WSExport1_LoginModuleInterfaceHttpPort">
+      <soap:address location="http://localhost:9080/LoginModuleWeb/sca/WSExport1"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

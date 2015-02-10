@@ -1,0 +1,128 @@
+[Feb 9, 2015 14:57:29.303 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler$1:run(SCAServerTraceHandler.java:51)] SERVER Tooling intialized for server "IBM Process Server v8.0 at localhost" Details...
+ID=com.ibm.ws.ast.st.v8.server.bi
+Host=localhost
+Mode=run
+Type=IBM Process Server v8.0
+Modules=LoginModuleApp,AgreementServcieApp,AgreementRulesApp
+
+[Feb 9, 2015 14:57:29.619 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Workbench session started
+[Feb 9, 2015 14:57:29.622 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Product name: IBM Integration Designer 8.0.1.1, Product ID: com.ibm.wbit.feature.ide, Product version: 8.0.1.1
+[Feb 9, 2015 14:57:30.477 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Feb 9, 2015 14:57:34.809 CAT] 00000038 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Feb 9, 2015 14:57:35.957 CAT] 0000002d bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups for type com.ibm.wbit.runtime.AppClientLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Feb 9, 2015 14:57:35.958 CAT] 0000002d bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.launchConfigurationTabGroup for type com.ibm.wbit.runtime.launchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.launchConfigurationTabGroup <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Feb 9, 2015 14:57:35.958 CAT] 0000002d bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Tab group extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup for type com.ibm.wbit.runtime.batchProcessLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.runtime.InternalPlatform.log(InternalPlatform.java:711)
+	at org.eclipse.core.internal.runtime.Log.log(Log.java:56)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.log(DebugUIPlugin.java:585)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.reportReplacement(LaunchConfigurationPresentationManager.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.initializeTabGroupExtensions(LaunchConfigurationPresentationManager.java:121)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPresentationManager.getExtension(LaunchConfigurationPresentationManager.java:292)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getDefaultLaunchPerspective(PerspectiveManager.java:947)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getLaunchPerspective(PerspectiveManager.java:759)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.getPerspectiveId(PerspectiveManager.java:734)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.launchAdded(PerspectiveManager.java:312)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:447)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:435)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:997)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:695)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:842)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Feb 9, 2015 14:57:36.033 CAT] 0000002d bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Starting" for server "IBM Process Server v8.0 at localhost"
+[Feb 9, 2015 14:57:39.347 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Feb 9, 2015 14:57:57.437 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part opened.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Feb 9, 2015 14:57:57.446 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Feb 9, 2015 15:04:31.418 CAT] 00000033 bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG An internal error occurred during: "Transferring files to IBM". NullPointerException(null) Details...
+java.lang.NullPointerException
+	at com.ibm.support.feedback.core.internal.SendFeedbackJob.getFTPAddress(SendFeedbackJob.java:686)
+	at com.ibm.support.feedback.core.internal.SendFeedbackJob.run(SendFeedbackJob.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[Feb 9, 2015 15:04:38.522 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Feb 9, 2015 15:04:42.107 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective closed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[Feb 9, 2015 15:04:42.111 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[Feb 9, 2015 15:04:42.117 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Business Integration, ID: com.ibm.wbit.ui.logicalview.WBILogicalView, Type: org.eclipse.ui.internal.ViewReference
+[Feb 9, 2015 15:04:42.123 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Perspective closed.  Name: Java EE, ID: org.eclipse.jst.j2ee.J2EEPerspective
+[Feb 9, 2015 15:04:42.123 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[Feb 9, 2015 15:04:42.125 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Part closed.  Name: Console, ID: org.eclipse.ui.console.ConsoleView, Type: org.eclipse.ui.internal.ViewReference
+[Feb 9, 2015 15:04:42.133 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Window closed.  Name: IBM Integration Designer 8.0.1.1 - C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent
+[Feb 9, 2015 15:04:42.313 CAT] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:375)] GENERAL_UI Workbench session ended
+[Feb 9, 2015 15:04:50.151 CAT] 00000001 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:160)] SERVER State changed to "Stopped" for server "IBM Process Server v8.0 at localhost"
+[Feb 9, 2015 15:04:50.156 CAT] 0000002d bpmHist       E [com.ibm.wbit.ui.GeneralUITracing$6:logging(GeneralUITracing.java:270)] FROM_ECLIPSE_ERROR_LOG Server IBM Process Server v8.0 at localhost failed to start. <No exception provided, stack trace is implied> Details...
+java.lang.Exception
+	at com.ibm.bpm.common.history.History.logExceptionWrapped(History.java:340)
+	at com.ibm.bpm.common.history.History.logException(History.java:322)
+	at com.ibm.wbit.ui.GeneralUITracing$6.logging(GeneralUITracing.java:270)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:653)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+

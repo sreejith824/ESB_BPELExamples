@@ -6,7 +6,8 @@
           <xsd:sequence>
             <xsd:element name="loginUserName" nillable="true" type="xsd:string"/>
             <xsd:element name="loginPassword" nillable="true" type="xsd:string"/>
-          </xsd:sequence>
+                        <xsd:element name="email" nillable="true" type="xsd:string"/>
+                    </xsd:sequence>
         </xsd:complexType>
       </xsd:element>
       <xsd:element name="loginUserResponse">
@@ -26,8 +27,8 @@
   </wsdl:message>
     <wsdl:portType name="LoginModuleInterface">
     <wsdl:operation name="loginUser">
-      <wsdl:input message="tns:loginUserRequestMsg" name="loginUserRequest"/>
-      <wsdl:output message="tns:loginUserResponseMsg" name="loginUserResponse"/>
+            <wsdl:input message="tns:loginUserRequestMsg" name="loginUserRequest"/>
+            <wsdl:output message="tns:loginUserResponseMsg" name="loginUserResponse"/>
     </wsdl:operation>
   </wsdl:portType>
 </wsdl:definitions>
