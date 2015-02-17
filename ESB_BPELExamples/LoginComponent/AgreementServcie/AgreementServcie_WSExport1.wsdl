@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="WSExport1_AgreementServiceInterfaceHttp_Service" targetNamespace="http://AgreementServcie/AgreementServiceInterface" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:this="http://AgreementServcie/AgreementServiceInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
-  <wsdl:import location="AgreementServiceInterface.wsdl" namespace="http://AgreementServcie/AgreementServiceInterface"/>
-  <wsdl:binding name="WSExport1_AgreementServiceInterfaceHttpBinding" type="this:AgreementServiceInterface">
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="WSExport1_AgreementServiceInterfaceHttp_Service" targetNamespace="http://AgreementServcie/AgreementServiceInterface" xmlns:bons0="http://AgreementLibrary/AgreementServiceInterface" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:this="http://AgreementServcie/AgreementServiceInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import location="AgreementServiceInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceInterface"/>
+    <wsdl:binding name="WSExport1_AgreementServiceInterfaceHttpBinding" type="bons0:AgreementServiceInterface">
     <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
     <wsdl:operation name="acceptQuote">
       <soap:operation soapAction=""/>

@@ -11,28 +11,4 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
-	<security-constraint>
-		<display-name>RegisteredUsersConstraint</display-name>
-		<web-resource-collection>
-			<web-resource-name>RegisteredUsersCollection</web-resource-name>
-			<url-pattern>/*</url-pattern>
-			<http-method>GET</http-method>
-			<http-method>PUT</http-method>
-			<http-method>HEAD</http-method>
-			<http-method>TRACE</http-method>
-			<http-method>POST</http-method>
-			<http-method>DELETE</http-method>
-			<http-method>OPTIONS</http-method>
-		</web-resource-collection>
-		<auth-constraint>
-			<description>
-			Auto generated Authorization Constraint</description>
-			<role-name>RegisteredUsers</role-name>
-		</auth-constraint>
-	</security-constraint>
-	<security-role>
-		<description>
-		</description>
-		<role-name>RegisteredUsers</role-name>
-	</security-role>
 </web-app>

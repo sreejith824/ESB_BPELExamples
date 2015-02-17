@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><bpws:process xmlns:bpws="http://schemas.xmlsoap.org/ws/2004/03/business-process/" xmlns:ns="http://AgreementServiceConsumer/AgreementConsumerArtifacts" xmlns:ns0="http://AgreementLibrary" xmlns:ns1="http://AgreementLibrary/AgreementServiceConsumerInterface" xmlns:wpc="http://www.ibm.com/xmlns/prod/websphere/business-process/6.0.0/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.ibm.com/xmlns/prod/websphere/business-process/expression-lang/java/6.0.0/" name="AgreementConsumer" suppressJoinFailure="yes" targetNamespace="http://AgreementServiceConsumer" wpc:continueOnError="no" wpc:displayName="AgreementConsumer" wpc:executionMode="microflow" wpc:id="1" wpc:validFrom="2015-02-17T14:49:02" wpc:version="IBM_8.0.100">
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AgreementServiceConsumerInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceConsumerInterface"/>
+  <bpws:import importType="http://www.w3.org/2001/XMLSchema" location="AgreementDetails.xsd" namespace="http://AgreementLibrary"/>
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AgreementConsumerArtifacts.wsdl" namespace="http://AgreementServiceConsumer/AgreementConsumerArtifacts"/>
+  <bpws:partnerLinks>
+    <bpws:partnerLink myRole="Interface" name="AgreementServiceConsumerInterface" partnerLinkType="ns:AgreementServiceConsumerInterfacePLT" wpc:id="2"/>
+  </bpws:partnerLinks>
+  <bpws:variables>
+    <bpws:variable name="quotationRequest" type="ns0:AgreementDetails" wpc:id="6"/>
+    <bpws:variable name="response" type="xsd:string" wpc:id="7"/>
+  </bpws:variables>
+  <bpws:sequence name="HiddenSequence" wpc:id="1073741827">
+    <bpws:receive createInstance="yes" name="Receive" operation="acceptQuote" partnerLink="AgreementServiceConsumerInterface" portType="ns1:AgreementServiceConsumerInterface" wpc:displayName="Receive" wpc:id="4" wpc:transactionalBehavior="commitAfter">
+      <wpc:output>
+        <wpc:parameter name="quotationRequest" variable="quotationRequest"/>
+      </wpc:output>
+    </bpws:receive>
+    <bpws:reply name="Reply" operation="acceptQuote" partnerLink="AgreementServiceConsumerInterface" portType="ns1:AgreementServiceConsumerInterface" wpc:displayName="Reply" wpc:id="5">
+      <wpc:input>
+        <wpc:parameter name="response" variable="response"/>
+      </wpc:input>
+    </bpws:reply>
+  </bpws:sequence>
+</bpws:process>

@@ -1,5 +1,5 @@
 @REM C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\quickServerStart.bat
-@REM Generated: Tue Feb 10 12:17:58 CAT 2015
+@REM Generated: Tue Feb 17 14:38:31 CAT 2015
 
 @setlocal
 @echo off

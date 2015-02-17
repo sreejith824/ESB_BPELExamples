@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rl:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:java="http://com.ibm.wbit.br.cb.core/java/" xmlns:ns1="http://AgreementRules/AgreeementRulesInterface" xmlns:prim="http://com.ibm.wbit.br.cb.core/prim/" xmlns:rl="http://www.ibm.com/xmlns/prod/websphere/wbi/br/6.0.0" xmlns:selt="http://AgreementRules" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" displayName="checkProductValidity" name="checkProductValidity" syncDisplayName="true" targetNamespace="http://AgreementRules">
+  <rl:interface operation="checkProductValidity">
+    <rl:porttype>ns1:AgreeementRulesInterface</rl:porttype>
+  </rl:interface>
+  <rl:rulegroup>selt:AgreementRulesGroup</rl:rulegroup>
+  <rl:property name="IBMSystemVersion" type="SystemDefined" value="6.1.0"/>
+  <rl:TreeBlock>
+    <rl:conditionDefinition>
+      <rl:termDefinition>
+        <rl:termExpression value="productName"/>
+      </rl:termDefinition>
+      <rl:valueDefinition>
+        <rl:valueExpression value="&quot;Hello Doctor&quot;"/>
+      </rl:valueDefinition>
+      <rl:valueDefinition>
+        <rl:valueExpression value="&quot;Metropolitan Savings Plan&quot;"/>
+      </rl:valueDefinition>
+      <rl:valueDefinition>
+        <rl:valueExpression value="&quot;Metropolitan Funeral Plan&quot;"/>
+      </rl:valueDefinition>
+      <rl:orientation>Row</rl:orientation>
+    </rl:conditionDefinition>
+    <rl:actionTermDefinition>
+      <rl:termExpression value="isValidProduct"/>
+    </rl:actionTermDefinition>
+    <rl:treeNode xsi:type="rl:ConditionNode">
+      <rl:termDefinitionRef>//@table/@treeBlock/@conditionDefinition.0/@termDefinition</rl:termDefinitionRef>
+      <rl:edge>
+        <rl:valueDefinitionRef>//@table/@treeBlock/@conditionDefinition.0/@valueDefinition.0</rl:valueDefinitionRef>
+        <rl:treeNode xsi:type="rl:ActionNode">
+          <rl:treeAction>
+            <rl:termDefinitionRef>//@table/@treeBlock/@actionTermDefinition.0</rl:termDefinitionRef>
+            <rl:valueExpression value="false"/>
+          </rl:treeAction>
+        </rl:treeNode>
+      </rl:edge>
+      <rl:edge>
+        <rl:valueDefinitionRef>//@table/@treeBlock/@conditionDefinition.0/@valueDefinition.1</rl:valueDefinitionRef>
+        <rl:treeNode xsi:type="rl:ActionNode">
+          <rl:treeAction>
+            <rl:termDefinitionRef>//@table/@treeBlock/@actionTermDefinition.0</rl:termDefinitionRef>
+            <rl:valueExpression value="true"/>
+          </rl:treeAction>
+        </rl:treeNode>
+      </rl:edge>
+      <rl:edge>
+        <rl:valueDefinitionRef>//@table/@treeBlock/@conditionDefinition.0/@valueDefinition.2</rl:valueDefinitionRef>
+        <rl:treeNode xsi:type="rl:ActionNode">
+          <rl:treeAction>
+            <rl:termDefinitionRef>//@table/@treeBlock/@actionTermDefinition.0</rl:termDefinitionRef>
+            <rl:valueExpression value="true"/>
+          </rl:treeAction>
+        </rl:treeNode>
+      </rl:edge>
+    </rl:treeNode>
+  </rl:TreeBlock>
+</rl:Table>

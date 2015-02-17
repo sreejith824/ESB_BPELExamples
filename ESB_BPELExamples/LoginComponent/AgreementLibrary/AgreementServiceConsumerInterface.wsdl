@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AgreementServiceConsumerInterface" targetNamespace="http://AgreementLibrary/AgreementServiceConsumerInterface" xmlns:tns="http://AgreementLibrary/AgreementServiceConsumerInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://AgreementLibrary/AgreementServiceConsumerInterface">
+            <xsd:element name="triggerAcceptQuote">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="quoteRefNumber" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="triggerAcceptQuoteResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="response" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="triggerAcceptQuoteRequestMsg">
+    <wsdl:part element="tns:triggerAcceptQuote" name="triggerAcceptQuoteParameters"/>
+  </wsdl:message>
+    <wsdl:message name="triggerAcceptQuoteResponseMsg">
+    <wsdl:part element="tns:triggerAcceptQuoteResponse" name="triggerAcceptQuoteResult"/>
+  </wsdl:message>
+    <wsdl:portType name="AgreementServiceConsumerInterface">
+    <wsdl:operation name="triggerAcceptQuote">
+      <wsdl:input message="tns:triggerAcceptQuoteRequestMsg" name="triggerAcceptQuoteRequest"/>
+      <wsdl:output message="tns:triggerAcceptQuoteResponseMsg" name="triggerAcceptQuoteResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

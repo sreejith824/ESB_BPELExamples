@@ -6,13 +6,13 @@
 		<item value="781" key="x"/>
 		<item value="87" key="y"/>
 	</section>
+	<section name="Business Integration Search">
+	</section>
 	<section name="com.ibm.wbit.ui.InterfaceSelectionDialog">
 		<item value="370" key="width"/>
 		<item value="582" key="height"/>
 		<item value="775" key="x"/>
 		<item value="82" key="y"/>
-	</section>
-	<section name="Business Integration Search">
 	</section>
 	<section name="com.ibm.wbit.bpel.ui.dialogs.BPELDataTypeSelectionDialog">
 		<item value="389" key="width"/>
@@ -26,17 +26,17 @@
 		<item value="766" key="x"/>
 		<item value="104" key="y"/>
 	</section>
-	<section name="com.ibm.wbit.sib.util.ui.widgets.ReferenceSelectionDialog">
-		<item value="370" key="width"/>
-		<item value="634" key="height"/>
-		<item value="775" key="x"/>
-		<item value="70" key="y"/>
-	</section>
 	<section name="com.ibm.wbit.sib.xmlmap.internal.ui.primitive.dialogs.ESBSelectionDialog">
 		<item value="359" key="width"/>
 		<item value="630" key="height"/>
 		<item value="781" key="x"/>
 		<item value="72" key="y"/>
+	</section>
+	<section name="com.ibm.wbit.sib.util.ui.widgets.ReferenceSelectionDialog">
+		<item value="370" key="width"/>
+		<item value="634" key="height"/>
+		<item value="775" key="x"/>
+		<item value="70" key="y"/>
 	</section>
 	<section name="com.ibm.wbit.wiring.ui.dialogs.ReferenceSelectionDialog">
 		<item value="370" key="width"/>

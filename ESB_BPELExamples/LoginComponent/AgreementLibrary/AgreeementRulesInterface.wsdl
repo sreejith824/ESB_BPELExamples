@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AgreeementRulesInterface" targetNamespace="http://AgreementRules/AgreeementRulesInterface" xmlns:tns="http://AgreementRules/AgreeementRulesInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AgreeementRulesInterface" targetNamespace="http://AgreementLibrary/AgreeementRulesInterface" xmlns:bons0="http://AgreementRules/AgreeementRulesInterface" xmlns:tns="http://AgreementLibrary/AgreeementRulesInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <wsdl:types>
-    <xsd:schema targetNamespace="http://AgreementRules/AgreeementRulesInterface">
+    <xsd:schema targetNamespace="http://AgreementLibrary/AgreeementRulesInterface" xmlns:bons0="http://AgreementLibrary/AgreeementRulesInterface">
       <xsd:element name="checkProductValidity">
         <xsd:complexType>
           <xsd:sequence>

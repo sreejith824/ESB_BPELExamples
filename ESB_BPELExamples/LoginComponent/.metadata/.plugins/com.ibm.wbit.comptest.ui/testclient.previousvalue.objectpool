@@ -3,6 +3,54 @@
   <dataSets name="Default" id="1420547745109_41">
     <entries xsi:type="com.ibm.ccl.soa.test.common.models.datatable:DataSetColumn" name="Value" id="1420547745110_42">
       <elements xsi:type="com.ibm.ccl.soa.test.common.models.datatable:DataSetColumnComplexValue">
+        <value xsi:type="com.ibm.ccl.soa.test.common.models.value:ValueField" name="quoteRefNumber" id="1424186344320_698" value="1234" defaultValue="" typeURI="xsd:/http://www.w3.org/2001/XMLSchema#string" baseTypeURI="xsd:/http://www.w3.org/2001/XMLSchema#string">
+          <context>
+            <properties name="project_context" value="AgreementServiceConsumer"/>
+          </context>
+          <properties name="paramlist_context" value="AgreementServiceConsumer.AgreementServiceConsumerHTTPExport.triggerAcceptQuote"/>
+        </value>
+      </elements>
+      <elements xsi:type="com.ibm.ccl.soa.test.common.models.datatable:DataSetColumnComplexValue">
+        <value xsi:type="com.ibm.ccl.soa.test.common.models.value:ValueField" name="quoteRefNumber" id="1424185712867_194" value="12134" defaultValue="" typeURI="xsd:/http://www.w3.org/2001/XMLSchema#string" baseTypeURI="xsd:/http://www.w3.org/2001/XMLSchema#string">
+          <context>
+            <properties name="project_context" value="AgreementServiceConsumer"/>
+          </context>
+          <properties name="paramlist_context" value="AgreementServiceConsumer.AgreementServiceConsumerHTTPExport.triggerAcceptQuote"/>
+        </value>
+      </elements>
+      <elements xsi:type="com.ibm.ccl.soa.test.common.models.datatable:DataSetColumnComplexValue">
+        <value xsi:type="com.ibm.ccl.soa.test.common.models.value:ValueField" name="productName" id="1424178966186_453" value="" defaultValue="" typeURI="xsd:/http://www.w3.org/2001/XMLSchema#string" baseTypeURI="xsd:/http://www.w3.org/2001/XMLSchema#string">
+          <context>
+            <properties name="project_context" value="AgreementRules"/>
+          </context>
+          <properties name="paramlist_context" value="AgreementRules.AgreementRulesHTTPExport.checkProductValidity"/>
+        </value>
+      </elements>
+      <elements xsi:type="com.ibm.ccl.soa.test.common.models.datatable:DataSetColumnComplexValue">
+        <value xsi:type="com.ibm.ccl.soa.test.common.models.value:ValueField" name="productName" id="1424177245857_396" value="Hello Doctor" defaultValue="" typeURI="xsd:/http://www.w3.org/2001/XMLSchema#string" baseTypeURI="xsd:/http://www.w3.org/2001/XMLSchema#string">
+          <context>
+            <properties name="project_context" value="AgreementRules"/>
+          </context>
+          <properties name="paramlist_context" value="AgreementRules.AgreementRulesHTTPExport.checkProductValidity"/>
+        </value>
+      </elements>
+      <elements xsi:type="com.ibm.ccl.soa.test.common.models.datatable:DataSetColumnComplexValue">
+        <value xsi:type="com.ibm.ccl.soa.test.common.models.value:ValueField" name="productName" id="1424177218793_352" value="Hello" defaultValue="" typeURI="xsd:/http://www.w3.org/2001/XMLSchema#string" baseTypeURI="xsd:/http://www.w3.org/2001/XMLSchema#string">
+          <context>
+            <properties name="project_context" value="AgreementRules"/>
+          </context>
+          <properties name="paramlist_context" value="AgreementRules.AgreementRulesHTTPExport.checkProductValidity"/>
+        </value>
+      </elements>
+      <elements xsi:type="com.ibm.ccl.soa.test.common.models.datatable:DataSetColumnComplexValue">
+        <value xsi:type="com.ibm.ccl.soa.test.common.models.value:ValueField" name="productName" id="1424176912174_238" value="Metro" defaultValue="" typeURI="xsd:/http://www.w3.org/2001/XMLSchema#string" baseTypeURI="xsd:/http://www.w3.org/2001/XMLSchema#string">
+          <context>
+            <properties name="project_context" value="AgreementRules"/>
+          </context>
+          <properties name="paramlist_context" value="AgreementRules.AgreementRulesHTTPExport.checkProductValidity"/>
+        </value>
+      </elements>
+      <elements xsi:type="com.ibm.ccl.soa.test.common.models.datatable:DataSetColumnComplexValue">
         <value xsi:type="com.ibm.ccl.soa.test.common.models.value:ValueStructure" name="inputAgreement" id="1421653047423_2588" value="" defaultValue="" typeURI="xsd:/http://AgreementServcie#AgreementDetails" baseTypeURI="xsd:/http://AgreementServcie#AgreementDetails" hasChildren="true">
           <context>
             <properties name="project_context" value="AgreementServiceMediation"/>

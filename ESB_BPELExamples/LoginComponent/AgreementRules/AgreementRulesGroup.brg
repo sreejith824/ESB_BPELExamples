@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<brg:BusinessRuleGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:acd="http://www.ibm.com/xmlns/prod/websphere/wbi/cf/ComponentDef/6.0.0" xmlns:brg="http://www.ibm.com/xmlns/prod/websphere/wbi/BusinessRuleGroup/6.0.0" xmlns:ns1="http://AgreementRules/AgreeementRulesInterface" xmlns:selt="http://AgreementRules" targetNamespace="http://AgreementRules" name="AgreementRulesGroup">
+<?xml version="1.0" encoding="UTF-8"?>
+<brg:BusinessRuleGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AgreeementRulesInterface="http://AgreementLibrary/AgreeementRulesInterface" xmlns:acd="http://www.ibm.com/xmlns/prod/websphere/wbi/cf/ComponentDef/6.0.0" xmlns:brg="http://www.ibm.com/xmlns/prod/websphere/wbi/BusinessRuleGroup/6.0.0" xmlns:selt="http://AgreementRules" targetNamespace="http://AgreementRules" name="AgreementRulesGroup">
   <PresentationTimezone>local</PresentationTimezone>
   <OperationDef name="checkProductValidity">
     <Selector>com.ibm.wbiservers.common.selection.GenericSelector</Selector>
@@ -9,7 +9,7 @@ return new java.util.Date();]]&gt;</JavaCode>
     </ParameterDef>
   </OperationDef>
   <Interfaces>
-    <Interface xsi:type="acd:WSDLPortType" portType="ns1:AgreeementRulesInterface"/>
+    <Interface xsi:type="acd:WSDLPortType" portType="AgreeementRulesInterface:AgreeementRulesInterface"/>
   </Interfaces>
   <BusinessRuleGroupTable>selt:AgreementRulesGroup</BusinessRuleGroupTable>
   <References/>

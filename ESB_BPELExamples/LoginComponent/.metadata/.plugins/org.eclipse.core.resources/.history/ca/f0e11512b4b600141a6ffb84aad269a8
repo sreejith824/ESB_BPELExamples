@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AgreementServiceConsumerInterface" targetNamespace="http://AgreementLibrary/AgreementServiceConsumerInterface" xmlns:tns="http://AgreementLibrary/AgreementServiceConsumerInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://AgreementLibrary/AgreementServiceConsumerInterface">
+      <xsd:element name="checkProduct">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="productName" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="checkProductResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="output1" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="checkProductRequestMsg">
+    <wsdl:part element="tns:checkProduct" name="checkProductParameters"/>
+  </wsdl:message>
+    <wsdl:message name="checkProductResponseMsg">
+    <wsdl:part element="tns:checkProductResponse" name="checkProductResult"/>
+  </wsdl:message>
+    <wsdl:portType name="AgreementServiceConsumerInterface">
+    <wsdl:operation name="checkProduct">
+      <wsdl:input message="tns:checkProductRequestMsg" name="checkProductRequest"/>
+      <wsdl:output message="tns:checkProductResponseMsg" name="checkProductResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

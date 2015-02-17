@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="AgreementServcieApp">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="AgreementServcie.jar" deploy-path="/" handle="module:/resource/AgreementServcie/AgreementServcie">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AgreementServcieWeb.war" deploy-path="/" handle="module:/resource/AgreementServcieWeb/AgreementServcieWeb">
+            <dependent-object>Module_1424177878516</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

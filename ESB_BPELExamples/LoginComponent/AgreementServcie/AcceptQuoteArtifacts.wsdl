@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AcceptQuote" targetNamespace="http://AgreementServcie/AcceptQuoteArtifacts" xmlns:ns="http://AgreementServcie/AgreementRulesInterface" xmlns:ns0="http://AgreementServcie/AgreementRulesInterfaceRef" xmlns:ns1="http://AgreementRulesModule/AgreementRulesInterface" xmlns:ns2="http://AgreementServcie/AgreementRulesReference" xmlns:ns3="http://AgreementRules/AgreeementRulesInterface" xmlns:plnk="http://schemas.xmlsoap.org/ws/2004/03/partner-link/" xmlns:tns="http://AgreementServcie/AcceptQuoteArtifacts" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdl0="http://AgreementServcie/AgreementServiceInterface" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AcceptQuote" targetNamespace="http://AgreementServcie/AcceptQuoteArtifacts" xmlns:ns="http://AgreementLibrary/AgreeementRulesInterface" xmlns:ns0="http://AgreementLibrary/AgreementServiceInterface" xmlns:plnk="http://schemas.xmlsoap.org/ws/2004/03/partner-link/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <plnk:partnerLinkType name="AgreementServiceInterfacePLT">
     <plnk:role name="Interface">
-      <plnk:portType name="wsdl0:AgreementServiceInterface"/>
+      <plnk:portType name="ns0:AgreementServiceInterface"/>
     </plnk:role>
   </plnk:partnerLinkType>
     <plnk:partnerLinkType name="AgreeementRulesSCAInterfacePartnerPLT">
     <plnk:role name="Reference">
-      <plnk:portType name="ns3:AgreeementRulesInterface"/>
+      <plnk:portType name="ns:AgreeementRulesInterface"/>
     </plnk:role>
   </plnk:partnerLinkType>
-    <wsdl:import location="AgreementServiceInterface.wsdl" namespace="http://AgreementServcie/AgreementServiceInterface"/>
-    <wsdl:import location="AgreeementRulesInterface.wsdl" namespace="http://AgreementRules/AgreeementRulesInterface"/>
+    <wsdl:import location="AgreementServiceInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceInterface"/>
+    <wsdl:import location="AgreeementRulesInterface.wsdl" namespace="http://AgreementLibrary/AgreeementRulesInterface"/>
 </wsdl:definitions>

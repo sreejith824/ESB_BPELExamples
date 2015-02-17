@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AgreementConsumer" targetNamespace="http://AgreementServiceConsumer/AgreementConsumerArtifacts" xmlns:plnk="http://schemas.xmlsoap.org/ws/2004/03/partner-link/" xmlns:tns="http://AgreementServiceConsumer/AgreementConsumerArtifacts" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdl0="http://AgreementLibrary/AgreementServiceConsumerInterface" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <plnk:partnerLinkType name="AgreementServiceConsumerInterfacePLT">
+    <plnk:role name="Interface">
+      <plnk:portType name="wsdl0:AgreementServiceConsumerInterface"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+  <wsdl:import location="AgreementServiceConsumerInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceConsumerInterface"/>
+</wsdl:definitions>

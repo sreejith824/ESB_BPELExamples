@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><bpws:process xmlns:bpws="http://schemas.xmlsoap.org/ws/2004/03/business-process/" xmlns:ns="http://AgreementServiceConsumer/triggerAcceptQuoteArtifacts" xmlns:ns0="http://AgreementLibrary/AgreementServiceConsumerInterface" xmlns:ns1="http://AgreementLibrary" xmlns:ns2="http://AgreementLibrary/AgreementServiceInterface" xmlns:wpc="http://www.ibm.com/xmlns/prod/websphere/business-process/6.0.0/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.ibm.com/xmlns/prod/websphere/business-process/expression-lang/java/6.0.0/" name="triggerAcceptQuote" suppressJoinFailure="yes" targetNamespace="http://AgreementServiceConsumer" wpc:continueOnError="no" wpc:displayName="triggerAcceptQuote" wpc:executionMode="microflow" wpc:id="1" wpc:validFrom="2015-02-17T14:55:25" wpc:version="IBM_8.0.100">
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AgreementServiceConsumerInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceConsumerInterface"/>
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="triggerAcceptQuoteArtifacts.wsdl" namespace="http://AgreementServiceConsumer/triggerAcceptQuoteArtifacts"/>
+  <bpws:import importType="http://www.w3.org/2001/XMLSchema" location="AgreementDetails.xsd" namespace="http://AgreementLibrary"/>
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AgreementServiceInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceInterface"/>
+  <bpws:partnerLinks>
+    <bpws:partnerLink myRole="Interface" name="AgreementServiceConsumerInterface" partnerLinkType="ns:AgreementServiceConsumerInterfacePLT" wpc:id="2"/>
+    <bpws:partnerLink name="AgreementServiceInterfacePartner" partnerLinkType="ns:PartnerPLT" partnerRole="Reference" wpc:id="10"/>
+  </bpws:partnerLinks>
+  <bpws:variables>
+    <bpws:variable name="quoteRefNumber" type="xsd:string" wpc:id="6"/>
+    <bpws:variable name="response" type="xsd:string" wpc:id="7"/>
+    <bpws:variable name="quoteAgreement" type="ns1:AgreementDetails" wpc:id="9"/>
+    <bpws:variable name="responseAgreement" type="ns1:AgreementDetails" wpc:id="12"/>
+    <bpws:variable name="productName" type="xsd:string" wpc:id="15">
+      <bpws:from><![CDATA["Hello Doctor"]]></bpws:from>
+    </bpws:variable>
+  </bpws:variables>
+  <bpws:sequence name="HiddenSequence" wpc:id="1073741827">
+    <bpws:receive createInstance="yes" name="Receive" operation="triggerAcceptQuote" partnerLink="AgreementServiceConsumerInterface" portType="ns0:AgreementServiceConsumerInterface" wpc:displayName="Receive" wpc:id="4" wpc:transactionalBehavior="commitAfter">
+      <wpc:output>
+        <wpc:parameter name="quoteRefNumber" variable="quoteRefNumber"/>
+      </wpc:output>
+    </bpws:receive>
+    <bpws:invoke name="Snippet1" operation="null" partnerLink="null" portType="wpc:null" wpc:continueOnError="inherit" wpc:displayName="initializartion" wpc:id="14">
+      <wpc:script>
+        <wpc:javaCode><![CDATA[commonj.sdo.DataObject __result__1;
+{// create AgreementDetails
+	com.ibm.websphere.bo.BOFactory factory = 
+	   (com.ibm.websphere.bo.BOFactory) new com.ibm.websphere.sca.ServiceManager().locateService("com/ibm/websphere/bo/BOFactory");
+	 __result__1 = factory.create("http://AgreementLibrary","AgreementDetails");
+}
+quoteAgreement = __result__1;
+
+//@generated:com.ibm.wbit.activity.ui
+//<?xml version="1.0" encoding="UTF-8"?>
+//<com.ibm.wbit.activity:CompositeActivity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.wbit.activity="http:///com/ibm/wbit/activity.ecore" name="ActivityMethod">
+//  <exceptions>
+//    <type xsi:type="com.ibm.wbit.activity:JavaElementType" name="com.ibm.bpe.api.ProcessException"/>
+//  </exceptions>
+//  <executableElements xsi:type="com.ibm.wbit.activity:LibraryActivity" name="create AgreementDetails" description="create a new AgreementDetails {http://AgreementLibrary}" category="Advanced Integration and BO services" template="com.ibm.websphere.bo.BOFactory factory = &#xA;   (com.ibm.websphere.bo.BOFactory) new com.ibm.websphere.sca.ServiceManager().locateService(&quot;com/ibm/websphere/bo/BOFactory&quot;);&#xA; &lt;%return%> factory.create(&quot;http://AgreementLibrary&quot;,&quot;AgreementDetails&quot;);">
+//    <result>
+//      <dataOutputs target="//@executableElements.1"/>
+//      <type xsi:type="com.ibm.wbit.activity:XSDElementType" name="AgreementDetails" namespace="http://AgreementLibrary" nillable="false"/>
+//    </result>
+//  </executableElements>
+//  <executableElements xsi:type="com.ibm.wbit.activity:Expression" dataInputs="//@executableElements.0/@result/@dataOutputs.0" value="quoteAgreement" variable="true">
+//    <type xsi:type="com.ibm.wbit.activity:XSDElementType" name="AgreementDetails" namespace="http://AgreementLibrary"/>
+//  </executableElements>
+//  <executableGroups executableElements="//@executableElements.0 //@executableElements.1"/>
+//</com.ibm.wbit.activity:CompositeActivity>
+//@generated:end
+//!SMAP!*S WBIACTDBG
+//!SMAP!*L
+//!SMAP!1:1,6
+//!SMAP!2:7,1
+//!SMAP!1000000:32,1]]></wpc:javaCode>
+      </wpc:script>
+    </bpws:invoke>
+    <bpws:assign name="Assign" wpc:displayName="Assign" wpc:id="8">
+      <bpws:copy>
+        <bpws:from variable="quoteRefNumber"/>
+        <bpws:to variable="quoteAgreement">
+          <bpws:query queryLanguage="http://www.w3.org/TR/1999/REC-xpath-19991116"><![CDATA[quoteReferenceNumber]]></bpws:query>
+        </bpws:to>
+      </bpws:copy>
+      <bpws:copy/>
+    </bpws:assign>
+    <bpws:invoke name="acceptQuote" operation="acceptQuote" partnerLink="AgreementServiceInterfacePartner" portType="ns2:AgreementServiceInterface" wpc:continueOnError="inherit" wpc:displayName="acceptQuote" wpc:id="11">
+      <wpc:input>
+        <wpc:parameter name="inputAgreement" variable="quoteAgreement"/>
+      </wpc:input>
+      <wpc:output>
+        <wpc:parameter name="outputAgreement" variable="responseAgreement"/>
+      </wpc:output>
+    </bpws:invoke>
+    <bpws:invoke name="Snippet" operation="null" partnerLink="null" portType="wpc:null" wpc:continueOnError="inherit" wpc:displayName="validation" wpc:id="13">
+      <wpc:script>
+        <wpc:javaCode><![CDATA[boolean __result__1 = responseAgreement != null;
+if (__result__1){
+	java.lang.String __result__4 = "Success";
+	response = __result__4;
+}
+else{
+}
+
+//@generated:com.ibm.wbit.activity.ui
+//<?xml version="1.0" encoding="UTF-8"?>
+//<com.ibm.wbit.activity:CompositeActivity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.wbit.activity="http:///com/ibm/wbit/activity.ecore" name="ActivityMethod">
+//  <exceptions>
+//    <type xsi:type="com.ibm.wbit.activity:JavaElementType" name="com.ibm.bpe.api.ProcessException"/>
+//  </exceptions>
+//  <executableElements xsi:type="com.ibm.wbit.activity:Expression" value="responseAgreement !=null" assignable="false">
+//    <dataOutputs target="//@executableElements.1"/>
+//    <type xsi:type="com.ibm.wbit.activity:JavaElementType" name="boolean"/>
+//  </executableElements>
+//  <executableElements xsi:type="com.ibm.wbit.activity:BranchElement" dataInputs="//@executableElements.0/@dataOutputs.0">
+//    <conditionalActivities>
+//      <executableElements xsi:type="com.ibm.wbit.activity:Expression" value="&quot;Success&quot;" assignable="false">
+//        <dataOutputs target="//@executableElements.1/@conditionalActivities.0/@executableElements.1"/>
+//        <type xsi:type="com.ibm.wbit.activity:XSDElementType" name="string" namespace="http://www.w3.org/2001/XMLSchema"/>
+//      </executableElements>
+//      <executableElements xsi:type="com.ibm.wbit.activity:Expression" dataInputs="//@executableElements.1/@conditionalActivities.0/@executableElements.0/@dataOutputs.0" value="response" variable="true">
+//        <type xsi:type="com.ibm.wbit.activity:XSDElementType" name="string" namespace="http://www.w3.org/2001/XMLSchema"/>
+//      </executableElements>
+//      <executableGroups executableElements="//@executableElements.1/@conditionalActivities.0/@executableElements.0 //@executableElements.1/@conditionalActivities.0/@executableElements.1"/>
+//      <condition value="true"/>
+//    </conditionalActivities>
+//    <conditionalActivities>
+//      <condition value=""/>
+//    </conditionalActivities>
+//  </executableElements>
+//  <executableGroups executableElements="//@executableElements.0 //@executableElements.1"/>
+//</com.ibm.wbit.activity:CompositeActivity>
+//@generated:end
+//!SMAP!*S WBIACTDBG
+//!SMAP!*L
+//!SMAP!1:1,1
+//!SMAP!2:2,1
+//!SMAP!4:3,1
+//!SMAP!5:4,1
+//!SMAP!1000000:45,1]]></wpc:javaCode>
+      </wpc:script>
+    </bpws:invoke>
+    <bpws:reply name="Reply" operation="triggerAcceptQuote" partnerLink="AgreementServiceConsumerInterface" portType="ns0:AgreementServiceConsumerInterface" wpc:displayName="Reply" wpc:id="5">
+      <wpc:input>
+        <wpc:parameter name="response" variable="response"/>
+      </wpc:input>
+    </bpws:reply>
+  </bpws:sequence>
+</bpws:process>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="triggerAcceptQuote" targetNamespace="http://AgreementServiceConsumer/triggerAcceptQuoteArtifacts" xmlns:ns="http://AgreementLibrary/AgreementServiceInterface" xmlns:plnk="http://schemas.xmlsoap.org/ws/2004/03/partner-link/" xmlns:tns="http://AgreementServiceConsumer/triggerAcceptQuoteArtifacts" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdl0="http://AgreementLibrary/AgreementServiceConsumerInterface" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <plnk:partnerLinkType name="AgreementServiceConsumerInterfacePLT">
+    <plnk:role name="Interface">
+      <plnk:portType name="wsdl0:AgreementServiceConsumerInterface"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <plnk:partnerLinkType name="PartnerPLT">
+    <plnk:role name="Reference">
+      <plnk:portType name="ns:AgreementServiceInterface"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <wsdl:import location="AgreementServiceConsumerInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceConsumerInterface"/>
+    <wsdl:import location="AgreementServiceInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceInterface"/>
+</wsdl:definitions>

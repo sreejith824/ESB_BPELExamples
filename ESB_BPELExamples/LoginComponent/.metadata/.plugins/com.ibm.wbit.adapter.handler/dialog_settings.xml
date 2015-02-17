@@ -17,11 +17,12 @@
 			<item value="/SalesManagementHttpExport"/>
 			<item value="/AgreementServcieHttpExport"/>
 			<item value="/AgreementServiceHttpExport"/>
+			<item value="/AgreementRulesHTTPExport"/>
 		</list>
 		<section name="">
 			<item value="com.ibm.websphere.http.selectors.UrlMethodFunctionSelector" key="HTTP Export Binding Properties:HTTP_FUNCTION_SELECTOR_SVP__NAME"/>
-			<item value="UTF8JsonDataHandler" key="HTTP Export Binding Properties:HTTP_BINDING_SVP__USER_SUPPLIED_DATA_BINDING_TYPE__NAME"/>
-			<item value="/AgreementServiceHttpExport" key="HTTP Export Binding Properties:HTTP_INTERACTION_PG__NAME:URL_SVP__NAME"/>
+			<item value="UTF8XMLDataHandler" key="HTTP Export Binding Properties:HTTP_BINDING_SVP__USER_SUPPLIED_DATA_BINDING_TYPE__NAME"/>
+			<item value="/AgreementRulesHTTPExport" key="HTTP Export Binding Properties:HTTP_INTERACTION_PG__NAME:URL_SVP__NAME"/>
 		</section>
 	</section>
 </section>

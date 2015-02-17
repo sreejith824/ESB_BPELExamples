@@ -5,7 +5,7 @@
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="AgreementServcieWeb.war" deploy-path="/" handle="module:/resource/AgreementServcieWeb/AgreementServcieWeb">
-            <dependent-object>WebModule_1169158408425</dependent-object>
+            <dependent-object>Module_1424177878516</dependent-object>
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="AgreementLibrary.jar" deploy-path="/" handle="module:/resource/AgreementLibrary/AgreementLibrary">

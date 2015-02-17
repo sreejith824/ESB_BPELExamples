@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scdl:export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxws="http://www.ibm.com/xmlns/prod/websphere/scdl/jaxws/6.0.0" xmlns:ns1="http://AgreementServcie/AgreementServiceInterface" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="AgreementServiceWSExport" name="AgreementServiceWSExport" target="AcceptQuote">
+<scdl:export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AgreementServiceInterface="http://AgreementLibrary/AgreementServiceInterface" xmlns:jaxws="http://www.ibm.com/xmlns/prod/websphere/scdl/jaxws/6.0.0" xmlns:ns1="http://AgreementServcie/AgreementServiceInterface" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="AgreementServiceWSExport" name="AgreementServiceWSExport" target="AcceptQuote">
   <interfaces>
-    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="ns1:AgreementServiceInterface"/>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="AgreementServiceInterface:AgreementServiceInterface"/>
   </interfaces>
   <esbBinding xsi:type="jaxws:JaxWsExportBinding" port="ns1:WSExport1_AgreementServiceInterfaceHttpPort" service="ns1:WSExport1_AgreementServiceInterfaceHttpService"/>
 </scdl:export>

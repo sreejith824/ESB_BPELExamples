@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><bpws:process xmlns:bpws="http://schemas.xmlsoap.org/ws/2004/03/business-process/" xmlns:ns="http://AgreementServiceConsumer/triggerAcceptQuoteArtifacts" xmlns:ns0="http://AgreementLibrary/AgreementServiceConsumerInterface" xmlns:ns1="http://AgreementLibrary" xmlns:ns2="http://AgreementLibrary/AgreementServiceInterface" xmlns:wpc="http://www.ibm.com/xmlns/prod/websphere/business-process/6.0.0/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.ibm.com/xmlns/prod/websphere/business-process/expression-lang/java/6.0.0/" name="triggerAcceptQuote" suppressJoinFailure="yes" targetNamespace="http://AgreementServiceConsumer" wpc:continueOnError="no" wpc:displayName="triggerAcceptQuote" wpc:executionMode="microflow" wpc:id="1" wpc:validFrom="2015-02-17T14:55:25" wpc:version="IBM_8.0.100">
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AgreementServiceConsumerInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceConsumerInterface"/>
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="triggerAcceptQuoteArtifacts.wsdl" namespace="http://AgreementServiceConsumer/triggerAcceptQuoteArtifacts"/>
+  <bpws:import importType="http://www.w3.org/2001/XMLSchema" location="AgreementDetails.xsd" namespace="http://AgreementLibrary"/>
+  <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" location="AgreementServiceInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceInterface"/>
+  <bpws:partnerLinks>
+    <bpws:partnerLink myRole="Interface" name="AgreementServiceConsumerInterface" partnerLinkType="ns:AgreementServiceConsumerInterfacePLT" wpc:id="2"/>
+    <bpws:partnerLink name="AgreementServicePartner" partnerLinkType="ns:PartnerPLT" partnerRole="Reference" wpc:id="10"/>
+  </bpws:partnerLinks>
+  <bpws:variables>
+    <bpws:variable name="quoteRefNumber" type="xsd:string" wpc:id="6"/>
+    <bpws:variable name="response" type="xsd:string" wpc:id="7"/>
+    <bpws:variable name="quoteAgreement" type="ns1:AgreementDetails" wpc:id="9"/>
+    <bpws:variable name="responseAgreement" type="ns1:AgreementDetails" wpc:id="12"/>
+  </bpws:variables>
+  <bpws:sequence name="HiddenSequence" wpc:id="1073741827">
+    <bpws:receive createInstance="yes" name="Receive" operation="triggerAcceptQuote" partnerLink="AgreementServiceConsumerInterface" portType="ns0:AgreementServiceConsumerInterface" wpc:displayName="Receive" wpc:id="4" wpc:transactionalBehavior="commitAfter">
+      <wpc:output>
+        <wpc:parameter name="quoteRefNumber" variable="quoteRefNumber"/>
+      </wpc:output>
+    </bpws:receive>
+    <bpws:assign name="Assign" wpc:displayName="Assign" wpc:id="8">
+      <bpws:copy>
+        <bpws:from variable="quoteRefNumber"/>
+        <bpws:to variable="quoteAgreement">
+          <bpws:query queryLanguage="http://www.w3.org/TR/1999/REC-xpath-19991116"><![CDATA[quoteReferenceNumber]]></bpws:query>
+        </bpws:to>
+      </bpws:copy>
+    </bpws:assign>
+    <bpws:invoke name="acceptQuote" operation="acceptQuote" partnerLink="AgreementServicePartner" portType="ns2:AgreementServiceInterface" wpc:continueOnError="inherit" wpc:displayName="acceptQuote" wpc:id="11">
+      <wpc:input>
+        <wpc:parameter name="inputAgreement" variable="quoteAgreement"/>
+      </wpc:input>
+      <wpc:output>
+        <wpc:parameter name="outputAgreement" variable="responseAgreement"/>
+      </wpc:output>
+    </bpws:invoke>
+    <bpws:reply name="Reply" operation="triggerAcceptQuote" partnerLink="AgreementServiceConsumerInterface" portType="ns0:AgreementServiceConsumerInterface" wpc:displayName="Reply" wpc:id="5">
+      <wpc:input>
+        <wpc:parameter name="response" variable="response"/>
+      </wpc:input>
+    </bpws:reply>
+  </bpws:sequence>
+</bpws:process>
