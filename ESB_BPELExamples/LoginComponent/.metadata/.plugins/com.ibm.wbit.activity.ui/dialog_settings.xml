@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="AddLibraryActivityDialog">
-		<item value="utility.print to log" key="AddLibraryActivityDialog.STORE_LAST_SELECTION_ID"/>
+		<item value="Advanced Integration and BO services.create specific BO" key="AddLibraryActivityDialog.STORE_LAST_SELECTION_ID"/>
 		<list key="AddLibraryActivityDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="Advanced Integration and BO services"/>
+			<item value="events"/>
+			<item value="SMO services"/>
 			<item value="utility"/>
 		</list>
 	</section>

@@ -21,7 +21,7 @@
   <bpws:sequence name="HiddenSequence" wpc:id="1073741827">
     <bpws:receive createInstance="yes" name="Receive" operation="acceptQuote" partnerLink="AgreementServiceInterface" portType="ns9:AgreementServiceInterface" wpc:displayName="Receive" wpc:id="4" wpc:transactionalBehavior="commitAfter">
       <wpc:output>
-        <wpc:parameter name="inputAgreement" variable="acceptQuote"/>
+        <wpc:parameter name="inputAgreement" variable="inputAgreement"/>
       </wpc:output>
     </bpws:receive>
     <bpws:invoke name="PrintRequest" operation="null" partnerLink="null" portType="wpc:null" wpc:continueOnError="inherit" wpc:displayName="PrintRequest" wpc:id="20">

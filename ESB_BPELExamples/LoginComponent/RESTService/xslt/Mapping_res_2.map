@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" targetNamespace="http://RESTService/xslt/Mapping_res_2" version="8.0.2.0" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://RESTService/xslt/Mapping_res_2">
+    <input correlationContext="" message="{http://RESTService/HelloWorldRef}helloWorldResponseMsg" sharedContext="" smoName="wsdl-primary" transientContext="" type="smo" types="" xpath="/"/>
+    <output correlationContext="" message="{http://RESTService/HelloWorldInterface}helloWorldResponseMsg" sharedContext="" smoName="wsdl-primary" transientContext="" type="smo" types="" xpath="/"/>
+    <mappingDeclaration name="Mapping_res_2">
+        <input namespace="http://www.ibm.com/websphere/sibx/smo/v6.0.1" path="smo"/>
+        <output namespace="http://www.ibm.com/websphere/sibx/smo/v6.0.1" path="smo"/>
+        <move>
+            <input path="body/helloWorldResponse/response"/>
+            <output path="body/helloWorldResponse/response"/>
+        </move>
+        <move>
+            <input path="headers"/>
+            <output path="headers"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

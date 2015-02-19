@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:ns1="http://RESTService/HelloWorldInterface" name="RESTService" targetNamespace="http://RESTService/RESTService">
+  <import location="HelloWorldInterface.wsdl" namespace="http://RESTService/HelloWorldInterface"/>
+  <interface portType="ns1:HelloWorldInterface"/>
+</mediationFlow>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE"/>
+    <meta http-equiv="PRAGMA" content="NO-CACHE"/>
+    <meta http-equiv="EXPIRES" content="0"/>
+    <title></title>
+    <link rel='stylesheet' type='text/css' media='all' href='GwtCommon.css'/>
+    <!--[if lt IE 7]>
+      <link rel="stylesheet" type="text/css" href="ie6repository.css" />
+      <script>
+        try {
+          document.execCommand("BackgroundImageCache", false, true);
+        } catch(err) {}
+      </script>
+      <style type="text/css">
+        .gwt-DialogBox .dialogTopCenterInner {
+            background: #3B576F none repeat scroll 0% 0%;
+            vertical-align: bottom;
+            cursor: default;
+            margin-top: 20px;
+        }
+      </style>
+    <![endif]--> 
+    
+	<script type="text/javascript">
+	// <![CDATA[ 
+
+		function queryString( key ) {
+		    var re = new RegExp( "[?&]" + key + "=([^&$]*)", "i" );
+		    var offset = window.location.search.search( re );
+		    if ( offset == -1 ) return null;
+		    return RegExp.$1;
+		}
+
+		function handleConnect() 
+		{
+			var loginButtonDisabled = getLoginButton().disabled;
+			//window.alert("TEST: login button disabled? "+loginButtonDisabled);
+			var urlValue = document.getElementById("repository.client.editLibraryPanel.txtBox_url").value;
+			var usernameValue = document.getElementById("repository.client.editLibraryPanel.txtBox_username").value;
+			var passwordValue = document.getElementById("repository.client.editLibraryPanel.txtBox_password").value;
+			var msgLine = null;
+			var buttonsDiv = null;
+			if ((urlValue && urlValue.length > 0) &&
+				(usernameValue && usernameValue.length > 0) &&
+				(passwordValue && passwordValue.length > 0)) 
+			{
+				// change cursor to busy, and disable push buttons while we are attempting to connect
+				// but if this fails for any reason, don't worry, keep on plowing...
+				// this whole block is per defect 114934 
+				try {			
+					cursor_wait(); 
+					buttonsDiv = document.getElementById("push_buttons"); 
+					disableDiv(buttonsDiv); 				
+					// clear the message line of any old error message ....
+					msgLine = document.getElementById("ErrorMessageLine"); 
+					if (msgLine != null)
+						msgLine.style.visibility = 'hidden';
+					//window.alert("msgLine hidden");
+				} catch (err) {
+					//window.alert("exception1! "+err.description);
+				}
+				
+				if (typeof saveProcessCenterURL == 'function') 
+				{				   
+					saveProcessCenterURL(urlValue, usernameValue, passwordValue);
+				}				
+				if (typeof loadProcessCenter == 'function') 
+				{
+					loadProcessCenter();
+				}
+				//window.alert("TEST! I AM HERE. msgLine visibility: "+msgLine.style.visibility);
+				// restore cursor from busy, and re-enable push buttons...
+				// but if this fails for any reason, don't worry, keep on plowing...
+				// this whole block is per defect 114934				
+				try {
+					cursor_clear(); 
+					enableDiv(buttonsDiv); 				
+					// ok, I think this is a waste of time, because no matter WHAT, after this point we are going to be rebuild from scratch					
+					//if (msgLine != null)
+						//msgLine.style.visibility = 'visible';					
+				} catch (err) {
+					//window.alert("exception2! "+err.description);
+				}
+			}
+		}
+		function disableDiv(elem) 
+		{
+			//window.alert("enter disableDiv");			
+			if (elem != null)
+			{
+				//var test = elem.disabled;
+				//window.alert("  disableDiv: elem.disabled? "+test);
+				if (typeof(elem.disabled)!=='undefined')
+					elem.disabled = true;			
+				if (elem.childNodes)
+				{
+					//var s = "enter disableDiv: "+elem.childNodes_length;
+			 		//window.alert(s);
+					for (var i = 0; i < elem.childNodes.length; i++) 
+					{
+						//window.alert("    Calling disableDiv");
+						if (typeof(elem.childNodes[i])!=='undefined')
+							disableDiv(elem.childNodes[i]);
+					}
+				}
+			}
+			//window.alert("end disableDiv");
+		}
+		function enableDiv(elem) 
+		{
+			//window.alert("enter enableDiv");		
+			if (elem != null)
+			{
+				if (typeof(elem.disabled)!=='undefined')
+					elem.disabled = false;
+				if (elem.childNodes)
+				{			
+					//var s = "enter enableDiv: "+elem.childNodes_length;
+					//window.alert(s);
+					for (var i = 0; i < elem.childNodes.length; i++)
+					{
+						//window.alert("Calling enableDiv");
+						enableDiv(elem.childNodes[i]);
+					}
+				}
+			}
+			//window.alert("end endableDiv");
+		}		
+
+		// Changes the cursor to an hourglass. d114934
+		function cursor_wait() {
+			document.body.style.cursor = 'wait';
+		}
+		// Restores the cursor to the default pointer. d114934
+		function cursor_clear() {
+			document.body.style.cursor = 'default';
+		}
+
+		function handleClose() {
+			if (typeof closeProcessCenter == 'function') {
+				closeProcessCenter();
+			}
+		}
+		
+		function getNLString( key ) {
+			var str = queryString(key);
+			if (str != null) {
+				return decodeURIComponent(str);
+			}
+			
+			// the text for the "key" was not found, use hard-coded English
+			if (key == "title") {
+				return "Process Center Login";
+			}
+			if (key == "instructions") { // d114934
+				return " "; // show nothing if we don't have the string we need. d114934
+			}
+			if (key == "instructionsDummy") { // after 7.5, this is what should be returned
+				return "Log in to start working with Process Center or cancel to switch to the Business Integration perspective."; 
+			}						
+			if (key == "urlLabel") {
+				return "Process Center URI:";
+			}
+			if (key == "example") {
+				return "Example:";
+			}
+			if (key == "connectLabel") {
+				return "Login";
+			}
+			if (key == "cancelLabel") {
+				return "Cancel";
+			}			
+			if (key == "usernameLabel") {
+				return "User Name:";
+			}
+			if (key == "passwordLabel") {
+				return "Password:";
+			}
+			if (key == "errorMessage") {
+				return " ";
+			}		
+			if (key == "errorMessageDummy") {
+				return "This is an error, a really bad error that requires a rather long bit of text to describe it. You know what I mean";
+			}		
+		}
+
+		function centerDIV(Xwidth, Yheight, divid) { 
+			// First, determine how much the visitor has scrolled
+			var scrolledX, scrolledY;
+			if( self.pageYOffset ) { 
+				scrolledX = self.pageXOffset;
+				scrolledY = self.pageYOffset;
+			} else if( document.documentElement && document.documentElement.scrollTop ) { 
+				scrolledX = document.documentElement.scrollLeft;
+				scrolledY = document.documentElement.scrollTop;
+			} else if( document.body ) { 
+				scrolledX = document.body.scrollLeft;
+				scrolledY = document.body.scrollTop;
+			}
+
+			// Next, determine the coordinates of the center of browser's window
+			var centerX, centerY;
+			if( self.innerHeight ) { 
+				centerX = self.innerWidth;
+				centerY = self.innerHeight;
+			} else if( document.documentElement && document.documentElement.clientHeight ) { 
+				centerX = document.documentElement.clientWidth;
+				centerY = document.documentElement.clientHeight;
+			} else if( document.body ) { 
+				centerX = document.body.clientWidth;
+				centerY = document.body.clientHeight;
+			}
+
+			// Xwidth is the width of the div, Yheight is the height of the 
+			// div passed as arguments to the function: 
+			var leftOffset = scrolledX + (centerX - Xwidth) / 2;
+			var topOffset = scrolledY + (centerY - Yheight) / 2;
+
+			// The initial width and height of the div can be set in the 
+			// style sheet with display:none; divid is passed as an argument to // the function 
+			var o=document.getElementById(divid);
+			var r=o.style;
+			r.position='absolute';
+			r.top = topOffset + 'px';
+			r.left = leftOffset + 'px';
+			r.display = "block";
+		}
+
+
+		// addHandler(window, 'resize', window_resize);
+		var resizeTimeoutId;
+		
+		function window_resize(e) {
+			window.clearTimeout(resizeTimeoutId);
+			resizeTimeoutId = window.setTimeout('doResizeCode();', 10);
+		}
+		
+		function doResizeCode(e) {
+			var divid = "repository.client.projectPanel.createLibraryPopup_popup";
+			var o=document.getElementById(divid);
+
+			centerDIV(o.clientWidth, o.clientHeight, divid);
+		}
+		
+		// a key down event happend in one of the 3 entry fields. Was it Enter? If so, assume they pressed Login
+		function handleEnter(e) {
+			var keyPressed = null;
+			
+			if(window.event) { // IE
+				keyPressed = e.keyCode
+			}
+			else if(e.which) {
+				keyPressed = e.which
+			}
+
+			if ((keyPressed!=null) && (keyPressed == 13)) {
+				handleConnect();
+			}
+
+		}
+		
+		// something changed in one of the 3 text fields. Decide whether to enable login button
+		// this is all for 114934
+		function handleChange(e) 
+		{			
+		    try 
+			{			
+				if(window.event) { // IE
+					keyPressed = e.keyCode
+				}
+				else if(e.which) {
+					keyPressed = e.which
+				}				
+				if ((keyPressed!=null) && (keyPressed == 13))
+					return; // ignore ENTER 
+		    	var loginButton = getLoginButton();
+				if (loginButton == null)
+					return;
+				// one of the 3 entry fields has changed. 
+				// if any one is empty, disable loginButton
+				//window.alert("test1");
+				if (isEmpty(document.getElementById("repository.client.editLibraryPanel.txtBox_url")))
+				{
+					disableDiv(loginButton);
+					return; // done!
+				}
+				//window.alert("test2");
+				if (isEmpty(document.getElementById("repository.client.editLibraryPanel.txtBox_username")))
+				{
+					disableDiv(loginButton);
+					return; // done!
+				}
+				//window.alert("test3");
+				if (isEmpty(document.getElementById("repository.client.editLibraryPanel.txtBox_password")))
+				{
+					disableDiv(loginButton);
+					return; // done!
+				}				
+				// all fields are non-empty, so enable login button
+				//window.alert("test4");
+				enableDiv(loginButton);
+				// clear the message line of any old error message ....
+				var msgLine = document.getElementById("ErrorMessageLine"); 
+				if (msgLine != null)
+					msgLine.style.visibility = 'hidden';				
+				
+			} catch (err) 
+			{
+				//window.alert("error in handleChangeURL! " + err.description);
+				enableDiv(getLoginButton()); // to be safe
+			}
+		}	
+		
+		// is there any text in the given field?
+		function isEmpty(field) 
+		{
+			try {
+				var fieldValue = null;
+				if (field != null && field.value)
+				{
+					fieldValue = field.value; // todo, trim but need a very efficient one
+					if (fieldValue.length > 0)
+					{
+						return false;
+					}
+				}
+			} catch (err) {
+				//window.alert("error in isEmpty "+err.description);
+				//window.alert("for field "+field);
+				return false; // be on safe side
+			}
+			return true;
+		}	
+		
+		// return the DIV containing the login button
+		function getLoginButton() 
+		{
+			return document.getElementById("repository.client.createLibraryPopup.btn_0");
+		}
+		
+		function doOnLoad() {
+			doResizeCode();
+			var enableLoginButton = true;
+			var urlDefault = getNLString("url");
+			if (urlDefault && urlDefault.length > 0) {
+				document.getElementById("repository.client.editLibraryPanel.txtBox_url").value = urlDefault;				
+			} 
+			else
+				enableLoginButton = false; // if any one string is empty, disable login
+			var usernameDefault = getNLString("username");
+			if (usernameDefault && usernameDefault.length > 0) {
+				document.getElementById("repository.client.editLibraryPanel.txtBox_username").value = usernameDefault;
+			}
+			else
+				enableLoginButton = false; // if any one string is empty, disable login			
+			var passwordDefault = getNLString("password");
+			if (passwordDefault && passwordDefault.length > 0) {
+				document.getElementById("repository.client.editLibraryPanel.txtBox_password").value = passwordDefault;
+			}
+			else
+				enableLoginButton = false; // if any one string is empty, disable login			
+			if (!enableLoginButton) // d114934
+				disableDiv(getLoginButton());
+		    //window.alert("STARTING. EnableLogin button? "+enableLoginButton);
+		}
+			
+		
+	// ]]>
+	</script>
+  </head>
+  <body onresize="window_resize()" onload="doOnLoad()">
+    <div style="display: block; visibility: visible; position: absolute; left: 350px; top: 200px; clip: rect(auto auto auto auto); overflow-x: visible; overflow-y: visible;"
+    class="gwt-DialogBox" id="repository.client.projectPanel.createLibraryPopup_popup">
+      <div class="">
+        <table cellspacing="0" cellpadding="0" class="">
+          <tr class="dialogTop">
+            <td class="dialogTopLeft">
+              <div class="dialogTopLeftInner"></div>
+            </td>
+            <td class="dialogTopCenter">
+              <div class="dialogTopCenterInner">
+                <div class="Caption">
+                  <script type="text/javascript">
+                    document.write(getNLString("title"));
+                  </script>
+                </div>
+              </div>
+            </td>
+            <td class="dialogTopRight">
+              <div class="dialogTopRightInner"></div>
+              <div title="Close" class="closer" onclick="handleClose()"></div>              
+            </td>
+          </tr>
+          <tr class="dialogMiddle">
+            <td class="dialogMiddleLeft">
+              <div class="dialogMiddleLeftInner"></div>
+            </td>
+            <td class="dialogMiddleCenter">
+              <div class="dialogMiddleCenterInner dialogContent">
+                <div class="abstractPopup">
+                  <div class="white_content_deploy" style="padding: 0px">
+
+					<div class="gwt-Label" style="width: 410px; margin-top: 10px; margin-left: 10px" >
+                    	<script type="text/javascript">
+                      		document.write(getNLString("instructions"));
+                    	</script>
+					</div>
+
+                    <div class="inner_content" style="margin-left: 10px">
+                      <div class="editProjectPanel">
+                        <div class="gwt-Label" id="ErrorMessageLine" style="width:400px; margin-top: 8px; margin-left: 10px; margin-bottom: 10px; color: red; font-weight: bold;">
+                          <script type="text/javascript">
+                            document.write(getNLString("errorMessage"));
+                          </script>
+                        </div>
+                        <div class="gwt-Label">
+                          <script type="text/javascript">
+                            document.write(getNLString("urlLabel"));
+                          </script>
+                        </div>
+                        <div class="gwt-Label" style="font-size: 85%">
+                          <script type="text/javascript">
+                            document.write(getNLString("example"));
+                          </script>
+                           http://server:port/ProcessCenter
+                        </div>
+                        <input name="url" type="text" tabindex="1"
+                        class="gwt-TextBox" id="repository.client.editLibraryPanel.txtBox_url"
+                        	size="60" onkeydown="handleEnter(event)" onkeyup="handleChange(event)"></input>
+                      </div>
+                      <div class="editProjectPanel" style="margin-top: 10px;">
+                        <div class="gwt-Label" >
+                          <script type="text/javascript">
+                            document.write(getNLString("usernameLabel"));
+                          </script>
+                        </div>
+                        <input name="username" type="text" tabindex="1"
+                        class="gwt-TextBox" id="repository.client.editLibraryPanel.txtBox_username"
+                        	size="60" onkeydown="handleEnter(event)" onkeyup="handleChange(event)"></input>
+                      </div>
+                      <div class="editProjectPanel" style="margin-top: 10px;">
+                        <div class="gwt-Label" >
+                          <script type="text/javascript">
+                            document.write(getNLString("passwordLabel"));
+                          </script>
+                        </div>
+                        <input name="password" type="password" tabindex="1"
+                        class="gwt-TextBox" id="repository.client.editLibraryPanel.txtBox_password"
+                        	size="60" onkeydown="handleEnter(event)" onkeyup="handleChange(event)"></input>
+                      </div>
+                    </div>
+                    <div class="abstractPopupButtonPanel" id="push_buttons" style="padding-right: 15px">                    
+                      <div class="libraryButton" id="repository.client.createLibraryPopup.btn_0">
+                      <table style="border-collapse: collapse;"
+                      cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td class="buttonLeft">
+                              &nbsp;
+                            </td>
+                            <td class="middle">
+                              <div class="buttonText" id="loginButtonLabel" onclick="handleConnect()">
+                                    <script type="text/javascript">
+                            			document.write(getNLString("connectLabel"));
+                          			</script>
+                              </div>
+                            </td>
+                            <td class="buttonRight">
+                              &nbsp;
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+
+                      <div class="libraryButton" id="repository.client.createLibraryPopup.btn_1">
+                      <table style="border-collapse: collapse;"
+                      cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td class="buttonLeft">
+                              &nbsp;
+                            </td>
+                            <td class="middle">
+                              <div class="buttonText" id="cancelButtonLabel" onclick="handleClose()">
+                                    <script type="text/javascript">
+                            			document.write(getNLString("cancelLabel"));
+                          			</script>
+                              </div>
+                            </td>
+                            <td class="buttonRight">
+                              &nbsp;
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td class="dialogMiddleRight">
+              <div class="dialogMiddleRightInner"></div>
+            </td>
+          </tr>
+          <tr class="dialogBottom">
+            <td class="dialogBottomLeft">
+              <div class="dialogBottomLeftInner"></div>
+            </td>
+            <td class="dialogBottomCenter">
+              <div class="dialogBottomCenterInner"></div>
+            </td>
+            <td class="dialogBottomRight">
+              <div class="dialogBottomRightInner"></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+	
+	<script type="text/javascript">
+		var urlTextField = "repository.client.editLibraryPanel.txtBox_url";
+		if (urlTextField != null)
+			document.getElementById(urlTextField).focus();
+	</script>
+
+  </body>
+</html>

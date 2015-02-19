@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfg:bindingConfiguration xmlns:cfg="http://www.ibm.com/xmlns/prod/websphere/bindingconfiguration/6.1.0" name="DataTransformationConfiguration" targetNamespace="http://AgreementServiceConsumer/commonConfigurations">
+  <cfg:typeName>com.ibm.wbiserver.datahandler.json.JSONDataHandler</cfg:typeName>
+  <cfg:tag>BindingKind_DataHandler</cfg:tag>
+  <cfg:tag>BindingType_JMS</cfg:tag>
+  <cfg:tag>BindingType_MQ</cfg:tag>
+  <cfg:tag>BindingType_HTTP</cfg:tag>
+</cfg:bindingConfiguration>

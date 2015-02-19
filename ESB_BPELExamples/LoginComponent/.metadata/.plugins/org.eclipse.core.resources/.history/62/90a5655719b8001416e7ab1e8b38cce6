@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration_6.1.0="http://www.ibm.com/xmlns/prod/websphere/j2ca/configuration/6.1.0" xmlns:http="http://www.ibm.com/xmlns/prod/websphere/scdl/http/6.1.0" xmlns:ns1="http://RESTService/RESTServiceInterface" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="RESTServiceHTTPExport" name="RESTServiceHTTPExport" target="RESTService">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="ns1:RESTServiceInterface"/>
+  </interfaces>
+  <esbBinding xsi:type="http:HTTPExportBinding" defaultDataBindingReferenceName="configuration_6.1.0:UTF8XMLDataHandler">
+    <exportInteraction contextPath="/RESTServiceHTTPExport">
+      <httpMethod>
+        <httpMethod>GET</httpMethod>
+      </httpMethod>
+    </exportInteraction>
+    <functionSelector>com.ibm.wbiserver.functionselector.ConstantFunctionSelector</functionSelector>
+    <methodBinding method="helloWorld">
+      <exportInteraction contextPath="/helloWorld">
+        <httpMethod>
+          <httpMethod>GET</httpMethod>
+        </httpMethod>
+      </exportInteraction>
+      <nativeMethod>helloWorld</nativeMethod>
+    </methodBinding>
+  </esbBinding>
+</scdl:export>

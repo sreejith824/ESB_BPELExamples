@@ -1,0 +1,357 @@
+html {
+    overflow: hidden;
+}
+
+
+/* Common decals like footer, infopanel etc. */
+.twFooter {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/style/footer_whitetop.png', sizingMethod='scale');
+}
+
+.twFooterRight-Curve {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/style/footer_curve_left.png', sizingMethod='scale');
+}
+
+.cb2, .cb2a, .cb3 {
+    background: #f2f2f2;
+}
+
+/* Tabbed main menu fixes. */
+.twRepositoryHeaderTab {
+    height: 36px;
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/header_tab_unselected_mid.png", sizingMethod="scale");
+}
+
+.twRepositoryHeaderTab-Right div {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/style/header_tab_unselected_right.png');
+}
+
+li.BeforeSelected div.twRepositoryHeaderTab-Right {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/header_tab_selected_mid.png", sizingMethod="scale");
+}
+
+div.twRepositoryHeaderTab-TitleLink {
+    height: 36px;
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/header_tab_unselected_mid.png", sizingMethod="scale");
+}
+
+div.twRepositoryHeaderTab-TitleLink SPAN {
+    height: 1px;
+}
+
+
+li.Selected div.twRepositoryHeaderTab-TitleLink {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/header_tab_selected_mid.png", sizingMethod="scale");
+}
+
+div.twRepositoryHeaderTab-Right div {
+}
+
+li.Selected div.twRepositoryHeaderTab-Right div {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/header_tab_selected_right.png");
+}
+
+#LastMenuElement.twRepositoryHeaderTab-Right {
+    filter: none;
+}
+
+li.Selected #LastMenuElement.twRepositoryHeaderTab-Right div {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/header_tab_admin_selected_right.png");
+}
+
+li #LastMenuElement.twRepositoryHeaderTab-Right div {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/header_tab_admin_right.png");
+}
+
+div.twDesignerIcon div.twIconButton-up {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icons/goto-designer-48.png');
+}
+
+div.twDesignerIcon div.twIconButton-up-hovering {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icons/goto-designer-hover-48.png');;
+}
+
+div.twHelpIcon div.twIconButton-up {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/help-48.png");
+}
+
+div.twHelpIcon div.twIconButton-up-hovering {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/help-hover-48.png");
+}
+
+#idBadge {
+    margin-right: 0px;
+}
+
+/* Icons. */
+
+.favorite12icon {
+    background-image: url("images/icons/favorite-12.gif");
+}
+
+.processIcon {
+    display: inline;  /* fix double left margin */
+    background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icons/process-app-24.png');
+}
+
+.snapshotIcon {
+    display: inline; /* fix double left margin */
+	background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icons/snapshot-24.png');
+}
+
+.toolkitIcon {
+    display: inline; /* fix double left margin */
+    background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icons/toolkit-24.png');
+}
+
+
+/* Favorites icon fix. */
+.favoriteSelected {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/favorite-selected-16.png");
+}
+
+.favoriteUnselected {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/favorite-unselected-16.png");
+}
+
+
+/* Dialog fixes */
+.gwt-DialogBox .dialogTopCenter {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/dialog/popup-tc.png", sizingMethod="scale");
+}
+
+.gwt-DialogBox .dialogBottomCenter {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/dialog/popup-bc.png", sizingMethod="scale");
+}
+
+.gwt-DialogBox .dialogMiddleLeft {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/dialog/popup-ml.png", sizingMethod="scale");
+}
+
+.gwt-DialogBox .dialogMiddleRight {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/dialog/popup-mr.png", sizingMethod="scale");
+}
+
+.gwt-DialogBox .dialogTopLeft {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/dialog/popup-tl.png");
+}
+
+.gwt-DialogBox .dialogTopRight {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/dialog/popup-tr.png");
+}
+
+.gwt-DialogBox .dialogBottomLeft {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/dialog/popup-bl.png");
+}
+
+.gwt-DialogBox .dialogBottomRight {
+    background: transparent;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/dialog/popup-br.png");
+}
+
+.closer {
+	background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/big_close.png");
+}
+
+/* Button */
+
+.libraryButton .buttonLeft {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/button/button-l.png");
+}
+
+.libraryButton .buttonRight {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/button/button-r.png");
+}
+
+.libraryButton .middle {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/button/button_m.png", sizingMethod="scale");
+}
+
+.abstractPopupButtonPanel {
+    margin-right: -6px;
+}
+
+.twUnderTitle .twSortFilterHeader {
+    background: #cae0ff;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/shadow_horizontal_30px.png", sizingMethod="scale") ;
+}
+
+/* First element to emulate CSS :first-child on ie6. */
+.deployPipes .first, .actions .first {
+    border-left: none;
+}
+
+.twUnderTitle {
+    background-image: url(images/style/shadow_horizontal.gif)
+}
+
+/* Servers tab */
+
+.serverIcon {
+    display: inline;
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/server-24.png");
+}
+
+/* Admin tab */
+
+.manageUserAccessWidget .userAccessRowsContainer {
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid silver; /* No rounded borders in ie6. */ 
+    margin-left: -1px; /* Compensates border width. */
+    margin-right: -1px; /* Compensates border width */
+}
+
+.rowItemButton {
+    display: inline; /* Fixes double padding */
+}
+
+.userAccessRow {
+    height: 1%;
+}
+
+/* Icons */
+.questionMarkHelpIcon {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/help-16.png");
+    display: inline;
+}
+
+.createActionIcon {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/create-16.png");
+}
+
+.openInDesignerActionIcon {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/open-in-designer-16.png");
+}
+
+.importActionIcon {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/import-16.png");
+}
+
+.archiveActionIcon {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/archive-16.png");
+}
+
+.configureActionIcon {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/config-16.png");
+}
+
+.configureActionSmallIcon {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/config-12.png");
+}
+
+.snapshotIconSmall {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/snapshot-16.png");
+    display: inline;
+}
+
+.processAppIconSmall {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/process-app-16.png");
+    display: inline;
+}
+
+.toolkitIconSmall {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/toolkit-16.png");
+    display: inline;
+}
+
+.openInDesignerIconSmall {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/open-in-designer-12.png");
+    display: inline;
+}
+
+.serverIconSmall {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/server-16.png");
+    display: inline;
+}
+
+.downloadActionIcon {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/download_authoring_enviro_16x16.png");
+}
+
+.verticalShadow {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/shadow_vertical_right.png", sizingMethod="scale");
+}
+
+.cb2a div {
+    font-size: 0;
+}
+
+.optionDecoratorPanel .topLeft {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/corners/option_tl.png");
+}
+
+.optionDecoratorPanel .topRight {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/corners/option_tr.png");
+}
+
+.optionDecoratorPanel .bottomLeft {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/corners/option_bl.png");
+}
+
+.optionDecoratorPanel .bottomRight {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/style/corners/option_br.png");
+}
+
+.selectOn {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/check-24.png");
+    position: relative;
+    top: 6px;
+}
+
+.importProcessAppIcon {
+    background: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/icons/process-app-16.png");
+    margin-left: 0;
+    margin-top: 0;
+}

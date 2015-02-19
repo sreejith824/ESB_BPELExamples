@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="Component1" targetNamespace="http://RESTTestService/Component1Artifacts" xmlns:plnk="http://schemas.xmlsoap.org/ws/2004/03/partner-link/" xmlns:tns="http://RESTTestService/Component1Artifacts" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdl0="http://RESTTestService/HelloWorldInterface" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <plnk:partnerLinkType name="HelloWorldInterfacePLT">
+    <plnk:role name="Interface">
+      <plnk:portType name="wsdl0:HelloWorldInterface"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <wsdl:import location="HelloWorldInterface.wsdl" namespace="http://RESTTestService/HelloWorldInterface"/>
+</wsdl:definitions>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="AcceptQuote" targetNamespace="http://AgreementServcie/AcceptQuoteArtifacts" xmlns:ns="http://AgreementLibrary/AgreeementRulesInterface" xmlns:ns0="http://AgreementLibrary/AgreementServiceInterface" xmlns:plnk="http://schemas.xmlsoap.org/ws/2004/03/partner-link/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <plnk:partnerLinkType name="AgreementServiceInterfacePLT">
+    <plnk:role name="Interface">
+      <plnk:portType name="ns0:AgreementServiceInterface"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <plnk:partnerLinkType name="AgreeementRulesSCAInterfacePartnerPLT">
+    <plnk:role name="Reference">
+      <plnk:portType name="ns:AgreeementRulesInterface"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <wsdl:import location="AgreementServiceInterface.wsdl" namespace="http://AgreementLibrary/AgreementServiceInterface"/>
+    <wsdl:import location="AgreeementRulesInterface.wsdl" namespace="http://AgreementLibrary/AgreeementRulesInterface"/>
+</wsdl:definitions>

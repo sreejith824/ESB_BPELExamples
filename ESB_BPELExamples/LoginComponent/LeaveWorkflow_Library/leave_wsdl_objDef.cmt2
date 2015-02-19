@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectdefinition:ObjectDefinitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:base="http:///base.ecore" xmlns:objectdefinition="http:///objectdefinition.ecore" version="7.0">
+  <objectDefinition uid="DF_25.16a7ba14-754a-4234-916f-0e6e4fe885ec" type="http://www.eclipse.org/wsdl/2003/WSDL#Definition" directSourceLink="//@sourceElement.0">
+    <descriptor name="Modified">
+      <value xsi:type="base:LiteralValue" value="WLE"/>
+    </descriptor>
+    <objectReference xsi:type="objectdefinition:EMFRef">
+      <eObject href="leave.wsdl#/"/>
+    </objectReference>
+    <objectDefinition uid="MG_25.16a7ba14-754a-4234-916f-0e6e4fe885ec_sync_req" type="http://www.eclipse.org/wsdl/2003/WSDL#Message" directSourceLink="//@sourceElement.0">
+      <descriptor name="Modified">
+        <value xsi:type="base:LiteralValue" value="WLE"/>
+      </descriptor>
+      <objectReference xsi:type="objectdefinition:EMFRef">
+        <eObject href="leave.wsdl#//@eMessages.0"/>
+      </objectReference>
+    </objectDefinition>
+    <objectDefinition uid="MG_25.16a7ba14-754a-4234-916f-0e6e4fe885ec_sync_resp" type="http://www.eclipse.org/wsdl/2003/WSDL#Message" directSourceLink="//@sourceElement.0">
+      <descriptor name="Modified">
+        <value xsi:type="base:LiteralValue" value="WLE"/>
+      </descriptor>
+      <objectReference xsi:type="objectdefinition:EMFRef">
+        <eObject href="leave.wsdl#//@eMessages.1"/>
+      </objectReference>
+    </objectDefinition>
+    <objectDefinition uid="MG_25.16a7ba14-754a-4234-916f-0e6e4fe885ec_async_req" type="http://www.eclipse.org/wsdl/2003/WSDL#Message" directSourceLink="//@sourceElement.0">
+      <descriptor name="Modified">
+        <value xsi:type="base:LiteralValue" value="WLE"/>
+      </descriptor>
+      <objectReference xsi:type="objectdefinition:EMFRef">
+        <eObject href="leave.wsdl#//@eMessages.2"/>
+      </objectReference>
+    </objectDefinition>
+    <objectDefinition uid="PT_25.16a7ba14-754a-4234-916f-0e6e4fe885ec_sync" type="http://www.eclipse.org/wsdl/2003/WSDL#PortType" directSourceLink="//@sourceElement.0">
+      <descriptor name="Modified">
+        <value xsi:type="base:LiteralValue" value="WLE"/>
+      </descriptor>
+      <objectReference xsi:type="objectdefinition:EMFRef">
+        <eObject href="leave.wsdl#//@ePortTypes.0"/>
+      </objectReference>
+      <objectDefinition uid="OP_25.16a7ba14-754a-4234-916f-0e6e4fe885ec_sync" type="http://www.eclipse.org/wsdl/2003/WSDL#Operation" directSourceLink="//@sourceElement.0">
+        <descriptor name="Modified">
+          <value xsi:type="base:LiteralValue" value="WLE"/>
+        </descriptor>
+        <objectReference xsi:type="objectdefinition:EMFRef">
+          <eObject href="leave.wsdl#//@ePortTypes.0/@eOperations.0"/>
+        </objectReference>
+      </objectDefinition>
+    </objectDefinition>
+    <objectDefinition uid="PT_25.16a7ba14-754a-4234-916f-0e6e4fe885ec_async" type="http://www.eclipse.org/wsdl/2003/WSDL#PortType" directSourceLink="//@sourceElement.0">
+      <descriptor name="Modified">
+        <value xsi:type="base:LiteralValue" value="WLE"/>
+      </descriptor>
+      <objectReference xsi:type="objectdefinition:EMFRef">
+        <eObject href="leave.wsdl#//@ePortTypes.1"/>
+      </objectReference>
+      <objectDefinition uid="OP_25.16a7ba14-754a-4234-916f-0e6e4fe885ec_async" type="http://www.eclipse.org/wsdl/2003/WSDL#Operation" directSourceLink="//@sourceElement.0">
+        <descriptor name="Modified">
+          <value xsi:type="base:LiteralValue" value="WLE"/>
+        </descriptor>
+        <objectReference xsi:type="objectdefinition:EMFRef">
+          <eObject href="leave.wsdl#//@ePortTypes.1/@eOperations.0"/>
+        </objectReference>
+      </objectDefinition>
+    </objectDefinition>
+    <objectDefinition uid="XE_25.16a7ba14-754a-4234-916f-0e6e4fe885ec_wrapper_sync_req" type="http://www.eclipse.org/xsd/2002/XSD#XSDElementDeclaration" directSourceLink="//@sourceElement.0">
+      <descriptor name="Modified">
+        <value xsi:type="base:LiteralValue" value="WLE"/>
+      </descriptor>
+      <objectReference xsi:type="objectdefinition:EMFRef">
+        <eObject href="leave.wsdl#//@eTypes/@eExtensibilityElements.0/@schema/invoke;XSDElementDeclaration"/>
+      </objectReference>
+    </objectDefinition>
+    <objectDefinition uid="XE_25.16a7ba14-754a-4234-916f-0e6e4fe885ec_wrapper_sync_resp" type="http://www.eclipse.org/xsd/2002/XSD#XSDElementDeclaration" directSourceLink="//@sourceElement.0">
+      <descriptor name="Modified">
+        <value xsi:type="base:LiteralValue" value="WLE"/>
+      </descriptor>
+      <objectReference xsi:type="objectdefinition:EMFRef">
+        <eObject href="leave.wsdl#//@eTypes/@eExtensibilityElements.0/@schema/invokeResponse;XSDElementDeclaration=1"/>
+      </objectReference>
+    </objectDefinition>
+    <objectDefinition uid="XE_25.16a7ba14-754a-4234-916f-0e6e4fe885ec_wrapper_async_req" type="http://www.eclipse.org/xsd/2002/XSD#XSDElementDeclaration" directSourceLink="//@sourceElement.0">
+      <descriptor name="Modified">
+        <value xsi:type="base:LiteralValue" value="WLE"/>
+      </descriptor>
+      <objectReference xsi:type="objectdefinition:EMFRef">
+        <eObject href="leave.wsdl#//@eTypes/@eExtensibilityElements.0/@schema/invokeOneWay;XSDElementDeclaration=2"/>
+      </objectReference>
+    </objectDefinition>
+  </objectDefinition>
+  <sourceElement uid="SE_25.16a7ba14-754a-4234-916f-0e6e4fe885ec" targetDefinition="//@objectDefinition.0 //@objectDefinition.0/@objectDefinition.0 //@objectDefinition.0/@objectDefinition.1 //@objectDefinition.0/@objectDefinition.2 //@objectDefinition.0/@objectDefinition.3 //@objectDefinition.0/@objectDefinition.3/@objectDefinition.0 //@objectDefinition.0/@objectDefinition.4 //@objectDefinition.0/@objectDefinition.4/@objectDefinition.0 //@objectDefinition.0/@objectDefinition.5 //@objectDefinition.0/@objectDefinition.6 //@objectDefinition.0/@objectDefinition.7"/>
+</objectdefinition:ObjectDefinitions>

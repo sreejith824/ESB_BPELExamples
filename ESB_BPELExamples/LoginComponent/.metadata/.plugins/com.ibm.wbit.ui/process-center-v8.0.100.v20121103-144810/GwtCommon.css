@@ -1,0 +1,2815 @@
+/*
+ * Copyright (C) 2008 Lombardi Software, Inc.
+ * http://www.lombardi.com/
+ * All rights reserved.
+ *
+ * This software is the confidential and proprietary information of Lombardi Software ("Confidential Information"). You
+ * shall not disclose such Confidential Information and shall use it only in accordance with the terms of the license
+ * agreement you entered into with Lombardi Software, Inc.
+ *
+ * THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+ * LOMBARDI SOFTWARE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+ * TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ */
+
+/* CSS files for widgets in the GwtCommon module */
+
+html, body {
+	margin:0;
+	padding:0;
+    color: #232e39;
+    background-color: #E3E3E3;
+}
+
+body {
+    font-size: 11px;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+a, a:active, a:visited {
+    color: #1a2c38;
+    outline: none;
+}
+
+a:hover {
+    color: #2e4f60;
+}
+
+p {
+	margin:0 0;
+}
+
+q {
+	margin:0 0;
+}
+
+#wrapper {
+	margin-left:15px;
+	margin-right:15px;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+.hidden {
+    visibility: hidden;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.inline {
+    display: inline;
+}
+
+/* Disable underlining hyperlinks on the actions panel */
+.actioni3 p {
+    margin: 1em 0;
+}
+
+.actioni3 a:link, .actioni3 a:visited {
+    text-decoration: none;
+}
+
+/* Used to add content after float section.  See ClearFloatsDiv.java */
+.cleaner {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    clear: both;
+    font-size: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Library Button Styles */
+.libraryButton {
+    cursor: pointer;
+    float: left;
+}
+
+.libraryButton .buttonLeft {
+    background: url( images/style/button/button-l.png );
+    width: 15px;
+    height: 32px;
+}
+
+.libraryButton .buttonRight {
+    background: url( images/style/button/button-r.png );
+    width: 15px;
+    height: 32px;
+}
+
+.libraryButton .middle {
+    height: 32px;
+    background: url( images/style/button/button_m.png );
+}
+
+.libraryButton .middle .buttonText {
+    color: #3B576F;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.libraryButton .middle .buttonTextDisable {
+    color: grey;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* End of Library Button Styles */
+
+/* Dialog Box Styles */
+.closer {
+	background: url( images/style/big_close.png ) no-repeat;
+	width: 26px;
+	height: 26px;
+	float: right;
+	z-index: 2500;
+	position: absolute;
+    right:14px;
+    top:12px;
+	cursor: pointer;
+}
+
+.gwt-DialogBox {
+    z-index: 1003;
+}
+
+.gwt-DialogBox .Caption {
+    bottom: 4px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    left: -2px;
+    position: relative;
+    width: 95%; /* tweaked while ff2 cursor hack exisits */
+}
+
+.gwt-DialogBox .dialogMiddleCenter {
+    background: white none repeat scroll 0% 0%;
+    padding: 3px;
+}
+
+
+
+
+
+
+.gwt-DialogBox .dialogTopCenterInner {
+    background: #3B576F none repeat scroll 0% 0%;
+    vertical-align: bottom;
+    cursor: default;
+}
+
+.gwt-DialogBox .dialogTopLeftInner, .gwt-DialogBox .dialogTopRightInner {
+    height: 40px;
+    width: 24px;
+}
+
+.gwt-DialogBox .dialogBottomLeftInner, .gwt-DialogBox .dialogBottomRightInner {
+    height: 24px;
+    width: 24px;
+}
+
+.gwt-DialogBox .dialogBottomCenterInner {
+    vertical-align: bottom;
+}
+
+.gwt-DialogBox .dialogTopCenter {
+    height: 40px;
+    background: transparent url( images/style/dialog/popup-tc.png ) repeat-x;
+    vertical-align: bottom;
+    white-space: nowrap;
+    padding-right: 20px;
+}
+
+.gwt-DialogBox .dialogBottomCenter {
+    background: transparent url( images/style/dialog/popup-bc.png ) repeat-x;
+}
+
+.gwt-DialogBox .dialogMiddleLeft {
+    background: transparent url( images/style/dialog/popup-ml.png ) repeat-y;
+}
+
+.gwt-DialogBox .dialogMiddleRight {
+    background: transparent url( images/style/dialog/popup-mr.png ) repeat-y;
+}
+
+.gwt-DialogBox .dialogTopLeft {
+    background: transparent url( images/style/dialog/popup-tl.png ) no-repeat;
+}
+
+.gwt-DialogBox .dialogTopRight {
+    background: transparent url( images/style/dialog/popup-tr.png ) no-repeat;
+}
+
+.gwt-DialogBox .dialogBottomLeft {
+    background: transparent url( images/style/dialog/popup-bl.png ) no-repeat;
+}
+
+.gwt-DialogBox .dialogBottomRight {
+    background: transparent url( images/style/dialog/popup-br.png ) no-repeat;
+}
+
+.gwt-DialogBox .dialogTopLeft {
+    overflow: hidden;
+    width: 5px;
+}
+
+.gwt-DialogBox .dialogTopRight {
+    overflow: hidden;
+    width: 8px;
+}
+
+.white_content_deploy {
+	padding: 10px;
+	background-color: white;
+}
+
+.abstractPopup {
+    overflow-x: hidden; /* Fix for ff2 invisible cursor bug. */
+}
+
+.startUpPopup .abstractPopup {
+    width: 370px;
+}
+
+.startUpPopup .white_content_deploy {
+    padding: 10px;
+	background-color: white;
+    width: 350px;
+}
+
+.importPopup .white_content_deploy {
+    padding: 10px;
+	background-color: white;
+}
+
+.disableScrollPanels * .abstractPopup *{
+    overflow: hidden !important;
+}
+
+.abstractPopupTitle {
+	font:14px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #6a9f65;
+	padding: 3px;
+	margin-bottom: 10px;
+}
+
+.abstractPopupButtonPanel {
+	float: right;
+    margin: 4px -10px 0px 0px ;
+}
+
+/* End of Dialog Box Styles */
+
+/* GWT Styles */
+.gwt-TextBox {
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    font-size: 13px;
+    background: #FFFFFF url( images/style/text-bg.gif ) repeat-x scroll 0pt 0pt;
+    border: 1px solid #B5B8C8;
+    padding: 1px 3px;
+}
+
+.gwt-PasswordTextBox {
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    font-size: 13px;
+    background: #FFFFFF url( images/style/text-bg.gif ) repeat-x scroll 0pt 0pt;
+    border: 1px solid #B5B8C8;
+    padding: 1px 3px;
+}
+
+.gwt-TextArea {
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    font-size: 13px;
+    background: #FFFFFF url( images/style/text-bg.gif ) repeat-x scroll 0pt 0pt;
+    border: 1px solid #B5B8C8;
+    padding: 1px 3px;
+}
+
+/*Import popup*/
+
+.importPopupPre7XLabel {
+	padding-bottom: 10px;
+}
+
+.importTopLevelTreeItem {
+    font-size: 13px;
+    color: #586b7c;
+    cursor: default;
+    font-weight: bold;
+}
+
+.importSubLevelTreeItem {
+	font-size: 11px;
+    cursor: default;
+    color: #030506;
+    background-color: white;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.importSubLevelTreeText {
+	padding-left: 7px;
+	padding-bottom: 3px;
+}
+
+.importProcessAppIcon {
+	background: url('images/icons/process-app-16.png') no-repeat;
+	height: 12px;
+	width: 18px;
+	margin-top: 2px;
+	float: left;
+	margin-left: -15px
+}
+.importToolkitIcon {
+	background: url('images/icons/toolkit-16.png') no-repeat;
+	height: 15px;
+	width: 18px;
+	margin-top: -1px;
+	float: left;
+	margin-left: -15px
+}
+
+/* Add User and Groups Popup */
+.addUsersAndGroupsPopup {
+    width: 450px;
+}
+
+.addUsersAndGroupsPopup .resultsList {
+    width: 100%;
+    height: 180px;
+    border: 1px solid #B5B8C8;
+}
+.addUsersAndGroupsPopup .searchInstructions {
+    color:gray;
+    font-size:10px;
+    font-style:italic;
+    margin-left:4px;
+}
+
+.addUsersAndGroupsPopup .userTable {
+
+}
+
+.addUsersAndGroupsPopup .searchGrid {
+	width: 100%;
+}
+/* End of Add User and Groups Popup */
+
+
+/* Begin Principals Widget */
+.manageUserAccessWidget {
+    /*width: 580px;*/
+    padding: 5px 20px 5px 0;
+}
+
+.manageUserAccessWidget .libraryButton {
+    float: right;
+}
+
+.manageUserAccessWidget .userAccessRowsContainer {
+    -moz-border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 400px;
+    overflow-y: scroll;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 100%;
+}
+
+.manageUserAccessWidget .tableHeader {
+    color:#999999;
+    font-size:8pt;
+    height:16px;
+    padding-top:4px;
+}
+
+.manageUserAccessWidget .tableHeader .rowColumnHeader {
+    float: left;
+    text-align: center;
+    width: 80px;
+}
+
+.manageUserAccessWidget .tableHeader .removeColumnHeader {
+    float: right;
+    text-align: right;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 5px;
+    /*margin-top: 4px;*/
+}
+
+/*
+.manageUserAccessWidget .tableHeader :first-child{
+    width: 80px;
+    margin-right: 40px;
+}
+*/
+
+.manageUserAccessWidget * .userAccessRow, .manageUserAccessWidget * .userAccessRowSelected {
+    clear: both;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    min-height: 18px;
+    padding: 2px;
+}
+
+.manageUserAccessWidget * .userAccessRow:hover {
+    -moz-border-radius: 4px;
+    background-color: #e6f2dd;
+}
+
+.manageUserAccessWidget * .userAccessRowSelected {
+	-moz-border-radius: 4px;
+    background-color: #e6f2dd;
+}
+
+.manageUserAccessWidget * .userAccessRow .principalRowIcon, .manageUserAccessWidget * .userAccessRowSelected .principalRowIcon {
+    float: left;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.manageUserAccessWidget * .userAccessRow .principalRowName, .manageUserAccessWidget * .userAccessRowSelected .principalRowName {
+    float: left;
+}
+
+.manageUserAccessWidget * .userAccessRow .rowItemButton, .manageUserAccessWidget * .userAccessRowSelected .rowItemButton {
+    float: left;
+    margin-left: 30px;
+    margin-right: 33px;
+    cursor: pointer;
+}
+
+.manageUserAccessWidget * .userAccessRow .rowItemButton-up-disabled, .manageUserAccessWidget * .userAccessRowSelected .rowItemButton-up-disabled, .manageUserAccessWidget * .userAccessRow .rowItemButton-down-disabled, .manageUserAccessWidget * .userAccessRowSelected .rowItemButton-down-disabled {
+    opacity: .5;
+    filter: alpha(opacity=40);
+    cursor: default;
+}
+
+.manageUserAccessWidget * .userAccessRow .removeButton, .manageUserAccessWidget * .userAccessRowSelected .removeButton {
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 23px;
+    margin-top: 4px;
+}
+/* End Principals Widget */
+
+/* Tab Action */
+.twChoiceButton {
+  cursor: pointer;
+  display: -moz-inline-stack; /* AE uses FF2 */
+  display: inline-block;  /* This overrides for all other browsers that support inline-block */
+  *display: inline;       /* Display for IE6,7 */
+  font-weight: bold;
+}
+
+.twChoiceButton:hover {
+  /*text-decoration: underline;*/
+  /*color: #535e89;*/
+    color: #729861;
+}
+
+.twChoiceButton.twChoiceButton-Selected {
+  color: #ffffff;
+  cursor: default;
+}
+
+.twChoiceButton.twChoiceButton-Selected:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.twChoiceButton.twChoiceButton-Selected.twChoiceButton-Clickable {
+    cursor: pointer;
+}
+
+.twChoiceButton.twChoiceButton-Selected.twChoiceButton-Clickable:hover {
+    color: #232e39;
+}
+
+.twChoiceButton .middleCenter {
+  padding: 0 10px 0 10px;
+}
+
+.twChoiceButton .middleCenterInner {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.twChoiceButton.twChoiceButton-Selected .middleCenter {
+  background-color: #729861;
+}
+
+.twChoiceButton.twChoiceButton-Selected .topCenter,
+.twChoiceButton.twChoiceButton-Selected .bottomCenter {
+    /*background-color: #729861;*/
+  /*background: url(images/hborder.png) repeat-x;*/
+}
+
+.twChoiceButton.twChoiceButton-Selected .middleLeft {
+  background: url(images/style/green_selected_left.png) no-repeat;
+}
+
+.twChoiceButton.twChoiceButton-Selected .middleRight {
+  background: url(images/style/green_selected_right.png) no-repeat;
+}
+
+.twChoiceButton.twChoiceButton-Selected .middleLeft,
+.twChoiceButton.twChoiceButton-Selected .middleRight {
+    /*background-color: #729861;*/
+  /*background: url(images/vborder.png) repeat-y;*/
+}
+
+.twChoiceButton .middleLeftInner,
+.twChoiceButton .middleRightInner {
+    width: 5px;
+    height: 18px;
+}
+
+.twChoiceButton .topLeftInner,
+.twChoiceButton .topRightInner,
+.twChoiceButton .bottomLeftInner,
+.twChoiceButton .bottomRightInner {
+  /*width: 5px;*/
+  /*height: 5px;*/
+  /*zoom: 1;*/
+}
+
+/*
+html>body .twChoiceButton.twChoiceButton-Selected .topLeft {
+  background: url(images/style/green_selected_corners.png) no-repeat 0px 0px;
+}
+
+html>body .twChoiceButton.twChoiceButton-Selected .topRight {
+  background: url(images/style/green_selected_corners.png) no-repeat -5px 0px;
+}
+
+html>body .twChoiceButton.twChoiceButton-Selected .bottomLeft {
+  background: url(images/style/green_selected_corners.png) no-repeat 0px -5px;
+}
+
+html>body .twChoiceButton.twChoiceButton-Selected .bottomRight {
+  background: url(images/style/green_selected_corners.png) no-repeat -5px -5px;
+}
+*/
+
+/*
+* html .twChoiceButton.twChoiceButton-Selected .topLeftInner {
+  width: 5px;
+  height: 5px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/standard/images/corner.png',sizingMethod='crop');
+}
+
+* html .twChoiceButton.twChoiceButton-Selected .topRightInner {
+  width: 10px;
+  height: 5px;
+  margin-left: -5px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/standard/images/corner.png',sizingMethod='crop');
+}
+
+* html .twChoiceButton.twChoiceButton-Selected .bottomLeftInner {
+  width: 5px;
+  height: 10px;
+  margin-left: 0px;
+  margin-top: -5px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/standard/images/corner.png',sizingMethod='crop');
+}
+
+* html .twChoiceButton.twChoiceButton-Selected .bottomRightInner {
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  margin-top: -5px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/standard/images/corner.png',sizingMethod='crop');
+}*/
+/* End Tab Action */
+
+/* Structure of Repo Panel */
+.twMainPanel {
+    width: 100%;
+    background: #ffffff;
+}
+
+.twLeftRepoPanel {
+    width: 78%;
+    float: left;
+    margin: 0;
+    z-index: 0;
+    background: #ffffff;
+}
+
+.right {
+	width: 22%;
+    float: right;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.verticalShadow {
+    background: url(images/style/shadow_vertical_right.png);
+    width: 8px;
+    height: 10000px; /* To fit maximum window height. Overflow will be cut off. */
+    float: left;
+}
+
+.cb {
+	background: #ffffff;
+	z-index: 0;
+}
+
+.cb2 {
+	font-size: 14px;
+}
+
+.cb2a {
+    height: 10px;
+}
+
+.cb2a div {
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 3px;
+    width: 80%;
+    background-color: #e2e2e2;
+}
+
+.cb3 {
+    margin: 0;
+}
+
+/* CSS for the box starts here
+/* Rules for the top corners and border */
+.bt {
+}
+
+/*
+.twUnderTitle .bt {
+    margin-top: 0px;
+}
+*/
+
+.actionbt {
+	/*margin:0 0 0 18px;*/
+	/*height:17px;*/
+    /*top: -10px;*/
+    /*margin-top: -10px;*/
+}
+
+/*
+.bt div {
+}
+*/
+
+/* Rules for the bottom corners and border */
+.bb {
+}
+/*
+.bb div {
+}
+*/
+
+/* Insert the left border */
+/*
+.i1 {
+}
+*/
+/* Insert the right border */
+/*
+.i2 {
+}
+*/
+/* Wrapper for the content. Use it to set the background colour and insert some padding between the borders and the content. */
+.i3 {
+}
+
+.actioni3 {
+    padding: 10px 20px;
+}
+
+.actioni3 a {
+    font-weight: normal;
+    font-size: 14px;
+    color: #232e39;
+    text-decoration: none;
+}
+
+.actioni3 a:hover {
+    /*color: #535e89;*/
+    color: #729861;
+    text-decoration: none;
+}
+
+.actioni3 a:link, visited {
+    text-decoration: none;
+}
+
+/* CSS for the box ends here */
+
+/* Info Box CSS */
+/*
+.bti {
+}
+.bti div {
+}
+*/
+
+/* Rules for the bottom corners and border */
+.bbi {
+}
+/*
+.bbi div {
+}
+*/
+
+/* Insert the left border */
+/*
+.i1i {
+}
+*/
+/* Insert the right border */
+/*
+.i2i {
+}
+*/
+/* Wrapper for the content. Use it to set the background colour and insert some padding between the borders and the content. */
+.i3i {
+    padding: 10px 20px 20px 20px;
+}
+/* CSS for the info box ends here */
+
+/* Just a bit of styling for this example. Adjust as you wish. */
+.cb3 h1 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #272231;
+}
+
+.cb3 p {
+    font-size: 11px;
+    line-height: 14px;
+    color: #272231;
+}
+
+.cb3 a {
+    font-size: 11px;
+    color: #173754;
+}
+
+.cb3 a:hover {
+  color: #729861;
+
+}
+
+/* End Structure of Repo Panel */
+
+#header {
+    width: 100%;
+    overflow: hidden;
+}
+
+#nav {
+}
+
+/* Footer */
+#footer {
+    height: 42px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 101;
+}
+
+.twFooter {
+    background: url(images/style/footer_whitetop.png) repeat-x;
+}
+
+.twFooterLeft, .twFooterRight {
+    background: url(images/style/footer_darktop.png) repeat-x;
+    height: 42px;
+}
+
+.twFooterLeft-Logo, .twFooterRight-Logo {
+    margin-top: 10px;
+}
+
+.twFooterLeft-Curve, .twFooterRight-Curve {
+    height: 42px;
+    width: 42px;
+}
+
+/* Left */
+.twFooterLeft {
+    float: left;
+    width: 238px;
+}
+
+.twFooterLeft-Curve {
+    background: url(images/style/footer_curve_right.png) no-repeat;
+    float: left;
+}
+
+.twFooterLeft-Logo {
+    margin-left: 10px;
+}
+
+/* Right */
+.twFooterRight {
+    float: right;
+    width: 21%;
+    padding-right: 10px;
+    min-width: 220px;
+}
+
+.twFooterRight-Curve {
+    background: url(images/style/footer_curve_left.png) no-repeat;
+    float: right;
+}
+
+.twFooterRight-Logo {
+    margin-left: 15px;
+    float: right;
+}
+/* End Footer */
+
+.twHelpIcon {
+    float: right;
+    width: 32px;
+}
+
+/* ID badge */
+#idBadge {
+    margin-right: 20px;
+}
+
+#idBadge .twLoggedInUser {
+    vertical-align: middle;
+    color: #fff;
+    font-size: 11px;
+    float: right;
+}
+
+#idBadge .spacer {
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #fff;
+    font-size: 11px;
+    vertical-align: middle;
+    float: right;
+}
+
+#idBadge .logout {
+    font-weight: bold;
+    font-size: 11px;
+    vertical-align: middle;
+    float: right;
+    margin-left: 2px;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* End ID badge */
+
+/* Pipes */
+.proPipes {
+    font-weight: bold;
+	margin: 8px 10px;
+	float: left;
+    text-align: center;
+	vertical-align: middle;
+    color: #232e39;
+}
+/* End Pipes */
+
+/* Top level filters on the process list */
+#pipe {
+    float: right;
+	position: relative;
+	top: 50%;
+    margin: -8px 0 0 0;
+}
+
+#pipe ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+	font-size: 11px;
+	font-weight: bold;
+    color: #171a1e;
+    margin-right: 22px;
+}
+
+#pipe ul li {
+	margin-left: 0;
+	padding: 0px 8px;
+	border-left: 1px solid #000;
+	list-style: none;
+	display: inline;
+	}
+
+#pipe ul li img {
+    vertical-align: top;
+    padding: 2px;
+}
+
+#pipe ul li:first-child, #pipe li.firstElement {
+	margin-left: 0;
+	border-left: none;
+	list-style: none;
+	display: inline;
+	}
+
+#pipe ul li a, #pipe ul li a:visited, #pipe ul li a:hover, #pipe ul li a:active {
+    font-weight: normal;
+    color: #171a1e;
+}
+
+#pipe ul li a:hover {
+  color: #729861;
+}
+/* End Top level filters on the process list */
+
+/* Sort filter header */
+.twSortFilterHeader {
+    background: #cae0ff;
+    height: 30px;
+    overflow: hidden;
+}
+
+.twSortFilterHeader h1 {
+    float: right;
+	padding: 0;
+	font-size: 11px;
+    font-weight: normal;
+
+    position: relative;
+    top: 50%;
+    margin: -10px 0 0 0;
+}
+
+.twSortFilterHeader h1 select {
+    margin: 0 4px;
+    font-size: 11px;
+    height: 20px;
+}
+
+.twSortFilterHeader .twWorkspaces {
+    margin: 7px 0 0 35px;
+}
+
+.twSortFilterHeader .twWorkspaces .twWorkspacesLabel {
+}
+
+.twSortFilterHeader .twWorkspaces .twWorkspacesList {
+    margin: 0 4px;
+    font-size: 11px;
+}
+
+.twUnderTitle {
+    background: url(images/style/shadow_horizontal.png) repeat-x;
+}
+
+.twUnderTitle .twSortFilterHeader {
+    background: #cae0ff url(images/style/shadow_horizontal_30px.png) repeat-x;
+}
+/* End Sort filter header */
+
+/* History Panels */
+.historyWrapper {
+	/*border: 1px solid lightgray;*/
+    /*border-width: 1px;*/
+    /*background-color: #e9edef;*/
+    /*float: left;*/
+    width: 100%;
+    padding: 5px 0;
+    font-size: 11px;
+    /*margin-top: 2px;*/
+}
+
+.historyWrapper:hover {
+	/*border: 1px solid lightgray;*/
+    /*border-width: 1px;*/
+    background-color: #e6f2dd;
+    /*float: left;*/
+    /*width: 100%;*/
+    /*padding: 5px 0;*/
+    /*margin-top: 2px;*/
+}
+
+.historyBody {
+    margin: 3px 10px 0 34px;
+    color: #232e39;
+}
+
+/* Process Links on the main page */
+#links {
+	/*height:88%;*/
+	overflow:hidden;
+	width:100%;
+}
+
+/* IE7 show scroll-bar. */
+* + html table.linkContainer {
+    position: absolute;
+    padding-right: 15px;
+}
+
+#links.history, #links.server {
+    padding-top: 10px;
+}
+
+.serverEnvironmentWrapper {
+	width:100%;
+    padding: ;
+}
+
+.processWrapper {
+    width:100%;
+    padding: 10px 0 5px 0;
+}
+.processWrapper:hover, .processWrapper-hover {
+    background-color: #e6f2dd;
+}
+
+.hover {
+    background-color: #e6f2dd;
+}
+
+.questionMarkHelpIcon {
+    background: url('images/icons/help-16.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    float: left;
+}
+
+.errorIcon {
+	background: url('images/icons/validation_errors_16x16.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    float: left;
+}
+
+.processIcon {
+	background: url('images/icons/process-app-24.png') no-repeat;
+	/*margin: 3px 5px;*/
+}
+
+.toolkitIcon {
+	background: url('images/icons/toolkit-24.png') no-repeat;
+    /*margin: 3px 5px;*/
+}
+
+.snapshotIcon {
+	background: url('images/icons/snapshot-24.png') no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.serverIcon {
+	background: url('images/icons/server-24.png') no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.serverIconDisconnected {
+	background: url('images/icons/server-disconnected-24.png') no-repeat;
+}
+
+.processWrapper .processIcon, .processWrapper .toolkitIcon, .processWrapper .snapshotIcon, .processWrapper .serverIcon, .processWrapper .serverIconDisconnected {
+    margin: 0 5px 0 60px;
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+.processBody {
+	font-size:15px;
+	font-weight: normal;
+    margin-bottom: 7px; /* 5px spacing + 2px to fix following DIV left margin on IE6 when deployment indicator is hidden.*/
+}
+
+.processBody a, .processBody a:active, .processBody a:visited {
+    color: #232e39;
+    text-decoration: none;
+}
+
+.processBody a:hover {
+    text-decoration: none;
+    /*color: #535e89;*/
+    color: #729861;
+}
+
+.processDate, .processDeployments {
+	font-size: 10px;
+	line-height: 14px;
+	padding-left: 90px;
+}
+
+.actions {
+	float: right;
+	margin: 12px 30px 12px 12px;
+    color: #92acb7;
+}
+
+.processWrapper:hover .actions span {
+    color: #232e39;
+}
+
+.actions a, .actions a:active, .actions a:visited {
+	font-size: 11px;
+    color: #92acb7;
+    text-decoration: none;
+}
+
+.processWrapper:hover .actions a {
+    color: #232e39;
+}
+
+.processWrapper:hover .actions a:hover {
+    /*color: #535e89;*/
+    color: #729861;
+}
+
+.fave {
+	margin-left: 4px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.actIcon {
+	margin-right: 4px;
+    /*THU-5046 float: left; */
+}
+/* Favorite Icons */
+.faveOn {
+	background-image: url( images/icons/favorite-selected-16.png );
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 18px;
+	margin-left: 3px;
+	cursor: pointer;
+}
+.faveOff {
+	background-image: url(images/icons/favorite-selected-16.png);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 18px;
+	margin-left: 3px;
+	cursor: pointer;
+}
+.proTitle {
+	background-color: #e2ecfa;
+    width: 100%;
+    height: 35px;
+    overflow: hidden;
+}
+.proCrumb {
+    /*height: 48px;*/
+	font-size: 14px;
+	font-weight: bold;
+    padding: 9px 12px;
+    /*display: inline;*/
+    float: left;
+    white-space: nowrap;
+    /*vertical-align: middle;*/
+}
+
+.proDate {
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.deployBox {
+	background: #fff;
+    margin: 3px 20px 3px 90px;
+    font-size: 11px;
+	padding: 2px 5px;
+}
+
+.deployBox .serverName {
+    font-weight: bold;
+}
+
+.deploymentEntry {
+    padding: 2px 0;
+    height: 16px;
+}
+
+.deploy .instanceCount {
+    font-weight: bold;
+}
+
+.processWrapper:hover .deployBox {
+    -moz-border-radius: 4px;
+    background-color: #f9fdf8;
+}
+
+.deployPipes {
+	display: block;
+	padding: 0 5px 0 5px;
+	float: right;
+    font-size: 10px;
+}
+
+.processWrapper .gwt-PushButton, .processWrapper .gwt-PushButton .html-face {
+    display: inline;
+    cursor: pointer;
+}
+
+.processWrapper .gwt-PushButton {
+    border-left: 1px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.processWrapper .gwt-PushButton:first-child {
+    border: none;
+}
+
+.processWrapper .gwt-PushButton-up-hovering .html-face {
+    color: #232e39;
+}
+
+
+.deployPipes .gwt-PushButton {
+    color: #92acb7;
+}
+
+.deployPipes .gwt-PushButton:hover .html-face {
+    color: #729861;
+}
+
+/* Lightbox classes - for inline popup dialogs */
+.black_overlay{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.60;
+	filter: alpha(opacity=80);
+}
+
+.white_content {
+	display: none;
+	padding: 10px;
+	background-color: white;
+	overflow: auto;
+}
+
+.gwt-ProgressBar-shell {
+  border: 2px solid #faf9f7;
+  border-right: 2px solid #848280;
+  border-bottom: 2px solid #848280;
+  background-color: #AAAAAA;
+  height: 14pt;
+  width: 50%;
+}
+.gwt-ProgressBar-shell .gwt-ProgressBar-bar {
+  background-color: #67A7E3;
+}
+.gwt-ProgressBar-shell .gwt-ProgressBar-text {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+/* DEPLOY */
+
+.white_wrapper {
+	position: absolute;
+	display: none;
+	top: 25%;
+	left: 25%;
+	width: 400px;
+	height: 400px;
+	z-index:1002;
+}
+
+
+.abstractPopup {
+}
+
+.abstractPopup .gwt-Label {
+
+}
+
+.archivePopup {
+
+}
+
+.deploySub {
+	font-size:12px;
+	padding: 3px;
+	margin-bottom: 4px;
+}
+
+.deployPopup {
+    width: 600px;
+    height: 400px;
+}
+
+.archivedWorkspacesPopup {
+    width: 400px;
+
+}
+
+.deployPopup .optionDecoratorPanel,
+.snapshot_list .optionDecoratorPanel {
+    width: 100%;
+    margin-bottom: 6px;
+    /*padding-right: 10px;*/
+}
+.deployPopup .deployServerListScroll {
+    height: 90%;
+    margin: 6px 0px 6px 0px;
+}
+.serverClickPanel {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.serverClickPanel .serverIcon {
+    float: left;
+}
+.serverClickPanel .serverDetails {
+    float: left;
+    margin-left: 10px;
+}
+.serverClickPanel .serverDetails .itemTitle {
+    font-size: 15px;
+}
+.serverClickPanel .serverDetails .subText {
+	font-size: 10px;
+	line-height: 14px;
+}
+
+.serverWrapper {
+	cursor: pointer;
+}
+
+.serverWrapperSelect {
+    background-color: #e6f2dd;
+}
+
+.snapWrapper {
+	border: 1px dotted #d8dde2;
+    border-width: 1px 1px;
+    margin: 8px 0;
+    background-color: #e9edef;
+    float: left;
+	cursor: pointer;
+}
+
+.snapshotWrapperSelect {
+	border: 1px solid #748699;
+    border-width: 1px 1px;
+    margin: 8px 0;
+    background-color: #cfd8df;
+    float: left;
+	cursor: pointer;
+}
+
+.processWrapperSelect {
+	border: 1px dotted #999;
+    border-width: 1px 0;
+    margin: 8px 0;
+    background-color: #CFD999;
+    float: left;
+}
+.selectOff {
+	float: right;
+	/*margin: 12px;*/
+	width: 24px;
+	height: 24px;
+}
+
+.selOff {
+	float: right;
+	margin: 20px;
+	background: url('images/icons/circle-unchecked-16.png') no-repeat;
+	width: 28px;
+	height: 27px;
+}
+.selectOn {
+	float: right;
+    /*margin-top: 5px;*/
+    /*margin-right: 12px;*/
+    /*margin-left: 12px;*/
+    /*margin-bottom: 0px;*/
+    background: url('images/icons/check-24.png') no-repeat;
+	width: 24px;
+	height: 24px;
+}
+.selOn {
+	float: right;
+	margin: 20px;
+	background: url('images/icons/circle-checked-16.png') no-repeat;
+	width: 28px;
+	height: 27px;
+}
+
+#deployServers {
+	overflow: hidden;
+	width: 100%;
+	height: 310px;
+}
+.chevDown {
+	background-image: url(images/style/chevron_down.png);
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 9px;
+	margin-left: 5px;
+	cursor: pointer;
+	float: left;
+}
+.chevRight {
+	background-image: url(images/style/chevron_right.png);
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 9px;
+	margin-left: 0px;
+	cursor: pointer;
+}
+.chevronPlaced {
+	margin-left: 8px;
+	cursor: pointer;
+	float: right;
+	top: -15px;
+	right: 17px;
+	position: relative;
+}
+.wsMenuWrapperOff {
+	display: none;
+	border: solid 1px #000;
+	background-color: #fff;
+	padding: 3px;
+	z-index: 2600;
+	position: absolute;
+	top: 125px;
+	left: 190px;
+}
+.wsMenuWrapper {
+	display: inline;
+	border: solid 1px #000;
+	background-color: #fff;
+	padding: 3px;
+	z-index: 2600;
+	position: absolute;
+	top: 125px;
+	left: 190px;
+}
+.wsAction {
+	font-size:11px;
+	margin-bottom: 5px;
+}
+.sepLineBlue {
+	width: 100%;
+	height: 1px;
+}
+.wsInfoBlock {
+	font-size:9px;
+	margin-bottom: 0px;
+	background-color: #fffae4;
+	padding: 5px;
+	width: 150px;
+}
+.wsInfoItem {
+	margin-bottom: 5px;
+}
+
+.error_message {
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	border: 10px solid #718698;
+	background-color: white;
+	overflow: auto;
+	color: red;
+}
+
+.error_text {
+	color: red;
+}
+
+/* Compare Snapshots */
+.snapshot_list {
+	width: 100%;
+	height: 250px;
+	margin: 4px;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
+.white_wrapper_snapshot_compare {
+	position: absolute;
+	display: none;
+	top: 25%;
+	left: 25%;
+	width: 700px;
+	height: 400px;
+	z-index:1002;
+}
+.white_content_snapshot_compare {
+	width: 620px;
+	background-color: white;
+	overflow: visible;
+   padding: 10px 30px 10px 10px;
+}
+
+.snapshot_compare_instructions {
+	font-size: 12px;
+	margin: 2px;
+    float: left;
+}
+
+.snapshot_branch_select {
+	font-size: 12px;
+	margin: 5px;
+    float: right;
+}
+
+.branch_label {
+    font-size: 12px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.branch_selection {
+}
+
+.snapshot_radio_table {
+	font-size: 10px;
+	border-spacing: 10px;
+}
+
+.snapshot_change_container {
+	width: 660px;
+	height: 350px;
+	overflow-y: auto;
+}
+
+.snapshot_item_type {
+	background: #e6f2dd;
+	margin: 5px;
+	border: 1px solid #D0DFCA;
+	font-weight: bold;
+	padding: 10px;
+    -moz-border-radius: 5px;
+    width: 615px;
+}
+
+.snapshot_item_type_header {
+}
+
+.snapshot_change_type_label {
+	width: 550px;
+	font-size: 14px;
+	font-weight: bold;
+    margin-left: 4px;
+}
+
+.snapshot_change_count {
+	border-collapse: collapse;
+    border: 0 none;
+}
+
+.snapshot_change_count_text {
+    background: #446172;
+    color: white;
+    text-align: center;
+}
+
+.snapshot_change_count_left, .snapshot_change_count_right {
+    width: 5px;
+    height: 18px;
+}
+
+.snapshot_change_count_left {
+    background-image: url( images/style/dark_blue_left.png );
+}
+
+.snapshot_change_count_right {
+    background-image: url( images/style/dark_blue_right.png );
+}
+
+.snapshot_change_list {
+	margin-left: 20px;
+}
+
+.snapshot_change_list_tag_a {
+    margin-left: 10px;
+    background: #718698;
+    color: white;
+    font-size: 12px;
+    padding: 2px 1px 1px 5px;
+}
+
+.snapshot_change_list_tag_b {
+    margin-left: 10px;
+    background: #6A9F65;
+    color: white;
+    font-size: 12px;
+    padding: 2px 1px 1px 5px;
+}
+
+.snapshot_change_item {
+	background: #FAFDF7;
+	width: 570px;
+    padding: 2px;
+    -moz-border-radius: 5px;
+    border: 1px solid #D0DFCA;
+    margin-top: 2px;
+}
+
+.snapshot_change_item_icon {
+	border: none;
+}
+
+.snapshot_change_item_name {
+	font-weight: bold;
+}
+
+.snapshot_change_item_summary {
+	font-weight: normal;
+}
+
+.snapshot_change_list_details {
+    margin-left: 40px;
+    font-style: italic;
+}
+
+.snapshot_change_list_detail {
+    font-size: 10px;
+}
+
+.snapshot_change_list_detail_change_description {
+	font-weight: normal;
+}
+
+.libraryTable {
+	width: 375px;
+}
+.libraryTable tbody {
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: #DDDDDD;
+}
+.libraryTable tr {
+	outline-color: #DDDDDD;
+	outline-style: solid;
+	outline-width: 1px;
+}
+.libraryTable td {
+	font-size: 100%;
+}
+
+.libraryTable th {
+	font-size: 100%;
+}
+
+.libraryTable tr#headerRow {
+	outline-style: none;
+}
+
+.adminLibraryEditPanel {
+	float: left;
+    margin: 0 10px 10px 0;
+    font-size: 11px;
+}
+
+ .adminLibraryEditPanel>div {
+     margin-top: 5px;
+ }
+
+.adminLibraryMiscPanel {
+	float: right;
+    margin: 5px 0 10px 10px;
+    font-size: 11px;
+}
+
+.adminContentsPanel {
+//	height: 100%;
+//    padding: 10px 10px 10px 34px;
+	height: 180px;
+    padding: 10px 34px;
+}
+
+.serverInfo {
+	height: 60px;
+}
+
+.collapsibleImage {
+	padding-right: 5px;
+}
+
+.collapsibleWidget {
+	margin-left: 10px;
+    float: left;
+}
+
+/* Startup Assistant Option title */
+.startupAssistantOptionTitle {
+  font-size: 90%;
+  font-weight: bold;
+}
+
+/* Option Decorator Panel */
+.optionDecoratorPanel {
+    cursor: pointer;
+}
+
+.optionDecoratorPanel .middleCenter {
+    background: #F0F0F0;
+}
+
+.optionDecoratorPanel-selected .middleCenter {
+    background-color: #e6f2dd;
+}
+
+.optionDecoratorPanel .middleCenter:hover {
+    background-color: #e6f2dd;
+}
+
+
+.optionDecoratorPanel .topCenter,
+.optionDecoratorPanel .bottomCenter {
+    background: #e3e3e3;
+    height: 3px;
+}
+
+.optionDecoratorPanel .middleLeft,
+.optionDecoratorPanel .middleRight {
+    background: #e3e3e3;
+    width: 3px;
+}
+
+.optionDecoratorPanel .topLeftInner,
+.optionDecoratorPanel .topRightInner,
+.optionDecoratorPanel .bottomLeftInner,
+.optionDecoratorPanel .bottomRightInner {
+    width: 3px;
+    height: 3px;
+}
+
+.optionDecoratorPanel .topLeft {
+    width: 3px;
+    height: 3px;
+    background: url(images/style/corners/option_tl.png) no-repeat;
+}
+
+.optionDecoratorPanel .topRight {
+    width: 3px;
+    height: 3px;
+    background: url(images/style/corners/option_tr.png) no-repeat;
+}
+
+.optionDecoratorPanel .bottomLeft {
+    width: 3px;
+    height: 3px;
+    background: url(images/style/corners/option_bl.png) no-repeat;
+}
+
+.optionDecoratorPanel .bottomRight {
+    width: 3px;
+    height: 3px;
+    background: url(images/style/corners/option_br.png) no-repeat;
+}
+
+/*
+* html .optionDecoratorPanel .topLeftInner {
+      width: 5px;
+      height: 5px;
+      overflow: hidden;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/corner.png',sizingMethod='crop');
+}
+
+* html .optionDecoratorPanel .topRightInner {
+      width: 10px;
+      height: 5px;
+      margin-left: -5px;
+      overflow: hidden;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/corner.png',sizingMethod='crop');
+}
+
+* html .optionDecoratorPanel .bottomLeftInner {
+      width: 5px;
+      height: 10px;
+      margin-left: 0px;
+      margin-top: -5px;
+      overflow: hidden;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/corner.png',sizingMethod='crop');
+}
+
+* html .optionDecoratorPanel .bottomRightInner {
+      width: 10px;
+      height: 10px;
+      margin-left: -5px;
+      margin-top: -5px;
+      overflow: hidden;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/corner.png',sizingMethod='crop');
+}
+*/
+
+.ks-popups-Popup {
+  background-color: white;
+  border: 1px solid #87B3FF;
+  padding: 4px;
+}
+
+.gwt-DecoratorPanel {
+    margin-top: 6px;
+}
+
+.gwt-DecoratorPanel .middleCenter,
+.gwt-DecoratorPanel .topCenter,
+.gwt-DecoratorPanel .bottomCenter,
+.gwt-DecoratorPanel .middleLeft,
+.gwt-DecoratorPanel .middleRight
+{
+    background-color: #E3E3E3;
+}
+
+.gwt-DecoratorPanel .topLeft {
+    background: url("images/style/corners/option_tl.png");
+}
+
+.gwt-DecoratorPanel .topRight {
+    background: url("images/style/corners/option_tr.png");
+}
+
+.gwt-DecoratorPanel .bottomLeft {
+    background: url("images/style/corners/option_bl.png");
+}
+
+.gwt-DecoratorPanel .bottomRight {
+    background: url("images/style/corners/option_br.png");
+}
+
+.gwt-DecoratorPanel .topLeftInner,
+.gwt-DecoratorPanel .topRightInner,
+.gwt-DecoratorPanel .bottomLeftInner,
+.gwt-DecoratorPanel .bottomRightInner {
+  width: 3px;
+  height: 3px;
+  zoom: 1;
+}
+
+.gwt-DecoratorPanel .topCenter {
+    width: 100%;
+}
+
+/* Admin Panel Syles */
+.userManagementMainContent {
+    padding: 10px 10px;
+}
+.userManagementMainContent .libraryMembersTable {
+    width: 100%;
+}
+
+.userManagementMainContent .libraryMembersTable .headerWrapper {
+    font-size: 10px;
+    color: #626c77;
+}
+
+.userManagementMainContent .libraryMembersTable .dataWrapper>table>tbody>tr:hover {
+    background-color: #e6f2dd;
+}
+
+/* End of Admin Panel Styles */
+
+
+/* Custom styling on file input button */
+div.fileinputs {
+    height: 32px;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+div.fakefile {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 68%;
+    float: left;
+    z-index: 1;
+}
+
+div.fakefile input {
+    background: #FFFFFF url( images/style/text-bg.gif ) repeat-x scroll 0pt 0pt;
+    border: 1px solid #B5B8C8;
+    width: 98%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    height: 16px;
+    padding-left: 3px;
+    padding-top: 3px;
+    line-height: normal;
+}
+
+div.fileinputs img {
+    margin-top: -26px;
+    margin-left: 213px;
+    vertical-align: middle;
+}
+
+div.browselabel {
+    text-align: right;
+    float: right;
+    position: relative;
+    left: 0;
+    top: 4px;
+    width: 32%;
+    z-index: 1;
+}
+
+div.browselabel button {
+    width: 100%;
+}
+
+/* The height/margin-top makes it so you can't click on the fakeinput in FF3, but offsets the blinking cursor in the AE a bit */
+input.file {
+    position: relative;
+    -moz-opacity: 0;
+    filter: alpha(opacity: 0);
+    opacity: 0;
+    z-index: 2;
+    width: 100%;
+    height: 26px;
+    top: 2px;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Style for the Project Admin Page */
+.adminContentsPanel .bottomPanel {
+    border-top: 2px solid #999797;
+    margin: 10px 0 0 0;
+}
+
+.adminContentsPanel * .sectionHeader {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-top: 15px;
+}
+
+.twAdditionalInfo {
+    /*opacity: 0.1;*/
+    /*filter: alpha(opacity=10);*/
+    opacity: 0.0;
+    filter: alpha(opacity=0);
+    float: right;
+    text-align: center;
+    margin: 5px 60px 5px 5px;
+}
+
+.processWrapper:hover .twAdditionalInfo {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.twAdditionalInfo-Title {
+    font-size: 10px;
+}
+
+.twProjectTitleIcon {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* Buttons (PushButton) */
+.twIconButton {
+}
+
+.twIconButton-up,
+.twIconButton-up-hovering,
+.twIconButton-up-disabled,
+.twIconButton-down,
+.twIconButton-down-hovering,
+.twIconButton-down-disabled {
+  margin: 0;
+  text-decoration: none;
+  /*background: url("images/hborder.png") repeat-x 0px -27px;*/
+}
+
+.twIconButton-up,
+.twIconButton-up-hovering,
+.twIconButton-up-disabled {
+  padding: 0 1px 0 1px;
+}
+
+.twIconButton-up {
+  /*border: 1px outset #ccc;*/
+  cursor: pointer;
+}
+
+.twIconButton-up-hovering {
+  /*border: 1px outset;*/
+  /*border-color: #9cf #69e #69e #7af;*/
+  cursor: pointer;
+}
+
+.twIconButton-up-disabled {
+  /*border: 1px outset #ccc;*/
+  cursor: default;
+  opacity: .5;
+  filter: alpha(opacity=40);
+  zoom: 1;
+}
+
+.twIconButton-down,
+.twIconButton-down-hovering,
+.twIconButton-down-disabled {
+  padding: 1px 0px 1px 0;
+}
+
+.twIconButton-down {
+  /*border: 1px inset #666;*/
+  cursor: pointer;
+}
+
+.twIconButton-down-hovering {
+  /*border: 1px inset;*/
+  /*border-color: #9cf #69e #69e #7af;*/
+  cursor: pointer;
+}
+
+.twIconButton-down-disabled {
+  /*border: 1px outset #ccc;*/
+  cursor: default;
+  opacity: 0.5;
+  filter: alpha(opacity=40);
+  zoom: 1;
+}
+
+/* Highlighted info in list view (e.g. # snapshots). */
+/* Currently the same style as twChoiceButton-Selected */
+.twHighlightedInfo {
+    display: inline;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.twHighlightedInfo:hover {
+  /*text-decoration: underline;*/
+  /*color: #535e89;*/
+    /*color: #729861;*/
+}
+
+.twHighlightedInfo {
+}
+
+.twHighlightedInfo .middleCenter {
+    padding: 0 10px 0 10px;
+    background-color: #729861;
+}
+
+.twHighlightedInfo .middleCenterInner {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.twHighlightedInfo .topCenter,
+.twHighlightedInfo .bottomCenter {
+    /*background-color: #729861;*/
+  /*background: url(images/hborder.png) repeat-x;*/
+}
+
+.twHighlightedInfo .middleLeft {
+  background: url(images/style/green_selected_left.png) no-repeat;
+}
+
+.twHighlightedInfo .middleRight {
+  background: url(images/style/green_selected_right.png) no-repeat;
+}
+
+.twHighlightedInfo .middleLeft,
+.twHighlightedInfo .middleRight {
+    /*background-color: #729861;*/
+  /*background: url(images/vborder.png) repeat-y;*/
+}
+
+.twHighlightedInfo .middleLeftInner,
+.twHighlightedInfo .middleRightInner {
+    width: 5px;
+    height: 18px;
+}
+
+.twHighlightedInfo .topLeftInner,
+.twHighlightedInfo .topRightInner,
+.twHighlightedInfo .bottomLeftInner,
+.twHighlightedInfo .bottomRightInner {
+  /*width: 5px;*/
+  /*height: 5px;*/
+  /*zoom: 1;*/
+}
+
+/*
+html>body .twHighlightedInfo .topLeft {
+  background: url(images/style/green_selected_corners.png) no-repeat 0px 0px;
+}
+
+html>body .twHighlightedInfo .topRight {
+  background: url(images/style/green_selected_corners.png) no-repeat -5px 0px;
+}
+
+html>body .twHighlightedInfo .bottomLeft {
+  background: url(images/style/green_selected_corners.png) no-repeat 0px -5px;
+}
+
+html>body .twHighlightedInfo .bottomRight {
+  background: url(images/style/green_selected_corners.png) no-repeat -5px -5px;
+}
+*/
+
+/*
+* html .twHighlightedInfo .topLeftInner {
+  width: 5px;
+  height: 5px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/standard/images/corner.png',sizingMethod='crop');
+}
+
+* html .twHighlightedInfo .topRightInner {
+  width: 10px;
+  height: 5px;
+  margin-left: -5px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/standard/images/corner.png',sizingMethod='crop');
+}
+
+* html .twHighlightedInfo .bottomLeftInner {
+  width: 5px;
+  height: 10px;
+  margin-left: 0px;
+  margin-top: -5px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/standard/images/corner.png',sizingMethod='crop');
+}
+
+* html .twHighlightedInfo .bottomRightInner {
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  margin-top: -5px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/standard/images/corner.png',sizingMethod='crop');
+}*/
+
+/* Tab styles */
+.tab {
+	margin:0.5em 0;
+	width:80%;
+	height: 12px;
+	float:left;
+}
+.gwt-TabBarItem {
+	/*background:url(images/box_tab_unselected.png) no-repeat;*/
+/*	margin:0 0 0 17px; */
+	width: 140px;
+	position: relative;
+	bottom: -0px;
+	z-index: 2;
+	text-decoration: underline;
+	color: blue;
+	font:76%/135%;
+	padding: 0;
+	align: center;
+}
+.gwt-TabBarItem-selected {
+	/*background:url(images/box_tab.png) no-repeat;*/
+	font-weight:bold;
+	z-index: 2;
+	text-decoration: none;
+	color: black;
+}
+.tabContainer {
+}
+.tabSpacer {
+	margin:0 0 0 17px;
+	float: left;
+}
+.actualtab {
+	/*background:url(images/box_tab_unselected.png) no-repeat;*/
+	height:30px;
+	width: 140px;
+	margin:0 0 0 0;
+	position: relative;
+	top: -1px;
+	z-index: 2;
+	float: left;
+	text-decoration: underline;
+	color: blue;
+}
+.actualtab div {
+	height:30px;
+	width:140px;
+	line-height: 38px;
+	float: left;
+}
+.t1 {
+	/*background:url(images/box_tab_unselected.png) no-repeat;*/
+	margin:0 0 0 17px;
+	height:30px;
+	width: 140px;
+	position: relative;
+	top: -0px;
+	z-index: 2;
+}
+.t1 div {
+	height:30px;
+	width:140px;
+	line-height: 38px;
+}
+.t2 {
+	/*background:url(images/box_tab_unselected.png) no-repeat;*/
+	margin:0 0 0 142px;
+	height:30px;
+	width:140px;
+	position: relative;
+	top: -30px;
+	z-index: 1;
+}
+.t2 div {
+	height:30px;
+	width:140px;
+	position:relative;
+	line-height: 38px;
+}
+.t3 {
+	/*background:url(images/box_tab_unselected_small.png) no-repeat;*/
+	margin:0 0 0 17px;
+	height:30px;
+	width:100px;
+	position: relative;
+	top: -0px;
+}
+.t3 div {
+	height:30px;
+	width:100px;
+	line-height: 38px;
+}
+.t4 {
+	/*background:url(images/box_tab_small.png) no-repeat;*/
+	margin:0 0 0 100px;
+	height:30px;
+	width:100px;
+	position: relative;
+	top: -30px;
+}
+.t4 div {
+	height:30px;
+	width:100px;
+	position:relative;
+	line-height: 38px;
+}
+#tab-selected {
+	/*background:url(images/box_tab.png) no-repeat;*/
+	z-index: 2;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+/* End tab styles */
+
+/* TreeView Styles */
+.twTopLevelTreeItem {
+    font-size: 11px;
+    color: #586b7c;
+    font-weight: bold;
+}
+
+.twSubTreeItem {
+    cursor: pointer;
+    display: inline;
+    color: #030506;
+    font-weight: normal;
+}
+
+.twSubTreeItem:hover {
+    color: #446172;
+    /*color: #b9cbe4;*/
+}
+
+.twSubTreeItem.twSubTreeItem-Selected {
+    cursor: default;
+    font-weight: bold;
+}
+
+.twSubTreeItem.twSubTreeItem-Selected:hover {
+    text-decoration: none;
+    color: #030506;
+}
+
+.twSubTreeItem .middleCenter {
+    padding: 0 10px 0 10px;
+}
+
+.twSubTreeItem .middleCenterInner {
+    vertical-align: middle;
+    text-align: left;
+    white-space: normal;
+}
+
+.twSubTreeItem-Selected .middleCenter {
+    background-color: #b9cbe4;
+}
+
+.twSubTreeItem-Selected .topCenter,
+.twSubTreeItem-Selected .middleLeft,
+.twSubTreeItem-Selected .middleRight,
+.twSubTreeItem-Selected .bottomCenter {
+    background-color: #b9cbe4;
+}
+
+.twSubTreeItem .topLeft,
+.twSubTreeItem .topRight,
+.twSubTreeItem .bottomLeft,
+.twSubTreeItem .bottomRight {
+    width: 2px;
+    height: 2px;
+    font-size: 1px; /* div min width fix for ie */
+}
+
+.twSubTreeItem-Selected .topLeft,
+.twSubTreeItem-Selected .topRight,
+.twSubTreeItem-Selected .bottomLeft,
+.twSubTreeItem-Selected .bottomRight {
+    background-color: #ededed;
+}
+
+
+.twSubTreeItem-Selected .topLeftInner {
+    float: right;
+}
+
+.twSubTreeItem-Selected .topRightInner {
+}
+
+.twSubTreeItem-Selected .bottomLeftInner {
+    float: right;
+    position: relative;
+    top: -1px;
+}
+
+.twSubTreeItem-Selected .bottomRightInner {
+    position: relative;
+    top: -1px;
+}
+
+.twSubTreeItem-Selected .topLeftInner,
+.twSubTreeItem-Selected .topRightInner,
+.twSubTreeItem-Selected .bottomLeftInner,
+.twSubTreeItem-Selected .bottomRightInner {
+    width: 1px;
+    height: 1px;
+    background-color: #b9cbe4;
+}
+
+.loginPopup {
+	border: 3px solid #3B576F;
+}
+
+.login-dialog {
+	padding: 5px;
+}
+
+.loginPopupNameLabel {
+	padding-top: 2px;
+	padding-right: 4px;
+}
+.loginPopupPassLabel {
+	padding-top: 2px;
+	padding-right: 7px;
+}
+
+.loginPopupPassBox {
+	border: 1px solid #B5B8C8;
+}
+.loginPopupSubmit {
+	float: right;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+.dummyFocusPanel {
+    position: absolute;
+    display: none;
+}
+
+/* Info bubble styles */
+.questionMark {
+    vertical-align: middle;
+	background: url('images/info_icon.gif') 0 0 no-repeat;
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+}
+
+.snapshotInfoBubble {
+	background: url('images/info_icon.gif') 0 0 no-repeat;
+	display: inline;
+	height: 11px;
+	margin-left: 4px;
+	padding-left: 12px;
+	width: 11px;
+}
+
+.styledTooltip {
+    width: 200px;
+    background-color:  #ffffcc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+	font-size: 8pt;
+    border: 2px #c0c09f solid;
+    padding: 5px;
+    top: 10px;
+    left: 35px;
+}
+
+.styledTooltipArrow {
+    background: transparent url('images/tooltiparrow.gif') no-repeat scroll 0 0;
+    height: 15px;
+    left: 25px;
+    position: absolute;
+    top: -13px;
+    width: 26px;
+}
+
+/******************************************************
+*                        SuggestBox
+******************************************************/
+.gwt-SuggestBox
+{
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    font-size: 13px;
+    background: #FFFFFF url( images/style/text-bg.gif ) repeat-x scroll 0 0;
+    border: 1px solid #B5B8C8;
+    padding: 1px 3px;
+    text-align: left;
+    width: 238px;
+    color: black;
+}
+
+.gwt-SuggestBox-NoTeamManagerGroup
+{
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    font-size: 13px;
+    background: #FFFFFF url( images/style/text-bg.gif ) repeat-x scroll 0 0;
+    border: 1px solid #B5B8C8;
+    padding: 1px 3px;
+    text-align: left;
+    width: 220px;
+    color: gray;
+}
+
+.gwt-SuggestBoxPopup
+{
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    font-size: 13px;
+    background: #FFFFFF url( images/style/text-bg.gif ) repeat-x scroll 0 0;
+    border: 1px solid #B5B8C8;
+    text-align: left;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.gwt-SuggestBoxPopup .item
+{
+    width: 237px;
+}
+
+.gwt-SuggestBoxPopup .item-selected
+{
+    background-color: #ccccff;
+}
+
+.underlined .html-face {
+    text-decoration: underline;
+    color: black;
+}
+
+.oddRowBackground {
+    background-color: #F0FEF0;
+}
+
+.processWrapper .first {
+    border: none;
+}
+
+.twImageButton {
+    cursor: pointer;
+}
+
+.right .twImageButton {
+    margin: 1em 0;
+}
+
+.deployPipes .twImageButton {
+    margin: 0 5px 0 0;
+    float: left;
+    color: #92acb7;
+}
+
+.twImageButton .hover {
+    background-color: transparent;
+    color: #729861;
+}
+
+.createActionIcon {
+    background: url('images/icons/create-16.png');
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.openInDesignerActionIcon {
+    background: url("images/icons/open-in-designer-16.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.importActionIcon {
+    background: url("images/icons/import-16.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.downloadActionIcon {
+	background: url("images/icons/download_authoring_enviro_16x16.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.serverIconSmall {
+    background: url("images/icons/server-16.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.archiveActionIcon {
+    background: url("images/icons/archive-16.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.configureActionIcon {
+    background: url("images/icons/config-16.png");
+    width: 16px;
+    height: 16px;
+}
+
+.configureActionSmallIcon {
+    background: url("images/icons/config-12.png");
+    width: 12px;
+    height: 12px;
+}
+
+.snapshotIconSmall {
+    background: url("images/icons/snapshot-16.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.processAppIconSmall {
+    background: url("images/icons/process-app-16.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.toolkitIconSmall {
+    background: url("images/icons/toolkit-16.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.openInDesignerIconSmall {
+    background: url("images/icons/open-in-designer-12.png");
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.deactivateAppAction {
+    background: url("images/icons/deactivate-16.png");
+    width: 16px;
+    height: 16px;
+}
+
+.activateAppAction {
+    background: url("images/icons/activate_app_16x16.png");
+    width: 16px;
+    height: 16px;
+}
+
+.uninstallAppAction {
+    background: url("images/icons/uninstall-16.png");
+    width: 16px;
+    height: 16px;
+}
+
+.migrateInfliteDataAction {
+    background: url("images/icons/migrate-16.png");
+    width: 16px;
+    height: 16px;
+}
+
+.syncSettingsAction {
+    background: url("images/icons/sync-16.png");
+    width: 16px;
+    height: 16px;
+}
+
+.makeDeafultAction {
+    background: url("images/icons/make-default-16.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.collapsibleHeader {
+    display: inline;
+    padding-left: 4px;
+    padding-top: 4px;
+    float: left;
+    font-size: 12px;
+    font-weight: bold
+}
+
+.pagingWidget {
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.pagingWidget .pagingParent {
+    float: right;
+}
+
+.pagingWidget .pagingParent .paging {
+    position: relative;
+    z-index: 102; /* show over #footer which is z-index: 101 */
+    list-style: none;
+    margin: 6px 62px 0 0;
+}
+
+.pagingWidget .pagingParent .paging li {
+    display: inline;
+}
+
+.pagingWidget .pagingParent .paging .pageLink {
+    cursor: pointer;
+    color: #92acb7;
+    text-decoration: none;
+}
+
+.pagingWidget .pagingParent .paging .pageLink:hover {
+    color: #232e39;
+}
+
+.pagingWidget .pagingParent .paging .viewing {
+    cursor: text;
+    color: #000000;
+}
+
+.pagingWidget .pagingParent .paging li * {
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #404040;
+}
+
+.pagingWidget .label {
+    float: left;
+    margin-right: 10px;
+}
+
+/* User Preferences Pop-up */
+
+.prefsPopup {
+    font-family: Arial,Helvetica,Verdana,sans-serif;;
+    font-size: 10pt;
+    right: 20px;
+}
+
+.prefsPopup .prefsTitle {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.prefsPopup .closeButton {
+    background: url(images/style/big_close.png);
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+
+* html .prefsPopup .closeButton {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/style/big_close.png', sizingMethod='scale');
+}
+
+.prefsPopup .popupContent {
+    background-color: #CAE1FD;
+    border: 2px solid #879AC2;
+    padding: 10px;
+    zoom: 100%;        /* IE6 fix to allow .prefsGrid to be 100% */
+
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+}
+
+.prefsPopup .savePrefsButton {
+}
+
+.prefsPopup .buttonWrapper {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.prefsPopup .prefsGrid {
+    padding-top: 5px;
+    width: 100%;
+}
+
+.prefsPopup .localePrefHint {
+    font-size: 10px;
+}
+
+.importPopup_formContent {
+    width: 100%;
+}
+
+.importPopup_containerPanel {
+    width: 100%;
+}
+
+.fakeContainer {
+    left: 0;
+    position: absolute;;
+    top: 0;
+    width: 100%;
+}
+
+.addUsersAndGroupsSearchField {
+    width: 15em;
+}

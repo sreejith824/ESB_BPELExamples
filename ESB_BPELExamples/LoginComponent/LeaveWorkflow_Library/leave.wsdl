@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://LEAVE/BPD/leave" targetNamespace="http://LEAVE/BPD/leave" name="leave">
+  <wsdl:types>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://LEAVE/BPD/leave">
+      <xs:element name="invoke">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="invokeResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="invokeOneWay">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="invokeMsg">
+    <wsdl:part element="tns:invoke" name="parameters" />
+  </wsdl:message>
+  <wsdl:message name="invokeResponseMsg">
+    <wsdl:part element="tns:invokeResponse" name="parameters" />
+  </wsdl:message>
+  <wsdl:message name="invokeOneWayMsg">
+    <wsdl:part element="tns:invokeOneWay" name="parameters" />
+  </wsdl:message>
+  <wsdl:portType name="leave">
+    <wsdl:operation name="invoke">
+      <wsdl:input message="tns:invokeMsg" />
+      <wsdl:output message="tns:invokeResponseMsg" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="leaveOneWay">
+    <wsdl:operation name="invokeOneWay">
+      <wsdl:input message="tns:invokeOneWayMsg" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
+

@@ -1,442 +1,331 @@
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:063 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:063 CAT] 000001c4 ApplicationMg A   WSVR0200I: Starting application: AgreementServiceConsumerApp
-[2/17/15 17:08:32:063 CAT] 000001c4 ApplicationMg A   WSVR0204I: Application: AgreementServiceConsumerApp  Application build level: Unknown
-[2/17/15 17:08:32:111 CAT] 000001c4 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.SYSTEM.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:08:32:111 CAT] 000001c4 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.SYSTEM.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:08:32:111 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:112 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:112 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:112 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:113 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:113 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:113 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:113 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:114 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:114 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:114 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:114 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:114 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:122 CAT] 0000005d GenericConfig I   The configuration has been changed, refreshing config values
-[2/17/15 17:08:32:122 CAT] 0000005d GenericConfig I   Broadcasting configuration change
-[2/17/15 17:08:32:140 CAT] 000001c4 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PROCSVR.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:08:32:141 CAT] 000001c4 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PROCSVR.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:08:32:179 CAT] 000001c4 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus BPC.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:08:32:180 CAT] 000001c4 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus BPC.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:08:32:210 CAT] 000001c4 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus CEI.devNode04Cell.BUS to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:08:32:210 CAT] 000001c4 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus CEI.devNode04Cell.BUS has been updated as a result of an administrative update.
-[2/17/15 17:08:32:241 CAT] 000001c4 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.APPLICATION.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:08:32:242 CAT] 000001c4 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.APPLICATION.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:08:32:276 CAT] 000001c4 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PERFDW.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:08:32:277 CAT] 000001c4 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PERFDW.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:08:32:277 CAT] 000001c4 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:08:32:283 CAT] 000001c4 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:08:32:283 CAT] 000001c4 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus BPC.devNode04Cell.Bus.
-[2/17/15 17:08:32:291 CAT] 000001c4 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus BPC.devNode04Cell.Bus.
-[2/17/15 17:08:32:291 CAT] 000001c4 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PERFDW.devNode04Cell.Bus.
-[2/17/15 17:08:32:299 CAT] 000001c4 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PERFDW.devNode04Cell.Bus.
-[2/17/15 17:08:32:299 CAT] 000001c4 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:08:32:307 CAT] 000001c4 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:08:32:307 CAT] 000001c4 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus CEI.devNode04Cell.BUS.
-[2/17/15 17:08:32:315 CAT] 000001c4 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus CEI.devNode04Cell.BUS.
-[2/17/15 17:08:32:315 CAT] 000001c4 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:08:32:323 CAT] 000001c4 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:08:32:323 CAT] 000001c4 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:08:32:324 CAT] 000001c4 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:08:32:324 CAT] 000001c4 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
-[2/17/15 17:08:32:326 CAT] 000001c4 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
-[2/17/15 17:08:32:327 CAT] 000001c4 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
-[2/17/15 17:08:32:329 CAT] 000001c4 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
-[2/17/15 17:08:32:330 CAT] 000001c4 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:08:32:333 CAT] 000001c4 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:08:32:334 CAT] 000001c4 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:08:32:337 CAT] 000001c4 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:08:32:338 CAT] 000001c4 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
-[2/17/15 17:08:32:341 CAT] 000001c4 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
-[2/17/15 17:08:32:345 CAT] 000001c4 Core          I   CWSCA3009I: The SCA module "AgreementServiceConsumerApp" is starting.
-[2/17/15 17:08:32:376 CAT] 000001c4 Core          I   CWSCA3010I: The SCA module "AgreementServiceConsumerApp" started successfully using the SCA "Native" and Business Object "Eager" runtimes.
-[2/17/15 17:08:32:505 CAT] 000001c4 webapp        I com.ibm.ws.webcontainer.webapp.WebGroupImpl WebGroup SRVE0169I: Loading Web Module: AgreementServiceConsumerWeb.
-[2/17/15 17:08:32:515 CAT] 000001c4 WASSessionCor I SessionContextRegistry getSessionContext SESN0176I: Will create a new session context for application key default_hostAgreementServiceConsumerWeb
-[2/17/15 17:08:32:521 CAT] 000001c4 webcontainer  I com.ibm.ws.webcontainer.VirtualHostImpl addWebApplication SRVE0250I: Web Module AgreementServiceConsumerWeb has been bound to default_host[*:9083,*:80,*:9446,*:5067,*:5066,*:443].
-[2/17/15 17:08:32:528 CAT] 000001c4 SibMessage    I   [:] CWSIV0777I: A connection to messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus for destination sca/AgreementServiceConsumer on bus SCA.SYSTEM.devNode04Cell.Bus has been successfully created.
-[2/17/15 17:08:32:529 CAT] 000001c4 ActivationSpe I   J2CA0523I: The Message Endpoint for ActivationSpec sca/AgreementServiceConsumer/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServiceConsumerApp#AgreementServiceConsumer#AgreementServiceConsumer is activated.
-[2/17/15 17:08:32:531 CAT] 000001c4 ApplicationMg A   WSVR0221I: Application started: AgreementServiceConsumerApp
-[2/17/15 17:08:32:531 CAT] 000001c4 CompositionUn A   WSVR0191I: Composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp started.
-[2/17/15 17:08:32:957 CAT] 00000068 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_ef257a0_15.02.17_17.08.32.9572744188999453170679.txt com.ibm.ws.sca.internal.scdl.impl.ManagedComponentImpl 001
-[2/17/15 17:08:32:957 CAT] 00000068 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_ef257a0_15.02.17_17.08.32.9572618436926182955754.txt com.ibm.ws.sca.internal.manager.impl.ServiceManagerImpl.locateService 154
-[2/17/15 17:08:32:957 CAT] 00000068 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_ef257a0_15.02.17_17.08.32.9571262830304910727980.txt com.ibm.ws.sca.internal.manager.impl.ServiceManagerImpl 001
-[2/17/15 17:08:33:019 CAT] 00000068 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_ef257a0_15.02.17_17.08.32.9577349583598114515354.txt com.ibm.bpe.engine.BpelActivityKindInvoke.doActivate 317
-[2/17/15 17:08:33:035 CAT] 00000068 ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceConsumerInterface' and operation 'triggerAcceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
-        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'acceptQuote'.
-        com.ibm.bpe.invocation.InvocationException: null
-[2/17/15 17:08:33:035 CAT] 00000068 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_ef257a0_15.02.17_17.08.33.0355975699257432922248.txt com.ibm.bpe.framework.sca.NativeBFMImplementationHandler.handleInboundCalls() 459
-[2/17/15 17:08:33:035 CAT] 00000068 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_ef257a0_15.02.17_17.08.33.0352783723998549977949.txt com.ibm.bpe.framework.sca.NativeBFMImplementationHandler.processMessage() 140
-[2/17/15 17:08:33:035 CAT] 00000068 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_ef257a0_15.02.17_17.08.33.0357674690182375328118.txt com.ibm.ws.sca.internal.message.impl.MessageDispatcherImpl.processMessageWithPCI 720
-[2/17/15 17:10:08:030 CAT] 00000244 UpdateSchedul I   ADMA5078I: Update of AgreementServiceConsumerApp has started.
-[2/17/15 17:10:08:447 CAT] 00000244 BPELValidatio I   CWWBV0001I: Validated process model 'triggerAcceptQuote' successfully: 0 warnings, 0 information.
-[2/17/15 17:10:08:542 CAT] 00000244 WBIAAbstractT I com.ibm.ws.wbia.deployment.WBIAAbstractTask performTask CWLRD0101I: No WebSphere Business Integration Adapter files are found in the application AgreementServiceConsumerApp.
-[2/17/15 17:10:08:574 CAT] 00000244 UpdateSchedul I   ADMA5079I: Update of AgreementServiceConsumerApp has ended. The application or its web modules may require a restart when a save is performed.
-[2/17/15 17:10:09:328 CAT] 000001c3 AdminHelper   A   ADMN1010I: An attempt is made to stop the AgreementServiceConsumerApp application. (User ID = DevRealm/server:devNode04Cell_devNode04_server4)
-[2/17/15 17:10:09:329 CAT] 000001c3 CompositionUn A   WSVR0192I: Stopping composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp.
-[2/17/15 17:10:09:329 CAT] 000001c3 ApplicationMg A   WSVR0217I: Stopping application: AgreementServiceConsumerApp
-[2/17/15 17:10:09:347 CAT] 000001c3 Core          I   CWSCA3011I: The SCA module "AgreementServiceConsumerApp" is stopping.
-[2/17/15 17:10:09:347 CAT] 000001c3 ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/AgreementServiceConsumer/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServiceConsumerApp#AgreementServiceConsumer#AgreementServiceConsumer is deactivated.
-[2/17/15 17:10:09:347 CAT] 000001c3 Core          I   CWSCA3012I: The SCA module has been stopped.
-[2/17/15 17:10:09:347 CAT] 000001c3 ApplicationMg A   WSVR0220I: Application stopped: AgreementServiceConsumerApp
-[2/17/15 17:10:09:891 CAT] 000001c3 CompositionUn A   WSVR0193I: Composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp stopped.
-[2/17/15 17:10:09:976 CAT] 000001c3 AdminHelper   A   ADMN1008I: An attempt is made to start the AgreementServiceConsumerApp application. (User ID = DevRealm/server:devNode04Cell_devNode04_server4)
-[2/17/15 17:10:09:986 CAT] 000001c3 CompositionUn A   WSVR0190I: Starting composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp.
-[2/17/15 17:10:10:002 CAT] 000001c3 ApplicationMg A   WSVR0200I: Starting application: AgreementServiceConsumerApp
-[2/17/15 17:10:10:002 CAT] 000001c3 ApplicationMg A   WSVR0204I: Application: AgreementServiceConsumerApp  Application build level: Unknown
-[2/17/15 17:10:10:062 CAT] 000001c3 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.SYSTEM.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:10:10:062 CAT] 000001c3 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.SYSTEM.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:10:10:092 CAT] 000001c3 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PROCSVR.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:10:10:092 CAT] 000001c3 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PROCSVR.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:10:10:124 CAT] 000001c3 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus BPC.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:10:10:124 CAT] 000001c3 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus BPC.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:10:10:155 CAT] 000001c3 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus CEI.devNode04Cell.BUS to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:10:10:156 CAT] 000001c3 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus CEI.devNode04Cell.BUS has been updated as a result of an administrative update.
-[2/17/15 17:10:10:206 CAT] 000001c3 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.APPLICATION.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:10:10:206 CAT] 000001c3 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.APPLICATION.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:10:10:253 CAT] 000001c3 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PERFDW.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:10:10:253 CAT] 000001c3 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PERFDW.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:10:10:253 CAT] 000001c3 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:10:10:253 CAT] 000001c3 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:10:10:253 CAT] 000001c3 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus BPC.devNode04Cell.Bus.
-[2/17/15 17:10:10:268 CAT] 000001c3 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus BPC.devNode04Cell.Bus.
-[2/17/15 17:10:10:268 CAT] 000001c3 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PERFDW.devNode04Cell.Bus.
-[2/17/15 17:10:10:268 CAT] 000001c3 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PERFDW.devNode04Cell.Bus.
-[2/17/15 17:10:10:268 CAT] 000001c3 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:10:10:284 CAT] 000001c3 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:10:10:284 CAT] 000001c3 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus CEI.devNode04Cell.BUS.
-[2/17/15 17:10:10:284 CAT] 000001c3 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus CEI.devNode04Cell.BUS.
-[2/17/15 17:10:10:284 CAT] 000001c3 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:10:10:300 CAT] 000001c3 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:10:10:300 CAT] 000001c3 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:10:10:300 CAT] 000001c3 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:10:10:300 CAT] 000001c3 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
-[2/17/15 17:10:10:300 CAT] 000001c3 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
-[2/17/15 17:10:10:300 CAT] 000001c3 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
-[2/17/15 17:10:10:300 CAT] 000001c3 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
-[2/17/15 17:10:10:300 CAT] 000001c3 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:10:10:300 CAT] 000001c3 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:10:10:300 CAT] 000001c3 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:10:10:315 CAT] 000001c3 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:10:10:315 CAT] 000001c3 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
-[2/17/15 17:10:10:315 CAT] 000001c3 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
-[2/17/15 17:10:10:315 CAT] 000001c3 Core          I   CWSCA3009I: The SCA module "AgreementServiceConsumerApp" is starting.
-[2/17/15 17:10:10:347 CAT] 000001c3 Core          I   CWSCA3010I: The SCA module "AgreementServiceConsumerApp" started successfully using the SCA "Native" and Business Object "Eager" runtimes.
-[2/17/15 17:10:10:394 CAT] 000001c3 webapp        I com.ibm.ws.webcontainer.webapp.WebGroupImpl WebGroup SRVE0169I: Loading Web Module: AgreementServiceConsumerWeb.
-[2/17/15 17:10:10:410 CAT] 000001c3 WASSessionCor I SessionContextRegistry getSessionContext SESN0176I: Will create a new session context for application key default_hostAgreementServiceConsumerWeb
-[2/17/15 17:10:10:425 CAT] 000001c3 webcontainer  I com.ibm.ws.webcontainer.VirtualHostImpl addWebApplication SRVE0250I: Web Module AgreementServiceConsumerWeb has been bound to default_host[*:9083,*:80,*:9446,*:5067,*:5066,*:443].
-[2/17/15 17:10:10:425 CAT] 000001c3 SibMessage    I   [:] CWSIV0777I: A connection to messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus for destination sca/AgreementServiceConsumer on bus SCA.SYSTEM.devNode04Cell.Bus has been successfully created.
-[2/17/15 17:10:10:425 CAT] 000001c3 ActivationSpe I   J2CA0523I: The Message Endpoint for ActivationSpec sca/AgreementServiceConsumer/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServiceConsumerApp#AgreementServiceConsumer#AgreementServiceConsumer is activated.
-[2/17/15 17:10:10:425 CAT] 000001c3 ApplicationMg A   WSVR0221I: Application started: AgreementServiceConsumerApp
-[2/17/15 17:10:10:425 CAT] 000001c3 CompositionUn A   WSVR0191I: Composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp started.
-[2/17/15 17:10:10:574 CAT] 000001c3 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b9816de19\ext\AgreementServiceConsumerApp_ear\AgreementLibrary.jar cannot be deleted.
-[2/17/15 17:10:10:574 CAT] 000001c3 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b9816de19\ext\AgreementServiceConsumerApp_ear\AgreementServiceConsumer.jar cannot be deleted.
-[2/17/15 17:10:10:579 CAT] 000001c3 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b9816de19\ext\AgreementServiceConsumerApp_ear cannot be deleted.
-[2/17/15 17:10:10:579 CAT] 000001c3 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b9816de19\ext cannot be deleted.
-[2/17/15 17:10:10:580 CAT] 000001c3 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b9816de19 cannot be deleted.
-[2/17/15 17:10:10:581 CAT] 000001c3 AppBinaryProc I   ADMA7021I: Distribution of application AgreementServiceConsumerApp completed successfully.
-[2/17/15 17:10:10:585 CAT] 000001c3 FileRepositor A   ADMR0015I: User DevRealm/wasadmin created document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/CustomizationData/customization-timestamp.xml.
-[2/17/15 17:10:10:585 CAT] 000001c3 FileRepositor A   ADMR0015I: User DevRealm/wasadmin created document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deltas/AgreementServiceConsumerApp/delta-1424185808558.
-[2/17/15 17:10:10:585 CAT] 000001c3 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/META-INF/ibm-application-runtime.props.
-[2/17/15 17:10:10:586 CAT] 000001c3 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/AgreementServiceConsumerApp.ear.
-[2/17/15 17:10:10:586 CAT] 000001c3 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/META-INF/MANIFEST.MF.
-[2/17/15 17:10:10:586 CAT] 000001c3 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/cell-core.xml.
-[2/17/15 17:10:10:586 CAT] 000001c3 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/deployment-bpc.xml.
-[2/17/15 17:10:10:586 CAT] 000001c3 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/nodes/devNode04/serverindex.xml.
-[2/17/15 17:10:10:586 CAT] 000001c3 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/deployment.xml.
-[2/17/15 17:10:31:781 CAT] 00000069 WSChannelFram A   CHFW0019I: The Transport Channel Service has started chain httpapi-http chain.
-[2/17/15 17:10:31:797 CAT] 00000068 HTTPBinding   W   CWSCA6044W: The request cannot be processed because the /AgreementServiceHTTPExport/acceptQuote@GET method is not available in the HTTP export binding. 
-[2/17/15 17:10:31:813 CAT] 00000069 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_297a2082_15.02.17_17.10.31.800559878908219710204.txt com.ibm.ws.http.imprt.handler.HTTPImportService.handleResponse 257
-[2/17/15 17:10:31:830 CAT] 00000069 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_297a2082_15.02.17_17.10.31.8132994088607581573399.txt com.ibm.ws.http.imprt.handler.HTTPImportHandler.processMessage 283
-[2/17/15 17:10:31:832 CAT] 00000069 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_297a2082_15.02.17_17.10.31.8316833820733693286363.txt com.ibm.ws.sca.internal.message.impl.MessageDispatcherImpl.processMessageWithPCI 720
-[2/17/15 17:10:31:874 CAT] 00000069 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_297a2082_15.02.17_17.10.31.8333014649517982635383.txt com.ibm.bpe.engine.BpelActivityKindInvoke.doActivate 1083
-[2/17/15 17:10:31:876 CAT] 00000069 ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceConsumerInterface' and operation 'triggerAcceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
-        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'acceptQuote'.
-        com.ibm.websphere.sca.ServiceUnavailableException: Invocation failed with response status code 501 and reason Not Implemented
-[2/17/15 17:12:15:350 CAT] 0000024d UpdateSchedul I   ADMA5078I: Update of AgreementServiceConsumerApp has started.
-[2/17/15 17:12:15:835 CAT] 0000024d WBIAAbstractT I com.ibm.ws.wbia.deployment.WBIAAbstractTask performTask CWLRD0101I: No WebSphere Business Integration Adapter files are found in the application AgreementServiceConsumerApp.
-[2/17/15 17:12:15:845 CAT] 0000024d UpdateSchedul I   ADMA5079I: Update of AgreementServiceConsumerApp has ended. The application or its web modules may require a restart when a save is performed.
-[2/17/15 17:12:15:985 CAT] 000001c8 WorkSpaceMast W   validateFileLength: File "C:\IBM\AppServer\profiles\ProcCtr01\wstemp\st_pub1424185935217\workspace\cells\devNode04Cell\applications\AgreementServiceConsumerApp.ear\deployments\AgreementServiceConsumerApp\AgreementServiceConsumerWeb.war\WEB-INF\servicesIndex.xml" does not exist in wstemp, and will not be updated to master repository.
-[2/17/15 17:12:16:041 CAT] 000001c8 AdminHelper   A   ADMN1010I: An attempt is made to stop the AgreementServiceConsumerApp application. (User ID = DevRealm/server:devNode04Cell_devNode04_server4)
-[2/17/15 17:12:16:042 CAT] 000001c8 CompositionUn A   WSVR0192I: Stopping composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp.
-[2/17/15 17:12:16:042 CAT] 000001c8 ApplicationMg A   WSVR0217I: Stopping application: AgreementServiceConsumerApp
-[2/17/15 17:12:16:051 CAT] 000001c8 Core          I   CWSCA3011I: The SCA module "AgreementServiceConsumerApp" is stopping.
-[2/17/15 17:12:16:053 CAT] 000001c8 ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/AgreementServiceConsumer/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServiceConsumerApp#AgreementServiceConsumer#AgreementServiceConsumer is deactivated.
-[2/17/15 17:12:16:057 CAT] 000001c8 Core          I   CWSCA3012I: The SCA module has been stopped.
-[2/17/15 17:12:16:059 CAT] 000001c8 ApplicationMg A   WSVR0220I: Application stopped: AgreementServiceConsumerApp
-[2/17/15 17:12:16:585 CAT] 000001c8 CompositionUn A   WSVR0193I: Composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp stopped.
-[2/17/15 17:12:16:668 CAT] 000001c8 AdminHelper   A   ADMN1008I: An attempt is made to start the AgreementServiceConsumerApp application. (User ID = DevRealm/server:devNode04Cell_devNode04_server4)
-[2/17/15 17:12:16:678 CAT] 000001c8 CompositionUn A   WSVR0190I: Starting composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp.
-[2/17/15 17:12:16:696 CAT] 000001c8 ApplicationMg A   WSVR0200I: Starting application: AgreementServiceConsumerApp
-[2/17/15 17:12:16:696 CAT] 000001c8 ApplicationMg A   WSVR0204I: Application: AgreementServiceConsumerApp  Application build level: Unknown
-[2/17/15 17:12:16:752 CAT] 000001c8 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.SYSTEM.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:12:16:753 CAT] 000001c8 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.SYSTEM.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:12:16:788 CAT] 000001c8 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PROCSVR.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:12:16:789 CAT] 000001c8 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PROCSVR.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:12:16:826 CAT] 000001c8 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus BPC.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:12:16:827 CAT] 000001c8 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus BPC.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:12:16:863 CAT] 000001c8 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus CEI.devNode04Cell.BUS to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:12:16:863 CAT] 000001c8 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus CEI.devNode04Cell.BUS has been updated as a result of an administrative update.
-[2/17/15 17:12:16:894 CAT] 000001c8 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.APPLICATION.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:12:16:894 CAT] 000001c8 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.APPLICATION.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:12:16:926 CAT] 000001c8 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PERFDW.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:12:16:927 CAT] 000001c8 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PERFDW.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:12:16:927 CAT] 000001c8 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:12:16:931 CAT] 000001c8 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:12:16:931 CAT] 000001c8 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus BPC.devNode04Cell.Bus.
-[2/17/15 17:12:16:938 CAT] 000001c8 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus BPC.devNode04Cell.Bus.
-[2/17/15 17:12:16:938 CAT] 000001c8 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PERFDW.devNode04Cell.Bus.
-[2/17/15 17:12:16:946 CAT] 000001c8 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PERFDW.devNode04Cell.Bus.
-[2/17/15 17:12:16:946 CAT] 000001c8 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:12:16:953 CAT] 000001c8 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:12:16:953 CAT] 000001c8 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus CEI.devNode04Cell.BUS.
-[2/17/15 17:12:16:960 CAT] 000001c8 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus CEI.devNode04Cell.BUS.
-[2/17/15 17:12:16:960 CAT] 000001c8 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:12:16:968 CAT] 000001c8 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:12:16:968 CAT] 000001c8 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:12:16:969 CAT] 000001c8 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:12:16:969 CAT] 000001c8 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
-[2/17/15 17:12:16:971 CAT] 000001c8 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
-[2/17/15 17:12:16:971 CAT] 000001c8 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
-[2/17/15 17:12:16:974 CAT] 000001c8 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
-[2/17/15 17:12:16:974 CAT] 000001c8 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:12:16:976 CAT] 000001c8 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:12:16:976 CAT] 000001c8 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:12:16:978 CAT] 000001c8 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:12:16:979 CAT] 000001c8 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
-[2/17/15 17:12:16:981 CAT] 000001c8 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
-[2/17/15 17:12:16:987 CAT] 000001c8 Core          I   CWSCA3009I: The SCA module "AgreementServiceConsumerApp" is starting.
-[2/17/15 17:12:17:017 CAT] 000001c8 Core          I   CWSCA3010I: The SCA module "AgreementServiceConsumerApp" started successfully using the SCA "Native" and Business Object "Eager" runtimes.
-[2/17/15 17:12:17:053 CAT] 000001c8 webapp        I com.ibm.ws.webcontainer.webapp.WebGroupImpl WebGroup SRVE0169I: Loading Web Module: AgreementServiceConsumerWeb.
-[2/17/15 17:12:17:093 CAT] 000001c8 WASSessionCor I SessionContextRegistry getSessionContext SESN0176I: Will create a new session context for application key default_hostAgreementServiceConsumerWeb
-[2/17/15 17:12:17:093 CAT] 000001c8 webcontainer  I com.ibm.ws.webcontainer.VirtualHostImpl addWebApplication SRVE0250I: Web Module AgreementServiceConsumerWeb has been bound to default_host[*:9083,*:80,*:9446,*:5067,*:5066,*:443].
-[2/17/15 17:12:17:109 CAT] 000001c8 SibMessage    I   [:] CWSIV0777I: A connection to messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus for destination sca/AgreementServiceConsumer on bus SCA.SYSTEM.devNode04Cell.Bus has been successfully created.
-[2/17/15 17:12:17:109 CAT] 000001c8 ActivationSpe I   J2CA0523I: The Message Endpoint for ActivationSpec sca/AgreementServiceConsumer/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServiceConsumerApp#AgreementServiceConsumer#AgreementServiceConsumer is activated.
-[2/17/15 17:12:17:109 CAT] 000001c8 ApplicationMg A   WSVR0221I: Application started: AgreementServiceConsumerApp
-[2/17/15 17:12:17:109 CAT] 000001c8 CompositionUn A   WSVR0191I: Composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp started.
-[2/17/15 17:12:17:109 CAT] 000001c8 AppBinaryProc I   ADMA7021I: Distribution of application AgreementServiceConsumerApp completed successfully.
-[2/17/15 17:12:17:109 CAT] 000001c8 FileRepositor A   ADMR0015I: User DevRealm/wasadmin created document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deltas/AgreementServiceConsumerApp/delta-1424185935836.
-[2/17/15 17:12:17:109 CAT] 000001c8 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/deployment-bpc.xml.
-[2/17/15 17:12:17:109 CAT] 000001c8 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/META-INF/ibm-application-runtime.props.
-[2/17/15 17:12:17:109 CAT] 000001c8 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/nodes/devNode04/serverindex.xml.
-[2/17/15 17:12:17:109 CAT] 000001c8 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/META-INF/MANIFEST.MF.
-[2/17/15 17:12:17:109 CAT] 000001c8 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/deployment.xml.
-[2/17/15 17:12:17:109 CAT] 000001c8 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/AgreementServiceConsumerApp.ear.
-[2/17/15 17:12:17:109 CAT] 000001c8 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/cell-core.xml.
-[2/17/15 17:12:46:129 CAT] 0000006a SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
-<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementLibrary">
-  <quoteReferenceNumber>1234</quoteReferenceNumber>
-</p:AgreementDetails>
-[2/17/15 17:12:46:144 CAT] 0000006a ExportRuntime I   processMessage
-[2/17/15 17:12:46:523 CAT] 0000006a FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_251a748e_15.02.17_17.12.46.4577697269864536165193.txt com.ibm.bpe.engine.BpelActivityKindInvoke.doActivate 1083
-[2/17/15 17:12:46:525 CAT] 0000006a ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
-        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'Invoke'.
-        java.lang.IllegalStateException: No condition cases evaluated to true (for the 'productName' condition).
-[2/17/15 17:12:46:527 CAT] 0000006a ExportRuntime I   processMessage
-[2/17/15 17:12:46:547 CAT] 00000069 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_297a2082_15.02.17_17.12.46.5331371973286767929337.txt com.ibm.ws.http.imprt.handler.HTTPImportHandler.processMessage 299
-[2/17/15 17:12:46:594 CAT] 00000069 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\ProcCtr01\logs\ffdc\server4_297a2082_15.02.17_17.12.46.5496725864563271367247.txt com.ibm.bpe.engine.BpelActivityKindInvoke.doActivate 1083
-[2/17/15 17:12:46:596 CAT] 00000069 ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceConsumerInterface' and operation 'triggerAcceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
-        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'acceptQuote'.
-        com.ibm.websphere.sca.ServiceRuntimeException: com.ibm.bpe.api.StandardFaultException: CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
- Caused By: CWWBE0003E: A runtime fault was returned by the implementation of activity 'Invoke'.
- Caused By: No condition cases evaluated to true (for the 'productName' condition).
+      <Interface>wsdl:http://RESTService/HelloWorldInterface</Interface>
+    </SMOHeader>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/RESTServiceWeb/RESTServiceExport/helloWorld</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>GET</ht:Method>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ExportContextPath>/RESTServiceExport/helloWorld</ht:ExportContextPath>
+      </control>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+      <header>
+        <ht:name>Cache-Control</ht:name>
+        <ht:value>no-cache</ht:value>
+      </header>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>*/*</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Encoding</ht:name>
+        <ht:value>gzip, deflate, sdch</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept-Language</ht:name>
+        <ht:value>en-GB,en-US;q=0.8,en;q=0.6</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:helloWorldResponseMsg">
+    <in_1:helloWorldResponse>
+      <response>HelloWorld!!!!</response>
+    </in_1:helloWorldResponse>
+  </body>
+</Se:smo>, 7
 
-[2/17/15 17:16:38:092 CAT] 0000025b UpdateSchedul I   ADMA5078I: Update of AgreementServiceConsumerApp has started.
-[2/17/15 17:16:38:498 CAT] 0000025b BPELValidatio I   CWWBV0001I: Validated process model 'triggerAcceptQuote' successfully: 0 warnings, 0 information.
-[2/17/15 17:16:38:546 CAT] 0000025b WBIAAbstractT I com.ibm.ws.wbia.deployment.WBIAAbstractTask performTask CWLRD0101I: No WebSphere Business Integration Adapter files are found in the application AgreementServiceConsumerApp.
-[2/17/15 17:16:38:582 CAT] 0000025b UpdateSchedul I   ADMA5079I: Update of AgreementServiceConsumerApp has ended. The application or its web modules may require a restart when a save is performed.
-[2/17/15 17:16:38:791 CAT] 00000016 AdminHelper   A   ADMN1010I: An attempt is made to stop the AgreementServiceConsumerApp application. (User ID = DevRealm/server:devNode04Cell_devNode04_server4)
-[2/17/15 17:16:38:792 CAT] 00000016 CompositionUn A   WSVR0192I: Stopping composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp.
-[2/17/15 17:16:38:792 CAT] 00000016 ApplicationMg A   WSVR0217I: Stopping application: AgreementServiceConsumerApp
-[2/17/15 17:16:38:805 CAT] 00000016 Core          I   CWSCA3011I: The SCA module "AgreementServiceConsumerApp" is stopping.
-[2/17/15 17:16:38:807 CAT] 00000016 ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/AgreementServiceConsumer/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServiceConsumerApp#AgreementServiceConsumer#AgreementServiceConsumer is deactivated.
-[2/17/15 17:16:38:811 CAT] 00000016 Core          I   CWSCA3012I: The SCA module has been stopped.
-[2/17/15 17:16:38:814 CAT] 00000016 ApplicationMg A   WSVR0220I: Application stopped: AgreementServiceConsumerApp
-[2/17/15 17:16:39:343 CAT] 00000016 CompositionUn A   WSVR0193I: Composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp stopped.
-[2/17/15 17:16:39:428 CAT] 00000016 AdminHelper   A   ADMN1008I: An attempt is made to start the AgreementServiceConsumerApp application. (User ID = DevRealm/server:devNode04Cell_devNode04_server4)
-[2/17/15 17:16:39:460 CAT] 00000016 CompositionUn A   WSVR0190I: Starting composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp.
-[2/17/15 17:16:39:476 CAT] 00000016 ApplicationMg A   WSVR0200I: Starting application: AgreementServiceConsumerApp
-[2/17/15 17:16:39:476 CAT] 00000016 ApplicationMg A   WSVR0204I: Application: AgreementServiceConsumerApp  Application build level: Unknown
-[2/17/15 17:16:39:523 CAT] 00000016 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.SYSTEM.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:16:39:523 CAT] 00000016 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.SYSTEM.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:16:39:554 CAT] 00000016 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PROCSVR.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:16:39:554 CAT] 00000016 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PROCSVR.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:16:39:585 CAT] 00000016 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus BPC.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:16:39:585 CAT] 00000016 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus BPC.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:16:39:602 CAT] 00000016 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus CEI.devNode04Cell.BUS to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:16:39:602 CAT] 00000016 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus CEI.devNode04Cell.BUS has been updated as a result of an administrative update.
-[2/17/15 17:16:39:634 CAT] 00000016 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.APPLICATION.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:16:39:634 CAT] 00000016 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.APPLICATION.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:16:39:666 CAT] 00000016 SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PERFDW.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:16:39:667 CAT] 00000016 SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PERFDW.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:16:39:667 CAT] 00000016 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:16:39:671 CAT] 00000016 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:16:39:671 CAT] 00000016 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus BPC.devNode04Cell.Bus.
-[2/17/15 17:16:39:680 CAT] 00000016 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus BPC.devNode04Cell.Bus.
-[2/17/15 17:16:39:680 CAT] 00000016 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PERFDW.devNode04Cell.Bus.
-[2/17/15 17:16:39:687 CAT] 00000016 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PERFDW.devNode04Cell.Bus.
-[2/17/15 17:16:39:687 CAT] 00000016 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:16:39:695 CAT] 00000016 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:16:39:695 CAT] 00000016 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus CEI.devNode04Cell.BUS.
-[2/17/15 17:16:39:702 CAT] 00000016 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus CEI.devNode04Cell.BUS.
-[2/17/15 17:16:39:702 CAT] 00000016 SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:16:39:710 CAT] 00000016 SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:16:39:711 CAT] 00000016 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:16:39:711 CAT] 00000016 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:16:39:711 CAT] 00000016 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
-[2/17/15 17:16:39:714 CAT] 00000016 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
-[2/17/15 17:16:39:714 CAT] 00000016 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
-[2/17/15 17:16:39:716 CAT] 00000016 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
-[2/17/15 17:16:39:716 CAT] 00000016 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:16:39:719 CAT] 00000016 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:16:39:719 CAT] 00000016 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:16:39:721 CAT] 00000016 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:16:39:721 CAT] 00000016 SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
-[2/17/15 17:16:39:724 CAT] 00000016 SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
-[2/17/15 17:16:39:728 CAT] 00000016 Core          I   CWSCA3009I: The SCA module "AgreementServiceConsumerApp" is starting.
-[2/17/15 17:16:39:759 CAT] 00000016 Core          I   CWSCA3010I: The SCA module "AgreementServiceConsumerApp" started successfully using the SCA "Native" and Business Object "Eager" runtimes.
-[2/17/15 17:16:39:813 CAT] 00000016 webapp        I com.ibm.ws.webcontainer.webapp.WebGroupImpl WebGroup SRVE0169I: Loading Web Module: AgreementServiceConsumerWeb.
-[2/17/15 17:16:39:823 CAT] 00000016 WASSessionCor I SessionContextRegistry getSessionContext SESN0176I: Will create a new session context for application key default_hostAgreementServiceConsumerWeb
-[2/17/15 17:16:39:834 CAT] 00000016 webcontainer  I com.ibm.ws.webcontainer.VirtualHostImpl addWebApplication SRVE0250I: Web Module AgreementServiceConsumerWeb has been bound to default_host[*:9083,*:80,*:9446,*:5067,*:5066,*:443].
-[2/17/15 17:16:39:841 CAT] 00000016 SibMessage    I   [:] CWSIV0777I: A connection to messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus for destination sca/AgreementServiceConsumer on bus SCA.SYSTEM.devNode04Cell.Bus has been successfully created.
-[2/17/15 17:16:39:841 CAT] 00000016 ActivationSpe I   J2CA0523I: The Message Endpoint for ActivationSpec sca/AgreementServiceConsumer/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServiceConsumerApp#AgreementServiceConsumer#AgreementServiceConsumer is activated.
-[2/17/15 17:16:39:846 CAT] 00000016 ApplicationMg A   WSVR0221I: Application started: AgreementServiceConsumerApp
-[2/17/15 17:16:39:846 CAT] 00000016 CompositionUn A   WSVR0191I: Composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp started.
-[2/17/15 17:16:40:036 CAT] 00000016 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b981ccf58\ext\AgreementServiceConsumerApp_ear\AgreementLibrary.jar cannot be deleted.
-[2/17/15 17:16:40:036 CAT] 00000016 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b981ccf58\ext\AgreementServiceConsumerApp_ear\AgreementServiceConsumer.jar cannot be deleted.
-[2/17/15 17:16:40:036 CAT] 00000016 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b981ccf58\ext\AgreementServiceConsumerApp_ear cannot be deleted.
-[2/17/15 17:16:40:036 CAT] 00000016 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b981ccf58\ext cannot be deleted.
-[2/17/15 17:16:40:036 CAT] 00000016 FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b981ccf58 cannot be deleted.
-[2/17/15 17:16:40:036 CAT] 00000016 AppBinaryProc I   ADMA7021I: Distribution of application AgreementServiceConsumerApp completed successfully.
-[2/17/15 17:16:40:036 CAT] 00000016 FileRepositor A   ADMR0015I: User DevRealm/wasadmin created document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deltas/AgreementServiceConsumerApp/delta-1424186198568.
-[2/17/15 17:16:40:036 CAT] 00000016 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/nodes/devNode04/serverindex.xml.
-[2/17/15 17:16:40:036 CAT] 00000016 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/META-INF/MANIFEST.MF.
-[2/17/15 17:16:40:036 CAT] 00000016 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/deployment-bpc.xml.
-[2/17/15 17:16:40:036 CAT] 00000016 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/AgreementServiceConsumerApp.ear.
-[2/17/15 17:16:40:036 CAT] 00000016 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/cell-core.xml.
-[2/17/15 17:16:40:036 CAT] 00000016 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/CustomizationData/customization-timestamp.xml.
-[2/17/15 17:16:40:036 CAT] 00000016 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/META-INF/ibm-application-runtime.props.
-[2/17/15 17:16:40:036 CAT] 00000016 FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/deployment.xml.
-[2/17/15 17:16:52:642 CAT] 00000068 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
-<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementLibrary">
-  <quoteReferenceNumber>1234</quoteReferenceNumber>
-  <productName>&quot;Hello Doctor&quot;</productName>
-</p:AgreementDetails>
-[2/17/15 17:16:52:648 CAT] 00000068 ExportRuntime I   processMessage
-[2/17/15 17:16:52:651 CAT] 00000068 ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
-        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'Invoke'.
-        java.lang.IllegalStateException: No condition cases evaluated to true (for the 'productName' condition).
-[2/17/15 17:16:52:653 CAT] 00000068 ExportRuntime I   processMessage
-[2/17/15 17:16:52:659 CAT] 00000069 ProcessEngine I   CWWBE0071E: A two-way request for port type 'AgreementServiceConsumerInterface' and operation 'triggerAcceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
-        com.ibm.bpe.api.RuntimeFaultException: CWWBE0003E: A runtime fault was returned by the implementation of activity 'acceptQuote'.
-        com.ibm.websphere.sca.ServiceRuntimeException: com.ibm.bpe.api.StandardFaultException: CWWBE0071E: A two-way request for port type 'AgreementServiceInterface' and operation 'acceptQuote' was accepted by activity 'Receive'. The process ended before a corresponding reply activity was executed.
- Caused By: CWWBE0003E: A runtime fault was returned by the implementation of activity 'Invoke'.
- Caused By: No condition cases evaluated to true (for the 'productName' condition).
+[2/19/15 18:20:04:239 CAT] 000002c8 TraceMediatio I   CWSXM3010I: 2/19/15 6:20 PM, A2A3940F-014B-4000-E001-1504C0A85881, Trace1, RESTService, <?xml version="1.0" encoding="UTF-8"?>
+<Se:smo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:ht="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0" xmlns:in="wsdl.http://RESTService/HelloWorldInterface" xmlns:in_1="http://RESTService/HelloWorldInterface">
+  <context/>
+  <headers>
+    <SMOHeader>
+      <MessageUUID>A2A3940F-014B-4000-E001-1504C0A85881</MessageUUID>
+      <Version>
+        <Version>7</Version>
+        <Release>0</Release>
+        <Modification>0</Modification>
+      </Version>
+      <MessageType>Response</MessageType>
+      <Operation>helloWorld</Operation>
+      <SourceNode>RESTServiceExport</SourceNode>
+      <SourceBindingType>HTTP</SourceBindingType>
+      <Interface>wsdl:http://RESTService/HelloWorldInterface</Interface>
+    </SMOHeader>
+    <HTTPHeader>
+      <control>
+        <ht:URL>http://localhost:9083/RESTServiceWeb/RESTServiceExport/helloWorld</ht:URL>
+        <ht:Version>1.1</ht:Version>
+        <ht:Method>GET</ht:Method>
+        <ht:ContentEncoding>identity</ht:ContentEncoding>
+        <ht:ExportContextPath>/RESTServiceExport/helloWorld</ht:ExportContextPath>
+      </control>
+      <header>
+        <ht:name>User-Agent</ht:name>
+        <ht:value>Java/1.6.0</ht:value>
+      </header>
+      <header>
+        <ht:name>Host</ht:name>
+        <ht:value>localhost:9083</ht:value>
+      </header>
+      <header>
+        <ht:name>Accept</ht:name>
+        <ht:value>text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</ht:value>
+      </header>
+      <header>
+        <ht:name>Connection</ht:name>
+        <ht:value>keep-alive</ht:value>
+      </header>
+    </HTTPHeader>
+  </headers>
+  <body xsi:type="in:helloWorldResponseMsg">
+    <in_1:helloWorldResponse>
+      <response>HelloWorld!!!!</response>
+    </in_1:helloWorldResponse>
+  </body>
+</Se:smo>, 7
 
-[2/17/15 17:18:20:318 CAT] 00000267 UpdateSchedul I   ADMA5078I: Update of AgreementServiceConsumerApp has started.
-[2/17/15 17:18:20:773 CAT] 00000267 BPELValidatio I   CWWBV0001I: Validated process model 'triggerAcceptQuote' successfully: 0 warnings, 0 information.
-[2/17/15 17:18:20:851 CAT] 00000267 WBIAAbstractT I com.ibm.ws.wbia.deployment.WBIAAbstractTask performTask CWLRD0101I: No WebSphere Business Integration Adapter files are found in the application AgreementServiceConsumerApp.
-[2/17/15 17:18:20:897 CAT] 00000267 UpdateSchedul I   ADMA5079I: Update of AgreementServiceConsumerApp has ended. The application or its web modules may require a restart when a save is performed.
-[2/17/15 17:18:21:629 CAT] 0000025f AdminHelper   A   ADMN1010I: An attempt is made to stop the AgreementServiceConsumerApp application. (User ID = DevRealm/server:devNode04Cell_devNode04_server4)
-[2/17/15 17:18:21:629 CAT] 0000025f CompositionUn A   WSVR0192I: Stopping composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp.
-[2/17/15 17:18:21:630 CAT] 0000025f ApplicationMg A   WSVR0217I: Stopping application: AgreementServiceConsumerApp
-[2/17/15 17:18:21:639 CAT] 0000025f Core          I   CWSCA3011I: The SCA module "AgreementServiceConsumerApp" is stopping.
-[2/17/15 17:18:21:641 CAT] 0000025f ActivationSpe I   J2CA0524I: The Message Endpoint for ActivationSpec sca/AgreementServiceConsumer/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServiceConsumerApp#AgreementServiceConsumer#AgreementServiceConsumer is deactivated.
-[2/17/15 17:18:21:645 CAT] 0000025f Core          I   CWSCA3012I: The SCA module has been stopped.
-[2/17/15 17:18:21:647 CAT] 0000025f ApplicationMg A   WSVR0220I: Application stopped: AgreementServiceConsumerApp
-[2/17/15 17:18:22:132 CAT] 0000025f CompositionUn A   WSVR0193I: Composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp stopped.
-[2/17/15 17:18:22:223 CAT] 0000025f AdminHelper   A   ADMN1008I: An attempt is made to start the AgreementServiceConsumerApp application. (User ID = DevRealm/server:devNode04Cell_devNode04_server4)
-[2/17/15 17:18:22:238 CAT] 0000025f CompositionUn A   WSVR0190I: Starting composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp.
-[2/17/15 17:18:22:254 CAT] 0000025f ApplicationMg A   WSVR0200I: Starting application: AgreementServiceConsumerApp
-[2/17/15 17:18:22:254 CAT] 0000025f ApplicationMg A   WSVR0204I: Application: AgreementServiceConsumerApp  Application build level: Unknown
-[2/17/15 17:18:22:320 CAT] 0000025f SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.SYSTEM.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:18:22:322 CAT] 0000025f SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.SYSTEM.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:18:22:358 CAT] 0000025f SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PROCSVR.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:18:22:359 CAT] 0000025f SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PROCSVR.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:18:22:395 CAT] 0000025f SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus BPC.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:18:22:395 CAT] 0000025f SibMessage    I   [:] CWSII0210I: The authorization policy for the bus BPC.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:18:22:434 CAT] 0000025f SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus CEI.devNode04Cell.BUS to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:18:22:434 CAT] 0000025f SibMessage    I   [:] CWSII0210I: The authorization policy for the bus CEI.devNode04Cell.BUS has been updated as a result of an administrative update.
-[2/17/15 17:18:22:470 CAT] 0000025f SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus SCA.APPLICATION.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:18:22:471 CAT] 0000025f SibMessage    I   [:] CWSII0210I: The authorization policy for the bus SCA.APPLICATION.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:18:22:522 CAT] 0000025f SibMessage    W   [:] CWSII0269W: The runtime accessed the user repository for bus PERFDW.devNode04Cell.Bus to populate missing unique name data when loading the authorization model for the bus.
-[2/17/15 17:18:22:523 CAT] 0000025f SibMessage    I   [:] CWSII0210I: The authorization policy for the bus PERFDW.devNode04Cell.Bus has been updated as a result of an administrative update.
-[2/17/15 17:18:22:524 CAT] 0000025f SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:18:22:528 CAT] 0000025f SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:18:22:528 CAT] 0000025f SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus BPC.devNode04Cell.Bus.
-[2/17/15 17:18:22:535 CAT] 0000025f SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus BPC.devNode04Cell.Bus.
-[2/17/15 17:18:22:535 CAT] 0000025f SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus PERFDW.devNode04Cell.Bus.
-[2/17/15 17:18:22:542 CAT] 0000025f SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus PERFDW.devNode04Cell.Bus.
-[2/17/15 17:18:22:542 CAT] 0000025f SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:18:22:550 CAT] 0000025f SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:18:22:550 CAT] 0000025f SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus CEI.devNode04Cell.BUS.
-[2/17/15 17:18:22:557 CAT] 0000025f SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus CEI.devNode04Cell.BUS.
-[2/17/15 17:18:22:558 CAT] 0000025f SibMessage    I   [:] CWSID0017I: Configuration reload is starting for bus SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:18:22:565 CAT] 0000025f SibMessage    I   [:] CWSID0018I: Configuration reload is complete for bus SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:18:22:566 CAT] 0000025f SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:18:22:567 CAT] 0000025f SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PROCSVR.devNode04Cell.Bus.
-[2/17/15 17:18:22:567 CAT] 0000025f SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
-[2/17/15 17:18:22:569 CAT] 0000025f SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-CEI.devNode04Cell.BUS.
-[2/17/15 17:18:22:569 CAT] 0000025f SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
-[2/17/15 17:18:22:572 CAT] 0000025f SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-BPC.devNode04Cell.Bus.
-[2/17/15 17:18:22:572 CAT] 0000025f SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:18:22:574 CAT] 0000025f SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.APPLICATION.devNode04Cell.Bus.
-[2/17/15 17:18:22:574 CAT] 0000025f SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:18:22:577 CAT] 0000025f SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus.
-[2/17/15 17:18:22:577 CAT] 0000025f SibMessage    I   [:] CWSID0019I: Configuration reload is starting for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
-[2/17/15 17:18:22:579 CAT] 0000025f SibMessage    I   [:] CWSID0020I: Configuration reload is complete for messaging engine devNode04.server4-PERFDW.devNode04Cell.Bus.
-[2/17/15 17:18:22:586 CAT] 0000025f Core          I   CWSCA3009I: The SCA module "AgreementServiceConsumerApp" is starting.
-[2/17/15 17:18:22:618 CAT] 0000025f Core          I   CWSCA3010I: The SCA module "AgreementServiceConsumerApp" started successfully using the SCA "Native" and Business Object "Eager" runtimes.
-[2/17/15 17:18:22:668 CAT] 0000025f webapp        I com.ibm.ws.webcontainer.webapp.WebGroupImpl WebGroup SRVE0169I: Loading Web Module: AgreementServiceConsumerWeb.
-[2/17/15 17:18:22:679 CAT] 0000025f WASSessionCor I SessionContextRegistry getSessionContext SESN0176I: Will create a new session context for application key default_hostAgreementServiceConsumerWeb
-[2/17/15 17:18:22:690 CAT] 0000025f webcontainer  I com.ibm.ws.webcontainer.VirtualHostImpl addWebApplication SRVE0250I: Web Module AgreementServiceConsumerWeb has been bound to default_host[*:9083,*:80,*:9446,*:5067,*:5066,*:443].
-[2/17/15 17:18:22:699 CAT] 0000025f SibMessage    I   [:] CWSIV0777I: A connection to messaging engine devNode04.server4-SCA.SYSTEM.devNode04Cell.Bus for destination sca/AgreementServiceConsumer on bus SCA.SYSTEM.devNode04Cell.Bus has been successfully created.
-[2/17/15 17:18:22:700 CAT] 0000025f ActivationSpe I   J2CA0523I: The Message Endpoint for ActivationSpec sca/AgreementServiceConsumer/ActivationSpec (com.ibm.ws.sib.ra.inbound.impl.SibRaActivationSpecImpl) and MDB Application AgreementServiceConsumerApp#AgreementServiceConsumer#AgreementServiceConsumer is activated.
-[2/17/15 17:18:22:707 CAT] 0000025f ApplicationMg A   WSVR0221I: Application started: AgreementServiceConsumerApp
-[2/17/15 17:18:22:707 CAT] 0000025f CompositionUn A   WSVR0191I: Composition unit WebSphere:cuname=AgreementServiceConsumerApp in BLA WebSphere:blaname=AgreementServiceConsumerApp started.
-[2/17/15 17:18:22:869 CAT] 0000025f FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b981e6114\ext\AgreementServiceConsumerApp_ear\AgreementLibrary.jar cannot be deleted.
-[2/17/15 17:18:22:871 CAT] 0000025f FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b981e6114\ext\AgreementServiceConsumerApp_ear\AgreementServiceConsumer.jar cannot be deleted.
-[2/17/15 17:18:22:877 CAT] 0000025f FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b981e6114\ext\AgreementServiceConsumerApp_ear cannot be deleted.
-[2/17/15 17:18:22:877 CAT] 0000025f FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b981e6114\ext cannot be deleted.
-[2/17/15 17:18:22:878 CAT] 0000025f FileUtils     W   ADMA0078W: The file: C:\IBM\AppServer\profiles\ProcCtr01\wstemp\app.AgreementServiceConsumerApp.bfm14b981e6114 cannot be deleted.
-[2/17/15 17:18:22:879 CAT] 0000025f AppBinaryProc I   ADMA7021I: Distribution of application AgreementServiceConsumerApp completed successfully.
-[2/17/15 17:18:22:883 CAT] 0000025f FileRepositor A   ADMR0015I: User DevRealm/wasadmin created document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deltas/AgreementServiceConsumerApp/delta-1424186300880.
-[2/17/15 17:18:22:884 CAT] 0000025f FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/deployment.xml.
-[2/17/15 17:18:22:884 CAT] 0000025f FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/cell-core.xml.
-[2/17/15 17:18:22:884 CAT] 0000025f FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/nodes/devNode04/serverindex.xml.
-[2/17/15 17:18:22:884 CAT] 0000025f FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/CustomizationData/customization-timestamp.xml.
-[2/17/15 17:18:22:884 CAT] 0000025f FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/META-INF/MANIFEST.MF.
-[2/17/15 17:18:22:884 CAT] 0000025f FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/AgreementServiceConsumerApp.ear.
-[2/17/15 17:18:22:885 CAT] 0000025f FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/META-INF/ibm-application-runtime.props.
-[2/17/15 17:18:22:885 CAT] 0000025f FileRepositor A   ADMR0016I: User DevRealm/wasadmin modified document cells/devNode04Cell/applications/AgreementServiceConsumerApp.ear/deployments/AgreementServiceConsumerApp/deployment-bpc.xml.
-[2/17/15 17:19:04:415 CAT] 00000069 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
-<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementLibrary">
-  <quoteReferenceNumber>1234</quoteReferenceNumber>
-  <productName>Metropolitan Savings Plan</productName>
-</p:AgreementDetails>
-[2/17/15 17:19:04:419 CAT] 00000069 ExportRuntime I   processMessage
-[2/17/15 17:19:04:423 CAT] 00000069 SystemOut     O <?xml version="1.0" encoding="UTF-8"?>
-<p:AgreementDetails xsi:type="p:AgreementDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://AgreementLibrary">
-  <quoteReferenceNumber>1234</quoteReferenceNumber>
-  <state>QuoteAccepted</state>
-  <productName>Metropolitan Savings Plan</productName>
-</p:AgreementDetails>
-[2/17/15 17:19:04:425 CAT] 00000069 ExportRuntime I   processMessage
+[2/19/15 18:24:57:044 CAT] 000002d7 wle_security  I   CWLLG1088I: Initializing session is done for user admin
+[2/19/15 18:24:58:701 CAT] 000001b2 FileRepositor A   ADMR0024E: User <null> does not have the required role to access 1 document(s).
+[2/19/15 18:24:58:701 CAT] 000001b2 WorkSpaceMast E   WKSP0012E: Exception while extracting waspolicies/default/policy.xml from ConfigRepository--com.ibm.websphere.management.exception.RepositoryException: Caller is not in the required role to access restricted document(s)
+	at com.ibm.ws.management.repository.FileRepository.throwRepositoryException(FileRepository.java:1435)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1092)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1047)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1036)
+	at com.ibm.ws.management.repository.client.LocalConfigRepositoryClient.extract(LocalConfigRepositoryClient.java:141)
+	at com.ibm.ws.sm.workspace.impl.WorkSpaceMasterRepositoryAdapter.extract(WorkSpaceMasterRepositoryAdapter.java:859)
+	at com.ibm.ws.sm.workspace.impl.WorkSpaceMasterRepositoryAdapter.extract(WorkSpaceMasterRepositoryAdapter.java:834)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extract(RepositoryContextImpl.java:675)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extractOnly(RepositoryContextImpl.java:636)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extract(RepositoryContextImpl.java:616)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessorInternal(WorkspaceHelper.java:257)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:212)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:199)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:308)
+	at com.ibm.ws.management.configservice.MOFUtil.convertToEObject(MOFUtil.java:165)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.checkAccess(ConfigServiceImpl.java:2895)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.queryConfigObjects(ConfigServiceImpl.java:956)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.resolve(ConfigServiceImpl.java:1071)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.resolve(ConfigServiceImpl.java:1031)
+	at com.ibm.ws.management.configservice.ConfigServiceServerProxy$13.run(ConfigServiceServerProxy.java:534)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.management.configservice.ConfigServiceServerProxy.resolve(ConfigServiceServerProxy.java:525)
+	at com.ibm.ws.security.config.securitydomain.SecDomainHelper.findDomainForResource(SecDomainHelper.java:354)
+	at com.ibm.ws.security.config.securitydomain.SecDomainHelper.getCellDomain(SecDomainHelper.java:338)
+	at com.ibm.ws.security.config.securitydomain.SecDomainHelper.getSecurityDomainForResource(SecDomainHelper.java:251)
+	at com.ibm.ws.sib.security.impl.UserRepositoryFacade.<init>(UserRepositoryFacade.java:115)
+	at sun.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:39)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:527)
+	at com.ibm.ws.sib.security.users.UserRepositoryFactory.getUserRepository(UserRepositoryFactory.java:128)
+	at com.ibm.ws.sib.processor.matching.MPPrincipal.<init>(MPPrincipal.java:140)
+	at com.ibm.ws.sib.processor.matching.TopicAuthorization.checkPermissionToSubscribe(TopicAuthorization.java:329)
+	at com.ibm.ws.sib.processor.impl.AccessChecker.checkDiscriminatorAccess(AccessChecker.java:616)
+	at com.ibm.ws.sib.processor.impl.BaseDestinationHandler.checkDiscriminatorAccess(BaseDestinationHandler.java:4912)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.checkConsumerAuthority(ConnectionImpl.java:6170)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.internalCreateConsumerSession(ConnectionImpl.java:1448)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.createConsumerSession(ConnectionImpl.java:5269)
+	at com.ibm.ws.sib.comms.server.clientsupport.StaticCATConsumer.rcvCreateConsumerSess(StaticCATConsumer.java:322)
+	at com.ibm.ws.sib.comms.server.clientsupport.ServerTransportReceiveListener.dataReceived(ServerTransportReceiveListener.java:488)
+	at com.ibm.ws.sib.jfapchannel.impl.rldispatcher.ConversationReceiveListenerDataReceivedInvocation.invoke(ConversationReceiveListenerDataReceivedInvocation.java:195)
+	at com.ibm.ws.sib.jfapchannel.impl.rldispatcher.ReceiveListenerDispatchQueue.run(ReceiveListenerDispatchQueue.java:542)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1700)
+.
+[2/19/15 18:24:58:701 CAT] 000001b2 WorkSpaceMast E   Caller is not in the required role to access restricted document(s)
+[2/19/15 18:24:58:701 CAT] 000001b2 FileRepositor A   ADMR0024E: User <null> does not have the required role to access 1 document(s).
+[2/19/15 18:24:58:701 CAT] 000001b2 WorkSpaceMast E   WKSP0012E: Exception while extracting waspolicies/default/policy.xml from ConfigRepository--com.ibm.websphere.management.exception.RepositoryException: Caller is not in the required role to access restricted document(s)
+	at com.ibm.ws.management.repository.FileRepository.throwRepositoryException(FileRepository.java:1435)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1092)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1047)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1036)
+	at com.ibm.ws.management.repository.client.LocalConfigRepositoryClient.extract(LocalConfigRepositoryClient.java:141)
+	at com.ibm.ws.sm.workspace.impl.WorkSpaceMasterRepositoryAdapter.extract(WorkSpaceMasterRepositoryAdapter.java:859)
+	at com.ibm.ws.sm.workspace.impl.WorkSpaceMasterRepositoryAdapter.extract(WorkSpaceMasterRepositoryAdapter.java:834)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extract(RepositoryContextImpl.java:675)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extractOnly(RepositoryContextImpl.java:636)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extract(RepositoryContextImpl.java:616)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessorInternal(WorkspaceHelper.java:257)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:212)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:199)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:308)
+	at com.ibm.ws.management.configservice.MOFUtil.convertToEObject(MOFUtil.java:165)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.checkAccess(ConfigServiceImpl.java:2895)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.queryConfigObjects(ConfigServiceImpl.java:956)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.resolve(ConfigServiceImpl.java:1071)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.resolve(ConfigServiceImpl.java:1031)
+	at com.ibm.ws.management.configservice.ConfigServiceServerProxy$13.run(ConfigServiceServerProxy.java:534)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.management.configservice.ConfigServiceServerProxy.resolve(ConfigServiceServerProxy.java:525)
+	at com.ibm.ws.security.config.securitydomain.SecDomainHelper.findDomainForResource(SecDomainHelper.java:354)
+	at com.ibm.ws.security.config.securitydomain.SecDomainHelper.getSecurityDomainForResource(SecDomainHelper.java:267)
+	at com.ibm.ws.sib.security.impl.UserRepositoryFacade.<init>(UserRepositoryFacade.java:115)
+	at sun.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:39)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:527)
+	at com.ibm.ws.sib.security.users.UserRepositoryFactory.getUserRepository(UserRepositoryFactory.java:128)
+	at com.ibm.ws.sib.processor.matching.MPPrincipal.<init>(MPPrincipal.java:140)
+	at com.ibm.ws.sib.processor.matching.TopicAuthorization.checkPermissionToSubscribe(TopicAuthorization.java:329)
+	at com.ibm.ws.sib.processor.impl.AccessChecker.checkDiscriminatorAccess(AccessChecker.java:616)
+	at com.ibm.ws.sib.processor.impl.BaseDestinationHandler.checkDiscriminatorAccess(BaseDestinationHandler.java:4912)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.checkConsumerAuthority(ConnectionImpl.java:6170)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.internalCreateConsumerSession(ConnectionImpl.java:1448)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.createConsumerSession(ConnectionImpl.java:5269)
+	at com.ibm.ws.sib.comms.server.clientsupport.StaticCATConsumer.rcvCreateConsumerSess(StaticCATConsumer.java:322)
+	at com.ibm.ws.sib.comms.server.clientsupport.ServerTransportReceiveListener.dataReceived(ServerTransportReceiveListener.java:488)
+	at com.ibm.ws.sib.jfapchannel.impl.rldispatcher.ConversationReceiveListenerDataReceivedInvocation.invoke(ConversationReceiveListenerDataReceivedInvocation.java:195)
+	at com.ibm.ws.sib.jfapchannel.impl.rldispatcher.ReceiveListenerDispatchQueue.run(ReceiveListenerDispatchQueue.java:542)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1700)
+.
+[2/19/15 18:24:58:701 CAT] 000001b2 WorkSpaceMast E   Caller is not in the required role to access restricted document(s)
+[2/19/15 18:24:59:330 CAT] 000001b2 FileRepositor A   ADMR0024E: User <null> does not have the required role to access 1 document(s).
+[2/19/15 18:24:59:330 CAT] 000001b2 WorkSpaceMast E   WKSP0012E: Exception while extracting waspolicies/default/policy.xml from ConfigRepository--com.ibm.websphere.management.exception.RepositoryException: Caller is not in the required role to access restricted document(s)
+	at com.ibm.ws.management.repository.FileRepository.throwRepositoryException(FileRepository.java:1435)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1092)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1047)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1036)
+	at com.ibm.ws.management.repository.client.LocalConfigRepositoryClient.extract(LocalConfigRepositoryClient.java:141)
+	at com.ibm.ws.sm.workspace.impl.WorkSpaceMasterRepositoryAdapter.extract(WorkSpaceMasterRepositoryAdapter.java:859)
+	at com.ibm.ws.sm.workspace.impl.WorkSpaceMasterRepositoryAdapter.extract(WorkSpaceMasterRepositoryAdapter.java:834)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extract(RepositoryContextImpl.java:675)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extractOnly(RepositoryContextImpl.java:636)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extract(RepositoryContextImpl.java:616)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessorInternal(WorkspaceHelper.java:257)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:212)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:199)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:308)
+	at com.ibm.ws.management.configservice.MOFUtil.convertToEObject(MOFUtil.java:165)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.checkAccess(ConfigServiceImpl.java:2895)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.queryConfigObjects(ConfigServiceImpl.java:956)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.resolve(ConfigServiceImpl.java:1071)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.resolve(ConfigServiceImpl.java:1031)
+	at com.ibm.ws.management.configservice.ConfigServiceServerProxy$13.run(ConfigServiceServerProxy.java:534)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.management.configservice.ConfigServiceServerProxy.resolve(ConfigServiceServerProxy.java:525)
+	at com.ibm.ws.security.config.securitydomain.SecDomainHelper.findDomainForResource(SecDomainHelper.java:354)
+	at com.ibm.ws.security.config.securitydomain.SecDomainHelper.getCellDomain(SecDomainHelper.java:338)
+	at com.ibm.ws.security.config.securitydomain.SecDomainHelper.getSecurityDomainForResource(SecDomainHelper.java:251)
+	at com.ibm.ws.sib.security.impl.UserRepositoryFacade.<init>(UserRepositoryFacade.java:115)
+	at sun.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:39)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:527)
+	at com.ibm.ws.sib.security.users.UserRepositoryFactory.getUserRepository(UserRepositoryFactory.java:128)
+	at com.ibm.ws.sib.processor.matching.MPPrincipal.<init>(MPPrincipal.java:140)
+	at com.ibm.ws.sib.processor.matching.TopicAuthorization.checkPermissionToSubscribe(TopicAuthorization.java:329)
+	at com.ibm.ws.sib.processor.impl.AccessChecker.checkDiscriminatorAccess(AccessChecker.java:616)
+	at com.ibm.ws.sib.processor.impl.BaseDestinationHandler.checkDiscriminatorAccess(BaseDestinationHandler.java:4912)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.checkConsumerAuthority(ConnectionImpl.java:6170)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.internalCreateConsumerSession(ConnectionImpl.java:1448)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.createConsumerSession(ConnectionImpl.java:5269)
+	at com.ibm.ws.sib.comms.server.clientsupport.StaticCATConsumer.rcvCreateConsumerSess(StaticCATConsumer.java:322)
+	at com.ibm.ws.sib.comms.server.clientsupport.ServerTransportReceiveListener.dataReceived(ServerTransportReceiveListener.java:488)
+	at com.ibm.ws.sib.jfapchannel.impl.rldispatcher.ConversationReceiveListenerDataReceivedInvocation.invoke(ConversationReceiveListenerDataReceivedInvocation.java:195)
+	at com.ibm.ws.sib.jfapchannel.impl.rldispatcher.ReceiveListenerDispatchQueue.run(ReceiveListenerDispatchQueue.java:542)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1700)
+.
+[2/19/15 18:24:59:330 CAT] 000001b2 WorkSpaceMast E   Caller is not in the required role to access restricted document(s)
+[2/19/15 18:24:59:346 CAT] 000001b2 FileRepositor A   ADMR0024E: User <null> does not have the required role to access 1 document(s).
+[2/19/15 18:24:59:346 CAT] 000001b2 WorkSpaceMast E   WKSP0012E: Exception while extracting waspolicies/default/policy.xml from ConfigRepository--com.ibm.websphere.management.exception.RepositoryException: Caller is not in the required role to access restricted document(s)
+	at com.ibm.ws.management.repository.FileRepository.throwRepositoryException(FileRepository.java:1435)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1092)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1047)
+	at com.ibm.ws.management.repository.FileRepository.extract(FileRepository.java:1036)
+	at com.ibm.ws.management.repository.client.LocalConfigRepositoryClient.extract(LocalConfigRepositoryClient.java:141)
+	at com.ibm.ws.sm.workspace.impl.WorkSpaceMasterRepositoryAdapter.extract(WorkSpaceMasterRepositoryAdapter.java:859)
+	at com.ibm.ws.sm.workspace.impl.WorkSpaceMasterRepositoryAdapter.extract(WorkSpaceMasterRepositoryAdapter.java:834)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extract(RepositoryContextImpl.java:675)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extractOnly(RepositoryContextImpl.java:636)
+	at com.ibm.ws.sm.workspace.impl.RepositoryContextImpl.extract(RepositoryContextImpl.java:616)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessorInternal(WorkspaceHelper.java:257)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:212)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:199)
+	at com.ibm.ws.management.configservice.WorkspaceHelper.getDocAccessor(WorkspaceHelper.java:308)
+	at com.ibm.ws.management.configservice.MOFUtil.convertToEObject(MOFUtil.java:165)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.checkAccess(ConfigServiceImpl.java:2895)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.queryConfigObjects(ConfigServiceImpl.java:956)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.resolve(ConfigServiceImpl.java:1071)
+	at com.ibm.ws.management.configservice.ConfigServiceImpl.resolve(ConfigServiceImpl.java:1031)
+	at com.ibm.ws.management.configservice.ConfigServiceServerProxy$13.run(ConfigServiceServerProxy.java:534)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.management.configservice.ConfigServiceServerProxy.resolve(ConfigServiceServerProxy.java:525)
+	at com.ibm.ws.security.config.securitydomain.SecDomainHelper.findDomainForResource(SecDomainHelper.java:354)
+	at com.ibm.ws.security.config.securitydomain.SecDomainHelper.getSecurityDomainForResource(SecDomainHelper.java:267)
+	at com.ibm.ws.sib.security.impl.UserRepositoryFacade.<init>(UserRepositoryFacade.java:115)
+	at sun.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:39)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:527)
+	at com.ibm.ws.sib.security.users.UserRepositoryFactory.getUserRepository(UserRepositoryFactory.java:128)
+	at com.ibm.ws.sib.processor.matching.MPPrincipal.<init>(MPPrincipal.java:140)
+	at com.ibm.ws.sib.processor.matching.TopicAuthorization.checkPermissionToSubscribe(TopicAuthorization.java:329)
+	at com.ibm.ws.sib.processor.impl.AccessChecker.checkDiscriminatorAccess(AccessChecker.java:616)
+	at com.ibm.ws.sib.processor.impl.BaseDestinationHandler.checkDiscriminatorAccess(BaseDestinationHandler.java:4912)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.checkConsumerAuthority(ConnectionImpl.java:6170)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.internalCreateConsumerSession(ConnectionImpl.java:1448)
+	at com.ibm.ws.sib.processor.impl.ConnectionImpl.createConsumerSession(ConnectionImpl.java:5269)
+	at com.ibm.ws.sib.comms.server.clientsupport.StaticCATConsumer.rcvCreateConsumerSess(StaticCATConsumer.java:322)
+	at com.ibm.ws.sib.comms.server.clientsupport.ServerTransportReceiveListener.dataReceived(ServerTransportReceiveListener.java:488)
+	at com.ibm.ws.sib.jfapchannel.impl.rldispatcher.ConversationReceiveListenerDataReceivedInvocation.invoke(ConversationReceiveListenerDataReceivedInvocation.java:195)
+	at com.ibm.ws.sib.jfapchannel.impl.rldispatcher.ReceiveListenerDispatchQueue.run(ReceiveListenerDispatchQueue.java:542)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1700)
+.
+[2/19/15 18:24:59:346 CAT] 000001b2 WorkSpaceMast E   Caller is not in the required role to access restricted document(s)
+[2/19/15 18:25:03:960 CAT] 000002c8 wle_security  I   CWLLG1088I: Initializing session is done for user admin
+[2/19/15 18:25:25:926 CAT] 00000066 wle_security  I   CWLLG1088I: Initializing session is done for user admin
+[2/19/15 18:25:51:474 CAT] 000002c8 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [IBM_BPM_Repository_devNode04_server4] [/ProcessCenter] [ImportExportServlet]: Initialization successful.
+[2/19/15 18:25:51:552 CAT] 000002c8 wle_eventmgr  I   CWLLG0130I: BEGIN: export, rootDescriptor = <xml-fragment buildId="BPM8011-20130306-1304" buildVersion="8.0.1" buildDescription="IBM Business Process Manager V8.0.1.1 - 20130306_1611 - BPM8011-20130306-1304">
+  <target>
+    <project id="2066.6d2f1cd8-d4f3-4ea9-b89f-bb2cdeb064fa" name="LeaveWorkflow" description="" shortName="LEAVE" isToolkit="false" isHidden="false" isSystem="false"/>
+    <branch id="2063.2d08f64f-1cfc-4782-a0da-a220cbe82ab7" name="Main" acronym="Main" description=""/>
+    <snapshot id="2064.232420af-6c8a-4b3a-b007-fac2ae728e9d" name="RESTTest" acronym="RESTT" originalCreationDate="2015-02-19T18:20:33.379+02:00" description=""/>
+  </target>
+  <governanceAssignments/>
+  <dependencies>
+    <dependency rank="0" id="2069.40bb7c83-9c16-49fe-900b-ba4a635644ad">
+      <project id="2066.1b351583-e5cb-43b7-baee-340a63130ea7" name="System Data" shortName="TWSYS" isToolkit="true" isHidden="false" isSystem="true"/>
+      <branch id="2063.0798815e-0346-4ef4-8946-ab4301c9f340" name="Main"/>
+      <snapshot id="2064.11e33542-900e-409d-8c1a-a110a7cd0abe" name="8.0.1.1" originalCreationDate="2013-02-26T14:45:11.215+02:00"/>
+    </dependency>
+    <dependency rank="1" id="2069.dff98e31-17a6-4ecf-9490-5db1ae516598">
+      <project id="2066.b691179d-e7a4-4a27-b89b-f2263d0280e7" name="Coaches" shortName="SYSC" isToolkit="true" isHidden="false" isSystem="true"/>
+      <branch id="2063.50f91713-f1c4-4859-897f-89720db5dc3e" name="Main"/>
+      <snapshot id="2064.5b0cf92e-d5be-41c3-b0d3-f101b717826c" name="8.0.1.1" originalCreationDate="2013-02-14T17:32:03.888+02:00"/>
+    </dependency>
+  </dependencies>
+  <objects/>
+  <files/>
+</xml-fragment> , toolkitDescriptors = [<xml-fragment buildId="BPM8011-20130306-1304" buildVersion="8.0.1" buildDescription="IBM Business Process Manager V8.0.1.1 - 20130306_1611 - BPM8011-20130306-1304">
+  <target>
+    <project id="2066.b691179d-e7a4-4a27-b89b-f2263d0280e7" name="Coaches" description="&lt;HTML>&lt;HEAD>&lt;/HEAD>&lt;BODY>IBM BPM System Coaches&lt;/BODY>&lt;/HTML>" shortName="SYSC" isToolkit="true" isHidden="false" isSystem="true"/>
+    <branch id="2063.50f91713-f1c4-4859-897f-89720db5dc3e" name="Main" acronym="Main" description="The main branch of the SYSC project"/>
+    <snapshot id="2064.5b0cf92e-d5be-41c3-b0d3-f101b717826c" name="8.0.1.1" acronym="8.0.1.1" originalCreationDate="2013-02-14T17:32:03.888+02:00" description=""/>
+  </target>
+  <governanceAssignments/>
+  <dependencies>
+    <dependency rank="0" id="2069.3176bd33-d91c-43ad-8780-3baf3544e140">
+      <project id="2066.1b351583-e5cb-43b7-baee-340a63130ea7" name="System Data" shortName="TWSYS" isToolkit="true" isHidden="false" isSystem="true"/>
+      <branch id="2063.0798815e-0346-4ef4-8946-ab4301c9f340" name="Main"/>
+      <snapshot id="2064.11e33542-900e-409d-8c1a-a110a7cd0abe" name="8.0.1.1" originalCreationDate="2013-02-26T14:45:11.215+02:00"/>
+    </dependency>
+  </dependencies>
+  <objects/>
+  <files/>
+</xml-fragment>, <xml-fragment buildId="BPM8011-20130306-1304" buildVersion="8.0.1" buildDescription="IBM Business Process Manager V8.0.1.1 - 20130306_1611 - BPM8011-20130306-1304">
+  <target>
+    <project id="2066.1b351583-e5cb-43b7-baee-340a63130ea7" name="System Data" description="&lt;html>&lt;body>IBM BPM System Data&lt;/body>&lt;/html>" shortName="TWSYS" isToolkit="true" isHidden="false" isSystem="true"/>
+    <branch id="2063.0798815e-0346-4ef4-8946-ab4301c9f340" name="Main" acronym="Main" description="The main branch of the TWSYS project"/>
+    <snapshot id="2064.11e33542-900e-409d-8c1a-a110a7cd0abe" name="8.0.1.1" acronym="8.0.1.1" originalCreationDate="2013-02-26T14:45:11.215+02:00" description=""/>
+  </target>
+  <governanceAssignments/>
+  <dependencies/>
+  <objects/>
+  <files/>
+</xml-fragment>]

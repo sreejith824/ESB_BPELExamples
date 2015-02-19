@@ -14,6 +14,12 @@
 		<item value="775" key="x"/>
 		<item value="82" key="y"/>
 	</section>
+	<section name="com.ibm.wbit.ui.dialogs.ReferenceSelectionDialog">
+		<item value="370" key="width"/>
+		<item value="634" key="height"/>
+		<item value="775" key="x"/>
+		<item value="50" key="y"/>
+	</section>
 	<section name="com.ibm.wbit.bpel.ui.dialogs.BPELDataTypeSelectionDialog">
 		<item value="389" key="width"/>
 		<item value="582" key="height"/>

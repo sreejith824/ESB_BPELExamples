@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="HelloWorldInterface" targetNamespace="http://RESTTestService/HelloWorldInterface" xmlns:tns="http://RESTTestService/HelloWorldInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://RESTTestService/HelloWorldInterface">
+      <xsd:element name="helloWorld">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="helloWorldResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+                        <xsd:element name="response" nillable="true" type="xsd:string"/>
+                    </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="helloWorldRequestMsg">
+    <wsdl:part element="tns:helloWorld" name="helloWorldParameters"/>
+  </wsdl:message>
+    <wsdl:message name="helloWorldResponseMsg">
+    <wsdl:part element="tns:helloWorldResponse" name="helloWorldResult"/>
+  </wsdl:message>
+    <wsdl:portType name="HelloWorldInterface">
+    <wsdl:operation name="helloWorld">
+      <wsdl:input message="tns:helloWorldRequestMsg" name="helloWorldRequest"/>
+            <wsdl:output message="tns:helloWorldResponseMsg" name="helloWorldResponse"/>
+        </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

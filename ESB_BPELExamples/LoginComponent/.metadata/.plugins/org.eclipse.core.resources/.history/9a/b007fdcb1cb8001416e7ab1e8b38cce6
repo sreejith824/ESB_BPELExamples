@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://RESTService/xslt/Mapping_res_1" domainID="com.ibm.msl.mapping.xml" targetNamespace="http://RESTService/xslt/Mapping_res_1">
+   <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FRESTService%252FHelloWorldRef%257DhelloWorldResponseMsg/xpath%3D%252F/smo.xsd"/>
+   <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FRESTService%252FHelloWorldInterface%257DhelloWorldResponseMsg/xpath%3D%252F/smo.xsd"/>
+   <mappingDeclaration name="Mapping_res_1">
+       <input path="smo"/>
+       <output path="smo"/>
+   </mappingDeclaration>
+</mappingRoot>

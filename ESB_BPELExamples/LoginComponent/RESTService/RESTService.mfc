@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:HelloWorldRef="http://RESTService/HelloWorldRef" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://RESTService/HelloWorldInterface" name="RESTService" targetNamespace="http://RESTService/RESTService">
+  <import location="HelloWorldInterface.wsdl" namespace="http://RESTService/HelloWorldInterface"/>
+  <import location="HelloWorldRef.wsdl" namespace="http://RESTService/HelloWorldRef"/>
+  <promotedProperty name="Callout1.retryOn" group="RESTService.RESTService" value="0"/>
+  <promotedProperty name="Callout1.retryCount" group="RESTService.RESTService" value="0"/>
+  <promotedProperty name="Callout1.retryDelay" group="RESTService.RESTService" value="0"/>
+  <reference name="HelloWorldRefPartner" portType="HelloWorldRef:HelloWorldRef"/>
+  <interface portType="ns1:HelloWorldInterface">
+    <operation name="helloWorld">
+      <requestFlow>
+        <node displayName="helloWorld : HelloWorldInterface" name="HelloWorldInterface_helloWorld_Input" type="Input">
+          <outputTerminal type="ns1:helloWorldRequestMsg">
+            <wire targetNode="CustomMediation1"/>
+          </outputTerminal>
+        </node>
+        <node displayName="helloWorld : HelloWorldInterface" name="HelloWorldInterface_helloWorld_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:helloWorldResponseMsg"/>
+        </node>
+        <node displayName="helloWorld : HelloWorldRefPartner" name="HelloWorldRefPartner_helloWorld_Callout" type="Callout">
+          <property name="referenceName" value="HelloWorldRefPartner"/>
+          <property name="operationName" value="helloWorld"/>
+          <property name="invocationStyle" value="6"/>
+          <property name="retryOn" promotedPropertyGroup="RESTService.RESTService" promotedPropertyName="Callout1.retryOn"/>
+          <property name="retryCount" promotedPropertyGroup="RESTService.RESTService" promotedPropertyName="Callout1.retryCount"/>
+          <property name="retryDelay" promotedPropertyGroup="RESTService.RESTService" promotedPropertyName="Callout1.retryDelay"/>
+          <inputTerminal type="HelloWorldRef:helloWorldRequestMsg"/>
+        </node>
+        <node name="CustomMediation1" type="CustomMediation">
+          <property name="javaCode"><![CDATA[
+out.fire(smo); // propagate the service message object to the primitive that is wired to the 'out' terminal]]></property>
+          <property name="javaClass" value="sca.component.mediation.java.Custom1424339425539"/>
+          <property name="version" value="6.1.0"/>
+          <inputTerminal/>
+          <outputTerminal explicitType="false" type="HelloWorldRef:helloWorldRequestMsg">
+            <wire targetNode="HelloWorldRefPartner_helloWorld_Callout"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+      </requestFlow>
+      <responseFlow>
+        <node displayName="helloWorld : HelloWorldRefPartner" name="HelloWorldRefPartner_helloWorld_CalloutResponse" type="CalloutResponse">
+          <property name="referenceName" value="HelloWorldRefPartner"/>
+          <property name="operationName" value="helloWorld"/>
+          <outputTerminal type="HelloWorldRef:helloWorldResponseMsg">
+            <wire targetNode="Mapping"/>
+          </outputTerminal>
+          <failTerminal type="HelloWorldRef:helloWorldRequestMsg"/>
+        </node>
+        <node displayName="helloWorld : HelloWorldInterface" name="HelloWorldInterface_helloWorld_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:helloWorldResponseMsg"/>
+        </node>
+        <node name="Mapping" type="XSLTransformation">
+          <property name="root" value="/"/>
+          <property name="XSLTransform" value="xslt/Mapping_res_2.xsl"/>
+          <property name="XMXMap" value="xslt/Mapping_res_2.map"/>
+          <property name="SMOVersion" value="SMO61"/>
+          <inputTerminal type="HelloWorldRef:helloWorldResponseMsg"/>
+          <outputTerminal type="ns1:helloWorldResponseMsg">
+            <wire targetNode="Trace1"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+        <node name="Trace1" type="Trace">
+          <inputTerminal/>
+          <outputTerminal>
+            <wire targetNode="HelloWorldInterface_helloWorld_InputResponse"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+      </responseFlow>
+      <errorFlow>
+        <node displayName="helloWorld : HelloWorldInterface" name="HelloWorldInterface_helloWorld_ErrorInput" type="ErrorInput">
+          <outputTerminal name="catchAll" type="XMLSchema:anyType"/>
+        </node>
+        <node displayName="helloWorld : HelloWorldInterface" name="HelloWorldInterface_helloWorld_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:helloWorldResponseMsg"/>
+        </node>
+      </errorFlow>
+    </operation>
+  </interface>
+</mediationFlow>
