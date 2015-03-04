@@ -1,0 +1,20 @@
+package co.za.metropolitan.student;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class StudentManagerBeanRemote
+ */
+@Stateless
+@LocalBean
+public class StudentManagerBeanRemote {
+
+    /**
+     * Default constructor. 
+     */
+    public StudentManagerBeanRemote() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

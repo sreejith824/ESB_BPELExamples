@@ -1,0 +1,5 @@
+#Wed Mar 04 15:50:11 CAT 2015
+StudentApp/StudentWeb=StudentWeb.war
+StudentApp/StudentEJBClient=StudentEJBClient.jar
+StudentApp/StudentDTO=lib/StudentDTO.jar
+StudentApp/StudentEJB=StudentEJB.jar

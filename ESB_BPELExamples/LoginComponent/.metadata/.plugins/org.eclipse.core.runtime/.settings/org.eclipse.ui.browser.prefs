@@ -1,4 +1,4 @@
-#Fri Jan 16 16:39:00 CAT 2015
+#Wed Mar 04 14:16:45 CAT 2015
 browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="0">\r\n<system/>\r\n<external location\="C\:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" name\="Firefox with Firebug" parameters\="-fireclipse -profile ${webtools.debug.profile} -no-remote"/>\r\n<external location\="C\:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" name\="Firefox"/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n</web-browsers>
 eclipse.preferences.version=1
-internalWebBrowserHistory=http\://localhost\:9063/ibm/console|*|file\:/C\:/workspaces/LoginComponent/LoginPattern/Pattern Configuration/LoginPattern_summary.html|*|http\://localhost\:9061/ibm/console|*|http\://LoginMediation|*|
+internalWebBrowserHistory=http\://localhost\:9060/ibm/console|*|http\://localhost\:9063/ibm/console|*|file\:/C\:/workspaces/LoginComponent/LoginPattern/Pattern Configuration/LoginPattern_summary.html|*|http\://localhost\:9061/ibm/console|*|http\://LoginMediation|*|

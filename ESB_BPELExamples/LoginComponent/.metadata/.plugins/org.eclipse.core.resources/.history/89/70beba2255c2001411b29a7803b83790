@@ -1,0 +1,20 @@
+package co.za.metropolitan.student.rest.resource;
+
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import javax.ws.rs.Path;
+
+import co.za.metropolitan.student.dto.StudentDTO;
+
+@Path( "/students" )
+@Stateless
+public class StudentResource {
+	
+	@EJB
+	Student
+	
+	public long createStudent(StudentDTO studentDTO) {
+		
+	}
+
+}

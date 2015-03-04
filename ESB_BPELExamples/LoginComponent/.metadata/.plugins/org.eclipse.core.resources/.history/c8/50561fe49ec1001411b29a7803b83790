@@ -1,0 +1,48 @@
+package co.za.metropolitan.student.rest.resource;
+
+import javax.ejb.EJB;
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.UriInfo;
+
+import co.za.metropolitan.student.StudentManagerBeanRemote;
+import co.za.metropolitan.student.dto.Student;
+
+/**
+ * Session Bean implementation class StudentResource
+ */
+@Path( "/students" )
+@Stateless(mappedName = "StudentResource")
+@LocalBean
+public class StudentResource {
+	
+	@EJB
+	StudentManagerBeanRemote studentManagerBeanRemote;
+	
+
+    /**
+     * Default constructor. 
+     */
+    public StudentResource() {
+        // TODO Auto-generated constructor stub
+    }
+    
+    @POST
+    @Consumes( MediaType.APPLICATION_JSON )
+    public Response create( @Context UriInfo uriInfo, Student student ) {
+    	studentManagerBeanRemote.
+        Student createdStudent = studentService.createStudent( student );
+        URI uri = uriInfo.getBaseUriBuilder().path( StudentResource.class )
+            .path( createdStudent.getId() ).build();
+
+        return Response.created( uri ).build();
+    }
+    
+
+}

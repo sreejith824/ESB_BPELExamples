@@ -1,0 +1,13 @@
+package co.za.metropolitan.student.rest;
+
+import javax.servlet.annotation.WebServlet;
+import javax.ws.rs.core.Application;
+
+/**
+ * Servlet implementation class StudentApplication
+ */
+public class StudentApplication extends Application {
+
+	
+
+}

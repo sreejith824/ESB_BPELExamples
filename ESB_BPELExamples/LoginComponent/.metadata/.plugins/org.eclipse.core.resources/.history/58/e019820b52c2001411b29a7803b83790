@@ -1,0 +1,5 @@
+package co.za.metropolitan.student.dto;
+
+public class StudentDTO {
+
+}

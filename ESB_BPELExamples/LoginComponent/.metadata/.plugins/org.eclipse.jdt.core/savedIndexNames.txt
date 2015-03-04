@@ -1,14 +1,5 @@
 INDEX VERSION 1.126+C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\.metadata\.plugins\org.eclipse.jdt.core
-791260240.index
-3018100081.index
-20462503.index
-75620931.index
-679471055.index
-1375583234.index
-857376092.index
-1918135258.index
-4088675362.index
-1727178338.index
-2194834379.index
-2634794802.index
-2647760883.index
+415241445.index
+58003081.index
+900030770.index
+2213968889.index

@@ -1,0 +1,31 @@
+package co.za.metropolitan.student.rest.resource;
+
+import java.net.URI;
+
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.UriInfo;
+
+import co.za.metropolitan.student.dto.StudentDTO;
+import co.za.metropolitan.student.ejb.StudentBeanRemote;
+
+@Path("/students")
+@Stateless
+public class StudentResource {
+
+	@EJB
+	StudentBeanRemote studentBeanRemote;
+
+	public Response createStudent(@Context UriInfo uriInfo,
+			StudentDTO studentDTO) {
+		long studentID = studentBeanRemote.addStudent(studentDTO);
+		URI uri = uriInfo.getBaseUriBuilder().path(StudentResource.class)
+				.path(String.valueOf(studentID)).build();
+		return Response.created(uri).build();
+
+	}
+
+}

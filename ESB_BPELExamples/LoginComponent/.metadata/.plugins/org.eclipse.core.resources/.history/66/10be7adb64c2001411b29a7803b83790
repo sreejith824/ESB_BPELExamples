@@ -1,0 +1,11 @@
+package co.za.metropolitan.student.ejb;
+
+import javax.ejb.Remote;
+
+import co.za.metropolitan.student.dto.StudentDTO;
+
+@Remote
+public interface StudentBeanRemote {
+	long addStudent(StudentDTO studentDTO);
+	StudentDTO getStudent(long studentId);
+}

@@ -1,0 +1,10 @@
+package co.za.metropolitan.student;
+
+import javax.ejb.Remote;
+
+
+
+@Remote
+public interface StudentManagerBeanRemote {
+	long addStudent(Student student);
+}

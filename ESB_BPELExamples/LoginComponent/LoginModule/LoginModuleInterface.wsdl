@@ -4,17 +4,16 @@
       <xsd:element name="loginUser">
         <xsd:complexType>
           <xsd:sequence>
-            <xsd:element name="loginUserName" nillable="true" type="xsd:string"/>
-            <xsd:element name="loginPassword" nillable="true" type="xsd:string"/>
-                        <xsd:element name="email" nillable="true" type="xsd:string"/>
+                        <xsd:element name="loginUserName" nillable="true" type="xsd:string"/>
+                        <xsd:element name="loginPassword" nillable="true" type="xsd:string"/>
                     </xsd:sequence>
         </xsd:complexType>
       </xsd:element>
       <xsd:element name="loginUserResponse">
         <xsd:complexType>
           <xsd:sequence>
-            <xsd:element name="loginMessage" nillable="true" type="xsd:string"/>
-          </xsd:sequence>
+                        <xsd:element name="loginMessage" nillable="true" type="xsd:string"/>
+                    </xsd:sequence>
         </xsd:complexType>
       </xsd:element>
     </xsd:schema>
@@ -29,6 +28,6 @@
     <wsdl:operation name="loginUser">
             <wsdl:input message="tns:loginUserRequestMsg" name="loginUserRequest"/>
             <wsdl:output message="tns:loginUserResponseMsg" name="loginUserResponse"/>
-    </wsdl:operation>
+        </wsdl:operation>
   </wsdl:portType>
 </wsdl:definitions>

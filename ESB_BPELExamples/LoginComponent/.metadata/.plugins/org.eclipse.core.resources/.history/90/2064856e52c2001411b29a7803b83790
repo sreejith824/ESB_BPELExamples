@@ -1,0 +1,25 @@
+package co.za.metropolitan.student.ejb;
+
+import javax.ejb.Stateless;
+
+import co.za.metropolitan.student.dto.StudentDTO;
+
+/**
+ * Session Bean implementation class StudentBean
+ */
+@Stateless
+public class StudentBean {
+
+	/**
+	 * Default constructor.
+	 */
+	public StudentBean() {
+	}
+
+	public long addStudent(StudentDTO studentDTO) {
+		long studentId = (long) Math.random();
+		studentDTO.setId(studentId);
+		return studentId;
+	}
+
+}

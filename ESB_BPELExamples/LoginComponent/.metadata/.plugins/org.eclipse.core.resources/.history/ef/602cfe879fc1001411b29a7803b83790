@@ -1,0 +1,5 @@
+package co.za.metropolitan.student.rest.provider;
+
+public class StudentProvider {
+
+}

@@ -1,0 +1,30 @@
+package co.za.metropolitan.student.ejb;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+import co.za.metropolitan.student.StudentManagerBeanRemote;
+import co.za.metropolitan.student.dto.Student;
+
+/**
+ * Session Bean implementation class StudentManagerBean
+ */
+@Stateless
+@LocalBean
+public class StudentManagerBean implements StudentManagerBeanRemote {
+
+    /**
+     * Default constructor. 
+     */
+    public StudentManagerBean() {
+        // TODO Auto-generated constructor stub
+    }
+    
+    public long addStudent(Studen student) {
+    	System.out.println(student.toString());
+    	long id = (long) Math.random();
+    	student.setId(id);
+    	return id; 
+    }
+
+}

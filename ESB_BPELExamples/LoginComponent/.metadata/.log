@@ -2764,3 +2764,2370 @@ java.lang.NullPointerException
 	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
 	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-02-20 08:53:16.438 -----------------------------------------------
+eclipse.buildId=3.4.0
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr11-20120801_118201 (JIT enabled, AOT enabled)
+J9VM - 20120801_118201
+JIT  - r9_20120608_24176ifx1
+GC   - 20120516_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.wbit.feature.ide -product com.ibm.wbit.feature.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -product com.ibm.wbit.feature.ide -product com.ibm.wbit.feature.ide
+
+!ENTRY org.eclipse.debug.ui 4 0 2015-02-20 08:53:51.148
+!MESSAGE Tab group extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups for type com.ibm.wbit.runtime.AppClientLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups
+
+!ENTRY org.eclipse.debug.ui 4 0 2015-02-20 08:53:51.154
+!MESSAGE Tab group extension: com.ibm.wbit.runtime.launchConfigurationTabGroup for type com.ibm.wbit.runtime.launchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.launchConfigurationTabGroup
+
+!ENTRY org.eclipse.debug.ui 4 0 2015-02-20 08:53:51.155
+!MESSAGE Tab group extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup for type com.ibm.wbit.runtime.batchProcessLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-02-20 08:53:51.341
+!MESSAGE An internal error occurred during: "Starting IBM Process Center v8.0 at dev.local.net".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.addOutputStreamListener(AbstractWASServerBehaviour.java:2014)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.addOutputStreamListener(SCAServerBehaviour.java:184)
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.setProcess(AbstractWASServerBehaviour.java:1418)
+	at com.ibm.ws.ast.st.v8.core.internal.WASLaunchConfigurationDelegate.launch(WASLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 1 2015-02-20 09:23:46.227
+!MESSAGE NLS unused message: SER_TYPE_DESC in: com.ibm.wbit.http.ui.nl.ui_messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-02-20 09:23:46.227
+!MESSAGE NLS unused message: REMOVE_HEADER_ROW_CMD_LABEL in: com.ibm.wbit.http.ui.nl.ui_messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-02-20 09:23:46.227
+!MESSAGE NLS missing message: HTTP_SER_TYPE_DESC in: com.ibm.wbit.http.ui.nl.ui_messages
+!SESSION 2015-02-22 22:39:25.683 -----------------------------------------------
+eclipse.buildId=3.4.0
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr11-20120801_118201 (JIT enabled, AOT enabled)
+J9VM - 20120801_118201
+JIT  - r9_20120608_24176ifx1
+GC   - 20120516_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.wbit.feature.ide -product com.ibm.wbit.feature.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -product com.ibm.wbit.feature.ide -product com.ibm.wbit.feature.ide
+
+!ENTRY org.eclipse.debug.ui 4 0 2015-02-22 22:39:44.378
+!MESSAGE Tab group extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups for type com.ibm.wbit.runtime.AppClientLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups
+
+!ENTRY org.eclipse.debug.ui 4 0 2015-02-22 22:39:44.394
+!MESSAGE Tab group extension: com.ibm.wbit.runtime.launchConfigurationTabGroup for type com.ibm.wbit.runtime.launchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.launchConfigurationTabGroup
+
+!ENTRY org.eclipse.debug.ui 4 0 2015-02-22 22:39:44.394
+!MESSAGE Tab group extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup for type com.ibm.wbit.runtime.batchProcessLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup
+
+!ENTRY org.eclipse.osgi 2 1 2015-02-22 22:43:48.532
+!MESSAGE NLS unused message: SER_TYPE_DESC in: com.ibm.wbit.http.ui.nl.ui_messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-02-22 22:43:48.532
+!MESSAGE NLS unused message: REMOVE_HEADER_ROW_CMD_LABEL in: com.ibm.wbit.http.ui.nl.ui_messages
+
+!ENTRY org.eclipse.osgi 2 1 2015-02-22 22:43:48.532
+!MESSAGE NLS missing message: HTTP_SER_TYPE_DESC in: com.ibm.wbit.http.ui.nl.ui_messages
+
+!ENTRY org.eclipse.ui 4 0 2015-02-22 22:45:51.168
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.SWT.error(SWT.java:3969)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.browser.Browser.checkWidget(Browser.java:172)
+	at org.eclipse.swt.widgets.Widget.addDisposeListener(Widget.java:210)
+	at com.ibm.wbit.ie.internal.ui.properties.DocumentationSection$5.run(DocumentationSection.java:267)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 23 more
+
+!ENTRY org.eclipse.osgi 2 1 2015-02-22 22:48:05.321
+!MESSAGE NLS missing message: Deprecated_bsm_warning_key in: com.ibm.wbit.command.validation.xsd.WPSValidationMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-02-22 22:48:05.321
+!MESSAGE NLS missing message: Deprecated_bsm_warning in: com.ibm.wbit.command.validation.xsd.WPSValidationMessages
+
+!ENTRY org.eclipse.ui 4 0 2015-02-22 22:49:39.106
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.SWT.error(SWT.java:3969)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.browser.Browser.checkWidget(Browser.java:172)
+	at org.eclipse.swt.widgets.Widget.addDisposeListener(Widget.java:210)
+	at com.ibm.wbit.ie.internal.ui.properties.DocumentationSection$5.run(DocumentationSection.java:267)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2015-02-22 22:49:54.442
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.SWT.error(SWT.java:3969)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.browser.Browser.checkWidget(Browser.java:172)
+	at org.eclipse.swt.widgets.Widget.addDisposeListener(Widget.java:210)
+	at com.ibm.wbit.ie.internal.ui.properties.DocumentationSection$5.run(DocumentationSection.java:267)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2015-02-22 22:50:02.761
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.SWT.error(SWT.java:3969)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.browser.Browser.checkWidget(Browser.java:172)
+	at org.eclipse.swt.widgets.Widget.addDisposeListener(Widget.java:210)
+	at com.ibm.wbit.ie.internal.ui.properties.DocumentationSection$5.run(DocumentationSection.java:267)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 23 more
+!SESSION 2015-03-02 15:57:25.342 -----------------------------------------------
+eclipse.buildId=3.4.0
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr11-20120801_118201 (JIT enabled, AOT enabled)
+J9VM - 20120801_118201
+JIT  - r9_20120608_24176ifx1
+GC   - 20120516_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.wbit.feature.ide -product com.ibm.wbit.feature.ide
+Command-line arguments:  -data C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent -os win32 -ws win32 -arch x86 -showlocation -product com.ibm.wbit.feature.ide -product com.ibm.wbit.feature.ide
+
+!ENTRY org.eclipse.debug.ui 4 0 2015-03-02 15:57:47.868
+!MESSAGE Tab group extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups for type com.ibm.wbit.runtime.AppClientLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.AppClientLaunchConfigurationTabGroups
+
+!ENTRY org.eclipse.debug.ui 4 0 2015-03-02 15:57:47.874
+!MESSAGE Tab group extension: com.ibm.wbit.runtime.launchConfigurationTabGroup for type com.ibm.wbit.runtime.launchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.launchConfigurationTabGroup
+
+!ENTRY org.eclipse.debug.ui 4 0 2015-03-02 15:57:47.875
+!MESSAGE Tab group extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup for type com.ibm.wbit.runtime.batchProcessLaunchConfigurationType for the * mode has been replaced by extension: com.ibm.wbit.runtime.batchProcessLaunchConfigurationTabGroup
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-03-02 15:59:39.423
+!MESSAGE An internal error occurred during: "Starting IBM Process Center v8.0 at dev.local.net".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.addOutputStreamListener(AbstractWASServerBehaviour.java:2014)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.addOutputStreamListener(SCAServerBehaviour.java:184)
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.setProcess(AbstractWASServerBehaviour.java:1418)
+	at com.ibm.ws.ast.st.v8.core.internal.WASLaunchConfigurationDelegate.launch(WASLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-03-03 08:55:42.728
+!MESSAGE An internal error occurred during: "Starting IBM Process Center v8.0 at dev.local.net".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.addOutputStreamListener(AbstractWASServerBehaviour.java:2014)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.addOutputStreamListener(SCAServerBehaviour.java:184)
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.setProcess(AbstractWASServerBehaviour.java:1418)
+	at com.ibm.ws.ast.st.v8.core.internal.WASLaunchConfigurationDelegate.launch(WASLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.ibm.etools.common.migration 1 0 2015-03-03 09:13:17.471
+!MESSAGE Auto Build job is currently running
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:23:31.739
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:24:40.024
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:24:40.439
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:24:40.570
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:24:40.570
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:24:54.996
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:24:55.033
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:24:55.055
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:24:55.055
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-03-03 09:25:04.446
+!MESSAGE Failed to start the application: demo.ear
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:25:26.713
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:25:38.004
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:25:38.053
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:25:38.089
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:25:38.089
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:25:41.684
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:25:41.732
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:25:41.754
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:25:41.754
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:25:52.993
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:25:53.049
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:25:53.075
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:25:53.075
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:26:05.561
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:26:20.547
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:30:03.690
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:30:03.714
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:30:03.740
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 09:30:03.740
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 09:30:10.501
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.common.migration 1 0 2015-03-03 10:17:33.604
+!MESSAGE Auto Build job is currently running
+
+!ENTRY org.eclipse.wst.common.project.facet.core 2 0 2015-03-03 10:19:40.073
+!MESSAGE The ">", ">=", "<", and "<=" notation in version expressions has been deprecated. Note that the angle brackets are represented via "&lt;" and "&gt;" in the plugin.xml files. The functionality has been replaced with range notation. For instance "[X-Y)" means all versions greater or equals to X and less than Y. Open ranges such as "(X" or "Y]" are also allowed.
+
+Expression: >=3.0
+Project facet: EJB Module
+
+!ENTRY com.ibm.etools.common.migration 1 0 2015-03-03 10:26:32.813
+!MESSAGE Auto Build job is currently running
+
+!ENTRY com.ibm.etools.common.migration 1 0 2015-03-03 14:01:47.064
+!MESSAGE Auto Build job is currently running
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-03-03 14:32:26.420
+!MESSAGE SAXParseException with /StudentWeb/WebContent/WEB-INF/null/null (fatalError) while reading descriptor: Premature end of file.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:35:27.776
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:35:28.489
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-03-03 14:35:28.744
+!MESSAGE Publishing failed
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-03-03 14:35:28.744
+!MESSAGE Error in delegate
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.internal.deploy.J2EEDeployOperation.deploy(J2EEDeployOperation.java:181)
+	at org.eclipse.jst.j2ee.internal.deploy.J2EEDeployOperation.execute(J2EEDeployOperation.java:113)
+	at com.ibm.etools.server.task.ejbdeploy.internal.JEEDeployPublisher.execute(JEEDeployPublisher.java:207)
+	at org.eclipse.wst.server.core.internal.Publisher.execute(Publisher.java:177)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.executePublishers(ServerBehaviourDelegate.java:1237)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:940)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 unknown 0 0 2015-03-03 14:35:28.744
+!MESSAGE OK
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:35:28.744
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 2 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:35:28.744
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:35:42.780
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:35:43.377
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-03-03 14:35:43.629
+!MESSAGE Publishing failed
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-03-03 14:35:43.629
+!MESSAGE Error in delegate
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.internal.deploy.J2EEDeployOperation.deploy(J2EEDeployOperation.java:181)
+	at org.eclipse.jst.j2ee.internal.deploy.J2EEDeployOperation.execute(J2EEDeployOperation.java:113)
+	at com.ibm.etools.server.task.ejbdeploy.internal.JEEDeployPublisher.execute(JEEDeployPublisher.java:207)
+	at org.eclipse.wst.server.core.internal.Publisher.execute(Publisher.java:177)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.executePublishers(ServerBehaviourDelegate.java:1237)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:940)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 unknown 0 0 2015-03-03 14:35:43.629
+!MESSAGE OK
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:35:43.629
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 2 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:35:43.629
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:35:49.980
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-03-03 14:35:52.480
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-03-03 14:35:52.480
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@6cf66cf6),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@6ede6ede,ActivePartExpression(com.ibm.etools.ui.navigator.SDNavigator@1abc1abc)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@3f913f91)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@6cf66cf6),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@6ede6ede,ActivePartExpression(com.ibm.etools.ui.navigator.SDNavigator@1abc1abc)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@3f913f91)),sourcePriority=1064961)
+
+!ENTRY org.eclipse.ui 4 4 2015-03-03 14:35:54.481
+!MESSAGE Could not create action delegate for id: com.ibm.ws.ast.enhanced.ear.actionSet.action.WasDeploymentAction
+
+!ENTRY org.eclipse.ui 4 0 2015-03-03 14:35:54.481
+!MESSAGE Action must implement IWorkbenchWindowActionDelegate
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:36:04.954
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:37:00.675
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:37:01.252
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-03-03 14:37:01.500
+!MESSAGE Publishing failed
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-03-03 14:37:01.500
+!MESSAGE Error in delegate
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.internal.deploy.J2EEDeployOperation.deploy(J2EEDeployOperation.java:181)
+	at org.eclipse.jst.j2ee.internal.deploy.J2EEDeployOperation.execute(J2EEDeployOperation.java:113)
+	at com.ibm.etools.server.task.ejbdeploy.internal.JEEDeployPublisher.execute(JEEDeployPublisher.java:207)
+	at org.eclipse.wst.server.core.internal.Publisher.execute(Publisher.java:177)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.executePublishers(ServerBehaviourDelegate.java:1237)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:940)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 unknown 0 0 2015-03-03 14:37:01.500
+!MESSAGE OK
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:37:01.500
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 2 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:37:01.500
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:37:15.708
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:37:16.252
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-03-03 14:37:16.515
+!MESSAGE Publishing failed
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-03-03 14:37:16.515
+!MESSAGE Error in delegate
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.internal.deploy.J2EEDeployOperation.deploy(J2EEDeployOperation.java:181)
+	at org.eclipse.jst.j2ee.internal.deploy.J2EEDeployOperation.execute(J2EEDeployOperation.java:113)
+	at com.ibm.etools.server.task.ejbdeploy.internal.JEEDeployPublisher.execute(JEEDeployPublisher.java:207)
+	at org.eclipse.wst.server.core.internal.Publisher.execute(Publisher.java:177)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.executePublishers(ServerBehaviourDelegate.java:1237)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:940)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:775)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3125)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 unknown 0 0 2015-03-03 14:37:16.515
+!MESSAGE OK
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:37:16.515
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 2 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:37:16.515
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY org.eclipse.wst.common.frameworks 4 4 2015-03-03 14:37:22.388
+!MESSAGE Exception occurred running job.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.internal.deploy.J2EEDeployOperation.deploy(J2EEDeployOperation.java:181)
+	at org.eclipse.jst.j2ee.internal.deploy.J2EEDeployOperation.execute(J2EEDeployOperation.java:113)
+	at org.eclipse.jst.j2ee.internal.actions.J2EEDeployAction$1.run(J2EEDeployAction.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui.navigator 4 2 2015-03-03 14:38:25.895
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.internal.provider.FacetedProjectPropertyTester.test(FacetedProjectPropertyTester.java:35)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.ui.internal.navigator.NavigatorPlugin$Evaluator.run(NavigatorPlugin.java:245)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorPlugin.safeEvaluate(NavigatorPlugin.java:260)
+	at org.eclipse.ui.internal.navigator.wizards.CommonWizardDescriptor.isEnabledFor(CommonWizardDescriptor.java:138)
+	at org.eclipse.ui.internal.navigator.wizards.CommonWizardDescriptorManager.getEnabledCommonWizardDescriptors(CommonWizardDescriptorManager.java:152)
+	at org.eclipse.ui.navigator.WizardActionGroup.setContext(WizardActionGroup.java:193)
+	at org.eclipse.ui.internal.navigator.resources.actions.NewActionProvider.fillContextMenu(NewActionProvider.java:107)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:221)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:216)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:173)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:260)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$4.menuAboutToShow(CommonNavigatorManager.java:275)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:469)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:491)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:241)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4487)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4190)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:256)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4107)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY org.eclipse.ui.navigator 4 2 2015-03-03 14:38:25.896
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.internal.provider.FacetedProjectPropertyTester.test(FacetedProjectPropertyTester.java:35)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.ui.internal.navigator.NavigatorPlugin$Evaluator.run(NavigatorPlugin.java:245)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorPlugin.safeEvaluate(NavigatorPlugin.java:260)
+	at org.eclipse.ui.internal.navigator.wizards.CommonWizardDescriptor.isEnabledFor(CommonWizardDescriptor.java:138)
+	at org.eclipse.ui.internal.navigator.wizards.CommonWizardDescriptorManager.getEnabledCommonWizardDescriptors(CommonWizardDescriptorManager.java:152)
+	at org.eclipse.ui.navigator.WizardActionGroup.setContext(WizardActionGroup.java:193)
+	at org.eclipse.ui.internal.navigator.resources.actions.NewActionProvider.fillContextMenu(NewActionProvider.java:107)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:221)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:216)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:173)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:260)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$4.menuAboutToShow(CommonNavigatorManager.java:275)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:469)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:491)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:241)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4487)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4190)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:256)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4107)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY org.eclipse.ui.navigator 4 2 2015-03-03 14:38:25.897
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.j2ee.internal.provider.FacetedProjectPropertyTester.test(FacetedProjectPropertyTester.java:35)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.ui.internal.navigator.NavigatorPlugin$Evaluator.run(NavigatorPlugin.java:245)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorPlugin.safeEvaluate(NavigatorPlugin.java:260)
+	at org.eclipse.ui.internal.navigator.wizards.CommonWizardDescriptor.isEnabledFor(CommonWizardDescriptor.java:138)
+	at org.eclipse.ui.internal.navigator.wizards.CommonWizardDescriptorManager.getEnabledCommonWizardDescriptors(CommonWizardDescriptorManager.java:152)
+	at org.eclipse.ui.navigator.WizardActionGroup.setContext(WizardActionGroup.java:193)
+	at org.eclipse.ui.internal.navigator.resources.actions.NewActionProvider.fillContextMenu(NewActionProvider.java:107)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:221)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:216)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:173)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:260)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$4.menuAboutToShow(CommonNavigatorManager.java:275)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:469)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:491)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:241)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4487)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4190)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:256)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4107)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:39:27.661
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:39:28.261
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:39:28.492
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:39:28.492
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:45:14.693
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:45:29.728
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:57:53.292
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:57:53.919
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:57:54.110
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:57:54.110
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:58:08.367
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:58:08.887
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:58:09.161
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:58:09.161
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:58:19.688
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:58:20.274
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:58:20.478
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 14:58:20.478
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:58:31.176
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 14:58:46.162
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:17:02.943
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:17:03.537
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:17:03.745
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:17:03.746
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:17:17.951
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:17:18.567
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:17:18.786
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:17:18.786
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:18:13.089
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:18:28.116
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:19:14.561
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:19:15.145
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:19:15.359
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:19:15.359
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:19:29.604
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:19:30.170
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:19:30.392
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:19:30.392
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:36:05.688
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:36:17.613
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:36:18.213
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:36:18.425
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:36:18.425
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:36:20.652
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:36:21.157
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:36:21.381
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:36:21.381
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:36:31.067
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:36:32.615
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:36:46.072
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:40:30.373
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:40:30.944
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:40:31.171
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:40:31.171
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:40:45.390
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:40:45.920
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:40:46.170
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:40:46.170
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:40:53.346
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:41:08.363
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:41:42.757
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:41:43.344
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:41:43.543
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:41:43.543
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:41:57.800
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:41:58.380
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:41:58.591
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start.
+!SUBENTRY 1 com.ibm.etools.wrd.websphere.core 4 4 2015-03-03 15:41:58.591
+!MESSAGE The "name" parameter cannot be null.
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:42:46.505
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY org.eclipse.ui 4 0 2015-03-03 15:42:53.749
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.ws.ast.st.jmx.core.internal.WebSphereGenericJmxConnection.getNodeObjectName(WebSphereGenericJmxConnection.java:1375)
+	at com.ibm.ws.ast.st.jmx.core.internal.WebSphereGenericJmxConnection.getServerIndexObject(WebSphereGenericJmxConnection.java:1409)
+	at com.ibm.ws.ast.st.jmx.core.internal.WebSphereGenericJmxConnection.getFirstHttpPort(WebSphereGenericJmxConnection.java:1060)
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.getAdminConsolePortNum(AbstractWASServerBehaviour.java:2758)
+	at com.ibm.ws.ast.st.common.ui.internal.client.AdminClientLauncher.launchAdminClient(AdminClientLauncher.java:57)
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.launchAdminClient(AbstractWASServerBehaviour.java:1227)
+	at com.ibm.ws.ast.st.ui.internal.client.AdminClientLauncher.run(AdminClientLauncher.java:36)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY com.ibm.etools.wrd.websphere.core 4 0 2015-03-03 15:43:01.509
+!MESSAGE Cannot get server controller for the application. Try your last server action again. 
+
+!ENTRY org.eclipse.ui 4 0 2015-03-03 15:43:18.590
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.ws.ast.st.jmx.core.internal.WebSphereGenericJmxConnection.getNodeObjectName(WebSphereGenericJmxConnection.java:1375)
+	at com.ibm.ws.ast.st.jmx.core.internal.WebSphereGenericJmxConnection.getServerIndexObject(WebSphereGenericJmxConnection.java:1409)
+	at com.ibm.ws.ast.st.jmx.core.internal.WebSphereGenericJmxConnection.getFirstHttpPort(WebSphereGenericJmxConnection.java:1060)
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.getAdminConsolePortNum(AbstractWASServerBehaviour.java:2758)
+	at com.ibm.ws.ast.st.common.ui.internal.client.AdminClientLauncher.launchAdminClient(AdminClientLauncher.java:57)
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.launchAdminClient(AbstractWASServerBehaviour.java:1227)
+	at com.ibm.ws.ast.st.ui.internal.client.AdminClientLauncher.run(AdminClientLauncher.java:36)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2015-03-04 07:26:08.383
+!MESSAGE A structured model client, EMF2DOMSSEAdapter(#document,EjbResourceImpl) threw following exception during adapter notification (STRUCTURE_CHANGED )
+!STACK 0
+java.lang.ClassCastException: org.eclipse.jst.javaee.core.internal.impl.DisplayNameImpl incompatible with org.eclipse.jst.javaee.ejb.EJBJar
+	at com.ibm.etools.javaee.merge.MergedModelAdapter2.getMetadataComplete(MergedModelAdapter2.java:142)
+	at com.ibm.etools.javaee.merge.MMAdapter.notifyChanged(MMAdapter.java:1690)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:380)
+	at org.eclipse.wst.common.internal.emf.resource.TranslatorResourceImpl.setID(TranslatorResourceImpl.java:344)
+	at org.eclipse.wst.common.internal.emf.utilities.IDUtil.assignID(IDUtil.java:50)
+	at org.eclipse.wst.common.internal.emf.utilities.IDUtil.getOrAssignID(IDUtil.java:41)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.getURIFragment(CompatibilityXMIResourceImpl.java:112)
+	at org.eclipse.wst.common.internal.emf.utilities.ExtendedEcoreUtil.doBecomeProxy(ExtendedEcoreUtil.java:299)
+	at org.eclipse.wst.common.internal.emf.utilities.ExtendedEcoreUtil.becomeProxy(ExtendedEcoreUtil.java:293)
+	at org.eclipse.wst.common.internal.emf.utilities.ExtendedEcoreUtil.unload(ExtendedEcoreUtil.java:274)
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMAdapterImpl.removeMOFValue(EMF2DOMAdapterImpl.java:553)
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMAdapterImpl.primUpdateMOFMultiFeature(EMF2DOMAdapterImpl.java:512)
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMAdapterImpl.updateMOFRootFeature(EMF2DOMAdapterImpl.java:1014)
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMAdapterImpl.primUpdateMOF(EMF2DOMAdapterImpl.java:989)
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMAdapterImpl.updateMOF(EMF2DOMAdapterImpl.java:973)
+	at org.eclipse.wst.xml.core.internal.emf2xml.EMF2DOMSSEAdapter.notifyChanged(EMF2DOMSSEAdapter.java:230)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.notify(AbstractNotifier.java:202)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelNotifierImpl.notifyStructureChanged(XMLModelNotifierImpl.java:392)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelNotifierImpl.endChanging(XMLModelNotifierImpl.java:180)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.changedModel(DOMModelImpl.java:163)
+	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel$DocumentToModelNotifier.nodesReplaced(AbstractStructuredModel.java:151)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:600)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1199)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.set(BasicStructuredDocument.java:2931)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.handleFileContentChanged(ResourceTextFileBuffer.java:508)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.revert(ResourceFileBuffer.java:354)
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.revert(FileBufferModelManager.java:823)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.revertModel(ModelManagerImpl.java:1842)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.releaseFromEdit(ModelManagerImpl.java:1820)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.releaseFromEdit(ModelManagerImpl.java:1761)
+	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel.releaseFromEdit(AbstractStructuredModel.java:994)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.releaseFromEdit(DOMModelImpl.java:804)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.disposeDocumentProvider(StructuredTextEditor.java:1836)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.dispose(AbstractTextEditor.java:4242)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.dispose(AbstractDecoratedTextEditor.java:368)
+	at org.eclipse.ui.editors.text.TextEditor.dispose(TextEditor.java:93)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.dispose(StructuredTextEditor.java:1824)
+	at org.eclipse.ui.part.MultiPageEditorPart$9.run(MultiPageEditorPart.java:1002)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.part.MultiPageEditorPart.disposePart(MultiPageEditorPart.java:999)
+	at org.eclipse.ui.part.MultiPageEditorPart.dispose(MultiPageEditorPart.java:494)
+	at org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart.dispose(XMLMultiPageEditorPart.java:822)
+	at com.ibm.xwt.dde.editor.DDEMultiPageEditorPart.dispose(DDEMultiPageEditorPart.java:285)
+	at org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart(WorkbenchPartReference.java:737)
+	at org.eclipse.ui.internal.EditorReference.doDisposePart(EditorReference.java:327)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:684)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1721)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1426)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1410)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1384)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1439)
+	at org.eclipse.ui.internal.EditorPane.doHide(EditorPane.java:61)
+	at org.eclipse.ui.internal.PartStack.close(PartStack.java:541)
+	at org.eclipse.ui.internal.EditorStack.close(EditorStack.java:206)
+	at org.eclipse.ui.internal.PartStack$1.close(PartStack.java:120)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:83)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:269)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:278)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.access$1(DefaultTabFolder.java:1)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder$1.closeButtonPressed(DefaultTabFolder.java:71)
+	at org.eclipse.ui.internal.presentations.PaneFolder.notifyCloseListeners(PaneFolder.java:631)
+	at org.eclipse.ui.internal.presentations.PaneFolder$3.close(PaneFolder.java:206)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1595)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:261)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY com.ibm.etools.common.migration 1 0 2015-03-04 09:01:02.868
+!MESSAGE Auto Build job is currently running
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-03-04 09:17:02.495
+!MESSAGE Failed to start the application: StudentApp
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-03-04 09:17:16.869
+!MESSAGE Failed to start the application: StudentApp
+
+!ENTRY com.ibm.etools.javaee.core 4 0 2015-03-04 09:37:07.391
+!MESSAGE This resource has been deleted and can no longer be used.
+!STACK 0
+java.lang.RuntimeException: This resource has been deleted and can no longer be used.
+	at org.eclipse.wst.common.internal.emf.resource.ReferencedXMIResourceImpl.checkDeleted(ReferencedXMIResourceImpl.java:178)
+	at org.eclipse.wst.common.internal.emf.resource.ReferencedXMIResourceImpl.accessForWrite(ReferencedXMIResourceImpl.java:163)
+	at org.eclipse.wst.common.internal.emf.resource.TranslatorResourceImpl.accessForWrite(TranslatorResourceImpl.java:369)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.access(EditModel.java:961)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.processResource(EditModel.java:694)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:687)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getPrimaryResource(ModuleStructuralModel.java:332)
+	at com.ibm.etools.javaee.model.internal.EAR5ModelProvider.addManagedResource(EAR5ModelProvider.java:668)
+	at com.ibm.etools.javaee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:173)
+	at com.ibm.etools.javaee.model.internal.EAR5ModelProvider.getModelResource(EAR5ModelProvider.java:650)
+	at com.ibm.etools.javaee.model.internal.EAR5ModelProvider.getModelObject(EAR5ModelProvider.java:296)
+	at com.ibm.etools.javaee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:305)
+	at org.eclipse.jst.jee.ui.internal.navigator.Ear5ContentProvider.getNewContentProviderInstance(Ear5ContentProvider.java:152)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:92)
+	at org.eclipse.jst.jee.ui.internal.navigator.Ear5ContentProvider.getChildren(Ear5ContentProvider.java:116)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:150)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:137)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:117)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:126)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:330)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:573)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:153)
+	at org.eclipse.ltk.ui.refactoring.resource.DeleteResourcesWizard$DeleteResourcesRefactoringConfigurationPage.performFinish(DeleteResourcesWizard.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:646)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:454)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:180)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:192)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:115)
+	at org.eclipse.ltk.internal.ui.refactoring.actions.DeleteResourcesHandler.execute(DeleteResourcesHandler.java:40)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:293)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommandInContext(HandlerService.java:270)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.runCommand(LTKLauncher.java:95)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.openDeleteWizard(LTKLauncher.java:47)
+	at org.eclipse.ui.actions.DeleteResourceAction.run(DeleteResourceAction.java:481)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:168)
+	at org.eclipse.ui.actions.TextActionHandler$DeleteActionHandler.runWithEvent(TextActionHandler.java:164)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:119)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.OutOfOrderListener.handleEvent(OutOfOrderListener.java:76)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1808)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:4498)
+	at org.eclipse.swt.widgets.Tree.WM_KEYDOWN(Tree.java:5976)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4193)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5844)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY org.eclipse.ui.navigator 4 2 2015-03-04 09:37:07.391
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.ui.internal.navigator.AbstractGroupProvider.<init>(AbstractGroupProvider.java:42)
+	at org.eclipse.jst.jee.ui.internal.navigator.ear.GroupEARProvider.<init>(GroupEARProvider.java:54)
+	at org.eclipse.jst.jee.ui.internal.navigator.Ear5ContentProvider.getNewContentProviderInstance(Ear5ContentProvider.java:152)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:92)
+	at org.eclipse.jst.jee.ui.internal.navigator.Ear5ContentProvider.getChildren(Ear5ContentProvider.java:116)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:150)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:137)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:117)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:126)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:330)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:573)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:153)
+	at org.eclipse.ltk.ui.refactoring.resource.DeleteResourcesWizard$DeleteResourcesRefactoringConfigurationPage.performFinish(DeleteResourcesWizard.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:646)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:454)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:180)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:192)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:115)
+	at org.eclipse.ltk.internal.ui.refactoring.actions.DeleteResourcesHandler.execute(DeleteResourcesHandler.java:40)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:293)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommandInContext(HandlerService.java:270)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.runCommand(LTKLauncher.java:95)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.openDeleteWizard(LTKLauncher.java:47)
+	at org.eclipse.ui.actions.DeleteResourceAction.run(DeleteResourceAction.java:481)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:168)
+	at org.eclipse.ui.actions.TextActionHandler$DeleteActionHandler.runWithEvent(TextActionHandler.java:164)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:119)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.OutOfOrderListener.handleEvent(OutOfOrderListener.java:76)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1808)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:4498)
+	at org.eclipse.swt.widgets.Tree.WM_KEYDOWN(Tree.java:5976)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4193)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5844)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2015-03-04 09:37:07.407
+!MESSAGE An exception occurred invoking extension: org.eclipse.jst.jee.ui.ear for object P/StudentApp
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.ui.internal.navigator.AbstractGroupProvider.<init>(AbstractGroupProvider.java:42)
+	at org.eclipse.jst.jee.ui.internal.navigator.ear.GroupEARProvider.<init>(GroupEARProvider.java:54)
+	at org.eclipse.jst.jee.ui.internal.navigator.Ear5ContentProvider.getNewContentProviderInstance(Ear5ContentProvider.java:152)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:92)
+	at org.eclipse.jst.jee.ui.internal.navigator.Ear5ContentProvider.getChildren(Ear5ContentProvider.java:116)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:150)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:137)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:117)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:126)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:330)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:573)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:153)
+	at org.eclipse.ltk.ui.refactoring.resource.DeleteResourcesWizard$DeleteResourcesRefactoringConfigurationPage.performFinish(DeleteResourcesWizard.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:646)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:454)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:180)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:192)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:115)
+	at org.eclipse.ltk.internal.ui.refactoring.actions.DeleteResourcesHandler.execute(DeleteResourcesHandler.java:40)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:293)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommandInContext(HandlerService.java:270)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.runCommand(LTKLauncher.java:95)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.openDeleteWizard(LTKLauncher.java:47)
+	at org.eclipse.ui.actions.DeleteResourceAction.run(DeleteResourceAction.java:481)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:168)
+	at org.eclipse.ui.actions.TextActionHandler$DeleteActionHandler.runWithEvent(TextActionHandler.java:164)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:119)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.OutOfOrderListener.handleEvent(OutOfOrderListener.java:76)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1808)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:4498)
+	at org.eclipse.swt.widgets.Tree.WM_KEYDOWN(Tree.java:5976)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4193)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5844)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+
+!ENTRY org.eclipse.core.resources 4 2 2015-03-04 09:37:07.716
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.ClassCastException: org.eclipse.emf.common.util.BasicEList incompatible with org.eclipse.emf.ecore.util.InternalEList
+	at org.eclipse.emf.ecore.util.EcoreUtil$ContentTreeIterator.getEObjectChildren(EcoreUtil.java:1374)
+	at org.eclipse.emf.ecore.util.EcoreUtil$ContentTreeIterator.getChildren(EcoreUtil.java:1347)
+	at org.eclipse.emf.common.util.AbstractTreeIterator.next(AbstractTreeIterator.java:144)
+	at org.eclipse.emf.ecore.util.EcoreUtil$CrossReferencer.crossReference(EcoreUtil.java:1666)
+	at org.eclipse.emf.ecore.util.EcoreUtil$UsageCrossReferencer.findUsage(EcoreUtil.java:2504)
+	at org.eclipse.emf.ecore.util.EcoreUtil$UsageCrossReferencer.find(EcoreUtil.java:2554)
+	at org.eclipse.emf.ecore.util.EcoreUtil.delete(EcoreUtil.java:3147)
+	at com.ibm.etools.javaee.merge.MMAdapter.dispose(MMAdapter.java:887)
+	at com.ibm.etools.javaee.model.internal.Ejb3ModelProvider.projectClosed(Ejb3ModelProvider.java:354)
+	at org.eclipse.jem.util.emf.workbench.ResourceSetWorkbenchSynchronizer.notifyExtendersOfClose(ResourceSetWorkbenchSynchronizer.java:216)
+	at org.eclipse.jem.util.emf.workbench.ResourceSetWorkbenchSynchronizer.resourceChanged(ResourceSetWorkbenchSynchronizer.java:183)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.resourceChanged(ResourceSetWorkbenchEditSynchronizer.java:137)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:261)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreDeleteEvent(Resource.java:1999)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-03-04 09:37:27.262
+!MESSAGE Publishing failed
+!SUBENTRY 1 unknown 0 0 2015-03-04 09:37:27.262
+!MESSAGE OK
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE The publish encountered some problems and the application may not have been installed or it may have been successfully installed but was unable to start. View the Details to display the exceptions and server logs that occurred during the publish.  
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE ======== StudentApp ========
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE Failed to add or remove the application from the server: StudentApp
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:514 CAT] 00000203 UninstallSche I   ADMA5017I: Uninstallation of StudentApp started.
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:555 CAT] 00000203 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\AppSrv01\logs\ffdc\server1_23736609_15.03.04_09.37.26.5524848807732134407445.txt com.ibm.ws.sca.internal.deployment.SCAUninstallTask 001
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:578 CAT] 00000203 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on C:\IBM\AppServer\profiles\AppSrv01\logs\ffdc\server1_23736609_15.03.04_09.37.26.5555447053528350567675.txt com.ibm.ws.management.application.SchedulerImpl.run 328
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:580 CAT] 00000203 UninstallSche I   ADMA5107E: The application StudentApp cannot be uninstalled.
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R org.eclipse.jst.j2ee.commonarchivecore.internal.exception.OpenFailureException: IWAE0037E Could not open C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentApp
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE Stack trace of nested exception:
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE java.io.FileNotFoundException: IWAE0036E URI Name: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentApp; File name: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentApp
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.createLoadStrategy(CommonarchiveFactoryImpl.java:989)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.primOpenArchive(CommonarchiveFactoryImpl.java:1719)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at org.eclipse.jst.j2ee.commonarchivecore.internal.helpers.ArchiveTypeDiscriminatorImpl.fullOpenArchive(ArchiveTypeDiscriminatorImpl.java:410)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.RootEARFileDescriminatorImpl.fullOpenArchive(RootEARFileDescriminatorImpl.java:53)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.openEARFile(CommonarchiveFactoryImpl.java:1599)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.openEARFile(CommonarchiveFactoryImpl.java:1573)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at com.ibm.etools.commonarchive.impl.CommonarchiveFactoryImpl.openEARFile(CommonarchiveFactoryImpl.java:617)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at com.ibm.ws.sca.internal.deployment.SCAUninstallTask.performUninstallTasks(SCAUninstallTask.java:134)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at com.ibm.ws.sca.internal.deployment.SCAUninstallTask.performTask(SCAUninstallTask.java:67)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at com.ibm.ws.management.application.SchedulerImpl.run(SchedulerImpl.java:315)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 	at java.lang.Thread.run(Thread.java:784)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE 
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R Stack trace of nested exception:
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R java.io.FileNotFoundException: IWAE0036E URI Name: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentApp; File name: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentApp
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.createLoadStrategy(CommonarchiveFactoryImpl.java:989)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.primOpenArchive(CommonarchiveFactoryImpl.java:1719)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at org.eclipse.jst.j2ee.commonarchivecore.internal.helpers.ArchiveTypeDiscriminatorImpl.fullOpenArchive(ArchiveTypeDiscriminatorImpl.java:410)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.RootEARFileDescriminatorImpl.fullOpenArchive(RootEARFileDescriminatorImpl.java:53)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.openEARFile(CommonarchiveFactoryImpl.java:1599)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.openEARFile(CommonarchiveFactoryImpl.java:1573)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at com.ibm.etools.commonarchive.impl.CommonarchiveFactoryImpl.openEARFile(CommonarchiveFactoryImpl.java:617)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at com.ibm.ws.sca.internal.deployment.SCAUninstallTask.performUninstallTasks(SCAUninstallTask.java:134)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at com.ibm.ws.sca.internal.deployment.SCAUninstallTask.performTask(SCAUninstallTask.java:67)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at com.ibm.ws.management.application.SchedulerImpl.run(SchedulerImpl.java:315)
+!SUBENTRY 2 com.ibm.ws.ast.st.jmx.core 4 4 2015-03-04 09:37:27.262
+!MESSAGE [3/4/15 9:37:26:579 CAT] 00000203 SystemErr     R 	at java.lang.Thread.run(Thread.java:784)
+!SUBENTRY 1 unknown 0 0 2015-03-04 09:37:27.262
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-03-04 09:37:27.262
+!MESSAGE OK
+
+!ENTRY com.ibm.etools.common.migration 1 0 2015-03-04 11:33:48.854
+!MESSAGE Auto Build job is currently running
+
+!ENTRY com.ibm.etools.common.migration 1 0 2015-03-04 11:35:43.832
+!MESSAGE Auto Build job is currently running
+
+!ENTRY com.ibm.etools.common.migration 1 0 2015-03-04 11:44:14.714
+!MESSAGE Auto Build job is currently running
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2015-03-04 11:44:22.552
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:799)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete '/StudentWeb/.settings'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:270)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:387)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1950)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb\.settings\org.eclipse.wst.common.component.
+Contains: Could not delete: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb\.settings.
+Contains: Could not delete 'C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2015-03-04 11:44:22.552
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2015-03-04 11:44:22.552
+!MESSAGE Could not delete '/StudentWeb/.settings'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:270)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:387)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1950)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb\.settings\org.eclipse.wst.common.component.
+Contains: Could not delete: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb\.settings.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2015-03-04 11:44:22.552
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-03-04 11:44:22.552
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-03-04 11:44:22.552
+!MESSAGE Could not delete: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb\.settings\org.eclipse.wst.common.component.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-03-04 11:44:22.552
+!MESSAGE Could not delete: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb\.settings.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2015-03-04 11:44:22.552
+!MESSAGE Could not delete 'C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb'.
+
+!ENTRY org.eclipse.core.resources 4 273 2015-03-04 11:44:22.552
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2015-03-04 11:44:22.552
+!MESSAGE Could not delete '/StudentWeb/.settings'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:270)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:387)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1950)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb\.settings\org.eclipse.wst.common.component.
+Contains: Could not delete: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb\.settings.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2015-03-04 11:44:22.552
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2015-03-04 11:44:22.552
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-03-04 11:44:22.552
+!MESSAGE Could not delete: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb\.settings\org.eclipse.wst.common.component.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-03-04 11:44:22.552
+!MESSAGE Could not delete: C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb\.settings.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2015-03-04 11:44:22.552
+!MESSAGE Could not delete 'C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\StudentWeb'.
+
+!ENTRY com.ibm.etools.common.migration 1 0 2015-03-04 11:45:03.155
+!MESSAGE Auto Build job is currently running
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.002
+!MESSAGE Exception occurred while saving project preferences: /AgreementRulesApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.002
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.004
+!MESSAGE Exception occurred while saving project preferences: /AgreementRulesApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /AgreementRulesApp/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.025
+!MESSAGE Exception occurred while saving project preferences: /AgreementRulesWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.025
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.026
+!MESSAGE Exception occurred while saving project preferences: /AgreementRulesWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /AgreementRulesWeb/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.100
+!MESSAGE Exception occurred while saving project preferences: /AgreementServcieApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.101
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.101
+!MESSAGE Exception occurred while saving project preferences: /AgreementServcieApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /AgreementServcieApp/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.123
+!MESSAGE Exception occurred while saving project preferences: /AgreementServcieWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.123
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.124
+!MESSAGE Exception occurred while saving project preferences: /AgreementServcieWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /AgreementServcieWeb/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.201
+!MESSAGE Exception occurred while saving project preferences: /AgreementServiceConsumerApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.201
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.202
+!MESSAGE Exception occurred while saving project preferences: /AgreementServiceConsumerApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /AgreementServiceConsumerApp/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.241
+!MESSAGE Exception occurred while saving project preferences: /AgreementServiceConsumerWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.241
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.241
+!MESSAGE Exception occurred while saving project preferences: /AgreementServiceConsumerWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /AgreementServiceConsumerWeb/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.358
+!MESSAGE Exception occurred while saving project preferences: /LeaveWorkflow_ImplementationApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.358
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.358
+!MESSAGE Exception occurred while saving project preferences: /LeaveWorkflow_ImplementationApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /LeaveWorkflow_ImplementationApp/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.389
+!MESSAGE Exception occurred while saving project preferences: /LeaveWorkflow_ImplementationWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.389
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.389
+!MESSAGE Exception occurred while saving project preferences: /LeaveWorkflow_ImplementationWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /LeaveWorkflow_ImplementationWeb/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.preferences 2 2 2015-03-04 11:54:59.421
+!MESSAGE Failed to delete preferences file: C:/workspaces/GitRepoBackEnd/ESB_BPELExamples/LoginComponent/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.ibm.wbit.lombardi.core.prefs.
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.530
+!MESSAGE Exception occurred while saving project preferences: /LoginModuleApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.530
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.530
+!MESSAGE Exception occurred while saving project preferences: /LoginModuleApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /LoginModuleApp/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.546
+!MESSAGE Exception occurred while saving project preferences: /LoginModuleWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.546
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.546
+!MESSAGE Exception occurred while saving project preferences: /LoginModuleWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /LoginModuleWeb/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.621
+!MESSAGE Exception occurred while saving project preferences: /RESTServiceApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.622
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.623
+!MESSAGE Exception occurred while saving project preferences: /RESTServiceApp/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /RESTServiceApp/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 4 2015-03-04 11:54:59.655
+!MESSAGE Exception occurred while saving project preferences: /RESTServiceWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:115)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:1914)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:626)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:644)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2015-03-04 11:54:59.655
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-03-04 11:54:59.656
+!MESSAGE Exception occurred while saving project preferences: /RESTServiceWeb/.settings/org.eclipse.wst.validation.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception occurred while saving project preferences: /RESTServiceWeb/.settings/org.eclipse.wst.validation.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:656)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.flush(PreferencesWrapper.java:109)
+	at org.eclipse.wst.validation.internal.ProjectConfiguration.store(ProjectConfiguration.java:595)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.closing(ConfigurationManager.java:168)
+	at org.eclipse.wst.validation.internal.EventManager.closing(EventManager.java:121)
+	at org.eclipse.wst.validation.internal.EventManager.resourceChanged(EventManager.java:248)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:186)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:162)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:483)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-03-04 11:59:56.834
+!MESSAGE Failed to start the application: StudentApp
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-03-04 12:00:08.456
+!MESSAGE Failed to start the application: StudentApp
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-03-04 15:01:46.002
+!MESSAGE An internal error occurred during: "Starting IBM Process Center v8.0 at dev.local.net".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.addOutputStreamListener(AbstractWASServerBehaviour.java:2014)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.addOutputStreamListener(SCAServerBehaviour.java:184)
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.setProcess(AbstractWASServerBehaviour.java:1418)
+	at com.ibm.ws.ast.st.v8.core.internal.WASLaunchConfigurationDelegate.launch(WASLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-03-04 16:09:28.555
+!MESSAGE An internal error occurred during: "Starting IBM Process Center v8.0 at dev.local.net".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.addOutputStreamListener(AbstractWASServerBehaviour.java:2014)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.addOutputStreamListener(SCAServerBehaviour.java:184)
+	at com.ibm.ws.ast.st.common.core.internal.AbstractWASServerBehaviour.setProcess(AbstractWASServerBehaviour.java:1418)
+	at com.ibm.ws.ast.st.v8.core.internal.WASLaunchConfigurationDelegate.launch(WASLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:695)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3511)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3446)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

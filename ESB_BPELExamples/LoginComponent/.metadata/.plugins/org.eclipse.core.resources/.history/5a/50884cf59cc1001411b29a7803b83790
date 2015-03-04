@@ -1,0 +1,20 @@
+package co.za.metropolitan.student.rest.resource;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class StudentResource
+ */
+@Stateless(mappedName = "StudentResource")
+@LocalBean
+public class StudentResource {
+
+    /**
+     * Default constructor. 
+     */
+    public StudentResource() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

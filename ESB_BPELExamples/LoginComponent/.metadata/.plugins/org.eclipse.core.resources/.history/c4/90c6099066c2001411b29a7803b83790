@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>StudentWeb</display-name>
+	<servlet>
+		<servlet-name>co.za.metropolitan.student.rest.StudentApplication</servlet-name>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>co.za.metropolitan.student.rest.StudentApplication</servlet-name>
+		<url-pattern> /rest/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+    <description>
+    JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>StudentWeb</servlet-name>
+    <servlet-class>com.ibm.websphere.jaxrs.server.IBMRestServlet</servlet-class>
+    <init-param>
+        <param-name>javax.ws.rs.core.Application</param-name>
+        <param-value>co.za.metropolitan.student.rest.StudentApplication</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+    <servlet-name>StudentWeb</servlet-name>
+    <url-pattern>
+    /rest/*</url-pattern>
+</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>		
+	</welcome-file-list>
+</web-app>

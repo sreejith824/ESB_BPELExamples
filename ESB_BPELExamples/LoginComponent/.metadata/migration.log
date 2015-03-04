@@ -1,0 +1,80 @@
+
+*** Migration startup - March 3, 2015 9:13:17 AM CAT
+
+       Resource checkout
+C:/workspaces/GitRepoBackEnd/RESTDemo/demo.ear/.settings/org.eclipse.wst.common.project.facet.core.xml
+C:/workspaces/GitRepoBackEnd/RESTDemo/demo.ejb/.classpath
+C:/workspaces/GitRepoBackEnd/RESTDemo/demo.ejb/.settings/org.eclipse.wst.common.project.facet.core.xml
+C:/workspaces/GitRepoBackEnd/RESTDemo/demo.war/.classpath
+C:/workspaces/GitRepoBackEnd/RESTDemo/demo.war/.settings/org.eclipse.wst.common.project.facet.core.xml
+First migrator: com.ibm.ws.ast.st.migration.internal.migrator.UnresolvedRuntimeMigrator
+
+       Migrating project demo.ejb
+INFO   migrator ID: com.ibm.ws.ast.st.migration.internal.migrator.UnresolvedRuntimeMigrator
+       A runtime environment was not selected with this project. You may encounter errors with the project. Consider updating the targeted runtime environment by right-click the project and select Properties > Targeted Runtimes.
+INFO   migrator ID: com.ibm.ws.sca.rd.style.migration.targetRuntime.id
+       A runtime environment was not selected with this project. You may encounter errors with the project. Consider updating the targeted runtime environment by right-click the project and select Properties > Targeted Runtimes.
+
+       Migrating project demo.war
+OK     migrator ID: com.ibm.etools.references.web.Web30ReferencesProjectPreferencesMigration
+INFO   migrator ID: com.ibm.ws.ast.st.migration.internal.migrator.UnresolvedRuntimeMigrator
+       A runtime environment was not selected with this project. You may encounter errors with the project. Consider updating the targeted runtime environment by right-click the project and select Properties > Targeted Runtimes.
+INFO   migrator ID: com.ibm.ws.sca.rd.style.migration.targetRuntime.id
+       A runtime environment was not selected with this project. You may encounter errors with the project. Consider updating the targeted runtime environment by right-click the project and select Properties > Targeted Runtimes.
+
+       Migrating project demo.ear
+INFO   migrator ID: com.ibm.ws.ast.st.migration.internal.migrator.UnresolvedRuntimeMigrator
+       A runtime environment was not selected with this project. You may encounter errors with the project. Consider updating the targeted runtime environment by right-click the project and select Properties > Targeted Runtimes.
+INFO   migrator ID: com.ibm.ws.sca.rd.style.migration.targetRuntime.id
+       A runtime environment was not selected with this project. You may encounter errors with the project. Consider updating the targeted runtime environment by right-click the project and select Properties > Targeted Runtimes.
+
+INFO     Validating project: demo.ear
+INFO       Running validator: Legacy Workspace Detector (id= LegacyWorkspaceDetector)
+INFO       Finished running validator: Legacy Workspace Detector (id= LegacyWorkspaceDetector)
+INFO       Running validator: EJB Mapping Validator (id= EjbMappingValidator)
+INFO         The project has no EJB model associated with it.  EJB mapping backend validation will not be performed.
+INFO       Finished running validator: EJB Mapping Validator (id= EjbMappingValidator)
+INFO       Running validator: WebSphere Facet Validator (id= WebSphereFacetValidator)
+OK           The WebSphere facet "WebSphere Application (Extended) 8.0" is compatible with the WebSphere runtime "IBM Process Server v8.0".
+OK           The WebSphere facet "WebSphere Application (Co-existence) 8.0" is compatible with the WebSphere runtime "IBM Process Server v8.0".
+OK           The WebSphere Co-Existence facet pre-requisite exists for the WebSphere Extended facet.
+INFO       Finished running validator: WebSphere Facet Validator (id= WebSphereFacetValidator)
+INFO       Running validator: WebSphere Runtime Validator (id= WebSphereRuntimeValidator)
+OK           The WebSphere runtime is valid at the configured path:  C:/IBM/IntegrationDesigner/v8.0/runtimes/bi_v8_stub
+OK           The WebSphere runtime is at a supported level:  8.0
+INFO       Finished running validator: WebSphere Runtime Validator (id= WebSphereRuntimeValidator)
+INFO     Finished validating project: demo.ear
+
+INFO     Validating project: demo.ejb
+INFO       Running validator: Legacy Workspace Detector (id= LegacyWorkspaceDetector)
+INFO       Finished running validator: Legacy Workspace Detector (id= LegacyWorkspaceDetector)
+INFO       Running validator: EJB Mapping Validator (id= EjbMappingValidator)
+INFO         The project has no EJB model associated with it.  EJB mapping backend validation will not be performed.
+INFO       Finished running validator: EJB Mapping Validator (id= EjbMappingValidator)
+INFO       Running validator: WebSphere Facet Validator (id= WebSphereFacetValidator)
+OK           The WebSphere facet "WebSphere EJB (Extended) 8.0" is compatible with the WebSphere runtime "IBM Process Server v8.0".
+INFO       Finished running validator: WebSphere Facet Validator (id= WebSphereFacetValidator)
+INFO       Running validator: WebSphere Runtime Validator (id= WebSphereRuntimeValidator)
+OK           The WebSphere runtime is valid at the configured path:  C:/IBM/IntegrationDesigner/v8.0/runtimes/bi_v8_stub
+OK           The WebSphere runtime is at a supported level:  8.0
+INFO       Finished running validator: WebSphere Runtime Validator (id= WebSphereRuntimeValidator)
+INFO     Finished validating project: demo.ejb
+
+INFO     Validating project: demo.war
+INFO       Running validator: Legacy Workspace Detector (id= LegacyWorkspaceDetector)
+INFO       Finished running validator: Legacy Workspace Detector (id= LegacyWorkspaceDetector)
+INFO       Running validator: EJB Mapping Validator (id= EjbMappingValidator)
+INFO         The project has no EJB model associated with it.  EJB mapping backend validation will not be performed.
+INFO       Finished running validator: EJB Mapping Validator (id= EjbMappingValidator)
+INFO       Running validator: WebSphere Facet Validator (id= WebSphereFacetValidator)
+OK           The WebSphere facet "WebSphere Web (Extended) 8.0" is compatible with the WebSphere runtime "IBM Process Server v8.0".
+OK           The WebSphere facet "WebSphere Web (Co-existence) 8.0" is compatible with the WebSphere runtime "IBM Process Server v8.0".
+OK           The WebSphere Co-Existence facet pre-requisite exists for the WebSphere Extended facet.
+INFO       Finished running validator: WebSphere Facet Validator (id= WebSphereFacetValidator)
+INFO       Running validator: WebSphere Runtime Validator (id= WebSphereRuntimeValidator)
+OK           The WebSphere runtime is valid at the configured path:  C:/IBM/IntegrationDesigner/v8.0/runtimes/bi_v8_stub
+OK           The WebSphere runtime is at a supported level:  8.0
+INFO       Finished running validator: WebSphere Runtime Validator (id= WebSphereRuntimeValidator)
+INFO     Finished validating project: demo.war
+
+Migration complete

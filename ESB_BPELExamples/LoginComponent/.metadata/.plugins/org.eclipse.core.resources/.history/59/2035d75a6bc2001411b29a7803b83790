@@ -1,0 +1,22 @@
+package co.za.metropolitan.student.rest;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Application;
+
+/**
+ * Servlet implementation class StudentApplication
+ */
+@Path("/students")
+public class StudentApplication extends Application {
+
+	public Set<Class<?>> getClasses() {
+		Set<Class<?>> classes = new HashSet<Class<?>>();
+		classes.add(co.za.metropolitan.student.rest.provider.StudentJSONProvider.class);
+		classes.add(co.za.metropolitan.student.rest.resource.StudentResource.class);
+		return classes;
+	}
+
+}

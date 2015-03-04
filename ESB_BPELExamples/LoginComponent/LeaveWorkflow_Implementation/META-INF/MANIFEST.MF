@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
+Class-Path: LeaveWorkflow_Library.jar
 Created-By: 1.5.0 (IBM Corporation)
 

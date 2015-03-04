@@ -1,0 +1,20 @@
+@REM C:\workspaces\GitRepoBackEnd\ESB_BPELExamples\LoginComponent\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\quickServerStart.bat
+@REM Generated: Wed Mar 04 07:28:01 CAT 2015
+
+@setlocal
+@echo off
+
+@REM Bootstrap values ...
+cd C:\IBM\AppServer\profiles\AppSrv01\bin
+call "C:\IBM\AppServer\profiles\AppSrv01\bin\setupCmdLine.bat"
+@REM For debugging the server process:
+@REM set DEBUG=-Djava.compiler=NONE -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=7777
+
+@REM Environment Settings
+SET PATH=%WAS_PATH%
+
+
+@REM Launch Command
+"C:\IBM\AppServer/java/bin/java"  %DEBUG% "-Declipse.security" "-Dosgi.install.area=C:\IBM\AppServer" "-Dosgi.configuration.area=C:\IBM\AppServer\profiles\AppSrv01/servers/server1/configuration" "-Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors" "-Xshareclasses:name=webspherev80,nonFatal" "-Dsun.reflect.inflationThreshold=250" "-Dcom.ibm.xtq.processor.overrideSecureProcessing=true" "-Xbootclasspath/p:C:\IBM\AppServer/java/jre/lib/ibmorb.jar" "-classpath" "C:\IBM\AppServer\profiles\AppSrv01/properties;C:\IBM\AppServer/properties;C:\IBM\AppServer/lib/startup.jar;C:\IBM\AppServer/lib/bootstrap.jar;C:\IBM\AppServer/lib/jsf-nls.jar;C:\IBM\AppServer/lib/lmproxy.jar;C:\IBM\AppServer/lib/urlprotocols.jar;C:\IBM\AppServer/deploytool/itp/batchboot.jar;C:\IBM\AppServer/deploytool/itp/batch2.jar;C:\IBM\AppServer/java/lib/tools.jar" "-Dibm.websphere.internalClassAccessMode=allow" "-Xms512m" "-Xmx1512m" "-Xscmaxaot4M" "-Xscmx60M" "-Xquickstart" "-Dws.ext.dirs=C:\IBM\AppServer/java/lib;C:\IBM\AppServer\profiles\AppSrv01/classes;C:\IBM\AppServer/classes;C:\IBM\AppServer/lib;C:\IBM\AppServer/installedChannels;C:\IBM\AppServer/lib/ext;C:\IBM\AppServer/web/help;C:\IBM\AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime" "-Dderby.system.home=C:\IBM\AppServer/derby" "-Dcom.ibm.itp.location=C:\IBM\AppServer/bin" "-Djava.util.logging.configureByServer=true" "-Duser.install.root=C:\IBM\AppServer\profiles\AppSrv01" "-Djava.ext.dirs=C:\IBM\AppServer/tivoli/tam;C:\IBM\AppServer/java/jre/lib/ext" "-Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder" "-Dpython.cachedir=C:\IBM\AppServer\profiles\AppSrv01/temp/cachedir" "-Dwas.install.root=C:\IBM\AppServer" "-Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager" "-Dserver.root=C:\IBM\AppServer\profiles\AppSrv01" "-Dcom.ibm.security.jgss.debug=off" "-Dcom.ibm.security.krb5.Krb5Debug=off" "-Dcom.ibm.ws.management.event.pull_notification_timeout=120000" "-Xquickstart" "-Dcom.ibm.xml.xlxp.jaxb.opti.level=3" "-Dfilelocation.properties=file:c:/var/lunos/filelocation.properties" "-Djdbc.properties=file:c:/var/lunos/jdbc.properties" "-Djava.library.path=C:\IBM\AppServer/lib/native/win/x86_32/;C:\IBM\AppServer\java\jre\bin\default;C:\IBM\AppServer\java\jre\bin;C:\Windows\SysWOW64;C:\Windows;C:\IBM\AppServer\lib\native\win\x86_32;C:\IBM\AppServer\bin;C:\IBM\AppServer\java\bin;C:\IBM\AppServer\java\jre\bin;C:\IBM\AppServer\db2\BIN;C:\IBM\AppServer\db2\FUNCTION;.;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\ibm\gsk8\lib64;C:\Program Files (x86)\Java\jdk1.6.0_30\bin;C:\Program Files (x86)\Subversion\bin;C:\apache-maven-3.1.1\bin;C:\Program Files (x86)\Groovy\Groovy-2.1.3\bin;C:\Program Files\TortoiseGit\bin;C:\UnxUtils\bin;C:\ewikdev101\WDR;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\cmd;C:\Users\Development\AppData\Roaming\npm;.;" "-Djava.endorsed.dirs=C:\IBM\AppServer/endorsed_apis;C:\IBM\AppServer/java/jre/lib/endorsed;C:\IBM\AppServer\endorsed_apis;C:\IBM\AppServer\java\jre\lib\endorsed" "-Djava.security.auth.login.config=C:\IBM\AppServer\profiles\AppSrv01/properties/wsjaas.conf" "-Djava.security.policy=C:\IBM\AppServer\profiles\AppSrv01/properties/server.policy" "com.ibm.wsspi.bootstrap.WSPreLauncher" "-nosplash" "-application" "com.ibm.ws.bootstrap.WSLauncher" "com.ibm.ws.runtime.WsServer" "C:\IBM\AppServer\profiles\AppSrv01\config" "devNode01Cell" "devNode01" "server1"
+
+@endlocal

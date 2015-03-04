@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseArchive xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.jst.j2ee.commonarchivecore.looseconfig="commonarchive.looseconfig.xmi" uri="C:\workspaces\GitRepoBackEnd\RESTDemo\demo.ear" binariesPath="C:\workspaces\GitRepoBackEnd\RESTDemo\demo.ear" resourcesPath="C:\workspaces\GitRepoBackEnd\RESTDemo\demo.ear" archiveType="EAR">
+  <looseChildren uri="demo.ejb.jar" binariesPath="C:\workspaces\GitRepoBackEnd\RESTDemo\demo.ejb\build\classes" resourcesPath="C:\workspaces\GitRepoBackEnd\RESTDemo\demo.ejb\build\classes" archiveType="EJBJAR"/>
+  <looseChildren uri="demo.war.war" binariesPath="C:\workspaces\GitRepoBackEnd\RESTDemo\demo.war\WebContent" resourcesPath="C:\workspaces\GitRepoBackEnd\RESTDemo\demo.war\WebContent" archiveType="WAR"/>
+</org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseArchive>

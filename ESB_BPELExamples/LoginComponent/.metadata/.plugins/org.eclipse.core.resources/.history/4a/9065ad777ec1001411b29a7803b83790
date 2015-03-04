@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package co.za.metropolitan.student.dto;
+
+/**
+ * @author Development
+ *
+ */
+public class Student {
+
+}

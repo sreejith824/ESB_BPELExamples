@@ -1,0 +1,18 @@
+package co.za.metropolitan.student.ejb;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class StudentBean
+ */
+@Stateless
+public class StudentBean implements StudentBeanRemote {
+
+    /**
+     * Default constructor. 
+     */
+    public StudentBean() {
+        // TODO Auto-generated constructor stub
+    }
+
+}
