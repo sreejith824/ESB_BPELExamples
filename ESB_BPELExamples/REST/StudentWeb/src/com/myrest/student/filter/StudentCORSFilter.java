@@ -24,7 +24,7 @@ public class StudentCORSFilter implements Filter {
 		
 		System.out.println("Inside Filter");
 		
-		((HttpServletResponse) response).addHeader("Access-Control-Allow-Origin", "*");
+		((HttpServletResponse) response).addHeader("Access-Control-Allow-Origin", "http://localhost:9000");
 		((HttpServletResponse) response).addHeader("Access-Control-Allow-Credentials", "true");
 		((HttpServletResponse) response).addHeader("Access-Control-Allow-Method", "GET, POST, PUT, DELETE, OPTIONS");
 		((HttpServletResponse) response).addHeader("Content-Type", "application/json");

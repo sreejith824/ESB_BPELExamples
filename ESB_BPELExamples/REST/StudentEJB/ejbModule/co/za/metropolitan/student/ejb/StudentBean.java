@@ -9,7 +9,7 @@ import co.za.metropolitan.student.dto.StudentDTO;
  */
 @Stateless
 public class StudentBean implements StudentBeanLocal {
-
+	
 	/**
 	 * Default constructor.
 	 */
@@ -30,6 +30,12 @@ public class StudentBean implements StudentBeanLocal {
 		studentDTO.setAge(23);
 		System.out.println(studentDTO);
 		System.out.println("Inside GetStudent!!!");
+		
+		StudentBeanUtil studentBeanUtil = new StudentBeanUtil();
+		String name = studentBeanUtil.getName("Name");
+		
+		studentDTO.setName(name);;
+		
 		return studentDTO;
 	}
 }
