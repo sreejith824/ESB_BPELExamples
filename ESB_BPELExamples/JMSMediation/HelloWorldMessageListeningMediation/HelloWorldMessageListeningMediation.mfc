@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediationFlow xmlns="http://www.ibm.com/xmlns/prod/websphere/2010/MediationFlow" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://HelloWorldMessageListeningMediation/HelloWorldMesageListeningInterface" xmlns:ns2="http://HelloWorldMessageListeningMediation/ProcessMessageInterface" name="HelloWorldMessageListeningMediation" targetNamespace="http://HelloWorldMessageListeningMediation/HelloWorldMessageListeningMediation">
+  <import location="HelloWorldMesageListeningInterface.wsdl" namespace="http://HelloWorldMessageListeningMediation/HelloWorldMesageListeningInterface"/>
+  <import location="ProcessMessageInterface.wsdl" namespace="http://HelloWorldMessageListeningMediation/ProcessMessageInterface"/>
+  <promotedProperty name="Callout1.retryOn" group="HelloWorldMessageListeningMediation.HelloWorldMessageListeningMediation" value="0"/>
+  <promotedProperty name="Callout1.retryCount" group="HelloWorldMessageListeningMediation.HelloWorldMessageListeningMediation" value="0"/>
+  <promotedProperty name="Callout1.retryDelay" group="HelloWorldMessageListeningMediation.HelloWorldMessageListeningMediation" value="0"/>
+  <reference name="ProcessMessageInterfacePartner" portType="ns2:ProcessMessageInterface"/>
+  <interface portType="ns1:HelloWorldMesageListeningInterface">
+    <operation name="readMesasge">
+      <requestFlow>
+        <node displayName="readMesasge : HelloWorldMesageListeningInterface" name="HelloWorldMesageListeningInterface_readMesasge_Input" type="Input">
+          <outputTerminal type="ns1:readMesasgeRequestMsg">
+            <wire targetNode="Mapping"/>
+          </outputTerminal>
+        </node>
+        <node displayName="readMesasge : HelloWorldMesageListeningInterface" name="HelloWorldMesageListeningInterface_readMesasge_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:readMesasgeResponseMsg"/>
+        </node>
+        <node displayName="processMessage : ProcessMessageInterfacePartner" name="ProcessMessageInterfacePartner_processMessage_Callout" type="Callout">
+          <property name="referenceName" value="ProcessMessageInterfacePartner"/>
+          <property name="operationName" value="processMessage"/>
+          <property name="invocationStyle" value="6"/>
+          <property name="retryOn" promotedPropertyGroup="HelloWorldMessageListeningMediation.HelloWorldMessageListeningMediation" promotedPropertyName="Callout1.retryOn"/>
+          <property name="retryCount" promotedPropertyGroup="HelloWorldMessageListeningMediation.HelloWorldMessageListeningMediation" promotedPropertyName="Callout1.retryCount"/>
+          <property name="retryDelay" promotedPropertyGroup="HelloWorldMessageListeningMediation.HelloWorldMessageListeningMediation" promotedPropertyName="Callout1.retryDelay"/>
+          <inputTerminal type="ns2:processMessageRequestMsg"/>
+        </node>
+        <node name="Mapping" type="XSLTransformation">
+          <property name="root" value="/"/>
+          <property name="XSLTransform" value="xslt/Mapping_req_1.xsl"/>
+          <property name="XMXMap" value="xslt/Mapping_req_1.map"/>
+          <property name="SMOVersion" value="SMO61"/>
+          <inputTerminal type="ns1:readMesasgeRequestMsg"/>
+          <outputTerminal type="ns2:processMessageRequestMsg">
+            <wire targetNode="ProcessMessageInterfacePartner_processMessage_Callout"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+      </requestFlow>
+      <responseFlow>
+        <node displayName="processMessage : ProcessMessageInterfacePartner" name="ProcessMessageInterfacePartner_processMessage_CalloutResponse" type="CalloutResponse">
+          <property name="referenceName" value="ProcessMessageInterfacePartner"/>
+          <property name="operationName" value="processMessage"/>
+          <outputTerminal type="ns2:processMessageResponseMsg">
+            <wire targetNode="Mapping"/>
+          </outputTerminal>
+          <failTerminal type="ns2:processMessageRequestMsg"/>
+        </node>
+        <node displayName="readMesasge : HelloWorldMesageListeningInterface" name="HelloWorldMesageListeningInterface_readMesasge_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:readMesasgeResponseMsg"/>
+        </node>
+        <node name="Mapping" type="XSLTransformation">
+          <property name="root" value="/"/>
+          <property name="XSLTransform" value="xslt/Mapping_res_1.xsl"/>
+          <property name="XMXMap" value="xslt/Mapping_res_1.map"/>
+          <property name="SMOVersion" value="SMO61"/>
+          <inputTerminal type="ns2:processMessageResponseMsg"/>
+          <outputTerminal type="ns1:readMesasgeResponseMsg">
+            <wire targetNode="HelloWorldMesageListeningInterface_readMesasge_InputResponse"/>
+          </outputTerminal>
+          <failTerminal/>
+        </node>
+      </responseFlow>
+      <errorFlow>
+        <node displayName="readMesasge : HelloWorldMesageListeningInterface" name="HelloWorldMesageListeningInterface_readMesasge_ErrorInput" type="ErrorInput">
+          <outputTerminal name="catchAll" type="XMLSchema:anyType"/>
+        </node>
+        <node displayName="readMesasge : HelloWorldMesageListeningInterface" name="HelloWorldMesageListeningInterface_readMesasge_InputResponse" type="InputResponse">
+          <inputTerminal type="ns1:readMesasgeResponseMsg"/>
+        </node>
+      </errorFlow>
+    </operation>
+  </interface>
+</mediationFlow>

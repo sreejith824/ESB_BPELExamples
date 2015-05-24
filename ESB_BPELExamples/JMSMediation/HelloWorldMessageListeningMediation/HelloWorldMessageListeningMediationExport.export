@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:EIS="http://www.ibm.com/xmlns/prod/websphere/scdl/eis/6.0.0" xmlns:ns1="http://HelloWorldMessageListeningMediation/HelloWorldMesageListeningInterface" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="HelloWorldMessageListeningMediationExport" name="HelloWorldMessageListeningMediationExport" target="HelloWorldMessageListeningMediation">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="async" portType="ns1:HelloWorldMesageListeningInterface"/>
+  </interfaces>
+  <esbBinding xsi:type="EIS:JMSExportBinding" dataBindingType="com.tcs.messaging.helloworld.utils.HelloWorldJMSTextDataBinding" preferredOutputMessageType="ObjectMessage">
+    <resourceAdapter type="com.ibm.ws.sib.api.jmsra.impl.JmsJcaResourceAdapterImpl"/>
+    <connection target="jms/HelloWorldQueueActivationSpec" type="com.ibm.ws.sib.api.jmsra.impl.JmsJcaActivationSpecImpl" listenerType="javax.jms.MessageListener" selectorType="com.tcs.messaging.helloworld.utils.HelloWorldFunctionSelector">
+      <properties>
+        <DestinationType>javax.jms.Queue</DestinationType>
+      </properties>
+    </connection>
+    <methodBinding method="readMesasge" nativeMethod="readMesasge"/>
+    <responseConnection type="com.ibm.ws.sib.api.jmsra.impl.JmsJcaManagedConnectionFactoryImpl"/>
+    <destination implType="com.ibm.ws.sib.api.jms.impl.JmsQueueImpl" target="jms/HelloWorldMediationQueue" type="javax.jms.Queue" usage="receive"/>
+    <destination implType="com.ibm.ws.sib.api.jms.impl.JmsQueueImpl" type="javax.jms.Queue" usage="send"/>
+    <destination implType="com.ibm.ws.sib.api.jms.impl.JmsQueueImpl" type="javax.jms.Queue" usage="callback"/>
+  </esbBinding>
+</scdl:export>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="ProcessMessageInterface" targetNamespace="http://HelloWorldMessageListeningMediation/ProcessMessageInterface" xmlns:tns="http://HelloWorldMessageListeningMediation/ProcessMessageInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://HelloWorldMessageListeningMediation/ProcessMessageInterface">
+      <xsd:element name="processMessage">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="input1" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="processMessageResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="output1" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="processMessageRequestMsg">
+    <wsdl:part element="tns:processMessage" name="processMessageParameters"/>
+  </wsdl:message>
+    <wsdl:message name="processMessageResponseMsg">
+    <wsdl:part element="tns:processMessageResponse" name="processMessageResult"/>
+  </wsdl:message>
+    <wsdl:portType name="ProcessMessageInterface">
+    <wsdl:operation name="processMessage">
+      <wsdl:input message="tns:processMessageRequestMsg" name="processMessageRequest"/>
+      <wsdl:output message="tns:processMessageResponseMsg" name="processMessageResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

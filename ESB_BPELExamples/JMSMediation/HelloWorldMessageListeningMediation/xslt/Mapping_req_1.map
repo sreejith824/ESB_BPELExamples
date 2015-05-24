@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" targetNamespace="http://HelloWorldMessageListeningMediation/xslt/Mapping_req_1" version="8.0.2.0" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://HelloWorldMessageListeningMediation/xslt/Mapping_req_1">
+    <input correlationContext="" message="{http://HelloWorldMessageListeningMediation/HelloWorldMesageListeningInterface}readMesasgeRequestMsg" sharedContext="" smoName="wsdl-primary" transientContext="" type="smo" types="" xpath="/"/>
+    <output correlationContext="" message="{http://HelloWorldMessageListeningMediation/ProcessMessageInterface}processMessageRequestMsg" sharedContext="" smoName="wsdl-primary" transientContext="" type="smo" types="" xpath="/"/>
+    <generation engine="xslt2"/>
+    <mappingDeclaration name="Mapping_req_1">
+        <input namespace="http://www.ibm.com/websphere/sibx/smo/v6.0.1" path="smo"/>
+        <output namespace="http://www.ibm.com/websphere/sibx/smo/v6.0.1" path="smo"/>
+        <move>
+            <input path="headers"/>
+            <output path="headers"/>
+        </move>
+        <move>
+            <input path="body/readMesasge/inputMessage/name"/>
+            <output path="body/processMessage/input1"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

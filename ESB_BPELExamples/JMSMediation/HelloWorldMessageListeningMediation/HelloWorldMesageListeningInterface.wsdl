@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="HelloWorldMesageListeningInterface" targetNamespace="http://HelloWorldMessageListeningMediation/HelloWorldMesageListeningInterface" xmlns:bons1="http://HelloWorldMessageListeningMediation" xmlns:tns="http://HelloWorldMessageListeningMediation/HelloWorldMesageListeningInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://HelloWorldMessageListeningMediation/HelloWorldMesageListeningInterface">
+            <xsd:import namespace="http://HelloWorldMessageListeningMediation" schemaLocation="MessageBO.xsd"/>
+            <xsd:element name="readMesasge">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="inputMessage" nillable="true" type="bons1:MessageBO"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="readMesasgeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="outputMessage" nillable="true" type="bons1:MessageBO"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="readMesasgeRequestMsg">
+    <wsdl:part element="tns:readMesasge" name="readMesasgeParameters"/>
+  </wsdl:message>
+    <wsdl:message name="readMesasgeResponseMsg">
+    <wsdl:part element="tns:readMesasgeResponse" name="readMesasgeResult"/>
+  </wsdl:message>
+    <wsdl:portType name="HelloWorldMesageListeningInterface">
+    <wsdl:operation name="readMesasge">
+      <wsdl:input message="tns:readMesasgeRequestMsg" name="readMesasgeRequest"/>
+      <wsdl:output message="tns:readMesasgeResponseMsg" name="readMesasgeResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
