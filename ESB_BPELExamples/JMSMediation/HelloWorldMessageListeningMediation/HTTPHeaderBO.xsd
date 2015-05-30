@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://HelloWorldMessageListeningMediation"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:complexType name="HTTPHeaderBO">
+		<xsd:sequence>
+			<xsd:element minOccurs="0"
+				name="Access-Control-Allow-Origin" type="xsd:string"
+				default="'*'">
+			</xsd:element>
+			<xsd:element minOccurs="0"
+				name="Access-Control-Allow-Method" type="xsd:string"
+				default="'GET, POST, PUT,OPTIONS'">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

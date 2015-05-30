@@ -6,12 +6,12 @@
         <input namespace="http://www.ibm.com/websphere/sibx/smo/v6.0.1" path="smo"/>
         <output namespace="http://www.ibm.com/websphere/sibx/smo/v6.0.1" path="smo"/>
         <move>
-            <input path="headers"/>
-            <output path="headers"/>
-        </move>
-        <move>
             <input path="body/readMesasge/inputMessage/name"/>
             <output path="body/processMessage/input1"/>
+        </move>
+        <move>
+            <input path="headers"/>
+            <output path="headers"/>
         </move>
     </mappingDeclaration>
 </mappingRoot>

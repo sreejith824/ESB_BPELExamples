@@ -3,7 +3,7 @@
   <extensionmodel:ExtensionMap namespace="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0">
     <extensions>
       <extendedObject href="HelloWorldMessageListeningMediation.component#//@Component"/>
-      <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:NodeExtension" type="{http://www.ibm.com/xmlns/prod/websphere/scdl/mfc/6.0.0}MediationFlowImplementation" unknown="false" visible="true" x="352" y="30"/>
+      <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:NodeExtension" type="{http://www.ibm.com/xmlns/prod/websphere/scdl/mfc/6.0.0}MediationFlowImplementation" unknown="false" visible="true" x="357" y="96"/>
     </extensions>
     <extensions>
       <extendedObject href="sca.module#//@module"/>
@@ -11,11 +11,15 @@
     </extensions>
     <extensions>
       <extendedObject href="ProcessMessage.component#//@Component"/>
-      <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:NodeExtension" type="{http://www.ibm.com/xmlns/prod/websphere/scdl/java/6.0.0}JavaImplementation" unknown="false" visible="true" x="644" y="31"/>
+      <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:NodeExtension" type="{http://www.ibm.com/xmlns/prod/websphere/scdl/java/6.0.0}JavaImplementation" unknown="false" visible="true" x="649" y="97"/>
     </extensions>
     <extensions>
       <extendedObject href="HelloWorldMessageListeningMediationExport.export#//@export"/>
       <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:ExportExtension" type="{http://www.ibm.com/xmlns/prod/websphere/scdl/eis/6.0.0}JMSExportBinding" unknown="false" visible="true" x="30" y="30" bound="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="HelloWorldMessageListeningHttpExport.export#//@export"/>
+      <extensionObject xsi:type="com.ibm.wbit.wiring.ui.ext.model:ExportExtension" type="{http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0}ExportBinding" unknown="false" visible="true" x="30" y="99" bound="true"/>
     </extensions>
   </extensionmodel:ExtensionMap>
   <extensionmodel:ExtensionMap namespace="http://com.ibm.wbit.stickyboard.model/model/StickyBoard.xsd">

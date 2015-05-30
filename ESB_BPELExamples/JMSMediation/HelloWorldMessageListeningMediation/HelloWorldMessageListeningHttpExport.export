@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration_6.1.0="http://www.ibm.com/xmlns/prod/websphere/j2ca/configuration/6.1.0" xmlns:http="http://www.ibm.com/xmlns/prod/websphere/scdl/http/6.1.0" xmlns:ns1="http://HelloWorldMessageListeningMediation/HelloWorldMesageListeningInterface" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="HelloWorldMessageListeningHttpExport" name="HelloWorldMessageListeningHttpExport" target="HelloWorldMessageListeningMediation">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="ns1:HelloWorldMesageListeningInterface"/>
+  </interfaces>
+  <esbBinding xsi:type="http:HTTPExportBinding" userContextPropagationEnabled="true" defaultDataBindingReferenceName="configuration_6.1.0:UTF8JsonDataHandler">
+    <exportInteraction contextPath="/HelloWorldMessageListeningHttpExport">
+      <responseHeaders>
+        <header>
+          <name>Access-Control-Allow-Headers</name>
+          <value>Access-Control-Allow-Origin,Access-Control-Allow-Headers,Access-Control-Allow-Method,Content-Type</value>
+        </header>
+        <header>
+          <name>Access-Control-Allow-Origin</name>
+          <value>*</value>
+        </header>
+      </responseHeaders>
+      <httpMethod pingable="false">
+        <httpMethod>POST</httpMethod>
+      </httpMethod>
+      <httpMethod pingable="true">
+        <httpMethod>OPTIONS</httpMethod>
+        <pingableSettings>
+          <httpStatusCode>200</httpStatusCode>
+        </pingableSettings>
+      </httpMethod>
+      <responseTransferEncoding>chunked</responseTransferEncoding>
+    </exportInteraction>
+    <functionSelector>com.ibm.wbiserver.functionselector.ConstantFunctionSelector</functionSelector>
+    <methodBinding method="readMesasge">
+      <exportInteraction contextPath="/readMesasge">
+        <httpMethod pingable="false">
+          <httpMethod>POST</httpMethod>
+        </httpMethod>
+        <httpMethod pingable="false">
+          <httpMethod>OPTIONS</httpMethod>
+        </httpMethod>
+      </exportInteraction>
+      <nativeMethod>/HelloWorldMessageListeningHttpExport/readMesasge@POST</nativeMethod>
+    </methodBinding>
+  </esbBinding>
+</scdl:export>
