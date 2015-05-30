@@ -1,5 +1,6 @@
 package co.za.metropolitan.student.ejb;
 
+import javax.ejb.EJB;
 import javax.ejb.Stateless;
 
 import co.za.metropolitan.student.dto.StudentDTO;
@@ -9,6 +10,8 @@ import co.za.metropolitan.student.dto.StudentDTO;
  */
 @Stateless
 public class StudentBean implements StudentBeanLocal {
+	@EJB
+	StudentBeanUtil studentBeanUtil;
 	
 	/**
 	 * Default constructor.
@@ -31,7 +34,6 @@ public class StudentBean implements StudentBeanLocal {
 		System.out.println(studentDTO);
 		System.out.println("Inside GetStudent!!!");
 		
-		StudentBeanUtil studentBeanUtil = new StudentBeanUtil();
 		String name = studentBeanUtil.getName("Name");
 		
 		studentDTO.setName(name);;
