@@ -52,7 +52,8 @@ public class LoginProvder {
 		}
 		System.out.println("----------requestHeaders----------------");
 		
-		String token = requestHeaders.getRequestHeader("Authorization").get(0);
+		String token = requestHeaders.getRequestHeader("Cookie").get(0);
+		
 		
 		ApplicationSecurityContext.setSecurityToken(token);
 		return userValidity;

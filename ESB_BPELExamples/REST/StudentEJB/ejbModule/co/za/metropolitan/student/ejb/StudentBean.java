@@ -35,7 +35,7 @@ public class StudentBean implements StudentBeanLocal {
 		System.out.println("Inside GetStudent!!!");
 		
 		String name = studentBeanUtil.getName("Name");
-		
+		//String name = "A0690120";
 		studentDTO.setName(name);;
 		
 		return studentDTO;
