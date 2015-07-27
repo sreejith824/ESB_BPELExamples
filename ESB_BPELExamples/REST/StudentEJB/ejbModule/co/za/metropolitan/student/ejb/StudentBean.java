@@ -1,5 +1,7 @@
 package co.za.metropolitan.student.ejb;
 
+import java.util.Random;
+
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
 
@@ -20,7 +22,8 @@ public class StudentBean implements StudentBeanLocal {
 	}
 
 	public long addStudent(StudentDTO studentDTO) {
-		long id = (long) Math.random();
+		Random rand = new Random();
+		int  id = rand.nextInt(50) + 1;
 		studentDTO.setId(id);
 		return id;
 	}
@@ -34,10 +37,11 @@ public class StudentBean implements StudentBeanLocal {
 		System.out.println(studentDTO);
 		System.out.println("Inside GetStudent!!!");
 		
-		String name = studentBeanUtil.getName("Name");
-		//String name = "A0690120";
+		//String name = studentBeanUtil.getName("Name");
+		String name = "Helloworld";
 		studentDTO.setName(name);;
 		
 		return studentDTO;
-	}
+	}	
+	
 }

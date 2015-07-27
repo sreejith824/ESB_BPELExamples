@@ -38,9 +38,8 @@ public class StudentResource extends AbstractResource {
 	@Path( "/{id}" )
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getStudent(@PathParam( "id" ) String id) {
-		System.out.println("UserValidity : " + userValidity);
 		StudentDTO studentDTO = studentBeanLocal.getStudent(id);
 		return Response.ok(studentDTO).build();
 	}
-	
+		
 }
