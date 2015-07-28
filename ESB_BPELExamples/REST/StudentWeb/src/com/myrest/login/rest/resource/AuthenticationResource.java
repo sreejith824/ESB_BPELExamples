@@ -11,6 +11,10 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.core.SecurityContext;
 
+import com.myrest.student.rest.resource.AbstractResource;
+
+import co.za.metropolitan.login.dto.LoginResponseDTO;
+
 @Path(value="/login")
 public class AuthenticationResource extends AbstractResource{
 	
@@ -26,19 +30,17 @@ public class AuthenticationResource extends AbstractResource{
 	public Response loginUser() {
 		String userName = null;
 		Response response = null;
-		String token = null;
-		
-		if (requestHeaders.getRequestHeader("Authorization") != null) {
-			token = requestHeaders.getRequestHeader("Authorization").get(0);
-		} else  if (requestHeaders.getRequestHeader("Cookie") != null) {
-			token = requestHeaders.getRequestHeader("Cookie").get(0);
-		}
-		
 		
 		if (securityContext.getUserPrincipal() != null) {
 			userName = securityContext.getUserPrincipal().getName();
-			response = Response.ok(userName).build();
+			LoginResponseDTO loginResponseDTO = new LoginResponseDTO();
+			loginResponseDTO.setUserName(userName);
+			loginResponseDTO.setStatus(Status.OK.name());
+			response = Response.ok(loginResponseDTO).build();
 		} else {
+			LoginResponseDTO loginResponseDTO = new LoginResponseDTO();
+			loginResponseDTO.setStatus(Status.UNAUTHORIZED.name());
+			response = Response.ok(loginResponseDTO).build();
 			response = Response.status(Status.UNAUTHORIZED).build();
 		}
 		
