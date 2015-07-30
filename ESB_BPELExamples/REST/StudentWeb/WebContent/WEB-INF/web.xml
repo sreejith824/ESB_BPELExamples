@@ -43,10 +43,10 @@
 		<auth-constraint>
 			<role-name>RegisteredUsers</role-name>
 		</auth-constraint>
-     	  	<!-- <user-data-constraint>
+     	  	<user-data-constraint>
  	 		<description>Redirects http requests to https</description>
  	 		<transport-guarantee>CONFIDENTIAL</transport-guarantee>
- 	 	</user-data-constraint>  --> 
+ 	 	</user-data-constraint>
 	</security-constraint>
 	
 <!-- 		<filter>
